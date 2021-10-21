@@ -10,6 +10,8 @@
     <title>TCC GROUP</title>
     <?php include('../view/linkhead.php'); ?>
 
+    <link rel="stylesheet" href="../assets/plugins/nestable/jquery-nestable.css" />
+
 </head>
 
 <body class="theme-orange">
@@ -172,6 +174,7 @@
                                                 </div>
                                             </div>
                                         </div>
+                                        
                                         <div class="row clearfix">
                                             <div class="col-lg-1 col-md-1">
                                                 <b>IDCode</b>
@@ -182,19 +185,56 @@
                                                 </div>
                                             </div>
                                             <div class="col-lg-4 col-md-4">
-                                                <b>กลุ่มธุรกิจหลัก (Group)</b>
-                                                <div class="input-group">
-                                                    <div class="form-line">
-                                                        <select class="form-control show-tick">
-                                                            <optgroup label="Group">
-                                                                <option>ไพรเวท คอมพานี</option>
-                                                                <option>ไทยเบฟเวอเรจ</option>
-                                                                <option>อาคเนย์</option>
-                                                                <option>แอสเสท เวิรด์ คอร์ป</option>
-                                                                <option>เบอร์ลี่ ยุคเกอร์</option>
-                                                                <option>อื่นๆ</option>
-                                                            </optgroup>
-                                                        </select><!-- From Master -->
+                                                <b>กลุ่มธุรกิจ</b>
+                                                <div class="clearfix m-b-20">
+                                                    <div class="dd">
+                                                        <ol class="dd-list">
+                                                            <li class="dd-item" data-id="1">
+                                                                <div class="dd-handle">ไพรเวท คอมพานี</div>
+                                                                <ol class="dd-list">
+                                                                    <li class="dd-item" data-id="2">
+                                                                        <div class="dd-handle">กลุ่มบริษัทลงทุน</div>
+                                                                        <ol class="dd-list">
+                                                                            <li class="dd-item" data-id="3">
+                                                                                <div class="dd-handle">กลุ่มสิริวนา</div>
+                                                                            </li>
+                                                                            <li class="dd-item" data-id="4">
+                                                                                <div class="dd-handle">กลุ่มทีซีซี คอร์ปอเรชั่น</div>
+                                                                            </li>
+                                                                            <li class="dd-item" data-id="5">
+                                                                                <div class="dd-handle">กลุ่มอาคเนย์ แมเนจเม้นท์</div>
+                                                                            </li>
+                                                                            <li class="dd-item" data-id="6">
+                                                                                <div class="dd-handle">กลุ่มถือหุ้นแอสเสท เวิรด์ คอร์ป</div>
+                                                                            </li>
+                                                                        </ol>
+                                                                    </li>
+                                                                    <li class="dd-item" data-id="7">
+                                                                        <div class="dd-handle">กลุ่มทีซีซี แลนด์ </div>
+                                                                    </li>
+                                                                    <li class="dd-item" data-id="8">
+                                                                        <div class="dd-handle">กลุ่มบริษัทบุคคล</div>
+
+                                                                    </li>
+                                                                    <li class="dd-item" data-id="9">
+                                                                        <div class="dd-handle">กลุ่มทีซีซี แอสเซ็ทส์</div>
+                                                                    </li>
+                                                                    <li class="dd-item" data-id="10">
+                                                                        <div class="dd-handle">อื่นๆ</div>
+                                                                    </li>
+                                                                </ol>
+                                                            </li>
+                                                            <li class="dd-item" data-id="11">
+                                                                <div class="dd-handle">ไทยเบฟเวอเรจ</div>
+
+                                                            </li>
+                                                            <li class="dd-item" data-id="12">
+                                                                <div class="dd-handle">อาคเนย์</div>
+                                                            </li>
+                                                            <li class="dd-item" data-id="13">
+                                                                <div class="dd-handle">แอสเสท เวิรด์ คอร์ป</div>
+                                                            </li>
+                                                        </ol>
                                                     </div>
                                                 </div>
                                             </div>
@@ -227,272 +267,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="row clearfix">
-                                            <div class="col-lg-1 col-md-1">
-                                                <b>IDCode</b>
-                                                <div class="input-group">
-                                                    <div class="form-line">
-                                                        <input type="text" class="form-control disabled" placeholder="000" disabled />
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-4 col-md-4">
-                                                <b>กลุ่มธุรกิจย่อย (SupGroup)</b>
-                                                <div class="input-group">
-                                                    <div class="form-line">
-                                                        <select class="form-control show-tick">
-                                                            <optgroup label="กลุ่มบริษัทลงทุน">
-                                                                <option>กลุ่มสิริวนา</option>
-                                                                <option>กลุ่มทีซีซี คอร์ปอเรชั่น</option>
-                                                                <option>กลุ่มอาคเนย์ แมเนจเม้นท์</option>
-                                                                <option>กลุ่มอาคเนย์ แมเนจเม้นท์</option>
-                                                                <option>กลุ่มถือหุ้นแอสเสท เวิรด์ คอร์ป</option>
-                                                            </optgroup>
-                                                            <optgroup label="กลุ่มทีซีซี แลนด์">
-                                                                <option>กลุ่มทีซีซี แลนด์ ทีซีซี เอดับบลิว</option>
-                                                                <option>กลุ่มพรรณธิอร</option>
-                                                                <option>กลุ่มทีซีซี อินเตอร์เทรด</option>
-                                                                <option>กลุ่มแลนด์แบงค์</option>
-                                                                <option>กลุ่มบริหารเพาะปลูก </option>
-                                                                <option>กลุ่มโรงแรม ช็อปปิ้ง อพาร์ตเม้นท์ </option>
-                                                                <option>กลุ่มโรงแรมต่างประเทศ </option>
-                                                                <option>กลุ่มคริสตอลลา </option>
-                                                                <option>กลุ่มธุรกิจบริการ</option>
-                                                                <option>กลุ่มโรงงานอุตสาหกรรมกระดาษบางปะอิน </option>
-                                                                <option>กลุ่มอาคเนย์ร่วมทุน </option>
-                                                                <option>กลุ่มอื่น </option>
-                                                            </optgroup>
-                                                            <optgroup label="กลุ่มบริษัทบุคคล">
-                                                                <option>กลุ่ม </option>
-                                                            </optgroup>
-                                                            <optgroup label="กลุ่มทีซีซี แอสเซ็ทส์">
-                                                                <option>กลุ่มศูนย์ประชุม </option>
-                                                                <option>กลุ่มสามย่าน มิตรทาวน์ </option>
-                                                                <option>กลุ่มเดอะ ปาร์ค </option>
-                                                                <option>กลุ่มวัน แบงค็อก </option>
-                                                                <option>กลุ่มลงทุน </option>
-                                                                <option>กลุ่มโครงการรัชดา </option>
-                                                                <option>กลุ่มเทคโนโลยี </option>
-                                                                <option>กลุ่มบริหารโรงแรม </option>
-                                                                <option>กลุ่มอื่นๆ </option>
-                                                            </optgroup>
-                                                            <optgroup label="อื่นๆ">
-                                                                <option>กลุ่ม </option>
-                                                            </optgroup>
-                                                        </select><!-- From Master -->
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-4 col-md-4">
-                                                <b>เพิ่ม, ลบ หรือแก้ไขข้อมูล</b>
-                                                <div class="input-group">
-                                                    <div class="form-line">
-                                                        <input type="text" class="form-control" placeholder="" />
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-3 col-md-3">
-                                                <!-- bar function-->
-                                                <div class="btn_function" style="border-bottom: none;">
-                                                    <div class="__box" style="height: 60px;">
-                                                        <div class="_update">
-                                                            <i class="material-icons">sync</i>
-                                                        </div>
-                                                    </div>
-                                                    <div class="__box" style="height: 60px;">
-                                                        <div class="_add" style="margin-top: 10px;">
-                                                            <i class="material-icons">add</i>
-                                                        </div>
-                                                    </div>
-                                                    <div class="__box" style="height: 60px;">
-                                                        <div class="_remove">
-                                                            <i class="material-icons">remove</i>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="row clearfix">
-                                            <div class="col-lg-1 col-md-1">
-                                                <b>IDCode</b>
-                                                <div class="input-group">
-                                                    <div class="form-line">
-                                                        <input type="text" class="form-control disabled" placeholder="000" disabled />
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-4 col-md-4">
-                                                <b>กลุ่มย่อยระดับที่ 1 </b>
-                                                <div class="input-group">
-                                                    <div class="form-line">
-                                                        <select class="form-control show-tick">
-                                                            <optgroup label="กลุ่มแลนด์แบงค์">
-                                                                <option>กลุ่มวัฒน์พัฒน์ </option>
-                                                                <option>กลุ่มทรัพย์กทม. ปริมณฑล และ ภาคเหนือ </option>
-                                                                <option>กลุ่มทรัพย์เพาะปลูก</option>
-                                                                <option>กลุ่มทรัพย์ต่างจังหวัดปล่อยเช่า</option>
-                                                                <option>กลุ่มทีซีซี ภูมิพัฒน์</option>
-                                                                <option>กลุ่มแลนด์แบงค์สนามกอล์ฟ</option>
-                                                            </optgroup>
-                                                            <optgroup label="กลุ่มบริหารเพาะปลูก">
-                                                                <option>กลุ่มเกษตรบริษัทแม่ </option>
-                                                                <option>กลุ่มบริหารจัดการ-เพาะปลูก </option>
-                                                                <option>กลุ่มบริหารจัดการ-ปล่อยเช่า </option>
-                                                            </optgroup>
-                                                            <optgroup label="กลุ่มโรงแรม ช็อปปิ้ง อพาร์ตเม้นท์ ">
-                                                                <option>กลุ่มโรงแรมในประเทศ </option>
-                                                                <option>กลุ่มศูนย์การค้าและตลาด </option>
-                                                                <option>กลุ่มพัฒนาที่อยู่อาศัย</option>
-                                                            </optgroup>
-                                                            <optgroup label="กลุ่มคริสตอลลา ">
-                                                                <option>กลุ่มคริสตอลลาบริษัทแม่ </option>
-                                                                <option>กลุ่มโรงงานน้ำตาล </option>
-                                                                <option>กลุ่มโรงไฟฟ้า</option>
-                                                                <option>กลุ่มปุ๋ย</option>
-                                                                <option>กลุ่มไทยแอลกอฮอล์ </option>
-                                                                <option>กลุ่มอื่น</option>
-                                                            </optgroup>
-                                                        </select><!-- From Master -->
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-4 col-md-4">
-                                                <b>เพิ่ม, ลบ หรือแก้ไขข้อมูล</b>
-                                                <div class="input-group">
-                                                    <div class="form-line">
-                                                        <input type="text" class="form-control" placeholder="" />
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-3 col-md-3">
-                                                <!-- bar function-->
-                                                <div class="btn_function" style="border-bottom: none;">
-                                                    <div class="__box" style="height: 60px;">
-                                                        <div class="_update">
-                                                            <i class="material-icons">sync</i>
-                                                        </div>
-                                                    </div>
-                                                    <div class="__box" style="height: 60px;">
-                                                        <div class="_add" style="margin-top: 10px;">
-                                                            <i class="material-icons">add</i>
-                                                        </div>
-                                                    </div>
-                                                    <div class="__box" style="height: 60px;">
-                                                        <div class="_remove">
-                                                            <i class="material-icons">remove</i>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="row clearfix">
-                                            <div class="col-lg-1 col-md-1">
-                                                <b>IDCode</b>
-                                                <div class="input-group">
-                                                    <div class="form-line">
-                                                        <input type="text" class="form-control disabled" placeholder="000" disabled />
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-4 col-md-4">
-                                                <b>กลุ่มย่อยระดับที่ 2</b>
-                                                <div class="input-group">
-                                                    <div class="form-line">
-                                                        <select class="form-control show-tick">
-                                                            <optgroup label="กลุ่มวัฒน์พัฒน์">
-                                                                <option>กลุ่มบริษัทที่ดิน</option>
-                                                                <option>กลุ่มบริหารจัดการ</option>
-                                                                <option>กลุ่มบริษัทลงทุนและอื่นๆ </option>
-                                                            </optgroup>
-                                                            <optgroup label="กลุ่มทรัพย์กทม. ปริมณฑล และ ภาคเหนือ ">
-                                                                <option>กลุ่มทรัพย์กทม. ปริมณฑล และ ภาคเหนือบริษัทแม่ </option>
-                                                                <option>กลุ่มบริหารทรัพย์สินภาคเหนือ</option>
-                                                                <option>กลุ่มบริหารทรัพย์สินรอบบ้าน</option>
-                                                                <option>กลุ่มบริหารทรัพย์สินกรุงเทพฯและปริมณฑล</option>
-                                                            </optgroup>
-                                                            <optgroup label="กลุ่มทรัพย์เพาะปลูก">
-                                                                <option>กลุ่มทรัพย์เพาะปลูกบริษัทแม่ </option>
-                                                                <option>กลุ่มที่ดินยางพารา </option>
-                                                                <option>กลุ่มที่ดินยางพาราและปล่อยเช่า </option>
-                                                            </optgroup>
-                                                            <optgroup label="กลุ่มทรัพย์ต่างจังหวัดปล่อยเช่า">
-                                                                <option>กลุ่มทรัพย์ต่างจังหวัดปล่อยเช่าบริษัทแม่ </option>
-                                                                <option>กลุ่มที่ดินปล่อยเช่าพื้นที่ 1</option>
-                                                                <option>กลุ่มที่ดินปล่อยเช่าพื้นที่ 2</option>
-                                                                <option>กลุ่มที่ดินปล่อยเช่าพื้นที่ 3</option>
-                                                                <option>กลุ่มที่ดินปล่อยเช่าพื้นที่ 4 </option>
-                                                                <option>กลุ่มที่ดินปล่อยเช่าพื้นที่ 5 </option>
-                                                                <option>กลุ่มที่ดินปล่อยเช่าพื้นที่ 6 </option>
-                                                                <option>กลุ่มที่ดินปล่อยเช่าพื้นที่ 7 </option>
-                                                            </optgroup>
-                                                            <optgroup label="กลุ่มทีซีซี ภูมิพัฒน์">
-                                                                <option>กลุ่มทีซีซี ภูมิพัฒน์บริษัทแม่ </option>
-                                                                <option>กลุ่มโครงการเขาใหญ่ </option>
-                                                                <option>กลุ่มโครงการบางไทร </option>
-                                                                <option>กลุ่มโครงการนวมินทร์ </option>
-                                                                <option>กลุ่มโครงการชะอำ </option>
-                                                                <option>กลุ่มโครงการเขาค้อ </option>
-                                                                <option>กลุ่มนิคมพลังงาน </option>
-                                                            </optgroup>
-                                                            <optgroup label="กลุ่มแลนด์แบงค์สนามกอล์ฟ">
-                                                                <option>กลุ่มสนามกอล์ฟบริษัทแม่ </option>
-                                                                <option>กลุ่มสนามกอล์ฟปัตตาเวีย </option>
-                                                                <option>กลุ่มเลควิวกอล์ฟ </option>
-                                                                <option>กลุ่มสนามกอล์ฟหนองคาย </option>
-                                                                <option>กลุ่มฐานนิรันดร์ </option>
-                                                                <option>กลุ่มสนามกอล์ฟนอร์ธปาร์ค </option>
-                                                                <option>กลุ่มอื่นๆ</option>
-                                                            </optgroup>
-                                                            <optgroup label="กลุ่มโรงแรมในประเทศ">
-                                                                <option>กลุ่มโรงแรมบริษัทแม่ </option>
-                                                                <option>กลุ่มโรงแรมไพรเวท </option>
-                                                                <option>กลุ่มโรงแรมไพรเวทภาคเหนือ </option>
-                                                                <option>กลุ่มแอสเสท เวิรด์ เวกซ์ </option>
-                                                            </optgroup>
-                                                            <optgroup label="กลุ่มศูนย์การค้าและตลาด">
-                                                                <option>กลุ่มศูนย์การค้าบริษัทแม่ </option>
-                                                                <option>กลุ่มช้อปปิ้งไพรเวท </option>
-                                                                <option>กลุ่มช้อปปิ้งภาคเหนือ </option>
-                                                                <option>กลุ่มช้อปปิ้งลงทุนอื่นๆ</option>
-                                                            </optgroup>
-                                                            <optgroup label="กลุ่มพัฒนาที่อยู่อาศัย">
-                                                                <option>กลุ่มพัฒนที่อยู่อาศัยบริษัทแม่ </option>
-                                                                <option>กลุ่มอพาร์ทเม้นท์และคอนโดปล่อยเช่า </option>
-                                                                <option>กลุ่มที่พักอาศัยเพื่อขาย </option>
-                                                            </optgroup>
-                                                        </select><!-- From Master -->
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-4 col-md-4">
-                                                <b>เพิ่ม, ลบ หรือแก้ไขข้อมูล</b>
-                                                <div class="input-group">
-                                                    <div class="form-line">
-                                                        <input type="text" class="form-control" placeholder="" />
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-3 col-md-3">
-                                                <!-- bar function-->
-                                                <div class="btn_function" style="border-bottom: none;">
-                                                    <div class="__box" style="height: 60px;">
-                                                        <div class="_update">
-                                                            <i class="material-icons">sync</i>
-                                                        </div>
-                                                    </div>
-                                                    <div class="__box" style="height: 60px;">
-                                                        <div class="_add" style="margin-top: 10px;">
-                                                            <i class="material-icons">add</i>
-                                                        </div>
-                                                    </div>
-                                                    <div class="__box" style="height: 60px;">
-                                                        <div class="_remove">
-                                                            <i class="material-icons">remove</i>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
+                                        
 
                                         <div class="row clearfix">
                                             <div class="col-lg-1 col-md-1">
@@ -656,6 +431,10 @@
                             </div>
                         </div>
                     </div>
+                    <div class="body">
+
+
+                    </div>
                 </div>
             </section>
 
@@ -664,7 +443,13 @@
         </div>
     </section>
     <!-- Jquery Core Js -->
-    <?php include('../view/jquerycorejs.php'); ?>
+    <script src="../assets/bundles/libscripts.bundle.js"></script> <!-- Lib Scripts Plugin Js -->
+    <script src="../assets/bundles/vendorscripts.bundle.js"></script> <!-- Lib Scripts Plugin Js -->
+
+    <script src="../assets/plugins/nestable/jquery.nestable.js"></script> <!-- Jquery Nestable -->
+
+    <script src="../assets/bundles/mainscripts.bundle.js"></script><!-- Custom Js -->
+    <script src="../assets/js/pages/ui/sortable-nestable.js"></script>
 
 </body>
 

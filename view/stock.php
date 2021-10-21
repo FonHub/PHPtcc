@@ -135,7 +135,6 @@
                                     </div>
                                     <div class="btn-control">
                                         <button type="button" class="btn btn-raised btn-default __redvitality waves-effect">ค้นหา</button>
-                                        <a class="btn btn-raised btn-default __gold waves-effect" href="stock_AddEdit.php">เพิ่มใหม่</a>
                                     </div>
                                 </form>
 

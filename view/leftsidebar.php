@@ -31,11 +31,11 @@
             <li><a href="javascript:void(0);" class="menu-toggle"><i class="zmdi zmdi-trending-up"></i><span>ทะเบียนหุ้น</span> </a>
                 <ul class="ml-menu">
                     <li><a href="stock.php">ข้อมูลหุ้น</a></li>
-                    <li><a href="#lot">บริษัทเจ้าของหุ้น</a></li>
-                    <li><a href="#stockno">รายละเอียดใบหุ้น</a></li>
-                    <li><a href="#meeting">รายละเอียดการประชุม</a></li>
-                    <li><a href="#investment">เงินลงทุน</a></li>
-                    <li><a href="#dividend">เงินปันผล</a></li>
+                    <li><a href="StockLot.php">บริษัทเจ้าของหุ้น</a></li>
+                    <li><a href="StockNo.php">รายละเอียดใบหุ้น</a></li>
+                    <li><a href="StockMeet.php">รายละเอียดการประชุม</a></li>
+                    <li><a href="StockInvestment.php">เงินลงทุน</a></li>
+                    <li><a href="StockDividend.php">เงินปันผล</a></li>
                 </ul>
             </li>
             <li><a href="javascript:void(0);" class="menu-toggle"><i class="zmdi zmdi-grid"></i><span>หุ้นตลาด</span> </a>
