@@ -22,17 +22,11 @@
                 <span class="function-name">Add</span>
             </div>
         </div>
-        <div class="__box">
-            <div class="_remove">
-                <i class="material-icons">remove</i>
-                <span class="function-name">Remove</span>
-            </div>
-        </div>
     </div>
     <!-- form -->
     <form class="form-horizontal __HeadAdd">
         <!-- Switch Address -->
-       
+
         <div v-if="!isForeigners">
             <!-- Address Thai -->
             <div class="header-status">
@@ -201,8 +195,21 @@
             </div>
         </div>
 
-        <div v-if="isForeigners">
-            <AddressForeigner />
+        <div class="row clearfix">
+            <div class="col-lg-6 col-md-6"> <b>เบอร์โทรศัพท์</b>
+                <div class="input-group">
+                    <div class="form-line">
+                        <input type="text" class="form-control" placeholder="">
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6"> <b>เบอร์โทรสาร</b>
+                <div class="input-group">
+                    <div class="form-line">
+                        <input type="text" class="form-control" placeholder="">
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="btn-control">
             <a href="#save"></a><button type="button" class="btn btn-raised btn-default __redvitality waves-effect"> บันทึก </button>

@@ -11,23 +11,11 @@
     <!-- bar function-->
     <div class="btn_function">
         <div class="__box">
-            <div class="_update">
-                <i class="material-icons">sync</i>
-                <span class="function-name">Update</span>
-            </div>
-        </div>
-        <div class="__box">
             <div class="_add">
                 <button type="button" class="btn btn-default" data-toggle="modal" data-target="#ModalAddAccount">
                     <i class="material-icons">add</i>
                     <span class="function-name">Add</span>
                 </button>
-            </div>
-        </div>
-        <div class="__box">
-            <div class="_remove">
-                <i class="material-icons">remove</i>
-                <span class="function-name">Remove</span>
             </div>
         </div>
     </div>
@@ -45,6 +33,7 @@
                         <th>คำนำหน้าชื่อ</th>
                         <th>ชื่อ</th>
                         <th>นามสกุล</th>
+                        <th>เลขผู้ทำบัญชี</th>
                         <th>ที่อยู่</th>
                         <th>เบอร์โทรศัพท์</th>
                         <th>เบอร์โทรสาร</th>
@@ -57,13 +46,14 @@
                         <td>นาย</td>
                         <td>วิชัย</td>
                         <td>วชิรพงศ์</td>
+                        <td>1025554870998</td>
                         <td>2/1 ซอย พระราม 2 ที่ 32 ถนนพะราม 2 แขวงบางมด เขตจอมทอง กรุงเทพมหานคร 10150</td>
                         <td>02-251-1100</td>
                         <td>02-251-1100</td>
                         <td>
-                            <div class="input-group">
-                                <input type="checkbox" id="md_checkbox_21" class="filled-in chk-col-red _red-vitality" checked />
-                                <label for="md_checkbox_21"></label>
+                            <div class="action_btn">
+                                <a href="javascript:void(0);" class="btn btn-default"><i class="zmdi zmdi-edit"></i></a>
+                                <a href="javascript:void(0);" class="btn btn-default col-red"><i class="zmdi zmdi-delete"></i></a>
                             </div>
                         </td>
                     </tr>
@@ -99,9 +89,9 @@
                         <td>02-003-1000</td>
                         <td>02-003-1000</td>
                         <td>
-                            <div class="input-group">
-                                <input type="checkbox" id="md_checkbox_21" class="filled-in chk-col-red _red-vitality" checked />
-                                <label for="md_checkbox_21"></label>
+                            <div class="action_btn">
+                                <a href="javascript:void(0);" class="btn btn-default"><i class="zmdi zmdi-edit"></i></a>
+                                <a href="javascript:void(0);" class="btn btn-default col-red"><i class="zmdi zmdi-delete"></i></a>
                             </div>
                         </td>
                     </tr>

@@ -11,23 +11,11 @@
     <!-- bar function-->
     <div class="btn_function">
         <div class="__box">
-            <div class="_update">
-                <i class="material-icons">sync</i>
-                <span class="function-name">Update</span>
-            </div>
-        </div>
-        <div class="__box">
             <div class="_add">
                 <button type="button" class="btn btn-default" data-toggle="modal" data-target="#ModalAdd">
                     <i class="material-icons">add</i>
                     <span class="function-name">Add</span>
                 </button>
-            </div>
-        </div>
-        <div class="__box">
-            <div class="_remove">
-                <i class="material-icons">remove</i>
-                <span class="function-name">Remove</span>
             </div>
         </div>
         <div class="__box">
@@ -39,15 +27,15 @@
             </div>
         </div>
     </div>
-    <!-- table -->
+    <!-- form -->
     <div class="body table-responsive company-list">
-        <table class="table table-hover">
+        <table id="mainTable" class="table table-hover">
             <thead>
                 <tr>
                     <th style="width: 60px">#</th>
                     <th>วันที่เป็นกรรมการ</th>
                     <th>วันที่สิ้นสุด</th>
-                    <th>กลุ่ม </th>
+                    <th>กลุ่ม <span class="badge badge-primary" data-toggle="modal" data-target="#Detaillist">คำอธิบาย</span> </th>
                     <th>Running</th>
                     <th>คำนำหน้าชื่อ</th>
                     <th>ชื่อ</th>
@@ -62,17 +50,17 @@
                     <td>1</td>
                     <td>12 เม.ย.2564</td>
                     <td>-</td>
-                    <td>1</td>
-                    <td>1</td>
+                    <td>แก้ไขตัวเลข</td>
+                    <td>แก้ไขตัวเลข</td>
                     <td>นาย</td>
                     <td>วิชัย</td>
                     <td>วชิรพงศ์</td>
                     <td>ไทย</td>
                     <td>กรรมการ</td>
                     <td>
-                        <div class="input-group">
-                            <input type="checkbox" id="md_checkbox_21" class="filled-in chk-col-red _red-vitality" checked />
-                            <label for="md_checkbox_21"></label>
+                        <div class="action_btn">
+                            <a href="javascript:void(0);" class="btn btn-default"><i class="zmdi zmdi-edit"></i></a>
+                            <a href="javascript:void(0);" class="btn btn-default col-red"><i class="zmdi zmdi-delete"></i></a>
                         </div>
                     </td>
                 </tr>
@@ -88,9 +76,9 @@
                     <td>ไทย</td>
                     <td>กรรมการ</td>
                     <td>
-                        <div class="input-group">
-                            <input type="checkbox" id="md_checkbox_21" class="filled-in chk-col-red _red-vitality" checked />
-                            <label for="md_checkbox_21"></label>
+                        <div class="action_btn">
+                            <a href="javascript:void(0);" class="btn btn-default"><i class="zmdi zmdi-edit"></i></a>
+                            <a href="javascript:void(0);" class="btn btn-default col-red"><i class="zmdi zmdi-delete"></i></a>
                         </div>
                     </td>
                 </tr>
@@ -106,9 +94,9 @@
                     <td>english</td>
                     <td>กรรมการ</td>
                     <td>
-                        <div class="input-group">
-                            <input type="checkbox" id="md_checkbox_21" class="filled-in chk-col-red _red-vitality" checked />
-                            <label for="md_checkbox_21"></label>
+                        <div class="action_btn">
+                            <a href="javascript:void(0);" class="btn btn-default"><i class="zmdi zmdi-edit"></i></a>
+                            <a href="javascript:void(0);" class="btn btn-default col-red"><i class="zmdi zmdi-delete"></i></a>
                         </div>
                     </td>
                 </tr>
@@ -124,9 +112,9 @@
                     <td>ไทย</td>
                     <td>กรรมการ</td>
                     <td>
-                        <div class="input-group">
-                            <input type="checkbox" id="md_checkbox_21" class="filled-in chk-col-red _red-vitality" checked />
-                            <label for="md_checkbox_21"></label>
+                        <div class="action_btn">
+                            <a href="javascript:void(0);" class="btn btn-default"><i class="zmdi zmdi-edit"></i></a>
+                            <a href="javascript:void(0);" class="btn btn-default col-red"><i class="zmdi zmdi-delete"></i></a>
                         </div>
                     </td>
                 </tr>
@@ -142,9 +130,9 @@
                     <td>ไทย</td>
                     <td>กรรมการ</td>
                     <td>
-                        <div class="input-group">
-                            <input type="checkbox" id="md_checkbox_21" class="filled-in chk-col-red _red-vitality" checked />
-                            <label for="md_checkbox_21"></label>
+                        <div class="action_btn">
+                            <a href="javascript:void(0);" class="btn btn-default"><i class="zmdi zmdi-edit"></i></a>
+                            <a href="javascript:void(0);" class="btn btn-default col-red"><i class="zmdi zmdi-delete"></i></a>
                         </div>
                     </td>
                 </tr>
@@ -153,13 +141,12 @@
     </div>
 </div>
 
-
 <!-- ModalCreate -->
 <div class="modal fade" id="ModalCreate" tabindex="-1" role="dialog">
     <div class="modal-dialog modal-lg box__director" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h4 class="modal-title" id="largeModalLabel">สร้างกรรรมการ</h4>
+                <h4 class="modal-title" id="largeModalLabel">รายละเอียดกรรรมการ</h4>
             </div>
             <div class="modal-body">
                 <form class="form-horizontal box__director">
@@ -172,7 +159,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="w-100px"><b>กลุ่ม <span class="badge badge-primary" data-toggle="modal" data-target="#Detaillist">คำอธิบาย</span></b>
+                            <div class="w-100px"><b>กลุ่ม</b>
                                 <div class="input-group">
                                     <div class="form-line">
                                         <select class="form-control show-tick">

@@ -17,10 +17,10 @@
     <!-- Menu -->
     <div class="menu">
         <ul class="list">
-            <li class=""><a href="Person.php"><i class="zmdi zmdi-account"></i><span>ทะเบียนบุคคล</span></a></li>
-            <li class="active open"><a href="javascript:void(0);" class="menu-toggle"><i class="zmdi zmdi-home"></i><span>ทะเบียนบริษัท</span></a>
+            <li><a href="Person.php"><i class="zmdi zmdi-account"></i><span>ทะเบียนบุคคล</span></a></li>
+            <li><a href="javascript:void(0);" class="menu-toggle"><i class="zmdi zmdi-home"></i><span>ทะเบียนบริษัท</span></a>
                 <ul class="ml-menu">
-                    <li class="active"><a href="../view/company.php">ข้อมูลบริษัท</a></li>
+                    <li><a href="../view/company.php">ข้อมูลบริษัท</a></li>
                     <li><a href="../view/Director.php">รายละเอียดกรรมการ</a></li>
                     <li><a href="../view/company_NameHistory.php">ประวัติการเปลี่ยนแปลงชื่อบริษัท</a></li>
                     <li><a href="../view/company_AddressHistory.php">ประวัติการเปลี่ยนแปลงที่อยู่บริษัท</a></li>

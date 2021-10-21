@@ -21,13 +21,7 @@
                  <i class="material-icons">add</i>
                  <span class="function-name">Add</span>
              </div>
-         </div>
-         <div class="__box">
-             <div class="_remove">
-                 <i class="material-icons">remove</i>
-                 <span class="function-name">Remove</span>
-             </div>
-         </div>
+         </div>         
      </div>
      <!-- form -->
      <form class="form-horizontal __HeadAdd">

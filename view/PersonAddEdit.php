@@ -9,6 +9,8 @@
 
     <title>Person</title>
     <?php include('../view/linkhead.php'); ?>
+    <!-- Sweetalert Css -->
+    <link href="../assets/plugins/sweetalert/sweetalert.css" rel="stylesheet" />
 
 </head>
 
@@ -63,7 +65,7 @@
                                             <b>เลขบัตรประชาชน หรือ หมายเลขพาสปอร์ต</b>
                                             <div class="input-group">
                                                 <div class="form-line">
-                                                    <input v-model="person_id" type="text" class="form-control ip" placeholder="000-0000-0-0-00" />
+                                                    <input v-model="person_id" type="text" class="form-control ip" placeholder="1-11-01123-5540-9" />
                                                 </div>
                                             </div>
                                         </div>
@@ -94,7 +96,7 @@
                                                 <b>ชื่อ </b>
                                                 <div class="input-group">
                                                     <div class="form-line">
-                                                        <input v-model="first_name" type="text" class="form-control" placeholder="" />
+                                                        <input v-model="first_name" type="text" class="form-control" placeholder="ชนุชตร" />
                                                     </div>
                                                 </div>
                                             </div>
@@ -104,7 +106,7 @@
                                                 <b>นามสกุล </b>
                                                 <div class="input-group">
                                                     <div class="form-line">
-                                                        <input v-model="last_name" type="text" class="form-control" placeholder="" />
+                                                        <input v-model="last_name" type="text" class="form-control" placeholder="สุขสันต์" />
                                                     </div>
                                                 </div>
                                             </div>
@@ -132,6 +134,7 @@
                                                 <div class="form-line">
                                                     <select class="form-control show-tick" v-model="occupation">
                                                         <optgroup label="อาชีพ">
+                                                            <option>ผู้ทำบัญชี</option>
                                                             <option>ข้าราชการ</option>
                                                             <option>เจ้าของกิจการ</option>
                                                             <option>พนักงานบริษัท</option>
@@ -140,12 +143,18 @@
                                                     </select><!-- From Master -->
                                                 </div>
                                             </div>
+                                            <div class="input-group">
+                                                <small>เลขผู้ทำบัญชี</small>
+                                                <div class="form-line">
+                                                    <input type="text" class="form-control" placeholder="152421115000">
+                                                </div>
+                                            </div>
                                         </div>
                                         <div class="col-lg-3 col-md-3">
                                             <b>หมายเลขโทรศัพท์</b>
                                             <div class="input-group">
                                                 <div class="form-line">
-                                                    <input type="text" class="form-control" placeholder="" />
+                                                    <input type="text" class="form-control" placeholder="02-520-5000" />
                                                 </div>
                                             </div>
                                         </div>
@@ -153,24 +162,13 @@
                                             <b>หมายเลขโทรสาร</b>
                                             <div class="input-group">
                                                 <div class="form-line">
-                                                    <input type="text" class="form-control" placeholder="" />
+                                                    <input type="text" class="form-control" placeholder="02-520-5000" />
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
 
-                                    <!-- Switch Address -->
-                                    <div class="row">
-                                        <div class="col-lg-12 col-md-12">
-                                            <b>Outside the territory of Thailand</b>
-                                            <div class="input-group">
-                                                <input name="group5" type="radio" id="radio_30" class="with-gap" :class="{'radio-col-red': isForeigners == false}" checked="" @click="onClickAddressSwitch" />
-                                                <label for="radio_30">
-                                                    <!-- {{ isForeigners == false ? "No" : "Yes" }}-->
-                                                </label>
-                                            </div>
-                                        </div>
-                                    </div>
+
                                     <div v-if="!isForeigners">
                                         <!-- Address Thai -->
                                         <div class="header-status">
@@ -181,7 +179,7 @@
                                                 <b>เลขที</b>
                                                 <div class="input-group">
                                                     <div class="form-line">
-                                                        <input type="text" class="form-control" placeholder="" />
+                                                        <input type="text" class="form-control" placeholder="1  อาคารทีพี แอนด์ ที" />
                                                     </div>
                                                 </div>
                                             </div>
@@ -189,7 +187,7 @@
                                                 <b>หมู่ที่/หมู่บ้าน</b>
                                                 <div class="input-group">
                                                     <div class="form-line">
-                                                        <input type="text" class="form-control" placeholder="" />
+                                                        <input type="text" class="form-control" placeholder="ชั้นที่ 22 ซอยวิภาวดีรังสิต 19" />
                                                     </div>
                                                 </div>
                                             </div>
@@ -197,7 +195,7 @@
                                                 <b>ถนน</b>
                                                 <div class="input-group">
                                                     <div class="form-line">
-                                                        <input type="text" class="form-control" placeholder="" />
+                                                        <input type="text" class="form-control" placeholder="วิภาวดีรังสิต" />
                                                     </div>
                                                 </div>
                                             </div>
@@ -207,26 +205,15 @@
                                                 <b>จังหวัด</b>
                                                 <div class="input-group">
                                                     <div class="form-line">
-
-                                                        <b-form-input list="provinces_th" class="form-control show-tick" v-model="province_th" :state="provinceState_th"></b-form-input>
-                                                        <datalist id="provinces_th">
-                                                            <option v-for="list in provinces" :key="list.id">
-                                                                {{ list.name_th }}
-                                                            </option>
-                                                        </datalist>
+                                                        <input type="text" class="form-control" placeholder="กรุงเทพมหานคร" />
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="col-lg-3 col-md-3">
                                                 <b>อำเภอ/เขต</b>
-
                                                 <div class="input-group">
                                                     <div class="form-line">
-
-                                                        <b-form-input list="districts_th" class="form-control show-tick" v-model="district_th" :state="districtState_th"></b-form-input>
-                                                        <datalist id="districts_th">
-                                                            <option v-for="list in districts" :key="list.id" :value="list.name_th"></option>
-                                                        </datalist>
+                                                        <input type="text" class="form-control" placeholder="พระนคร" />
                                                     </div>
                                                 </div>
                                             </div>
@@ -234,11 +221,7 @@
                                                 <b>ตำบล/แขวง</b>
                                                 <div class="input-group">
                                                     <div class="form-line">
-
-                                                        <b-form-input list="sub_district_th" class="form-control show-tick" v-model="sub_district_th" :state="sub_districtState_th"></b-form-input>
-                                                        <datalist id="sub_district_th">
-                                                            <option v-for="list in sub_districts" :key="list.id" :value="list.name_th"></option>
-                                                        </datalist>
+                                                        <input type="text" class="form-control" placeholder="เสาชิงช้า" />
                                                     </div>
                                                 </div>
                                             </div>
@@ -246,8 +229,7 @@
                                                 <b>รหัสไปรษณีย์</b>
                                                 <div class="input-group">
                                                     <div class="form-line">
-                                                        <input type="text" class="form-control" :placeholder="zipcode_th" disabled="true" />
-
+                                                        <input type="text" class="form-control" placeholder="10200 " />
                                                     </div>
                                                 </div>
                                             </div>
@@ -287,12 +269,7 @@
                                                 <b>จังหวัด</b>
                                                 <div class="input-group">
                                                     <div class="form-line">
-                                                        <b-form-input list="provinces_en" class="form-control show-tick" v-model="province_en" :state="provinceState_en"></b-form-input>
-                                                        <datalist id="provinces_en">
-                                                            <option v-for="list in provinces" :key="list.id">
-                                                                {{ list.name_en }}
-                                                            </option>
-                                                        </datalist>
+                                                        <input type="text" class="form-control" placeholder="" />
                                                     </div>
                                                 </div>
                                             </div>
@@ -300,10 +277,7 @@
                                                 <b>อำเภอ/เขต</b>
                                                 <div class="input-group">
                                                     <div class="form-line">
-                                                        <b-form-input list="districts_en" class="form-control show-tick" v-model="district_en" :state="districtState_en"></b-form-input>
-                                                        <datalist id="districts_en">
-                                                            <option v-for="list in districts" :key="list.id" :value="list.name_en"></option>
-                                                        </datalist>
+                                                        <input type="text" class="form-control" placeholder="" />
                                                     </div>
                                                 </div>
                                             </div>
@@ -311,19 +285,14 @@
                                                 <b>ตำบล/แขวง</b>
                                                 <div class="input-group">
                                                     <div class="form-line">
-                                                        <b-form-input list="sub_district_en" class="form-control show-tick" v-model="sub_district_en" :state="sub_districtState_en"></b-form-input>
-                                                        <datalist id="sub_district_en">
-                                                            <option v-for="list in sub_districts" :key="list.id" :value="list.name_en"></option>
-                                                        </datalist>
+                                                        <input type="text" class="form-control" placeholder="" />
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="col-lg-3 col-md-3">
                                                 <b>รหัสไปรษณีย์</b>
-                                                <div class="input-group">
-                                                    <div class="form-line">
-                                                        <input type="text" class="form-control" :placeholder="zipcode_en" disabled="true" />
-                                                    </div>
+                                                <div class="form-line">
+                                                    <input type="text" class="form-control" placeholder="" />
                                                 </div>
                                             </div>
                                         </div>
@@ -344,10 +313,8 @@
                                     </div>
 
                                     <div class="btn-control">
-                                        <a href="#save"></a><button @click="onClickSavePerson" type="button" class="btn btn-raised btn-default waves-effect">
-                                            บันทึก
-                                        </button>
-                                        <a href="#cancel"></a><button type="reset" @click="onClickReset" class="btn btn-raised bg-grey waves-effect">
+                                        <a href="#save"></a><button type="button" class="btn btn-raised btn-default __redvitality waves-effect"> บันทึก </button>
+                                        <a href="#cancel"></a><button type="reset" class="btn btn-raised bg-grey waves-effect">
                                             ยกเลิก
                                         </button>
                                     </div>
@@ -366,6 +333,94 @@
 
     <!-- Jquery Core Js -->
     <?php include('../view/jquerycorejs.php'); ?>
+    <!-- Modal -->
+    <div class="modal fade" id="OutsideModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-lg box__director" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Address</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div v-if="!isForeigners">
+
+                        <!-- Address English -->
+
+                        <div class="row clearfix">
+                            <div class="col-lg-3 col-md-3">
+                                <b>Unit number</b>
+                                <div class="input-group">
+                                    <div class="form-line">
+                                        <input type="text" class="form-control" placeholder="" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-3">
+                                <b>Unit type</b>
+                                <div class="input-group">
+                                    <div class="form-line">
+                                        <input type="text" class="form-control" placeholder="" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-3">
+                                <b>Street address</b>
+                                <div class="input-group">
+                                    <div class="form-line">
+                                        <input type="text" class="form-control" placeholder="" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row clearfix">
+                            <div class="col-lg-3 col-md-3">
+                                <b>City </b>
+                                <div class="input-group">
+                                    <div class="form-line">
+                                        <input type="text" class="form-control" placeholder="" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-3">
+                                <b>State / Province</b>
+                                <div class="input-group">
+                                    <div class="form-line">
+                                        <input type="text" class="form-control" placeholder="" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-3">
+                                <b>ZIP code</b>
+                                <div class="input-group">
+                                    <div class="form-line">
+                                        <input type="text" class="form-control" placeholder="" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row clearfix">
+                            <div class="col-lg-6 col-md-6">
+                                <b>file</b>
+                                <div class="input-group">
+                                    <div class="form-line">
+                                        <input type="text" class="form-control" placeholder="" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <a href="#save"></a><button type="button" class="btn btn-raised btn-default __redvitality waves-effect"> บันทึก </button>
+                    <a href="#cancel"></a><button type="button" class="btn  btn-raised bg-grey waves-effect"> ยกเลิก </button>
+                    <button type="button" class="btn btn-link waves-effect" data-dismiss="modal">ปิด</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
 
 </body>
 

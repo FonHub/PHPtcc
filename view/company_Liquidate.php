@@ -9,7 +9,7 @@
 
     <title>การชำระบัญชี</title>
     <?php include('../view/linkhead.php'); ?>
-    
+
 </head>
 
 <body class="theme-orange">
@@ -116,26 +116,9 @@
                                                 </select>
                                             </div>
                                         </div>
-                                        <div class="col-lg-2 col-md-2 col-sm-3 col-xs-6">
-                                            <div class="form-line">
-                                                <select class="form-control show-tick">
-                                                    <optgroup label="สถานะบริษัท">
-                                                        <option>นายทะเบียน</option>
-                                                        <option>ทะเบียนหุ้นกลาง</option>
-                                                        <option>นายทะเบียน - หน่วยงานอื่น</option>
-                                                        <option>ควบกิจการ</option>
-                                                        <option>โอนกิจการ </option>
-                                                        <option>รับโอนกิจการ</option>
-                                                        <option>อยู่ระหว่างชำระบัญชี</option>
-                                                        <option>เสร็จการชำระบัญชี</option>
-                                                    </optgroup>
-                                                </select>
-                                            </div>
-                                        </div>
                                     </div>
                                     <div class="btn-control">
                                         <button type="button" class="btn btn-raised btn-default __redvitality waves-effect">ค้นหา</button>
-                                        <a class="btn btn-raised btn-default __gold waves-effect" href="../view/company_AddEdit.php">เพิ่มใหม่</a>
                                     </div>
                                 </form>
 
@@ -145,7 +128,7 @@
                 </div>
             </section>
 
-            <!-- NameHistory -->
+            <!-- การชำระบัญชี -->
             <div id="company_detail" class="detail__box">
                 <div class="row clearfix">
                     <div class="col-sm-12 col-md-12 col-lg-12">
@@ -163,20 +146,125 @@
                                 <!-- bar function-->
                                 <div class="btn_function">
                                     <div class="__box">
-                                        <div class="_update">
-                                            <i class="material-icons">sync</i>
-                                            <span class="function-name">Update</span>
+                                        <div class="_add">
+                                            <button type="button" class="btn btn-default" data-toggle="modal" data-target="#ModalLiquidate">
+                                                <i class="material-icons">add</i>
+                                                <span class="function-name">Add</span>
+                                            </button>
                                         </div>
                                     </div>
                                 </div>
+                                <!-- table-->
+                                <div class="body table-responsive company-list">
+                                    <table class="table table-hover">
+                                        <thead>
+                                            <tr>
+                                                <th style="width:60px;">#</th>
+                                                <th>เลขทะเบียนนิติบุคคล</th>
+                                                <th>ชื่อบริษัทภาษาไทย</th>
+                                                <th>วันจดเลิกบริษัท</th>
+                                                <th>วันจดชำระบัญชี</th>
+                                                <th>หมายเหตุ</th>
+                                                <th>Action</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>1</td>
+                                                <td>0105564002147</td>
+                                                <td>บจ.ไพร์ม เอ็กซ์ จำกัด</td>
+                                                <td>1/1/2560</td>
+                                                <td>1/5/2560</td>
+                                                <td>-</td>
+                                                <td>
+                                                    <div class="action_btn">
+                                                        <a href="javascript:void(0);" class="btn btn-default"><i class="zmdi zmdi-edit"></i></a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>2</td>
+                                                <td>0105564002147</td>
+                                                <td>หส.เดอะ ทรีไลน์ บีเอฟเอ็ม</td>
+                                                <td>1/4/2564</td>
+                                                <td>1/4/2564</td>
+                                                <td>-</td>
+                                                <td>
+                                                    <div class="action_btn">
+                                                        <a href="javascript:void(0);" class="btn btn-default"><i class="zmdi zmdi-edit"></i></a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>3</td>
+                                                <td>0102564000010</td>
+                                                <td>หจ.เดอะ ไลอ้อน มิลค์ที</td>
+                                                <td>1/1/2560</td>
+                                                <td>1/5/2560</td>
+                                                <td>-</td>
+                                                <td>
+                                                    <div class="action_btn">
+                                                        <a href="javascript:void(0);" class="btn btn-default"><i class="zmdi zmdi-edit"></i></a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>2</td>
+                                                <td>0103564001734</td>
+                                                <td>หจ.เกตเวย์ แอคเคาน์ติ้ง</td>
+                                                <td>1/4/2564</td>
+                                                <td>1/4/2564</td>
+                                                <td>-</td>
+                                                <td>
+                                                    <div class="action_btn">
+                                                        <a href="javascript:void(0);" class="btn btn-default"><i class="zmdi zmdi-edit"></i></a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+
+                                        </tbody>
+                                    </table>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ModalLiquidate -->
+                <div class="modal fade" id="ModalLiquidate" tabindex="-1" role="dialog">
+                    <div class="modal-dialog modal-lg box__director" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title" id="largeModalLabel">การชำระบัญชี</h4>
+                            </div>
+                            <div class="modal-body">
                                 <!-- form -->
                                 <form class="form-horizontal __Liquidate">
-                                    
+                                    <div class="row clearfix">
+                                        <div class="col-lg-6 col-md-6">
+                                            <b>เลขทะเบียนนิติบุคคล </b>
+                                            <div class="input-group">
+                                                <div class="form-line">
+                                                    <input v-model="old_juristic_id" type="text" class="form-control ip" placeholder="0105564002147" maxlength="13" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6">
+                                            <b>ชื่อบริษัทภาษาไทย</b>
+                                            <div class="input-group">
+                                                <div class="form-line">
+                                                    <input v-model="company_th" type="text" class="form-control ip" placeholder="บจ.ไพร์ม เอ็กซ์ จำกัด" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
                                     <div class="row clearfix">
                                         <div class="col-lg-6 col-md-6"> <b>วันจดเลิกบริษัท</b>
                                             <div class="input-group">
                                                 <div class="form-line">
-                                                    <input type="text" class="form-control" placeholder="วัน-เดือน-ปี พ.ศ.">
+                                                    <input type="text" class="form-control" placeholder="1/7/2050">
                                                 </div>
                                             </div>
                                         </div>
@@ -192,7 +280,7 @@
                                         <div class="col-lg-6 col-md-6"> <b>วันจดชำระบัญชี</b>
                                             <div class="input-group">
                                                 <div class="form-line">
-                                                    <input type="text" class="form-control" placeholder="วัน-เดือน-ปี พ.ศ.">
+                                                    <input type="text" class="form-control" placeholder="3/10/2050">
                                                 </div>
                                             </div>
                                         </div>
@@ -212,8 +300,14 @@
                                     </div>
                                 </form>
                             </div>
+                            <div class="modal-footer">
+                                <a href="#save"></a><button type="button" class="btn btn-raised btn-default __redvitality waves-effect"> บันทึก </button>
+                                <a href="#cancel"></a><button type="button" class="btn  btn-raised bg-grey waves-effect"> ยกเลิก </button>
+                                <button type="button" class="btn btn-link waves-effect" data-dismiss="modal">ปิด</button>
+                            </div>
                         </div>
                     </div>
+
                 </div>
 
 

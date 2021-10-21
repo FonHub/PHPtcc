@@ -27,6 +27,7 @@
                     <th style="width: 60px">ครั้งที่</th>
                     <th>วันที่เริ่มต้น</th>
                     <th>วันที่สิ้นสุด</th>
+                    <th>เลขทะเบียนนิติบุคคคล</th>
                     <th>ชื่อเดิมภาษาไทย</th>
                     <th>ชื่อเดิมภาษาอังกฤษ</th>
                     <th>เอกสารแนบ</th>
@@ -38,6 +39,7 @@
                     <td>1</td>
                     <td>12/2/2550</td>
                     <td>12/2/2556</td>
+                    <td>0105564001931</td>
                     <td>หจ.พ.พัฒนรักษ์</td>
                     <td>บจ.จีจี เกฮลอท จำกัด</td>
                     <td>-</td>
@@ -47,6 +49,7 @@
                     <td>2</td>
                     <td>12/2/2556</td>
                     <td>12/2/2560</td>
+                    <td>0105564001931</td>
                     <td>บจ.จีจี เกฮลอท จำกัด</td>
                     <td>บจ.ไพร์ม เอ็กซ์ จำกัด</td>
                     <td>-</td>
@@ -69,7 +72,7 @@
                 <form class="form-horizontal _namehistory">
                     <div class="row clearfix">
                         <div class="col-lg-2 col-md-2">
-                            <div class="w-100px"><b>ครั้งที่</b>
+                            <div><b>ครั้งที่</b>
                                 <div class="input-group">
                                     <div class="form-line">
                                         <input type="text" class="form-control " placeholder="1">
@@ -77,14 +80,23 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-5 col-md-5"> <b>วันที่เริ่มต้น</b>
+                        <div class="col-lg-2 col-md-2">
+                            <div><b>เลขทะเบียนนิติบุคคคล</b>
+                                <div class="input-group">
+                                    <div class="form-line">
+                                        <input type="text" class="form-control " placeholder="0105564001931">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4"> <b>วันที่เริ่มต้น</b>
                             <div class="input-group">
                                 <div class="form-line">
                                     <input type="text" class="form-control" placeholder="1/7/2560 ">
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-5 col-md-5"> <b>วันที่สิ้นสุด</b>
+                        <div class="col-lg-4 col-md-4"> <b>วันที่สิ้นสุด</b>
                             <div class="input-group">
                                 <div class="form-line">
                                     <input type="text" class="form-control" placeholder="1/7/2564 ">

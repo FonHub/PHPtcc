@@ -20,7 +20,7 @@
     <!-- form -->
     <form class="form-horizontal __Liquidate">
         <div class="row clearfix">
-            <div class="col-lg-6 col-md-6"> <b>วันจดชำระบัญชี</b>
+            <div class="col-lg-6 col-md-6"> <b>วันจดเลิกบริษัท</b>
                 <div class="input-group">
                     <div class="form-line">
                         <input type="text" class="form-control" placeholder="วัน-เดือน-ปี พ.ศ.">
@@ -37,7 +37,7 @@
         </div>
 
         <div class="row clearfix">
-            <div class="col-lg-6 col-md-6"> <b>วันจดเลิกบริษัท</b>
+            <div class="col-lg-6 col-md-6"> <b>วันจดชำระบัญชี</b>
                 <div class="input-group">
                     <div class="form-line">
                         <input type="text" class="form-control" placeholder="วัน-เดือน-ปี พ.ศ.">
@@ -52,6 +52,7 @@
                 </div>
             </div>
         </div>
+
 
 
 

@@ -88,53 +88,9 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
-                                            <div class="form-line">
-                                                <select class="form-control show-tick">
-                                                    <optgroup label="กลุ่มธุรกิจหลัก">
-                                                        <option>ไพรเวท คอมพานี</option>
-                                                        <option>ไทยเบฟเวอเรจ</option>
-                                                        <option>อาคเนย์</option>
-                                                        <option>แอสเสท เวิรด์ คอร์ป</option>
-                                                        <option>เบอร์ลี่ ยุคเกอร์</option>
-                                                        <option>อื่นๆ </option>
-                                                    </optgroup>
-                                                </select>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
-                                            <div class="form-line">
-                                                <select class="form-control show-tick">
-                                                    <optgroup label="ประเภทประกอบการ">
-                                                        <option>กลุ่มบริษัทลงทุน</option>
-                                                        <option>กลุ่มทีซีซี แลนด์ </option>
-                                                        <option>กลุ่มบริษัทบุคคล</option>
-                                                        <option>กลุ่มทีซีซี แอสเซ็ทส์</option>
-                                                        <option>อื่นๆ </option>
-                                                    </optgroup>
-                                                </select>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-2 col-md-2 col-sm-3 col-xs-6">
-                                            <div class="form-line">
-                                                <select class="form-control show-tick">
-                                                    <optgroup label="สถานะบริษัท">
-                                                        <option>นายทะเบียน</option>
-                                                        <option>ทะเบียนหุ้นกลาง</option>
-                                                        <option>นายทะเบียน - หน่วยงานอื่น</option>
-                                                        <option>ควบกิจการ</option>
-                                                        <option>โอนกิจการ </option>
-                                                        <option>รับโอนกิจการ</option>
-                                                        <option>อยู่ระหว่างชำระบัญชี</option>
-                                                        <option>เสร็จการชำระบัญชี</option>
-                                                    </optgroup>
-                                                </select>
-                                            </div>
-                                        </div>
                                     </div>
                                     <div class="btn-control">
                                         <button type="button" class="btn btn-raised btn-default __redvitality waves-effect">ค้นหา</button>
-                                        <a class="btn btn-raised btn-default __gold waves-effect" href="/PersonAddEdit">เพิ่มใหม่</a>
                                     </div>
                                 </form>
 

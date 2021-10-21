@@ -135,7 +135,6 @@
                                     </div>
                                     <div class="btn-control">
                                         <button type="button" class="btn btn-raised btn-default __redvitality waves-effect">ค้นหา</button>
-                                        <a class="btn btn-raised btn-default __gold waves-effect" href="company_AddEdit.php">เพิ่มใหม่</a>
                                     </div>
                                 </form>
 
@@ -155,7 +154,6 @@
                                 <div class="header-status">
                                     <h3>รายการทะบียนบริษัทเพิ่มล่าสุดทั้งหมด</h3>
                                     <span>302,240</span>
-                                    <!--<span>{{ count }}</span>-->
                                 </div>
                                 <ul class="header-dropdown m-r--5">
                                     <a href="company_AddEdit.php" class="btn btn-raised btn-default waves-effect">

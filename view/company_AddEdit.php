@@ -10,6 +10,7 @@
     <title>companyname</title>
     <?php include('../view/linkhead.php'); ?>
 
+
 </head>
 
 <body class="theme-orange">
@@ -149,15 +150,50 @@
                                             <b>กลุ่มธุรกิจย่อย</b>
                                             <div class="input-group">
                                                 <div class="form-line">
-                                                    <select class="form-control show-tick" v-model="subsidiary">
-                                                        <optgroup label="กลุ่มธุรกิจย่อย">
-                                                            <option>กลุ่ม 1</option>
-                                                            <option>กลุ่ม 2</option>
-                                                            <option>อื่นๆ</option>
+                                                    <select class="form-control show-tick">
+                                                        <optgroup label="กลุ่มบริษัทลงทุน">
+                                                            <option>กลุ่มสิริวนา</option>
+                                                            <option>กลุ่มทีซีซี คอร์ปอเรชั่น</option>
+                                                            <option>กลุ่มอาคเนย์ แมเนจเม้นท์</option>
+                                                            <option>กลุ่มถือหุ้นแอสเสท เวิรด์ คอร์ป</option>
                                                         </optgroup>
-                                                    </select>
+                                                        <optgroup label="กลุ่มทีซีซี แลนด์">
+                                                            <option>กลุ่มทีซีซี แลนด์ ทีซีซี เอดับบลิว</option>
+                                                            <option>กลุ่มพรรณธิอร</option>
+                                                            <option>กลุ่มทีซีซี อินเตอร์เทรด</option>
+                                                            <option>กลุ่มแลนด์แบงค์</option>
+                                                            <option style="margin-left: 20px;">- กลุ่มบริษัทที่ดิน</option>
+                                                            <option style="margin-left: 20px;">- กลุ่มบริหารจัดการ </option>
+                                                            <option style="margin-left: 20px;">- กลุ่มบริษัทลงทุนและอื่นๆ </option>
+                                                            <option>กลุ่มทรัพย์กทม. ปริมณฑล และ ภาคเหนือ </option>
+                                                            <option style="margin-left: 20px;">- กลุ่มทรัพย์กทม. ปริมณฑล และ ภาคเหนือบริษัทแม่ </option>
+                                                            <option style="margin-left: 20px;">- กลุ่มบริหารทรัพย์สินภาคเหนือ </option>
+                                                            <option style="margin-left: 20px;">- กลุ่มบริหารทรัพย์สินรอบบ้าน </option>
+                                                            <option style="margin-left: 20px;">- กลุ่มบริหารทรัพย์สินกรุงเทพฯและปริมณฑล </option>
+                                                            <option>กลุ่มโรงแรม ช็อปปิ้ง อพาร์ตเม้นท์ </option>
+                                                            <option style="margin-left: 20px;">- กลุ่มโรงแรมในประเทศ</option>
+                                                            <option style="margin-left: 40px;"> -- กลุ่มโรงแรมบริษัทแม่ </option>
+                                                            <option style="margin-left: 40px;"> -- กลุ่มโรงแรมไพรเวท </option>
+                                                            <option style="margin-left: 40px;"> -- กลุ่มโรงแรมไพรเวทภาคเหนือ </option>
+                                                            <option style="margin-left: 40px;"> -- กลุ่มแอสเสท เวิรด์ เวกซ์ </option>
+                                                            <option style="margin-left: 20px;">- กลุ่มศูนย์การค้าและตลาด </option>
+                                                            <option style="margin-left: 40px;"> -- กลุ่มศูนย์การค้าบริษัทแม่ </option>
+                                                            <option style="margin-left: 40px;"> -- กลุ่มช้อปปิ้งไพรเวท </option>
+                                                            <option style="margin-left: 40px;"> -- กลุ่มช้อปปิ้งภาคเหนือ </option>
+                                                            <option style="margin-left: 40px;"> -- กลุ่มช้อปปิ้งลงทุนอื่นๆ</option>
+                                                            <option style="margin-left: 20px;">- กลุ่มพัฒนาที่อยู่อาศัย</option>
+                                                            <option style="margin-left: 40px;"> -- กลุ่มพัฒนที่อยู่อาศัยบริษัทแม่ </option>
+                                                            <option style="margin-left: 40px;"> -- กลุ่มอพาร์ทเม้นท์และคอนโดปล่อยเช่า </option>
+                                                            <option style="margin-left: 40px;"> -- กลุ่มที่พักอาศัยเพื่อขาย </option>
+
+                                                        </optgroup>
+
+
+
+                                                    </select> <!-- From Master -->
                                                 </div>
                                             </div>
+
                                         </div>
                                     </div>
                                     <div class="row clearfix">
@@ -265,6 +301,10 @@
 
     <!-- Jquery Core Js -->
     <?php include('../view/jquerycorejs.php'); ?>
+
+    <script src="../assets/plugins/editable-table/mindmup-editabletable.js"></script> <!-- Editable Table Plugin Js -->
+    <script src="../assets/js/pages/tables/editable-table.js"></script>
+
 
 </body>
 

@@ -9,7 +9,7 @@
 
     <title>ประวัติการเปลี่ยนแปลงที่อยู่บริษัท</title>
     <?php include('../view/linkhead.php'); ?>
-    
+
 </head>
 
 <body class="theme-orange">
@@ -135,7 +135,6 @@
                                     </div>
                                     <div class="btn-control">
                                         <button type="button" class="btn btn-raised btn-default __redvitality waves-effect">ค้นหา</button>
-                                        <a class="btn btn-raised btn-default __gold waves-effect" href="../view/company_AddEdit.php">เพิ่มใหม่</a>
                                     </div>
                                 </form>
 
@@ -151,136 +150,46 @@
                     <div class="col-sm-12 col-md-12 col-lg-12">
                         <div class="card">
                             <div id="AddHistory">
-                                <!-- bar control-->
-                                <div class="row clearfix">
-                                    <div class="col-sm-12 col-md-12 col-lg-12 btn_control">
-                                        <div class="__save"><button type="button" class="btn btn-raised  waves-effect"> <i class="material-icons">save</i> </button></div>
-                                        <div class="__new"><button type="button" class="btn btn-raised  waves-effect"> <i class="material-icons">insert_drive_file</i> </button></div>
-                                        <div class="__close"><button type="button" class="btn btn-raised  waves-effect"> <i class="material-icons">clear</i> </button></div>
-                                        <div class="__exit"><button type="button" class="btn btn-raised  waves-effect"> <i class="material-icons">exit_to_app</i> </button></div>
-                                    </div>
+
+                                <!-- table -->
+                                <div class="body table-responsive company-list">
+                                    <table class="table table-hover">
+                                        <thead>
+                                            <tr>
+                                                <th style="width: 60px">ครั้งที่</th>
+                                                <th>วันที่เริ่มต้น</th>
+                                                <th>วันที่สิ้นสุด</th>
+                                                <th>ที่อยู่เดิมภาษาไทย</th>
+                                                <th>ที่อยู่เดิมภาษาอังกฤษ</th>
+                                                <th>เอกสารแนบ</th>
+                                                <th>หมายเหตุ</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>1</td>
+                                                <td>12/2/2550</td>
+                                                <td>12/2/2556</td>
+                                                <td>257/6 หมู่ที่ 14 ถนนมิตรภาพ ต.ในเมือง อ.เมืองขอนแก่น จ.ขอนแก่น 40000</td>
+                                                <td>8/5 ถนนสามัคคีอุทิศ ต.ในเมือง อ.เมืองขอนแก่น จ.ขอนแก่น 40000</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                            </tr>
+                                            <tr>
+                                                <td>2</td>
+                                                <td>12/2/2556</td>
+                                                <td>12/2/2560</td>
+                                                <td>
+                                                    449 ซอยอินทามระ 41 แขวงดินแดง เขตดินแดง กรุงเทพมหานคร 10400
+                                                </td>
+                                                <td>999 ชั้น 5 ห้อง 5 บี 1 ถนนเพลินจิต แขวงลุมพินี เขตปทุมวัน กรุงเทพมหานคร 10330</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                            </tr>
+
+                                        </tbody>
+                                    </table>
                                 </div>
-                                <!-- form -->
-                                <form class="form-horizontal _AddHistory">
-                                    <div class="row clearfix">
-                                        <div class="col-lg-3 col-md-3">
-                                            <div><b>การเปลี่ยนแปลงครั้งที่</b>
-                                                <div class="input-group">
-                                                    <input type="text" class="form-control disabled" placeholder="disabled" disabled>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-4 col-md-4"> <b>วันที่เริ่มต้น</b>
-                                            <div class="input-group">
-                                                <div>
-                                                    <input type="text" class="form-control disabled" placeholder="disabled" disabled>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-5 col-md-5"> <b>วันที่สิ้นสุด</b>
-                                            <div class="input-group">
-                                                <div>
-                                                    <input type="text" class="form-control disabled" placeholder="disabled" disabled>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="row clearfix">
-                                        <div class="col-lg-12 col-md-12"> <b>ที่อยู่ภาษาไทย (1)</b>
-                                            <div class="input-group">
-                                                <div>
-                                                    <input type="text" class="form-control disabled" placeholder="disabled" disabled>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="row clearfix">
-                                        <div class="col-lg-12 col-md-12"> <b>ที่อยู่ภาษาไทย (2)</b>
-                                            <div class="input-group">
-                                                <div>
-                                                    <input type="text" class="form-control disabled" placeholder="disabled" disabled>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="row clearfix">
-                                        <div class="col-lg-12 col-md-12"> <b>ที่อยู่ภาษาอังกฤษ (1)</b>
-                                            <div class="input-group">
-                                                <div>
-                                                    <input type="text" class="form-control disabled" placeholder="disabled" disabled>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="row clearfix">
-                                        <div class="col-lg-12 col-md-12"> <b>ที่อยู่ภาษาอังกฤษ (2)</b>
-                                            <div class="input-group">
-                                                <div>
-                                                    <input type="text" class="form-control disabled" placeholder="disabled" disabled>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="row clearfix">
-                                        <div class="col-lg-3 col-md-3"> <b>รหัสไปรษณีย์</b>
-                                            <div class="input-group">
-                                                <div>
-                                                    <input type="text" class="form-control disabled" placeholder="disabled" disabled>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-3 col-md-3"> <b>จังหวัด</b>
-                                            <div class="input-group">
-                                                <div>
-                                                    <input type="text" class="form-control disabled" placeholder="disabled" disabled>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-3 col-md-3"> <b>อำเภอ</b>
-                                            <div class="input-group">
-                                                <div>
-                                                    <input type="text" class="form-control disabled" placeholder="disabled" disabled>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-3 col-md-3"> <b>ตำบล</b>
-                                            <div class="input-group">
-                                                <div>
-                                                    <input type="text" class="form-control disabled" placeholder="disabled" disabled>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="row clearfix">
-                                        <div class="col-lg-6 col-md-6"> <b>เบอร์โทรศัพท์</b>
-                                            <div class="input-group">
-                                                <div>
-                                                    <input type="text" class="form-control disabled" placeholder="disabled" disabled>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-6 col-md-6"> <b>เบอร์โทรสาร</b>
-                                            <div class="input-group">
-                                                <div>
-                                                    <input type="text" class="form-control disabled" placeholder="disabled" disabled>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="row clearfix">
-                                        <div class="col-lg-6 col-md-6"> <b>แนบเอกสาร</b>
-                                            <div class="input-group">
-                                                <div>
-                                                    <input type="text" class="form-control disabled" placeholder="disabled">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="btn-control">
-                                        <a href="#save"></a><button type="button" class="btn btn-raised btn-default __redvitality waves-effect"> บันทึก </button>
-                                        <a href="#cancel"></a><button type="button" class="btn  btn-raised bg-grey waves-effect"> ยกเลิก </button>
-                                    </div>
-                                </form>
                             </div>
                         </div>
                     </div>

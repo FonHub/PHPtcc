@@ -9,6 +9,10 @@
 
     <title>การควบบริษัท</title>
     <?php include('../view/linkhead.php'); ?>
+    <!-- Multi Select Css -->
+    <link rel="stylesheet" href="../assets/plugins/multi-select/css/multi-select.css">
+    <!-- Bootstrap Select Css -->
+    <link rel="stylesheet" href="../assets/plugins/bootstrap-select/css/bootstrap-select.css" />
 
 </head>
 
@@ -43,107 +47,7 @@
             </div>
         </div>
         <div class="container-fluid">
-            <!-- search-->
-            <section class="sec-search">
-                <div class="row clearfix">
-                    <div class="col-sm-12 col-md-12 col-lg-12">
-                        <div class="card">
-                            <div class="header">
-                                <h2>ค้นหา</h2>
-                            </div>
-                            <div class="body">
-                                <form class="form-horizontal __search">
-                                    <div class="col-sm-12">
-                                        <div class="input-group"> <span class="input-group-addon"> <i class="material-icons">search</i></span>
-                                            <div class="form-line">
-                                                <input type="text" class="form-control" placeholder="พิมพ์รหัสบริษัท/ผู้ถือหุ้น,ชื่อบริษัท/ผู้ถือหุ้นภาษาไทย,ชื่อบริษัท/ผู้ถือหุ้นภาษาอังกฤษ,ชื่อค้นหาบริษัท/ผู้ถือหุ้น,เลขทะเบียนนิติบุคคล">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="row clearfix">
-                                        <div class="col-lg-2 col-md-2 col-sm-3 col-xs-6">
-                                            <div class="row clearfix">
-                                                <div class="col-sm-3 form-control-label">
-                                                    <label for="email_address_2">จาก</label>
-                                                </div>
-                                                <div class="col-sm-9">
-                                                    <div class="form-group">
-                                                        <div class="form-line">
-                                                            <input type="text" class="form-control date" placeholder="30/07/2017">
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-2 col-md-2 col-sm-3 col-xs-6">
-                                            <div class="row clearfix">
-                                                <div class="col-sm-3 form-control-label">
-                                                    <label for="email_address_2">ถึง</label>
-                                                </div>
-                                                <div class="col-sm-9">
-                                                    <div class="form-group">
-                                                        <div class="form-line">
-                                                            <input type="text" class="form-control date" placeholder="30/07/2021">
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
-                                            <div class="form-line">
-                                                <select class="form-control show-tick">
-                                                    <optgroup label="กลุ่มธุรกิจหลัก">
-                                                        <option>ไพรเวท คอมพานี</option>
-                                                        <option>ไทยเบฟเวอเรจ</option>
-                                                        <option>อาคเนย์</option>
-                                                        <option>แอสเสท เวิรด์ คอร์ป</option>
-                                                        <option>เบอร์ลี่ ยุคเกอร์</option>
-                                                        <option>อื่นๆ </option>
-                                                    </optgroup>
-                                                </select>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
-                                            <div class="form-line">
-                                                <select class="form-control show-tick">
-                                                    <optgroup label="ประเภทประกอบการ">
-                                                        <option>กลุ่มบริษัทลงทุน</option>
-                                                        <option>กลุ่มทีซีซี แลนด์ </option>
-                                                        <option>กลุ่มบริษัทบุคคล</option>
-                                                        <option>กลุ่มทีซีซี แอสเซ็ทส์</option>
-                                                        <option>อื่นๆ </option>
-                                                    </optgroup>
-                                                </select>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-2 col-md-2 col-sm-3 col-xs-6">
-                                            <div class="form-line">
-                                                <select class="form-control show-tick">
-                                                    <optgroup label="สถานะบริษัท">
-                                                        <option>นายทะเบียน</option>
-                                                        <option>ทะเบียนหุ้นกลาง</option>
-                                                        <option>นายทะเบียน - หน่วยงานอื่น</option>
-                                                        <option>ควบกิจการ</option>
-                                                        <option>โอนกิจการ </option>
-                                                        <option>รับโอนกิจการ</option>
-                                                        <option>อยู่ระหว่างชำระบัญชี</option>
-                                                        <option>เสร็จการชำระบัญชี</option>
-                                                    </optgroup>
-                                                </select>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="btn-control">
-                                        <button type="button" class="btn btn-raised btn-default __redvitality waves-effect">ค้นหา</button>
-                                        <a class="btn btn-raised btn-default __gold waves-effect" href="../view/company_AddEdit.php">เพิ่มใหม่</a>
-                                    </div>
-                                </form>
 
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
 
             <!-- NameHistory -->
             <div id="company_detail" class="detail__box">
@@ -152,47 +56,29 @@
                         <div class="card">
                             <div id="Merger">
                                 <!-- bar control-->
-                                <div class="row clearfix">
-                                    <div class="col-sm-12 col-md-12 col-lg-12 btn_control">
-                                        <div class="__save"><button type="button" class="btn btn-raised  waves-effect"> <i class="material-icons">save</i> </button></div>
-                                        <div class="__new"><button type="button" class="btn btn-raised  waves-effect"> <i class="material-icons">insert_drive_file</i> </button></div>
-                                        <div class="__close"><button type="button" class="btn btn-raised  waves-effect"> <i class="material-icons">clear</i> </button></div>
-                                        <div class="__exit"><button type="button" class="btn btn-raised  waves-effect"> <i class="material-icons">exit_to_app</i> </button></div>
-                                    </div>
-                                </div>
-                                <!-- bar function-->
-                                <div class="btn_function">
-                                    <div class="__box">
-                                        <div class="_update">
-                                            <i class="material-icons">sync</i>
-                                            <span class="function-name">Update</span>
-                                        </div>
-                                    </div>
-                                    <div class="__box">
-                                        <div class="_add">
-                                            <i class="material-icons">add</i>
-                                            <span class="function-name">Add</span>
-                                        </div>
-                                    </div>
-                                    <div class="__box">
-                                        <div class="_remove">
-                                            <i class="material-icons">remove</i>
-                                            <span class="function-name">Remove</span>
-                                        </div>
-                                    </div>
-                                </div>
+
+
                                 <!-- form -->
                                 <div class="row clearfix">
                                     <div class="col-lg-12">
                                         <form class="form-horizontal __companymerger">
                                             <div class="row clearfix">
-                                                <div class="col-lg-6 col-md-6">
+                                                <div class="col-lg-6 col-md-6"> <b>วันที่</b>
+                                                    <div class="input-group">
+                                                        <div class="form-line">
+                                                            <input type="text" class="form-control" placeholder="1/7/2564">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row clearfix">
+                                                <div class="col-lg-5 col-md-5">
                                                     <div style="padding: 20px 0px;border-bottom: 1px solid #ced4da;    margin-bottom: 30px;">
                                                         <div class="block-header">
                                                             <h2>ข้อมูลบริษัทควบ</h2>
                                                         </div>
                                                         <div class="row clearfix">
-                                                            <div class="col-lg-12 col-md-12"> <b>เลขทะเบียนนิติบุคคคล</b>
+                                                            <div class="col-lg-12 col-md-12"> <b>ค้นหา</b>
                                                                 <div class="input-group">
                                                                     <div class="form-line">
                                                                         <input type="text" class="form-control" placeholder="0105564001922">
@@ -200,185 +86,94 @@
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div class="row clearfix">
-                                                            <div class="col-lg-12 col-md-12"> <b>ชื่อบริษัท</b>
-                                                                <div class="input-group">
-                                                                    <div class="form-line">
-                                                                        <select class="form-control show-tick">
-                                                                            <optgroup label="เลือกบริษัท">
-                                                                                <option>บจ.เอ็มเอ็ม.เฮลท์พลัส จำกัด</option>
-                                                                                <option>บริษัทบุรีการช่อง</option>
-                                                                                <option>บริษัทนคร ฟิล์ม</option>
-                                                                            </optgroup>
-                                                                        </select>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-
-                                                        </div>
-                                                        <div class="row clearfix">
-                                                            <div class="col-lg-12 col-md-12"> <b>กรณีต้องการใช้ข้อมูลบริษัทนี้</b>
-                                                                <div class="row clearfix">
-                                                                    <div class="col-lg-6 col-md-6">
-                                                                        <div class="input-group">
-                                                                            <input type="checkbox" id="md_checkbox_21" class="filled-in chk-col-red _red-vitality" />
-                                                                            <label for="md_checkbox_21">ชื่อบริษัท</label>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="col-lg-6 col-md-6">
-                                                                        <input type="checkbox" id="md_checkbox_22" class="filled-in chk-col-red" />
-                                                                        <label for="md_checkbox_22">ที่อยู่บริษัท</label>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
                                                     </div>
-                                                    <div style="padding: 20px 0px;border-bottom: 1px solid #ced4da;    margin-bottom: 30px;">
-
-                                                        <div class="row clearfix">
-                                                            <div class="col-lg-12 col-md-12"> <b>เลขทะเบียนนิติบุคคคล</b>
-                                                                <div class="input-group">
-                                                                    <div class="form-line">
-                                                                        <input type="text" class="form-control" placeholder="0105564001931">
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="row clearfix">
-                                                            <div class="col-lg-12 col-md-12"> <b>ชื่อบริษัท</b>
-                                                                <div class="input-group">
-                                                                    <div class="form-line">
-                                                                        <select class="form-control show-tick">
-                                                                            <optgroup label="เลือกบริษัท">
-                                                                                <option>บจ.วรเมธเจริญรุ่งเรือง จำกัด</option>
-                                                                                <option>บริษัทบุรีการช่อง</option>
-                                                                                <option>บริษัทนคร ฟิล์ม</option>
-                                                                            </optgroup>
-                                                                        </select>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-
-                                                        </div>
-                                                        <div class="row clearfix">
-                                                            <div class="col-lg-12 col-md-12"> <b>กรณีต้องการใช้ข้อมูลบริษัทนี้</b>
-                                                                <div class="row clearfix">
-                                                                    <div class="col-lg-6 col-md-6">
-                                                                        <div class="input-group">
-                                                                            <input type="checkbox" id="md_checkbox_21" class="filled-in chk-col-red _red-vitality" />
-                                                                            <label for="md_checkbox_21">ชื่อบริษัท</label>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="col-lg-6 col-md-6">
-                                                                        <input type="checkbox" id="md_checkbox_22" class="filled-in chk-col-red" />
-                                                                        <label for="md_checkbox_22">ที่อยู่บริษัท</label>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div style="padding: 20px 0px;border-bottom: 1px solid #ced4da;    margin-bottom: 30px;">
-
-                                                        <div class="row clearfix">
-                                                            <div class="col-lg-12 col-md-12"> <b>เลขทะเบียนนิติบุคคคล</b>
-                                                                <div class="input-group">
-                                                                    <div class="form-line">
-                                                                        <input type="text" class="form-control" placeholder="0105564001957">
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="row clearfix">
-                                                            <div class="col-lg-12 col-md-12"> <b>ชื่อบริษัท</b>
-                                                                <div class="input-group">
-                                                                    <div class="form-line">
-                                                                        <select class="form-control show-tick">
-                                                                            <optgroup label="เลือกบริษัท">
-                                                                                <option>บจ.บียอนด์ ดี จำกัด</option>
-                                                                                <option>บริษัทบุรีการช่อง</option>
-                                                                                <option>บริษัทนคร ฟิล์ม</option>
-                                                                            </optgroup>
-                                                                        </select>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-
-                                                        </div>
-                                                        <div class="row clearfix">
-                                                            <div class="col-lg-12 col-md-12"> <b>กรณีต้องการใช้ข้อมูลบริษัทนี้</b>
-                                                                <div class="row clearfix">
-                                                                    <div class="col-lg-6 col-md-6">
-                                                                        <div class="input-group">
-                                                                            <input type="checkbox" id="md_checkbox_21" class="filled-in chk-col-red _red-vitality" />
-                                                                            <label for="md_checkbox_21">ชื่อบริษัท</label>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="col-lg-6 col-md-6">
-                                                                        <input type="checkbox" id="md_checkbox_22" class="filled-in chk-col-red" />
-                                                                        <label for="md_checkbox_22">ที่อยู่บริษัท</label>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-
                                                 </div>
-                                                <div class="col-lg-6 col-md-6" style="padding: 20px 0px;border-bottom: 1px solid #ced4da;    margin-bottom: 30px;">
+                                                <div style="padding: 20px ;border-bottom: 1px solid #ced4da; margin: auto;"></div>
+                                                <div class="col-lg-5 col-md-5" style="padding: 20px 0px;border-bottom: 1px solid #ced4da;    margin-bottom: 30px;">
                                                     <div class="block-header">
                                                         <h2>ข้อมูลบริษัทผู้ถือครอง</h2>
                                                     </div>
                                                     <div class="row clearfix">
-                                                        <div class="col-lg-12 col-md-12"> <b>วันที่</b>
-                                                            <div class="input-group">
-                                                                <div class="form-line">
-                                                                    <input type="text" class="form-control" placeholder="1/7/2564">
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="row clearfix">
-                                                        <div class="col-lg-12 col-md-12"> <b>เลขทะเบียนนิติบุคคคล</b>
+
+                                                        <div class="col-lg-4 col-md-4"> <b>เลขทะเบียนนิติบุคคคล</b>
                                                             <div class="input-group">
                                                                 <div class="form-line">
                                                                     <input type="text" class="form-control" placeholder="0105564001931">
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                    </div>
-                                                    <div class="row clearfix">
-                                                        <div class="col-lg-12 col-md-12"> <b>ชื่อบริษัท</b>
+                                                        <div class="col-lg-8 col-md-8"> <b>ชื่อบริษัท</b>
                                                             <div class="input-group">
                                                                 <div class="form-line">
-                                                                    <select class="form-control show-tick">
-                                                                        <optgroup label="เลือกบริษัท">
-                                                                            <option>บจ.ธาระวี จำกัด</option>
-                                                                            <option>บริษัทบุรีการช่อง</option>
-                                                                            <option>บริษัทนคร ฟิล์ม</option>
-                                                                        </optgroup>
-                                                                    </select>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-
-                                                    </div>
-                                                    <div class="row clearfix">
-                                                        <div class="col-lg-12 col-md-12"> <b>กรณีต้องการใช้ข้อมูลบริษัทนี้</b>
-                                                            <div class="row clearfix">
-                                                                <div class="col-lg-6 col-md-6">
-                                                                    <div class="input-group">
-                                                                        <input type="checkbox" id="md_checkbox_21" class="filled-in chk-col-red _red-vitality" />
-                                                                        <label for="md_checkbox_21">ชื่อบริษัท</label>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="col-lg-6 col-md-6">
-                                                                    <input type="checkbox" id="md_checkbox_22" class="filled-in chk-col-red" />
-                                                                    <label for="md_checkbox_22">ที่อยู่บริษัท</label>
+                                                                    <input type="text" class="form-control" placeholder="บจ.ธาระวี จำกัด">
                                                                 </div>
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
+
+
                                             </div>
+
+
+                                            <!-- Multi Select -->
+                                            <div class="row clearfix">
+                                                <div class="col-lg-12 col-md-12 col-sm-12">
+                                                    <div class="card">
+
+                                                        <div class="body">
+                                                            <select id="optgroup" class="ms" multiple="multiple">
+                                                                <optgroup label="ไพรเวท คอมพานี">
+                                                                    <option value="AK"> <strong>0105564012240</strong> บจ.เอ็ม.โอ.เอ็น. คอนซัลแทนท์ กรุ๊ป จำกัด</option>
+                                                                    <option value="HI"> <strong>0105564012258</strong>บจ.มั่งมี ซอฟต์แวร์ จำกัด</option>
+                                                                </optgroup>
+                                                                <optgroup label="ไทยเบฟเวอเรจ">
+                                                                    <option value="CA"> <strong>0105564012266</strong>บจ.เอิร์ลเกรย์ จำกัด</option>
+                                                                    <option value="NV"> <strong>0105564012274</strong>บจ.จตุรมิตรอสังหาริมทรัพย์ จำกัด</option>
+                                                                    <option value="OR"> <strong>0105564012282</strong>บจ.เจ โอ เอ เวลเนส จำกัด</option>
+                                                                    <option value="WA"> <strong>0105564012291</strong>บจ.ต้าไห่ เซ็นทรัล อโกร จำกัด</option>
+                                                                </optgroup>
+                                                                <optgroup label="อาคเนย์">
+                                                                    <option value="AZ"><strong>0105564012401</strong>บจ.คีย์ สกิน (ประเทศไทย) จำกัด</option>
+                                                                    <option value="CO"><strong>0105564012436</strong>บจ.ระยองมาสเตอร์ จำกัด</option>
+                                                                    <option value="ID"><strong>0105564012444</strong>บจ.จิลา เจมส์ จำกัด</option>
+                                                                    <option value="MT"><strong>0105564012517</strong>บจ.แอตแลนติส คอนสตรัคชั่น จำกัด</option>
+                                                                    <option value="NE"><strong>0105564012533</strong>บจ.อาร์ยูเอ็นเอ็น กรุ๊ป จำกัด</option>
+                                                                </optgroup>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- #END# Multi Select -->
+                                            <!--กรณีต้องการใช้ข้อมูลบริษัทควบ -->
+
+                                            <div class="row clearfix">
+                                                <div class="col-lg-12 col-md-12"> <b>กรณีต้องการใช้ข้อมูลบริษัทควบ <strong>กรุณากรอกเลขทะเบียนนิติบุคคคล</strong></b>
+                                                    <div class="row clearfix">
+                                                        <div class="col-lg-5 col-md-5"> 
+                                                            <div class="input-group">
+                                                                <div class="form-line">
+                                                                    <input type="text" class="form-control" placeholder="0105564002490">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row clearfix">
+                                                        <div class="col-lg-2 col-md-6">
+                                                            <div class="input-group">
+                                                                <input type="checkbox" id="md_checkbox_21" class="filled-in chk-col-red _red-vitality" />
+                                                                <label for="md_checkbox_21">ชื่อบริษัท</label>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-2 col-md-2">
+                                                            <input type="checkbox" id="md_checkbox_22" class="filled-in chk-col-red" />
+                                                            <label for="md_checkbox_22">ที่อยู่บริษัท</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
 
 
 
@@ -410,10 +205,23 @@
                     </div>
                 </div>
             </div>
+        </div>
     </section>
 
     <!-- Jquery Core Js -->
-    <?php include('../view/jquerycorejs.php'); ?>
+    <!-- Jquery Core Js -->
+    <script src="../assets/bundles/libscripts.bundle.js"></script> <!-- Lib Scripts Plugin Js -->
+    <script src="../assets/bundles/vendorscripts.bundle.js"></script> <!-- Lib Scripts Plugin Js -->
+
+    <script src="../assets/plugins/bootstrap-colorpicker/js/bootstrap-colorpicker.js"></script> <!-- Bootstrap Colorpicker Js -->
+    <script src="../assets/plugins/jquery-inputmask/jquery.inputmask.bundle.js"></script> <!-- Input Mask Plugin Js -->
+    <script src="../assets/plugins/multi-select/js/jquery.multi-select.js"></script> <!-- Multi Select Plugin Js -->
+    <script src="../assets/plugins/jquery-spinner/js/jquery.spinner.js"></script> <!-- Jquery Spinner Plugin Js -->
+    <script src="../assets/plugins/bootstrap-tagsinput/bootstrap-tagsinput.js"></script> <!-- Bootstrap Tags Input Plugin Js -->
+    <script src="../assets/plugins/nouislider/nouislider.js"></script> <!-- noUISlider Plugin Js -->
+
+    <script src="../assets/bundles/mainscripts.bundle.js"></script><!-- Custom Js -->
+    <script src="../assets/js/pages/forms/advanced-form-elements.js"></script>
 
 </body>
 
