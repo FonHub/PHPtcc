@@ -41,8 +41,8 @@
             <li><a href="javascript:void(0);" class="menu-toggle"><i class="zmdi zmdi-grid"></i><span>หุ้นตลาด</span> </a>
                 <ul class="ml-menu">
                     <li><a href="stockMarket.php">ข้อมูลหุ้นตลาด</a></li>
-                    <li><a href="#mastersymbol">บริษัทเจ้าของหุ้น(Company)</a></li>
-                    <li><a href="#companysymbol">บริษัทผู้ถือหุ้น (Company)</a></li>
+                    <li><a href="stockMarketLot.php">บริษัทเจ้าของหุ้น</a></li>
+                    <li><a href="stockMarketFinance.php">ผู้รับจำนำ</a></li>
                 </ul>
             </li>
             <li><a href="javascript:void(0);" class="menu-toggle"><i class="zmdi zmdi-view-module"></i><span>Master</span> </a>

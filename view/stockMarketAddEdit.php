@@ -182,17 +182,12 @@
                             <div class="body">
                                 <!-- Nav tabs -->
                                 <ul class="nav nav-tabs">
-                                    <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#Meeting">ประชุม</a></li>
-                                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#Lot">เจ้าของหุ้น</a></li>
-                                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#StockNo">ใบรายละเอียดหุ้น</a></li>
-                                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#Print">พิมพ์</a></li>
-                                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#Investment">เงินลงทุน</a></li>
-                                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#Dividend">เงินปันผล</a></li>
+                                    <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#Finance">การจำนำหลักทรัพย์</a></li>
                                 </ul>
                                 <!-- Tab panes -->
                                 <div class="tab-content">
                                     <!-- Tab panes 1-->
-                                    <div role="tabpanel" class="tab-pane in active" id="Meeting">
+                                    <div role="tabpanel" class="tab-pane in active" id="Finance">
                                         <div>
                                             <!-- bar control-->
                                             <div class="row clearfix">
@@ -223,9 +218,9 @@
                                             <div class="btn_function">
                                                 <div class="__box">
                                                     <div class="_calendar">
-                                                        <button type="button" class="btn btn-default" data-toggle="modal" data-target="#ModalMeet" style="margin-top: 10px; padding: 0;">
-                                                            <i class="material-icons">perm_contact_calendar</i>
-                                                            <span class="function-name">ประชุม</span>
+                                                        <button type="button" class="btn btn-default" data-toggle="modal" data-target="#FinanceModal" style="margin-top: 10px 0px;">
+                                                            <i class="material-icons">account_balance</i>
+                                                            <span class="function-name">จำนำ</span>
                                                         </button>
                                                     </div>
                                                 </div>
@@ -237,15 +232,15 @@
                                                         <tr>
                                                             <th style="width: 60px">#</th>
                                                             <th>วันที่</th>
-                                                            <th>ประเภท</th>
-                                                            <th>ลำดับ </th>
-                                                            <th>กรรมการกลุ่ม 1 </th>
-                                                            <th>กรรมการกลุ่ม 2</th>
-                                                            <th>% การเรียกชำระ </th>
-                                                            <th>ยอดชำระ</th>
-                                                            <th>ทุนจดทะเบียน</th>
+                                                            <th>บริษัทเจ้าของหุ้น</th>
+                                                            <th>เลขทะเบียนนิติบุคคล </th>
+                                                            <th>ผู้รับจำนำ </th>
                                                             <th>จำนวนหุ้น</th>
-                                                            <th>Running </th>
+                                                            <th>วันที่จำนำหุ้น </th>
+                                                            <th>วันที่ปลดจำนำ</th>
+                                                            <th>จำนวนหุ้น </th>
+                                                            <th>เลขที่หุ้น</th>
+                                                            <th>สถานที่จัดเก็บใบหุ้น </th>
                                                             <th>Action</th>
                                                         </tr>
                                                     </thead>
@@ -253,24 +248,15 @@
                                                         <tr>
                                                             <td>1</td>
                                                             <td>15/9/2560</td>
-                                                            <td>จัดตั้งบริษัท</td>
+                                                            <td>บจ.ชิวา1982 จำกัด</td>
+                                                            <td>0505564001775</td>
+                                                            <td>บจ.สหมิติ จำกัด</td>
+                                                            <td>20,500,000</td>
+                                                            <td>15/9/2562</td>
                                                             <td>-</td>
-
-                                                            <td>
-                                                                <div>นาย วิชัย วชิรพงศ์</div>
-                                                                <div>นาง มณีรัตน์ งามเรืองพงศ์</div>
-                                                                <div>MR.SUNSHINE TAGALOG</div>
-                                                            </td>
-                                                            <td>
-                                                                <div>นาย ชนุชตร สุขสันต์</div>
-                                                                <div>นาง กรรณธิมา สุขสันต์</div>
-                                                                <div>นาง แก้ว คมแก้ว</div>
-                                                            </td>
-                                                            <td>25%</td>
-                                                            <td>25,000</td>
-                                                            <td>2,500,000</td>
-                                                            <td>2,500,000</td>
-                                                            <td>1</td>
+                                                            <td>-</td>
+                                                            <td>1-2,500,000</td>
+                                                            <td>สำนักงาน</td>
                                                             <td>
                                                                 <div class="action_btn">
                                                                     <a href="javascript:void(0);" class="btn btn-default"><i class="zmdi zmdi-edit"></i></a>
@@ -281,105 +267,15 @@
                                                         <tr>
                                                             <td>2</td>
                                                             <td>15/10/2560</td>
-                                                            <td>จัดตั้งบริษัท</td>
-                                                            <td>-</td>
-
-                                                            <td>
-                                                                <div>นาย วิชัย วชิรพงศ์</div>
-                                                                <div>นาง มณีรัตน์ งามเรืองพงศ์</div>
-                                                                <div>MR.SUNSHINE TAGALOG</div>
-                                                            </td>
-                                                            <td>
-                                                                <div>นาย ชนุชตร สุขสันต์</div>
-                                                                <div>นาง กรรณธิมา สุขสันต์</div>
-                                                                <div>นาง แก้ว คมแก้ว</div>
-                                                            </td>
-                                                            <td>25%</td>
-                                                            <td>25,000</td>
-                                                            <td>2,500,000</td>
-                                                            <td>2,500,000</td>
-                                                            <td>1</td>
-                                                            <td>
-                                                                <div class="action_btn">
-                                                                    <a href="javascript:void(0);" class="btn btn-default"><i class="zmdi zmdi-edit"></i></a>
-                                                                    <a href="javascript:void(0);" class="btn btn-default col-red"><i class="zmdi zmdi-delete"></i></a>
-                                                                </div>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>3</td>
-                                                            <td>15/11/2560</td>
-                                                            <td>จัดตั้งบริษัท</td>
-                                                            <td>-</td>
-                                                            <td>
-                                                                <div>นาย วิชัย วชิรพงศ์</div>
-                                                                <div>นาง มณีรัตน์ งามเรืองพงศ์</div>
-                                                                <div>MR.SUNSHINE TAGALOG</div>
-                                                            </td>
-                                                            <td>
-                                                                <div>นาย ชนุชตร สุขสันต์</div>
-                                                                <div>นาง กรรณธิมา สุขสันต์</div>
-                                                                <div>นาง แก้ว คมแก้ว</div>
-                                                            </td>
-                                                            <td>25%</td>
-                                                            <td>25,000</td>
-                                                            <td>2,500,000</td>
-                                                            <td>2,500,000</td>
-                                                            <td>1</td>
-                                                            <td>
-                                                                <div class="action_btn">
-                                                                    <a href="javascript:void(0);" class="btn btn-default"><i class="zmdi zmdi-edit"></i></a>
-                                                                    <a href="javascript:void(0);" class="btn btn-default col-red"><i class="zmdi zmdi-delete"></i></a>
-                                                                </div>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>4</td>
-                                                            <td>15/12/2560</td>
-                                                            <td>จัดตั้งบริษัท</td>
-                                                            <td>-</td>
-                                                            <td>
-                                                                <div>นาย วิชัย วชิรพงศ์</div>
-                                                                <div>นาง มณีรัตน์ งามเรืองพงศ์</div>
-                                                                <div>MR.SUNSHINE TAGALOG</div>
-                                                            </td>
-                                                            <td>
-                                                                <div>นาย ชนุชตร สุขสันต์</div>
-                                                                <div>นาง กรรณธิมา สุขสันต์</div>
-                                                                <div>นาง แก้ว คมแก้ว</div>
-                                                            </td>
-                                                            <td>50%</td>
-                                                            <td>50,000</td>
-                                                            <td>2,500,000</td>
-                                                            <td>2,500,000</td>
-                                                            <td>1</td>
-                                                            <td>
-                                                                <div class="action_btn">
-                                                                    <a href="javascript:void(0);" class="btn btn-default"><i class="zmdi zmdi-edit"></i></a>
-                                                                    <a href="javascript:void(0);" class="btn btn-default col-red"><i class="zmdi zmdi-delete"></i></a>
-                                                                </div>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>5</td>
-                                                            <td>15/12/2560</td>
-                                                            <td>ประชุมวิสามัญ </td>
-                                                            <td>1/2561</td>
-                                                            <td>
-                                                                <div>นาย วิชัย วชิรพงศ์</div>
-                                                                <div>นาง มณีรัตน์ งามเรืองพงศ์</div>
-                                                                <div>MR.SUNSHINE TAGALOG</div>
-                                                            </td>
-                                                            <td>
-                                                                <div>นาย ชนุชตร สุขสันต์</div>
-                                                                <div>นาง กรรณธิมา สุขสันต์</div>
-                                                                <div>นาง แก้ว คมแก้ว</div>
-                                                            </td>
-                                                            <td>25%</td>
-                                                            <td>25,000</td>
-                                                            <td>2,500,000</td>
-                                                            <td>2,500,000</td>
-                                                            <td>1</td>
+                                                            <td>บจ.ชิวา1982 จำกัด</td>
+                                                            <td>0505564001775</td>
+                                                            <td>สถาบันการเงิน</td>
+                                                            <td>20,500,000</td>
+                                                            <td>15/9/2562</td>
+                                                            <td>15/9/2563</td>
+                                                            <td>20,500,000</td>
+                                                            <td>1-2,500,000</td>
+                                                            <td>บริษัทหลักทรัพย์</td>
                                                             <td>
                                                                 <div class="action_btn">
                                                                     <a href="javascript:void(0);" class="btn btn-default"><i class="zmdi zmdi-edit"></i></a>
@@ -393,11 +289,11 @@
                                         </div>
 
                                         <!-- Modal Large Size -->
-                                        <div class="modal fade" id="ModalMeet" tabindex="-1" role="dialog">
+                                        <div class="modal fade" id="FinanceModal" tabindex="-1" role="dialog">
                                             <div class="modal-dialog modal-lg box__director" role="document">
                                                 <div class="modal-content">
                                                     <div class="modal-header">
-                                                        <h4 class="modal-title" id="largeModalLabel">สร้างการประชุม</h4>
+                                                        <h4 class="modal-title" id="largeModalLabel">การจำนำหลักทรัพย์</h4>
                                                     </div>
                                                     <div class="modal-body">
                                                         <form class="form-horizontal box__director">
@@ -426,34 +322,10 @@
                                                             </div>
                                                             <div class="row clearfix">
                                                                 <div class="col-lg-3 col-md-3">
-                                                                    <b>วันที่</b>
+                                                                    <b>วันที่ขึ้นทะเบียน</b>
                                                                     <div class="input-group">
                                                                         <div class="form-line">
                                                                             <input v-model="date_start" type="text" class="form-control date" placeholder="25/1/2564" />
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="col-lg-2 col-md-2">
-                                                                    <b>ประเภท</b>
-                                                                    <div class="input-group">
-                                                                        <div class="form-line">
-                                                                            <select class="form-control show-tick">
-                                                                                <optgroup label="ประเภทของประชุม">
-                                                                                    <option>จัดตั้งบริษัท </option>
-                                                                                    <option>ประชุมสามัญ </option>
-                                                                                    <option>ประชุมวิสามัญ </option>
-                                                                                    <option>คัดลอกจากสมุดทะเบียน </option>
-                                                                                    <option>ควบบริษัท </option>
-                                                                                </optgroup>
-                                                                            </select>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="col-lg-2 col-md-2">
-                                                                    <b>ลำดับ</b>
-                                                                    <div class="input-group">
-                                                                        <div class="form-line">
-                                                                            <input type="text" class="form-control" placeholder="1/2564" />
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -469,306 +341,92 @@
                                                                     <b>มูลค่าหุ้น</b>
                                                                     <div class="input-group">
                                                                         <div class="form-line">
-                                                                            <input type="text" class="form-control" placeholder="10.00" />
+                                                                            <input type="text" class="form-control" placeholder="2,500,0000" />
                                                                         </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                             <div class="row clearfix">
-
-                                                                <div class="col-lg-1 col-md-1"><b>กลุ่ม </b>
+                                                                <div class="col-lg-3 col-md-3">
+                                                                    <b>วันที่จำนำหุ้น</b>
                                                                     <div class="input-group">
                                                                         <div class="form-line">
-                                                                            <select class="form-control show-tick">
-                                                                                <optgroup label="กลุ่ม">
-                                                                                    <option> 1</option>
-                                                                                    <option> 2</option>
-                                                                                    <option> 3</option>
-                                                                                    <option> 4</option>
-                                                                                    <option> 5</option>
-                                                                                </optgroup>
-                                                                            </select>
+                                                                            <input v-model="date_start" type="text" class="form-control date" placeholder="25/10/2564" />
                                                                         </div>
                                                                     </div>
                                                                 </div>
-                                                                <div class="col-lg-4 col-md-4"><b>กรรมการ</b>
+                                                                <div class="col-lg-9 col-md-9"><b>ผู้รับจำนำ</b>
                                                                     <div class="input-group">
                                                                         <div class="form-line">
-                                                                            <select class="form-control show-tick">
-                                                                                <optgroup label="รายชื่อกรรมการ">
-                                                                                    <option> นาย วิชัย วชิรพงศ์</option>
-                                                                                    <option> นาง มณีรัตน์ งามเรืองพงศ์</option>
-                                                                                </optgroup>
-                                                                            </select>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="col-lg-4 col-md-4"><b>กรรมการ</b>
-                                                                    <div class="input-group">
-                                                                        <div class="form-line">
-                                                                            <select class="form-control show-tick">
-                                                                                <optgroup label="รายชื่อกรรมการ">
-                                                                                    <option>นาง มณีรัตน์ งามเรืองพงศ์</option>
-                                                                                    <option> นาย วิชัย วชิรพงศ์ </option>
-                                                                                </optgroup>
-                                                                            </select>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="col-lg-2 col-md-2"><b>Running</b>
-                                                                    <div class="input-group">
-                                                                        <div class="form-line">
-                                                                            <input type="text" class="form-control ip" placeholder="1" />
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="col-lg-1 col-md-1">
-                                                                    <!-- bar function-->
-                                                                    <div class="btn_function" style="border-bottom: 0;margin-bottom: 0;padding: 20px 0;">
-                                                                        <div class="__box" style="height: 35px;width: 35px;padding: 0;margin: 0;margin-right: 10px;">
-                                                                            <div class="_add" style="margin-top: 5px;">
-                                                                                <i class="material-icons">add</i>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="__box" style="height: 35px;width: 35px;padding: 0;margin: 0;">
-                                                                            <div class="_remove" style="margin-top: 5px;">
-                                                                                <i class="material-icons">remove</i>
-                                                                            </div>
+                                                                            <input v-model="date_start" type="text" class="form-control date" placeholder="สถาบันการเงิน" />
                                                                         </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                             <div class="row clearfix">
-                                                                <div class="col-lg-2 col-md-2">
-                                                                    <b>% การเรียกชำระ </b>
+                                                                <div class="col-lg-4 col-md-4">
+                                                                    <b>เลขที่หุ้น</b>
                                                                     <div class="input-group">
                                                                         <div class="form-line">
-                                                                            <input type="text" class="form-control" placeholder="25" />
+                                                                            <input type="text" class="form-control" placeholder=" 1 - 1,000,0000 " />
                                                                         </div>
                                                                     </div>
                                                                 </div>
-                                                                <div class="col-lg-4 col-md-4">
-                                                                    <b>ยอดชำระ <small> (%เรียกชำระXRegisterAmount)</small></b>
+                                                                <div class="col-lg-4 col-md-4"><b>จำนวนหุ้น </b>
                                                                     <div class="input-group">
                                                                         <div class="form-line">
-                                                                            <input type="text" class="form-control" placeholder="25" />
+                                                                            <input v-model="date_start" type="text" class="form-control date" placeholder="1,000,0000" />
                                                                         </div>
                                                                     </div>
                                                                 </div>
-                                                                <div class="col-lg-4 col-md-4">
+                                                                <div class="col-lg-4 col-md-4"><b>มูลค่ารวม</b>
+                                                                    <div class="input-group">
+                                                                        <div class="form-line">
+                                                                            <input v-model="date_start" type="text" class="form-control date" placeholder="1,000,0000" />
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row clearfix">
+                                                                <div class="col-lg-3 col-md-3">
+                                                                    <b>วันที่ปลดจำนำ</b>
+                                                                    <div class="input-group">
+                                                                        <div class="form-line">
+                                                                            <input type="text" class="form-control" placeholder="15/10/2565" />
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-lg-3 col-md-3">
+                                                                    <b>ยอดชำระ</b>
+                                                                    <div class="input-group">
+                                                                        <div class="form-line">
+                                                                            <input type="text" class="form-control" placeholder="1,500,0000" />
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-lg-3 col-md-3">
                                                                     <b>จำนวนหุ้น </b>
                                                                     <div class="input-group">
                                                                         <div class="form-line">
-                                                                            <input type="text" class="form-control" placeholder="2,500" />
+                                                                            <input type="text" class="form-control" placeholder="1,000,0000" />
                                                                         </div>
                                                                     </div>
                                                                 </div>
-                                                                <div class="col-lg-2 col-md-2">
-                                                                    <b>มูลค่าหุ้น</b>
+                                                                <div class="col-lg-3 col-md-3">
+                                                                    <b>เลขที่หุ้น</b>
                                                                     <div class="input-group">
                                                                         <div class="form-line">
-                                                                            <input type="text" class="form-control" placeholder="10.00" />
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <!--- add row --->
-                                                            <div class="row clearfix">
-
-                                                                <div class="col-lg-1 col-md-1"><b>กลุ่ม</b>
-                                                                    <div class="input-group">
-                                                                        <div class="form-line">
-                                                                            <select class="form-control show-tick">
-                                                                                <optgroup label="กลุ่ม">
-                                                                                    <option> 2</option>
-                                                                                    <option> 1</option>
-                                                                                    <option> 3</option>
-                                                                                    <option> 4</option>
-                                                                                    <option> 5</option>
-                                                                                </optgroup>
-                                                                            </select>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="col-lg-4 col-md-4"><b>กรรมการ</b>
-                                                                    <div class="input-group">
-                                                                        <div class="form-line">
-                                                                            <select class="form-control show-tick">
-                                                                                <optgroup label="รายชื่อกรรมการ">
-                                                                                    <option> นาย ชนุชตร สุขสันต์</option>
-                                                                                    <option> นาง สันต์ คมแก้ว</option>
-                                                                                </optgroup>
-                                                                            </select>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="col-lg-4 col-md-4"><b>กรรมการ</b>
-                                                                    <div class="input-group">
-                                                                        <div class="form-line">
-                                                                            <select class="form-control show-tick">
-                                                                                <optgroup label="รายชื่อกรรมการ">
-                                                                                    <option>นางสาว กรรณธิมา คมแก้ว</option>
-                                                                                    <option> นาง สันต์ คมแก้ว</option>
-                                                                                </optgroup>
-                                                                            </select>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="col-lg-2 col-md-2"><b>Running</b>
-                                                                    <div class="input-group">
-                                                                        <div class="form-line">
-                                                                            <input type="text" class="form-control ip" placeholder="2" />
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="col-lg-1 col-md-1">
-                                                                    <!-- bar function-->
-                                                                    <div class="btn_function" style="border-bottom: 0;margin-bottom: 0;padding: 20px 0;">
-                                                                        <div class="__box" style="height: 35px;width: 35px;padding: 0;margin: 0;margin-right: 10px;">
-                                                                            <div class="_add" style="margin-top: 5px;">
-                                                                                <i class="material-icons">add</i>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="__box" style="height: 35px;width: 35px;padding: 0;margin: 0;">
-                                                                            <div class="_remove" style="margin-top: 5px;">
-                                                                                <i class="material-icons">remove</i>
-                                                                            </div>
+                                                                            <input type="text" class="form-control" placeholder=" 1 - 1,000,0000 " />
                                                                         </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                             <div class="row clearfix">
-                                                                <div class="col-lg-2 col-md-2">
-                                                                    <b>% การเรียกชำระ </b>
-                                                                    <div class="input-group">
-                                                                        <div class="form-line">
-                                                                            <input type="text" class="form-control" placeholder="25" />
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
                                                                 <div class="col-lg-4 col-md-4">
-                                                                    <b>ยอดชำระ <small> (%เรียกชำระXRegisterAmount)</small></b>
+                                                                    <b>สถานที่จัดเก็บใบหุ้น</b>
                                                                     <div class="input-group">
                                                                         <div class="form-line">
-                                                                            <input type="text" class="form-control" placeholder="25" />
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="col-lg-4 col-md-4">
-                                                                    <b>จำนวนหุ้น </b>
-                                                                    <div class="input-group">
-                                                                        <div class="form-line">
-                                                                            <input type="text" class="form-control" placeholder="2,500" />
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="col-lg-2 col-md-2">
-                                                                    <b>มูลค่าหุ้น</b>
-                                                                    <div class="input-group">
-                                                                        <div class="form-line">
-                                                                            <input type="text" class="form-control" placeholder="10.00" />
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <!--- add row --->
-                                                            <div class="row clearfix">
-
-                                                                <div class="col-lg-1 col-md-1"><b>กลุ่ม</b>
-                                                                    <div class="input-group">
-                                                                        <div class="form-line">
-                                                                            <select class="form-control show-tick">
-                                                                                <optgroup label="กลุ่ม">
-                                                                                    <option> </option>
-                                                                                    <option> 2</option>
-                                                                                    <option> 1</option>
-                                                                                    <option> 3</option>
-                                                                                    <option> 4</option>
-                                                                                    <option> 5</option>
-                                                                                </optgroup>
-                                                                            </select>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="col-lg-4 col-md-4"><b>กรรมการ</b>
-                                                                    <div class="input-group">
-                                                                        <div class="form-line">
-                                                                            <select class="form-control show-tick">
-                                                                                <optgroup label="รายชื่อกรรมการ">
-                                                                                    <option> </option>
-                                                                                    <option> นาย ชนุชตร สุขสันต์</option>
-                                                                                    <option> นาง สันต์ คมแก้ว</option>
-                                                                                </optgroup>
-                                                                            </select>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="col-lg-4 col-md-4"><b>กรรมการ</b>
-                                                                    <div class="input-group">
-                                                                        <div class="form-line">
-                                                                            <select class="form-control show-tick">
-                                                                                <optgroup label="รายชื่อกรรมการ">
-                                                                                    <option> </option>
-                                                                                    <option>นางสาว กรรณธิมา คมแก้ว</option>
-                                                                                    <option> นาง สันต์ คมแก้ว</option>
-                                                                                </optgroup>
-                                                                            </select>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="col-lg-2 col-md-2"><b>Running</b>
-                                                                    <div class="input-group">
-                                                                        <div class="form-line">
-                                                                            <input type="text" class="form-control ip" placeholder="" />
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="col-lg-1 col-md-1">
-                                                                    <!-- bar function-->
-                                                                    <div class="btn_function" style="border-bottom: 0;margin-bottom: 0;padding: 20px 0;">
-                                                                        <div class="__box" style="height: 35px;width: 35px;padding: 0;margin: 0;margin-right: 10px;">
-                                                                            <div class="_add" style="margin-top: 5px;">
-                                                                                <i class="material-icons">add</i>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="__box" style="height: 35px;width: 35px;padding: 0;margin: 0;">
-                                                                            <div class="_remove" style="margin-top: 5px;">
-                                                                                <i class="material-icons">remove</i>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="row clearfix">
-                                                                <div class="col-lg-2 col-md-2">
-                                                                    <b>% การเรียกชำระ </b>
-                                                                    <div class="input-group">
-                                                                        <div class="form-line">
-                                                                            <input type="text" class="form-control" placeholder="" />
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="col-lg-4 col-md-4">
-                                                                    <b>ยอดชำระ <small> (%เรียกชำระXRegisterAmount)</small></b>
-                                                                    <div class="input-group">
-                                                                        <div class="form-line">
-                                                                            <input type="text" class="form-control" placeholder="" />
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="col-lg-4 col-md-4">
-                                                                    <b>จำนวนหุ้น </b>
-                                                                    <div class="input-group">
-                                                                        <div class="form-line">
-                                                                            <input type="text" class="form-control" placeholder=" " />
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="col-lg-2 col-md-2">
-                                                                    <b>มูลค่าหุ้น</b>
-                                                                    <div class="input-group">
-                                                                        <div class="form-line">
-                                                                            <input type="text" class="form-control" placeholder="" />
+                                                                            <input type="text" class="form-control" placeholder="สำนักงาน" />
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -790,1295 +448,6 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                    </div>
-                                    <!-- Tab panes 2-->
-                                    <div role="tabpanel" class="tab-pane" id="Lot">
-                                        <div>
-                                            <!-- bar control-->
-                                            <div class="row clearfix">
-                                                <div class="col-sm-12 col-md-12 col-lg-12 btn_control">
-                                                    <div class="__save"><button type="button" class="btn btn-raised  waves-effect"> <i class="material-icons">save</i> </button></div>
-                                                    <div class="__new"><button type="button" class="btn btn-raised  waves-effect"> <i class="material-icons">insert_drive_file</i> </button></div>
-                                                    <div class="__close"><button type="button" class="btn btn-raised  waves-effect"> <i class="material-icons">clear</i> </button></div>
-                                                    <div class="__exit"><button type="button" class="btn btn-raised  waves-effect"> <i class="material-icons">exit_to_app</i> </button></div>
-                                                </div>
-                                            </div>
-
-                                            <!-- table -->
-                                            <div class="body table-responsive stock_list">
-                                                <table class="table table-hover">
-                                                    <thead>
-                                                        <tr>
-                                                            <th>วันลงทะเบียน</th>
-                                                            <th>วันประชุม</th>
-                                                            <th>นิติบุคคล/บุคคล</th>
-                                                            <th>ทะเบียน</th>
-                                                            <th>ลำดับที่พิมพ์</th>
-                                                            <th>ใบหุ้นลงวันที่</th>
-                                                            <th>ใบหุ้นเลขที่</th>
-                                                            <th>จองหุ้น <br> /รับโอน</th>
-                                                            <th>Pay Type</th>
-                                                            <th>Start No.</th>
-                                                            <th>End No.</th>
-                                                            <th>มูลค่าหุ้น</th>
-                                                            <th>จำนวนหุ้น</th>
-                                                        </tr>
-                                                    </thead>
-                                                    <tbody>
-                                                        <tr>
-                                                            <td>19/2/2504</td>
-                                                            <td>19/5/2504</td>
-                                                            <td>บจ.พรอสเพอรัส วิน 168 จำกัด </td>
-                                                            <td>1</td>
-                                                            <td>1</td>
-                                                            <td>1/6/2504</td>
-                                                            <td>1</td>
-                                                            <td>จองหุ้น</td>
-                                                            <td>1</td>
-                                                            <td>2500</td>
-                                                            <td>5000</td>
-                                                            <td>10.000</td>
-                                                            <td>2,500</td>
-
-                                                        </tr>
-                                                        <tr>
-                                                            <td>19/2/2504</td>
-                                                            <td>19/5/2504</td>
-                                                            <td>บจ.ภัทโสภณ จำกัด </td>
-                                                            <td>8</td>
-                                                            <td>1</td>
-                                                            <td>1/6/2504</td>
-                                                            <td>2</td>
-                                                            <td>จองหุ้น</td>
-                                                            <td>1</td>
-                                                            <td>5000</td>
-                                                            <td>6000</td>
-                                                            <td>10.000</td>
-                                                            <td>1,000</td>
-
-                                                        </tr>
-                                                        <tr>
-                                                            <td>19/2/2504</td>
-                                                            <td>19/5/2504</td>
-                                                            <td>บจ.วันดีดีโก จำกัด</td>
-                                                            <td>8</td>
-                                                            <td>1</td>
-                                                            <td>1/6/2504</td>
-                                                            <td>2</td>
-                                                            <td>จองหุ้น</td>
-                                                            <td>8</td>
-                                                            <td>6000</td>
-                                                            <td>7000</td>
-                                                            <td>10.000</td>
-                                                            <td>1,000</td>
-
-                                                        </tr>
-                                                        <tr>
-                                                            <td>19/2/2504</td>
-                                                            <td>19/5/2504</td>
-                                                            <td>นาย วิชัย วชิรพงศ์ </td>
-                                                            <td>8</td>
-                                                            <td>1</td>
-                                                            <td>1/6/2504</td>
-                                                            <td>2</td>
-                                                            <td>จองหุ้น</td>
-                                                            <td>8</td>
-                                                            <td>7000</td>
-                                                            <td>8000</td>
-                                                            <td>10.000</td>
-                                                            <td>1,000</td>
-
-                                                        </tr>
-                                                        <tr>
-                                                            <td>19/8/2504</td>
-                                                            <td>30/9/2504</td>
-                                                            <td>บจ.ณัฐปภัสร์ 59 จำกัด</td>
-                                                            <td>8</td>
-                                                            <td>1</td>
-                                                            <td>30/9/2504</td>
-                                                            <td>2</td>
-                                                            <td>จองหุ้น</td>
-                                                            <td>8</td>
-                                                            <td>2500</td>
-                                                            <td>3500</td>
-                                                            <td>10.000</td>
-                                                            <td>1,000</td>
-
-                                                        </tr>
-                                                    </tbody>
-                                                </table>
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                    <!-- Tab panes 3-->
-                                    <div role="tabpanel" class="tab-pane" id="StockNo">
-                                        <div>
-                                            <!-- bar control-->
-                                            <div class="row clearfix">
-                                                <div class="col-sm-12 col-md-12 col-lg-12 btn_control">
-                                                    <div class="__save">
-                                                        <button type="button" class="btn btn-raised waves-effect">
-                                                            <i class="material-icons">save</i>
-                                                        </button>
-                                                    </div>
-                                                    <div class="__new">
-                                                        <button type="button" class="btn btn-raised waves-effect">
-                                                            <i class="material-icons">insert_drive_file</i>
-                                                        </button>
-                                                    </div>
-                                                    <div class="__close">
-                                                        <button type="button" class="btn btn-raised waves-effect">
-                                                            <i class="material-icons">clear</i>
-                                                        </button>
-                                                    </div>
-                                                    <div class="__exit">
-                                                        <button type="button" class="btn btn-raised waves-effect">
-                                                            <i class="material-icons">exit_to_app</i>
-                                                        </button>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- bar function-->
-                                            <div class="btn_function">
-                                                <div class="__box" style="width: 120px">
-                                                    <div class="_Sell">
-                                                        <button type="button" class="btn btn-default" data-toggle="modal" data-target="#CreateNewLotModal">
-                                                            <i class="material-icons" style="padding: 7px 20px;">add</i>
-                                                            <span class="function-name">เพิ่ม</span>
-                                                        </button>
-                                                    </div>
-                                                </div>
-                                                <div class="__box" style="width: 120px">
-                                                    <div class="_Sell">
-                                                        <button type="button" class="btn btn-default" data-toggle="modal" data-target="#StockNoModal">
-                                                            <i class="material-icons" style="padding: 7px 20px;">sync</i>
-                                                            <span class="function-name">ซื้อขาย</span>
-                                                        </button>
-                                                    </div>
-                                                </div>
-                                                <div class="__box" style="width: 120px">
-                                                    <div class="_reduction">
-                                                        <button type="button" class="btn btn-default" data-toggle="modal" data-target="#IncreaseModal" style="margin-top: 10px">
-                                                            <i class="material-icons">trending_up</i><br>
-                                                            <span class="function-name">เพิ่มทุน</span>
-                                                        </button>
-                                                    </div>
-                                                </div>
-                                                <div class="__box" style="width: 120px">
-                                                    <div class="_reduction">
-                                                        <button type="button" class="btn btn-default" data-toggle="modal" data-target="#ReductionModal" style="margin-top: 10px">
-                                                            <i class="material-icons">trending_down</i><br>
-                                                            <span class="function-name">ลดทุน</span>
-                                                        </button>
-                                                    </div>
-                                                </div>
-                                                <div class="__box">
-                                                    <div class="_print" style="margin-top: 15px">
-                                                        <i class="material-icons">print</i>
-                                                        <span class="function-name">พิมพ์</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- table -->
-                                            <div class="body table-responsive stock_list">
-                                                <table class="table table-hover">
-                                                    <thead>
-                                                        <tr>
-                                                            <th>วันลงทะเบียน</th>
-                                                            <th>วันประชุม</th>
-                                                            <th>วันขาดประชุม</th>
-                                                            <th>นิติบุคคล/บุคคล</th>
-                                                            <th>ทะเบียน</th>
-                                                            <th>ลำดับที่พิมพ์</th>
-                                                            <th>ใบหุ้นลงวันที่</th>
-                                                            <th>ใบหุ้นเลขที่</th>
-                                                            <th>จองหุ้น <br> /รับโอน</th>
-                                                            <th>Pay Type</th>
-                                                            <th>Start No.</th>
-                                                            <th>End No.</th>
-                                                            <th>มูลค่าหุ้น</th>
-                                                            <th>จำนวนหุ้น</th>
-                                                            <th>Sell To</th>
-                                                            <th>Sell <br /> Start No.</th>
-                                                            <th>Sell <br /> End No.</th>
-                                                            <th>ใบหุ้นใหม่เลขที่</th>
-                                                            <th>Action</th>
-                                                        </tr>
-                                                    </thead>
-                                                    <tbody>
-                                                        <tr>
-                                                            <td>19/2/2504</td>
-                                                            <td>19/5/2504</td>
-                                                            <td>-</td>
-                                                            <td>บจ.พรอสเพอรัส วิน 168 จำกัด (หลังควบ)</td>
-                                                            <td>1</td>
-                                                            <td>1</td>
-                                                            <td>1/6/2504</td>
-                                                            <td>1</td>
-                                                            <td>จองหุ้น</td>
-                                                            <td>1</td>
-                                                            <td>2500</td>
-                                                            <td>5000</td>
-                                                            <td>10.000</td>
-                                                            <td>2,500</td>
-                                                            <td>-</td>
-                                                            <td>-</td>
-                                                            <td>-</td>
-                                                            <td>-</td>
-                                                            <td>
-                                                                <div class="input-group">
-                                                                    <input type="checkbox" id="md_checkbox_21" class="filled-in chk-col-red _red-vitality" checked />
-                                                                    <label for="md_checkbox_21"></label>
-                                                                </div>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>19/2/2504</td>
-                                                            <td>19/5/2504</td>
-                                                            <td>-</td>
-                                                            <td>นาย วิชัย วชิรพงศ์</td>
-                                                            <td>2</td>
-                                                            <td>1</td>
-                                                            <td>1/6/2504</td>
-                                                            <td>2</td>
-                                                            <td>จองหุ้น</td>
-                                                            <td>1</td>
-                                                            <td>5000</td>
-                                                            <td>6000</td>
-                                                            <td>10.000</td>
-                                                            <td>1,000</td>
-                                                            <td>-</td>
-                                                            <td>-</td>
-                                                            <td>-</td>
-                                                            <td>-</td>
-                                                            <td>
-                                                                <div class="input-group">
-                                                                    <input type="checkbox" id="md_checkbox_21" class="filled-in chk-col-red _red-vitality" checked />
-                                                                    <label for="md_checkbox_21"></label>
-                                                                </div>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>19/2/2504</td>
-                                                            <td>19/5/2504</td>
-                                                            <td>-</td>
-                                                            <td>นาง มณีรัตน์ งามเรืองพงศ์</td>
-                                                            <td>3</td>
-                                                            <td>1</td>
-                                                            <td>1/6/2504</td>
-                                                            <td>2</td>
-                                                            <td>จองหุ้น</td>
-                                                            <td>8</td>
-                                                            <td>6000</td>
-                                                            <td>7000</td>
-                                                            <td>10.000</td>
-                                                            <td>1,000</td>
-                                                            <td>-</td>
-                                                            <td>-</td>
-                                                            <td>-</td>
-                                                            <td>-</td>
-                                                            <td>
-                                                                <div class="input-group">
-                                                                    <input type="checkbox" id="md_checkbox_21" class="filled-in chk-col-red _red-vitality" checked />
-                                                                    <label for="md_checkbox_21"></label>
-                                                                </div>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>19/2/2504</td>
-                                                            <td>19/5/2504</td>
-                                                            <td>-</td>
-                                                            <td>MR.SUNSHINE TAGALOG</td>
-                                                            <td>4</td>
-                                                            <td>1</td>
-                                                            <td>1/6/2504</td>
-                                                            <td>2</td>
-                                                            <td>จองหุ้น</td>
-                                                            <td>8</td>
-                                                            <td>7000</td>
-                                                            <td>8000</td>
-                                                            <td>10.000</td>
-                                                            <td>1,000</td>
-                                                            <td>-</td>
-                                                            <td>-</td>
-                                                            <td>-</td>
-                                                            <td>-</td>
-                                                            <td>
-                                                                <div class="input-group">
-                                                                    <input type="checkbox" id="md_checkbox_21" class="filled-in chk-col-red _red-vitality" checked />
-                                                                    <label for="md_checkbox_21"></label>
-                                                                </div>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>19/2/2504</td>
-                                                            <td>30/9/2504</td>
-                                                            <td>-</td>
-                                                            <td>บจ.พรอสเพอรัส วิน 168 จำกัด (หลังควบ)</td>
-                                                            <td>1</td>
-                                                            <td>1</td>
-                                                            <td>30/9/2504</td>
-                                                            <td>1</td>
-                                                            <td>โอนหุ้น</td>
-                                                            <td>1</td>
-                                                            <td>2500</td>
-                                                            <td>5000</td>
-                                                            <td>10.000</td>
-                                                            <td>2,500</td>
-                                                            <td>บจ.ณัฐปภัสร์ 59 จำกัด</td>
-                                                            <td>2500</td>
-                                                            <td>3500</td>
-                                                            <th>9</th>
-                                                            <td>
-                                                                <div class="input-group">
-                                                                    <input type="checkbox" id="md_checkbox_21" class="filled-in chk-col-red _red-vitality" checked />
-                                                                    <label for="md_checkbox_21"></label>
-                                                                </div>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>19/2/2504</td>
-                                                            <td>30/9/2504</td>
-                                                            <td>-</td>
-                                                            <td>บจ.ณัฐปภัสร์ 59 จำกัด</td>
-                                                            <td>1</td>
-                                                            <td>1</td>
-                                                            <td>30/9/2504</td>
-                                                            <td>1</td>
-                                                            <td>รับโอน</td>
-                                                            <td>1</td>
-                                                            <td>2500</td>
-                                                            <td>3500</td>
-                                                            <td>10.000</td>
-                                                            <td>2,500</td>
-                                                            <td>-</td>
-                                                            <td>-</td>
-                                                            <td>-</td>
-                                                            <th>9</th>
-                                                            <td>
-                                                                <div class="input-group">
-                                                                    <input type="checkbox" id="md_checkbox_21" class="filled-in chk-col-red _red-vitality" checked />
-                                                                    <label for="md_checkbox_21"></label>
-                                                                </div>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>19/2/2504</td>
-                                                            <td>30/9/2504</td>
-                                                            <td>-</td>
-                                                            <td>บจ.อายู สตูดิโอ จำกัด</td>
-                                                            <td>1</td>
-                                                            <td>1</td>
-                                                            <td>30/9/2504</td>
-                                                            <td>1</td>
-                                                            <td>หุ้นเพิ่มทุน </td>
-                                                            <td>1</td>
-                                                            <td>2500</td>
-                                                            <td>3500</td>
-                                                            <td>10.000</td>
-                                                            <td>2,500</td>
-                                                            <td>-</td>
-                                                            <td>-</td>
-                                                            <td>-</td>
-                                                            <th>9</th>
-                                                            <td>
-                                                                <div class="input-group">
-                                                                    <input type="checkbox" id="md_checkbox_21" class="filled-in chk-col-red _red-vitality" checked />
-                                                                    <label for="md_checkbox_21"></label>
-                                                                </div>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>19/2/2504</td>
-                                                            <td>30/9/2504</td>
-                                                            <td>-</td>
-                                                            <td>บจ.4 สมาร์ท พลัส จำกัด</td>
-                                                            <td>1</td>
-                                                            <td>1</td>
-                                                            <td>30/9/2504</td>
-                                                            <td>1</td>
-                                                            <td>หุ้นลดทุน </td>
-                                                            <td>1</td>
-                                                            <td>2500</td>
-                                                            <td>3500</td>
-                                                            <td>10.000</td>
-                                                            <td>2,500</td>
-                                                            <td>-</td>
-                                                            <td>-</td>
-                                                            <td>-</td>
-                                                            <th>9</th>
-                                                            <td>
-                                                                <div class="input-group">
-                                                                    <input type="checkbox" id="md_checkbox_21" class="filled-in chk-col-red _red-vitality" checked />
-                                                                    <label for="md_checkbox_21"></label>
-                                                                </div>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>19/2/2504</td>
-                                                            <td>30/9/2504</td>
-                                                            <td>-</td>
-                                                            <td>บจ.พลัส มิราเคิล จำกัด</td>
-                                                            <td>1</td>
-                                                            <td>1</td>
-                                                            <td>30/9/2504</td>
-                                                            <td>1</td>
-                                                            <td>หุ้นควบ </td>
-                                                            <td>1</td>
-                                                            <td>2500</td>
-                                                            <td>3500</td>
-                                                            <td>10.000</td>
-                                                            <td>2,500</td>
-                                                            <td>-</td>
-                                                            <td>-</td>
-                                                            <td>-</td>
-                                                            <th>9</th>
-                                                            <td>
-                                                                <div class="input-group">
-                                                                    <input type="checkbox" id="md_checkbox_21" class="filled-in chk-col-red _red-vitality" checked />
-                                                                    <label for="md_checkbox_21"></label>
-                                                                </div>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>19/2/2504</td>
-                                                            <td>30/9/2504</td>
-                                                            <td>-</td>
-                                                            <td>บจ.ชิวา1982 จำกัด</td>
-                                                            <td>1</td>
-                                                            <td>1</td>
-                                                            <td>30/9/2504</td>
-                                                            <td>1</td>
-                                                            <td>หุ้นคงเหลือ </td>
-                                                            <td>1</td>
-                                                            <td>2500</td>
-                                                            <td>3500</td>
-                                                            <td>10.000</td>
-                                                            <td>2,500</td>
-                                                            <td>-</td>
-                                                            <td>-</td>
-                                                            <td>-</td>
-                                                            <th>9</th>
-                                                            <td>
-                                                                <div class="input-group">
-                                                                    <input type="checkbox" id="md_checkbox_21" class="filled-in chk-col-red _red-vitality" checked />
-                                                                    <label for="md_checkbox_21"></label>
-                                                                </div>
-                                                            </td>
-                                                        </tr>
-                                                    </tbody>
-                                                </table>
-                                            </div>
-
-                                            <!-- Modal Create New Lot -->
-                                            <div class="modal fade" id="CreateNewLotModal" tabindex="-1" role="dialog">
-                                                <div class="modal-dialog modal-lg box__director" role="document">
-                                                    <div class="modal-content">
-                                                        <div class="modal-header">
-                                                            <h4 class="modal-title" id="largeModalLabel">
-                                                                Create New Lot
-                                                            </h4>
-                                                        </div>
-                                                        <div class="modal-body">
-                                                            <form class="form-horizontal box__director">
-                                                                <div class="row clearfix">
-                                                                    <div class="col-lg-2 col-md-2">
-                                                                        <b>เลือกวันประชุม </b>
-                                                                        <div class="input-group">
-                                                                            <div class="form-line">
-                                                                                <select class="form-control show-tick">
-                                                                                    <optgroup label="วันที่ประชุมล่าสุด">
-                                                                                        <option> 1/10/2560</option>
-                                                                                        <option> 1/9/2560</option>
-                                                                                        <option> 1/8/2560</option>
-                                                                                        <option> 1/7/2560</option>
-                                                                                        <option> 1/6/2560</option>
-                                                                                        <option> 1/5/2560</option>
-                                                                                        <option> 1/4/2560</option>
-                                                                                    </optgroup>
-                                                                                </select>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                                <!-- row -->
-                                                            </form>
-                                                        </div>
-                                                        <div class="modal-footer">
-                                                            <a href="#save"></a><button type="button" class="btn btn-raised btn-default __redvitality waves-effect">
-                                                                บันทึก
-                                                            </button>
-                                                            <a href="#cancel"></a><button type="button" class="btn btn-raised bg-grey waves-effect">
-                                                                ยกเลิก
-                                                            </button>
-                                                            <button type="button" class="btn btn-link waves-effect" data-dismiss="modal">
-                                                                ปิด
-                                                            </button>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- Modal StockNo -->
-                                            <div class="modal fade" id="StockNoModal" tabindex="-1" role="dialog">
-                                                <div class="modal-dialog modal-lg box__director" role="document">
-                                                    <div class="modal-content">
-                                                        <div class="modal-header">
-                                                            <h4 class="modal-title" id="largeModalLabel">
-                                                                การซื้อขายหุ้น
-                                                            </h4>
-                                                        </div>
-                                                        <div class="modal-body">
-                                                            <form class="form-horizontal box__director">
-                                                                <div class="row clearfix">
-                                                                    <div class="col-lg-2 col-md-2">
-                                                                        <b>ใบหุ้นเลขที่</b>
-                                                                        <div class="input-group">
-                                                                            <div class="form-line">
-                                                                                <input type="text" class="form-control" placeholder="1 " />
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="col-lg-4 col-md-4">
-                                                                        <b>ใบหุ้นลงวันที่</b>
-                                                                        <div class="input-group">
-                                                                            <div class="form-line">
-                                                                                <input type="text" class="form-control" placeholder="1/6/2504" />
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div> <!-- row -->
-                                                                <div class="row clearfix">
-                                                                    <div class="col-lg-4 col-md-4">
-                                                                        <b>Sell To</b>
-                                                                        <div class="input-group">
-                                                                            <div class="form-line">
-                                                                                <select class="form-control show-tick">
-                                                                                    <optgroup label="บริษัท">
-                                                                                        <option> บจ.ณัฐปภัสร์ 59 จำกัด </option>
-                                                                                        <option> บจ.พรอสเพอรัส วิน 168 จำกัด </option>
-                                                                                    </optgroup>
-                                                                                    <optgroup label="บุคคล">
-                                                                                        <option> นาย วิชัย วชิรพงศ์</option>
-                                                                                        <option> MR. SUNSHINE TAGALOG</option>
-                                                                                    </optgroup>
-                                                                                </select>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="col-lg-3 col-md-3">
-                                                                        <b>Sell Start No.</b>
-                                                                        <div class="input-group">
-                                                                            <div class="form-line">
-                                                                                <input type="text" class="form-control" placeholder="2500" />
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="col-lg-3 col-md-3">
-                                                                        <b>Sell End No.</b>
-                                                                        <div class="input-group">
-                                                                            <div class="form-line">
-                                                                                <input type="text" class="form-control" placeholder="3500" />
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="col-lg-1 col-md-1">
-                                                                        <!-- bar function-->
-                                                                        <div class="btn_function" style="border-bottom: 0;margin-bottom: 0;padding: 20px 0;">
-                                                                            <div class="__box" style="height: 35px;width: 35px;padding: 0;margin: 0;margin-right: 10px;">
-                                                                                <div class="_add" style="margin-top: 5px;">
-                                                                                    <i class="material-icons">add</i>
-                                                                                </div>
-                                                                            </div>
-                                                                            <div class="__box" style="height: 35px;width: 35px;padding: 0;margin: 0;">
-                                                                                <div class="_remove" style="margin-top: 5px;">
-                                                                                    <i class="material-icons">remove</i>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                                <!-- row -->
-                                                                <div class="row clearfix">
-                                                                    <div class="col-lg-4 col-md-4">
-                                                                        <b>Sell To</b>
-                                                                        <div class="input-group">
-                                                                            <div class="form-line">
-                                                                                <select class="form-control show-tick">
-                                                                                    <optgroup label="บุคคล">
-                                                                                        <option> นาย วิชัย วชิรพงศ์</option>
-                                                                                        <option> MR. SUNSHINE TAGALOG</option>
-                                                                                    </optgroup>
-                                                                                    <optgroup label="บริษัท">
-                                                                                        <option> บจ.ณัฐปภัสร์ 59 จำกัด </option>
-                                                                                        <option> บจ.พรอสเพอรัส วิน 168 จำกัด </option>
-                                                                                    </optgroup>
-
-                                                                                </select>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="col-lg-3 col-md-3">
-                                                                        <b>Sell Start No.</b>
-                                                                        <div class="input-group">
-                                                                            <div class="form-line">
-                                                                                <input type="text" class="form-control" placeholder="3500" />
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="col-lg-3 col-md-3">
-                                                                        <b>Sell End No.</b>
-                                                                        <div class="input-group">
-                                                                            <div class="form-line">
-                                                                                <input type="text" class="form-control" placeholder="4500" />
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="col-lg-1 col-md-1">
-                                                                        <!-- bar function-->
-                                                                        <div class="btn_function" style="border-bottom: 0;margin-bottom: 0;padding: 20px 0;">
-                                                                            <div class="__box" style="height: 35px;width: 35px;padding: 0;margin: 0;margin-right: 10px;">
-                                                                                <div class="_add" style="margin-top: 5px;">
-                                                                                    <i class="material-icons">add</i>
-                                                                                </div>
-                                                                            </div>
-                                                                            <div class="__box" style="height: 35px;width: 35px;padding: 0;margin: 0;">
-                                                                                <div class="_remove" style="margin-top: 5px;">
-                                                                                    <i class="material-icons">remove</i>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                                <!-- row -->
-                                                                <div class="row clearfix">
-                                                                    <div class="col-lg-4 col-md-4">
-                                                                        <b>Sell To</b>
-                                                                        <div class="input-group">
-                                                                            <div class="form-line">
-                                                                                <select class="form-control show-tick">
-                                                                                    <optgroup label="บุคคล">
-                                                                                        <option></option>
-                                                                                        <option> นาย วิชัย วชิรพงศ์</option>
-                                                                                        <option> MR. SUNSHINE TAGALOG</option>
-                                                                                    </optgroup>
-                                                                                    <optgroup label="บริษัท">
-                                                                                        <option> บจ.ณัฐปภัสร์ 59 จำกัด </option>
-                                                                                        <option> บจ.พรอสเพอรัส วิน 168 จำกัด </option>
-                                                                                    </optgroup>
-
-                                                                                </select>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="col-lg-3 col-md-3">
-                                                                        <b>Sell Start No.</b>
-                                                                        <div class="input-group">
-                                                                            <div class="form-line">
-                                                                                <input type="text" class="form-control" placeholder="" />
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="col-lg-3 col-md-3">
-                                                                        <b>Sell End No.</b>
-                                                                        <div class="input-group">
-                                                                            <div class="form-line">
-                                                                                <input type="text" class="form-control" placeholder="" />
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="col-lg-1 col-md-1">
-                                                                        <!-- bar function-->
-                                                                        <div class="btn_function" style="border-bottom: 0;margin-bottom: 0;padding: 20px 0;">
-                                                                            <div class="__box" style="height: 35px;width: 35px;padding: 0;margin: 0;margin-right: 10px;">
-                                                                                <div class="_add" style="margin-top: 5px;">
-                                                                                    <i class="material-icons">add</i>
-                                                                                </div>
-                                                                            </div>
-                                                                            <div class="__box" style="height: 35px;width: 35px;padding: 0;margin: 0;">
-                                                                                <div class="_remove" style="margin-top: 5px;">
-                                                                                    <i class="material-icons">remove</i>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-
-                                                            </form>
-                                                        </div>
-                                                        <div class="modal-footer">
-                                                            <a href="#save"></a><button type="button" class="btn btn-raised btn-default __redvitality waves-effect">
-                                                                บันทึก
-                                                            </button>
-                                                            <a href="#cancel"></a><button type="button" class="btn btn-raised bg-grey waves-effect">
-                                                                ยกเลิก
-                                                            </button>
-                                                            <button type="button" class="btn btn-link waves-effect" data-dismiss="modal">
-                                                                ปิด
-                                                            </button>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- Modal Reduction-->
-                                            <div class="modal fade" id="IncreaseModal" tabindex="-1" role="dialog">
-                                                <div class="modal-dialog modal-lg box__director" role="document">
-                                                    <div class="modal-content">
-                                                        <div class="modal-header">
-                                                            <h4 class="modal-title" id="largeModalLabel">
-                                                                การเพิ่มทุน
-                                                            </h4>
-                                                        </div>
-                                                        <div class="modal-body">
-                                                            <form class="form-horizontal box__director">
-
-                                                                <div class="row clearfix">
-                                                                    <div class="col-lg-2 col-md-2">
-                                                                        <b>ใบหุ้นเลขที่</b>
-                                                                        <div class="input-group">
-                                                                            <div class="form-line">
-                                                                                <input type="text" class="form-control" placeholder="1 " />
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="col-lg-4 col-md-4">
-                                                                        <b>ใบหุ้นลงวันที่</b>
-                                                                        <div class="input-group">
-                                                                            <div class="form-line">
-                                                                                <input type="text" class="form-control" placeholder="30/10/2504" />
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div> <!-- row -->
-                                                                <div class="row clearfix">
-
-                                                                    <div class="col-lg-4 col-md-4">
-                                                                        <b>เพิ่มมูลค่าหุ้น (Par Value) </b>
-                                                                        <div class="input-group">
-                                                                            <div class="form-line">
-                                                                                <input type="text" class="form-control" placeholder="5.000" />
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="col-lg-4 col-md-4">
-                                                                        <b>เพิ่มจํานวนหุ้น</b>
-                                                                        <div class="input-group">
-                                                                            <div class="form-line">
-                                                                                <input type="text" class="form-control" placeholder="1000" />
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div> <!-- row -->
-                                                            </form>
-                                                        </div>
-                                                        <div class="modal-footer">
-                                                            <a href="#save"></a><button type="button" class="btn btn-raised btn-default __redvitality waves-effect">
-                                                                บันทึก
-                                                            </button>
-                                                            <a href="#cancel"></a><button type="button" class="btn btn-raised bg-grey waves-effect">
-                                                                ยกเลิก
-                                                            </button>
-                                                            <button type="button" class="btn btn-link waves-effect" data-dismiss="modal">
-                                                                ปิด
-                                                            </button>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- Modal Reduction-->
-                                            <div class="modal fade" id="ReductionModal" tabindex="-1" role="dialog">
-                                                <div class="modal-dialog modal-lg box__director" role="document">
-                                                    <div class="modal-content">
-                                                        <div class="modal-header">
-                                                            <h4 class="modal-title" id="largeModalLabel">
-                                                                การลดทุน
-                                                            </h4>
-                                                        </div>
-                                                        <div class="modal-body">
-                                                            <form class="form-horizontal box__director">
-
-                                                                <div class="row clearfix">
-                                                                    <div class="col-lg-2 col-md-2">
-                                                                        <b>ใบหุ้นเลขที่</b>
-                                                                        <div class="input-group">
-                                                                            <div class="form-line">
-                                                                                <input type="text" class="form-control" placeholder="1 " />
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="col-lg-4 col-md-4">
-                                                                        <b>ใบหุ้นลงวันที่</b>
-                                                                        <div class="input-group">
-                                                                            <div class="form-line">
-                                                                                <input type="text" class="form-control" placeholder="30/10/2504" />
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div> <!-- row -->
-                                                                <div class="row clearfix">
-
-                                                                    <div class="col-lg-4 col-md-4">
-                                                                        <b>ลดมูลค่าหุ้น (Par Value) </b>
-                                                                        <div class="input-group">
-                                                                            <div class="form-line">
-                                                                                <input type="text" class="form-control" placeholder="5.000" />
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="col-lg-4 col-md-4">
-                                                                        <b>ลดจํานวนหุ้น</b>
-                                                                        <div class="input-group">
-                                                                            <div class="form-line">
-                                                                                <input type="text" class="form-control" placeholder="1000" />
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div> <!-- row -->
-                                                            </form>
-                                                        </div>
-                                                        <div class="modal-footer">
-                                                            <a href="#save"></a><button type="button" class="btn btn-raised btn-default __redvitality waves-effect">
-                                                                บันทึก
-                                                            </button>
-                                                            <a href="#cancel"></a><button type="button" class="btn btn-raised bg-grey waves-effect">
-                                                                ยกเลิก
-                                                            </button>
-                                                            <button type="button" class="btn btn-link waves-effect" data-dismiss="modal">
-                                                                ปิด
-                                                            </button>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- Tab panes 4-->
-                                    <div role="tabpanel" class="tab-pane" id="Print">
-                                        <div>
-                                            <!-- bar control-->
-                                            <div class="row clearfix">
-                                                <div class="col-sm-12 col-md-12 col-lg-12 btn_control">
-                                                    <div class="__save">
-                                                        <button type="button" class="btn btn-raised waves-effect">
-                                                            <i class="material-icons">save</i>
-                                                        </button>
-                                                    </div>
-                                                    <div class="__new">
-                                                        <button type="button" class="btn btn-raised waves-effect">
-                                                            <i class="material-icons">insert_drive_file</i>
-                                                        </button>
-                                                    </div>
-                                                    <div class="__close">
-                                                        <button type="button" class="btn btn-raised waves-effect">
-                                                            <i class="material-icons">clear</i>
-                                                        </button>
-                                                    </div>
-                                                    <div class="__exit">
-                                                        <button type="button" class="btn btn-raised waves-effect">
-                                                            <i class="material-icons">exit_to_app</i>
-                                                        </button>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- bar function-->
-                                            <div class="btn_function">
-
-                                                <div class="__box">
-                                                    <div class="_print" style="margin-top: 15px">
-                                                        <i class="material-icons">print</i>
-                                                        <span class="function-name">พิมพ์</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="row clearfix">
-                                                <div class="ol-sm-12 col-md-12 col-lg-12"> <b>รูปแบบการพิมพ์</b>
-                                                    <div class="panel-group" id="accordion_1" role="tablist" aria-multiselectable="true">
-                                                        <div class="panel panel-primary">
-                                                            <div class="panel-heading" role="tab" id="headingOne_1">
-                                                                <h4 class="panel-title">
-                                                                    <a role="button" data-toggle="collapse" data-parent="#accordion_1" href="#collapseOne_1" aria-expanded="true" aria-controls="collapseOne_1">
-                                                                        <div class="input-group">
-                                                                            <input type="radio" id="radio_4" class="with-gap" checked>
-                                                                            <label for="radio_4">พิมพ์ภาษาไทย #1</label>
-                                                                        </div>
-                                                                    </a>
-                                                                </h4>
-                                                            </div>
-                                                            <div id="collapseOne_1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne_1">
-                                                                <div class="panel-body">
-                                                                    <img src="../assets/images/demoimg-stock-1.jpg" alt="">
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="panel panel-primary">
-                                                            <div class="panel-heading" role="tab" id="headingTwo_1">
-                                                                <h4 class="panel-title">
-                                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion_1" href="#collapseTwo_1" aria-expanded="false" aria-controls="collapseTwo_1">
-                                                                        <div class="input-group">
-                                                                            <input type="radio" id="radio_4" class="with-gap" checked>
-                                                                            <label for="radio_4">พิมพ์ภาษาอังกฤษ #2</label>
-                                                                        </div>
-                                                                    </a>
-                                                                </h4>
-                                                            </div>
-                                                            <div id="collapseTwo_1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo_1">
-                                                                <div class="panel-body">
-                                                                    <img src="../assets/images/demoimg-stock-2.jpg" alt="">
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- Tab panes 5-->
-                                    <div role="tabpanel" class="tab-pane" id="Investment">
-                                        <div>
-                                            <!-- bar control-->
-                                            <div class="row clearfix">
-                                                <div class="col-sm-12 col-md-12 col-lg-12 btn_control">
-                                                    <div class="__save"><button type="button" class="btn btn-raised  waves-effect"> <i class="material-icons">save</i> </button></div>
-                                                    <div class="__new"><button type="button" class="btn btn-raised  waves-effect"> <i class="material-icons">insert_drive_file</i> </button></div>
-                                                    <div class="__close"><button type="button" class="btn btn-raised  waves-effect"> <i class="material-icons">clear</i> </button></div>
-                                                    <div class="__exit"><button type="button" class="btn btn-raised  waves-effect"> <i class="material-icons">exit_to_app</i> </button></div>
-                                                </div>
-                                            </div>
-                                            <!-- bar function-->
-                                            <div class="btn_function">
-                                                <div class="__box">
-                                                    <div class="_update">
-                                                        <i class="material-icons">sync</i>
-                                                        <span class="function-name">อัพเดต</span>
-                                                    </div>
-                                                </div>
-                                                <div class="__box">
-                                                    <div class="_add">
-                                                        <i class="material-icons">add</i>
-                                                        <span class="function-name">เพิ่ม</span>
-                                                    </div>
-                                                </div>
-                                                <div class="__box">
-                                                    <div class="_remove">
-                                                        <i class="material-icons">remove</i> <br>
-                                                        <span class="function-name">ลบ</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- form -->
-                                            <form class="form-horizontal _account">
-
-                                                <div class="row clearfix">
-
-                                                    <div class="col-lg-2 col-md-2">
-                                                        <div><b>ลำดับ </b>
-                                                            <div class="input-group">
-                                                                <div class="form-line">
-                                                                    <input type="text" class="form-control" placeholder="0000">
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-lg-4 col-md-4">
-                                                        <div><b>บริษัท </b>
-                                                            <div class="input-group">
-                                                                <div class="form-line">
-                                                                    <input type="text" class="form-control" placeholder="ชื่อนิติบุคคล">
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-lg-4 col-md-4">
-                                                        <div><b>ทุนจดทะเบียน (บาท) </b>
-                                                            <div class="input-group">
-                                                                <div class="form-line">
-                                                                    <input type="text" class="form-control" placeholder="0000000">
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="row clearfix">
-                                                    <div class="col-lg-4 col-md-4">
-                                                        <div><b>จำนวนหุ้นทั้งหมด</b>
-                                                            <div class="input-group">
-                                                                <div class="form-line">
-                                                                    <input type="text" class="form-control" placeholder="0000000">
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-lg-4 col-md-4">
-                                                        <div><b>จำนวนหุ้นที่ถือ</b>
-                                                            <div class="input-group">
-                                                                <div class="form-line">
-                                                                    <input type="text" class="form-control" placeholder="000001 - 500000">
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-lg-4 col-md-4">
-                                                        <div><b>มูลค่า (บาท)</b>
-                                                            <div class="input-group">
-                                                                <div class="form-line">
-                                                                    <input type="text" class="form-control" placeholder="100000000">
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="row clearfix">
-                                                    <div class="col-lg-2 col-md-2">
-                                                        <div><b>สัดส่วน</b>
-                                                            <div class="input-group">
-                                                                <div class="form-line">
-                                                                    <input type="text" class="form-control" placeholder="0000">
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-lg-2 col-md-2">
-                                                        <div><b>มูลค่าหุ้นละ</b>
-                                                            <div class="input-group">
-                                                                <div class="form-line">
-                                                                    <input type="text" class="form-control" placeholder="10.000">
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-lg-2 col-md-2">
-                                                        <div><b>เลขหุ้น</b>
-                                                            <div class="input-group">
-                                                                <div class="form-line">
-                                                                    <input type="text" class="form-control" placeholder="0000">
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-lg-3 col-md-3">
-                                                        <div><b>จำนวนหุ้น</b>
-                                                            <div class="input-group">
-                                                                <div class="form-line">
-                                                                    <input type="text" class="form-control" placeholder="00">
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-lg-3 col-md-3">
-                                                        <div><b>มูลค่าหุ้นที่ชำระแล้ว </b>
-                                                            <div class="input-group">
-                                                                <div class="form-line">
-                                                                    <input type="text" class="form-control" placeholder="100%">
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="row clearfix">
-                                                    <div class="col-lg-2 col-md-"> <b>ใบหุ้นเลขที่</b>
-                                                        <div class="input-group">
-                                                            <div class="form-line">
-                                                                <input type="text" class="form-control" placeholder="00000">
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-lg-3 col-md-3"> <b>สถานที่จัดเก็บ</b>
-                                                        <div class="input-group">
-                                                            <div class="form-line">
-                                                                <select class="form-control show-tick">
-                                                                    <optgroup label="กรุณาเลือก">
-                                                                        <option>อาคารสุรวงศ์</option>
-                                                                        <option>ห้อง A</option>
-                                                                        <option>ห้อง B</option>
-                                                                    </optgroup>
-                                                                </select>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-lg-4 col-md-4"> <b>หมายเลขตู้เอกสาร</b>
-                                                        <div class="input-group">
-                                                            <div class="form-line">
-                                                                <select class="form-control show-tick">
-                                                                    <optgroup label="กรุณาเลือก">
-                                                                        <option>A01</option>
-                                                                        <option>B02</option>
-                                                                        <option>C02</option>
-                                                                    </optgroup>
-                                                                </select>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-lg-3 col-md-3"> <b>เลขลำดับเอกสาร</b>
-                                                        <div class="input-group">
-                                                            <div class="form-line">
-                                                                <input type="text" class="form-control" placeholder="000">
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="btn-control">
-                                                    <a href="#save"></a><button type="button" class="btn btn-raised btn-default __redvitality waves-effect"> บันทึก </button>
-                                                    <a href="#cancel"></a><button type="button" class="btn  btn-raised bg-grey waves-effect"> ยกเลิก </button>
-                                                </div>
-                                            </form>
-                                        </div>
-                                    </div>
-                                    <!-- Tab panes 6-->
-                                    <div role="tabpanel" class="tab-pane" id="Dividend">
-                                        <div>
-                                            <!-- bar control-->
-                                            <div class="row clearfix">
-                                                <div class="col-sm-12 col-md-12 col-lg-12 btn_control">
-                                                    <div class="__save"><button type="button" class="btn btn-raised  waves-effect"> <i class="material-icons">save</i> </button></div>
-                                                    <div class="__new"><button type="button" class="btn btn-raised  waves-effect"> <i class="material-icons">insert_drive_file</i> </button></div>
-                                                    <div class="__close"><button type="button" class="btn btn-raised  waves-effect"> <i class="material-icons">clear</i> </button></div>
-                                                    <div class="__exit"><button type="button" class="btn btn-raised  waves-effect"> <i class="material-icons">exit_to_app</i> </button></div>
-                                                </div>
-                                            </div>
-                                            <!-- bar function-->
-                                            <div class="btn_function">
-                                                <div class="__box">
-                                                    <div class="_update">
-                                                        <i class="material-icons">sync</i>
-                                                        <span class="function-name">อัพเดต</span>
-                                                    </div>
-                                                </div>
-                                                <div class="__box">
-                                                    <div class="_add">
-                                                        <i class="material-icons">add</i>
-                                                        <span class="function-name">เพิ่ม</span>
-                                                    </div>
-                                                </div>
-                                                <div class="__box">
-                                                    <div class="_remove">
-                                                        <i class="material-icons">remove</i> <br>
-                                                        <span class="function-name">ลบ</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- form -->
-                                            <form class="form-horizontal _account">
-
-                                                <div class="row clearfix">
-
-                                                    <div class="col-lg-2 col-md-2">
-                                                        <div><b>Securities Code </b>
-                                                            <div class="input-group">
-                                                                <div class="form-line">
-                                                                    <input type="text" class="form-control" placeholder="0000">
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-lg-4 col-md-4">
-                                                        <div><b>บริษัท </b>
-                                                            <div class="input-group">
-                                                                <div class="form-line">
-                                                                    <input type="text" class="form-control" placeholder="ชื่อนิติบุคคล">
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-lg-4 col-md-4">
-                                                        <div><b>ทุนจดทะเบียน (บาท) </b>
-                                                            <div class="input-group">
-                                                                <div class="form-line">
-                                                                    <input type="text" class="form-control" placeholder="0000000">
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="row clearfix">
-                                                    <div class="col-lg-4 col-md-4">
-                                                        <div><b>จำนวนหุ้นทั้งหมด</b>
-                                                            <div class="input-group">
-                                                                <div class="form-line">
-                                                                    <input type="text" class="form-control" placeholder="0000000">
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-lg-4 col-md-4">
-                                                        <div><b>Rate</b>
-                                                            <div class="input-group">
-                                                                <div class="form-line">
-                                                                    <input type="text" class="form-control" placeholder="000001 - 500000">
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-lg-4 col-md-4">
-                                                        <div><b>Dividend Amt</b>
-                                                            <div class="input-group">
-                                                                <div class="form-line">
-                                                                    <input type="text" class="form-control" placeholder="100000000">
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="row clearfix">
-                                                    <div class="col-lg-4 col-md-4">
-                                                        <div><b>Announced Date</b>
-                                                            <div class="input-group">
-                                                                <div class="form-line">
-                                                                    <input type="text" class="form-control" placeholder="วัน-เดือน-ปี พ.ศ. ">
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="row clearfix">
-                                                    <div class="col-lg-4 col-md-4">
-                                                        <div><b>XD Date</b>
-                                                            <div class="input-group">
-                                                                <div class="form-line">
-                                                                    <input type="text" class="form-control" placeholder="วัน-เดือน-ปี พ.ศ. ">
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="row clearfix">
-                                                    <div class="col-lg-4 col-md-4">
-                                                        <div><b>Settlement Date</b>
-                                                            <div class="input-group">
-                                                                <div class="form-line">
-                                                                    <input type="text" class="form-control" placeholder="วัน-เดือน-ปี พ.ศ. ">
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="row clearfix">
-                                                    <div class="col-lg-4 col-md-4">
-                                                        <div><b>Payment Date</b>
-                                                            <div class="input-group">
-                                                                <div class="form-line">
-                                                                    <input type="text" class="form-control" placeholder="วัน-เดือน-ปี พ.ศ. ">
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="row clearfix">
-                                                    <div class="col-lg-4 col-md-4">
-                                                        <div><b>Payment Settlement Date</b>
-                                                            <div class="input-group">
-                                                                <div class="form-line">
-                                                                    <input type="text" class="form-control" placeholder="วัน-เดือน-ปี พ.ศ. ">
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="btn-control">
-                                                    <a href="#save"></a><button type="button" class="btn btn-raised btn-default __redvitality waves-effect"> บันทึก </button>
-                                                    <a href="#cancel"></a><button type="button" class="btn  btn-raised bg-grey waves-effect"> ยกเลิก </button>
-                                                </div>
-                                            </form>
                                         </div>
                                     </div>
                                 </div>

@@ -361,7 +361,120 @@
                 </div>
             </div>
             <!-- stock market-->
-            
+            <div class="row clearfix">
+                <div class="col-sm-12 col-md-12 col-lg-12">
+
+                    <div class="card">
+                        <div class="header">
+                            <div class="header-status">
+                                <h3>รายการทะบียนหุ้นตลาดเพิ่มล่าสุดทั้งหมด</h3>
+                                <span>302,240</span>
+                                <!--<span>{{ count }}</span>-->
+                            </div>
+                            <ul class="header-dropdown m-r--5">
+                                <a href="stockMarketAddEdit.php" class="btn btn-raised btn-default waves-effect">
+                                    <i class="material-icons">add</i>
+                                </a>
+                                <li class="dropdown"><a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <i class="zmdi zmdi-more-vert"></i> </a>
+                                    <ul class="dropdown-menu slideUp ">
+                                        <li><a href="javascript:void(0);">ปัจจุบัน</a></li>
+                                        <li><a href="javascript:void(0);">สัปดาห์นี้</a></li>
+                                        <li><a href="javascript:void(0);">เดือนนี้</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="body table-responsive company-list">
+                            <table class="table table-hover">
+                                <thead>
+                                    <tr>
+                                        <th style="width:60px;">#</th>
+                                        <th>วันที่</th>
+                                        <th>บริษัทเจ้าของหุ้น</th>
+                                        <th>เลขทะเบียนนิติบุคคล</th>
+                                        <th>บริษัทผู้ถือหุ้น</th>
+                                        <th>กลุ่มธุรกิจหลัก</th>
+                                        <th>หุ้นทั้งหมด</th>
+                                        <th>มูลค่าหุ้นละ</th>
+                                        <th>มูลค่ารวมทั้งหมด</th>
+                                        <th>สถานะ</th>
+                                        <th>Action</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr v-for="data in dataTableShow" :key="data.id">
+                                        <td>1</td>
+                                        <td>15/1/2564</td>
+                                        <td>หจ.แอล.พี.เจ. คลาวด์</td>
+                                        <td>0103564000029</td>
+                                        <td>บจ.สหมิติ จำกัด</td>
+                                        <td>บริการพื้นที่สำหรับจัดเก็บข้อมูลอิเล็กทรอนิคส์</td>
+                                        <td>20,500,000</td>
+                                        <td>10.000</td>
+                                        <td>200,500,000</td>
+                                        <td>จำนำ</td>
+                                        <td><a href="stockMarketAddEdit.php"><button type="button" class="btn btn-raised btn-default waves-effect"> <i class="material-icons">mode_edit</i></button></a></td>
+                                    </tr>
+                                    <tr v-for="data in dataTableShow" :key="data.id">
+                                        <td>2</td>
+                                        <td>15/1/2564</td>
+                                        <td>บจ.สตาร์ วีซ่า อินเตอร์เนชั่นแนล เซอร์วิส จำกัด</td>
+                                        <td>0505564001589</td>
+                                        <td>บจ.ช้างคู่ช้อป จำกัด</td>
+                                        <td>บริการขอวีซ่า</td>
+                                        <td>20,500,000</td>
+                                        <td>10.000</td>
+                                        <td>200,500,000</td>
+                                        <td>จำนำ</td>
+                                        <td><a href="stockMarketAddEdit.php"><button type="button" class="btn btn-raised btn-default waves-effect"> <i class="material-icons">mode_edit</i></button></a></td>
+                                    </tr>
+                                    <tr v-for="data in dataTableShow" :key="data.id">
+                                        <td>3</td>
+                                        <td>15/1/2564</td>
+                                        <td>บจ.มิลเลี่ยนกรุ๊ป คอนซัลท์ จำกัด</td>
+                                        <td>0505564001619</td>
+                                        <td>บจ.ทรี ที พลัส แพ็ค จำกัด</td>
+                                        <td>บริการขอวีซ่า</td>
+                                        <td>50,000,000</td>
+                                        <td>10.000</td>
+                                        <td>50,000,000</td>
+                                        <td>ปลอดจำนำ</td>
+                                        <td><a href="stockMarketAddEdit.php"><button type="button" class="btn btn-raised btn-default waves-effect"> <i class="material-icons">mode_edit</i></button></a></td>
+                                    </tr>
+                                    <tr v-for="data in dataTableShow" :key="data.id">
+                                        <td>4</td>
+                                        <td>15/1/2564</td>
+                                        <td>บจ.บีบี เบิร์ด กรุ๊ป จำกัด</td>
+                                        <td>0505564001635</td>
+                                        <td>บจ.ธารทอง โกลบอล จำกัด</td>
+                                        <td>จำหน่ายผลิตภัณฑ์อาหารเสริมทุกชนิด</td>
+                                        <td>50,000,000</td>
+                                        <td>10.000</td>
+                                        <td>50,000,000</td>
+                                        <td>ปลอดจำนำ</td>
+                                        <td><a href="stockMarketAddEdit.php"><button type="button" class="btn btn-raised btn-default waves-effect"> <i class="material-icons">mode_edit</i></button></a></td>
+                                    </tr>
+                                    <tr v-for="data in dataTableShow" :key="data.id">
+                                        <td>5</td>
+                                        <td>15/1/2564</td>
+                                        <td>บจ.ฟาร์มเกษตร ทีทีที จำกัด</td>
+                                        <td>0505564001643</td>
+                                        <td>บจ.อินเตอร์ เรียลเอสเตท จำกัด</td>
+                                        <td>จำหน่ายผลิตภัณฑ์อาหารเสริมทุกชนิด</td>
+                                        <td>50,000,000</td>
+                                        <td>10.000</td>
+                                        <td>50,000,000</td>
+                                        <td>จำนำ</td>
+                                        <td><a href="stockMarketAddEdit.php"><button type="button" class="btn btn-raised btn-default waves-effect"> <i class="material-icons">mode_edit</i></button></a></td>
+                                    </tr>
+
+
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <!-- footer -->
 
             <?php include('../view/footer.php'); ?>
