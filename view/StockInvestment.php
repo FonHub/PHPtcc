@@ -128,217 +128,106 @@
                 </div>
             </section>
 
-
-            <div id="company_detail" class="detail__box">
+            <!-- stock -->
+            <div id="company_status">
                 <div class="row clearfix">
                     <div class="col-sm-12 col-md-12 col-lg-12">
+
                         <div class="card">
-                            <!-- Content -->
-                            <div id="Investment">
-                                <div>
-                                    <!-- bar control-->
-                                    <div class="row clearfix">
-                                        <div class="col-sm-12 col-md-12 col-lg-12 btn_control">
-                                            <div class="__save"><button type="button" class="btn btn-raised  waves-effect"> <i class="material-icons">save</i> </button></div>
-                                            <div class="__new"><button type="button" class="btn btn-raised  waves-effect"> <i class="material-icons">insert_drive_file</i> </button></div>
-                                            <div class="__close"><button type="button" class="btn btn-raised  waves-effect"> <i class="material-icons">clear</i> </button></div>
-                                            <div class="__exit"><button type="button" class="btn btn-raised  waves-effect"> <i class="material-icons">exit_to_app</i> </button></div>
-                                        </div>
-                                    </div>
-                                    <!-- bar function-->
-                                    <div class="btn_function">
-                                        <div class="__box">
-                                            <div class="_update">
-                                                <i class="material-icons">sync</i>
-                                                <span class="function-name">อัพเดต</span>
-                                            </div>
-                                        </div>
-                                        <div class="__box">
-                                            <div class="_add">
-                                                <i class="material-icons">add</i>
-                                                <span class="function-name">เพิ่ม</span>
-                                            </div>
-                                        </div>
-                                        <div class="__box">
-                                            <div class="_remove">
-                                                <i class="material-icons">remove</i> <br>
-                                                <span class="function-name">ลบ</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- form -->
-                                    <form class="form-horizontal _account">
-
-                                        <div class="row clearfix">
-
-                                            <div class="col-lg-2 col-md-2">
-                                                <div><b>ลำดับ </b>
-                                                    <div class="input-group">
-                                                        <div class="form-line">
-                                                            <input type="text" class="form-control" placeholder="0000">
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-4 col-md-4">
-                                                <div><b>บริษัท </b>
-                                                    <div class="input-group">
-                                                        <div class="form-line">
-                                                            <input type="text" class="form-control" placeholder="ชื่อนิติบุคคล">
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-4 col-md-4">
-                                                <div><b>ทุนจดทะเบียน (บาท) </b>
-                                                    <div class="input-group">
-                                                        <div class="form-line">
-                                                            <input type="text" class="form-control" placeholder="0000000">
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="row clearfix">
-                                            <div class="col-lg-4 col-md-4">
-                                                <div><b>จำนวนหุ้นทั้งหมด</b>
-                                                    <div class="input-group">
-                                                        <div class="form-line">
-                                                            <input type="text" class="form-control" placeholder="0000000">
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-4 col-md-4">
-                                                <div><b>จำนวนหุ้นที่ถือ</b>
-                                                    <div class="input-group">
-                                                        <div class="form-line">
-                                                            <input type="text" class="form-control" placeholder="000001 - 500000">
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-4 col-md-4">
-                                                <div><b>มูลค่า (บาท)</b>
-                                                    <div class="input-group">
-                                                        <div class="form-line">
-                                                            <input type="text" class="form-control" placeholder="100000000">
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="row clearfix">
-                                            <div class="col-lg-2 col-md-2">
-                                                <div><b>สัดส่วน</b>
-                                                    <div class="input-group">
-                                                        <div class="form-line">
-                                                            <input type="text" class="form-control" placeholder="0000">
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-2 col-md-2">
-                                                <div><b>มูลค่าหุ้นละ</b>
-                                                    <div class="input-group">
-                                                        <div class="form-line">
-                                                            <input type="text" class="form-control" placeholder="10.000">
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-2 col-md-2">
-                                                <div><b>เลขหุ้น</b>
-                                                    <div class="input-group">
-                                                        <div class="form-line">
-                                                            <input type="text" class="form-control" placeholder="0000">
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-3 col-md-3">
-                                                <div><b>จำนวนหุ้น</b>
-                                                    <div class="input-group">
-                                                        <div class="form-line">
-                                                            <input type="text" class="form-control" placeholder="00">
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-3 col-md-3">
-                                                <div><b>มูลค่าหุ้นที่ชำระแล้ว </b>
-                                                    <div class="input-group">
-                                                        <div class="form-line">
-                                                            <input type="text" class="form-control" placeholder="100%">
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="row clearfix">
-                                            <div class="col-lg-2 col-md-"> <b>ใบหุ้นเลขที่</b>
-                                                <div class="input-group">
-                                                    <div class="form-line">
-                                                        <input type="text" class="form-control" placeholder="00000">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-3 col-md-3"> <b>สถานที่จัดเก็บ</b>
-                                                <div class="input-group">
-                                                    <div class="form-line">
-                                                        <select class="form-control show-tick">
-                                                            <optgroup label="กรุณาเลือก">
-                                                                <option>อาคารสุรวงศ์</option>
-                                                                <option>ห้อง A</option>
-                                                                <option>ห้อง B</option>
-                                                            </optgroup>
-                                                        </select>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-4 col-md-4"> <b>หมายเลขตู้เอกสาร</b>
-                                                <div class="input-group">
-                                                    <div class="form-line">
-                                                        <select class="form-control show-tick">
-                                                            <optgroup label="กรุณาเลือก">
-                                                                <option>A01</option>
-                                                                <option>B02</option>
-                                                                <option>C02</option>
-                                                            </optgroup>
-                                                        </select>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-3 col-md-3"> <b>เลขลำดับเอกสาร</b>
-                                                <div class="input-group">
-                                                    <div class="form-line">
-                                                        <input type="text" class="form-control" placeholder="000">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="btn-control">
-                                            <a href="#save"></a><button type="button" class="btn btn-raised btn-default __redvitality waves-effect"> บันทึก </button>
-                                            <a href="#cancel"></a><button type="button" class="btn  btn-raised bg-grey waves-effect"> ยกเลิก </button>
-                                        </div>
-                                    </form>
+                            <div class="header">
+                                <div class="header-status">
+                                    <h3>เงินลงทุน</h3>
                                 </div>
+                                <ul class="header-dropdown m-r--5">
+                                    <a href="stock_AddEdit.php" class="btn btn-raised btn-default waves-effect">
+                                        <i class="material-icons">add</i>
+                                    </a>
+                                    <li class="dropdown"><a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <i class="zmdi zmdi-more-vert"></i> </a>
+                                        <ul class="dropdown-menu slideUp ">
+                                            <li><a href="javascript:void(0);">ปัจจุบัน</a></li>
+                                            <li><a href="javascript:void(0);">สัปดาห์นี้</a></li>
+                                            <li><a href="javascript:void(0);">เดือนนี้</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
                             </div>
-                        </div>
-                    </div>
-                </div>
+                            <div class="body table-responsive company-list">
+                                <table class="table table-hover">
+                                    <thead>
+                                        <tr>
+                                            <th style="width:60px;">#</th>
+                                            <th>วันที่</th>
+                                            <th>เลขทะเบียนนิติบุคคล</th>
+                                            <th>บริษัทเจ้าของหุ้น</th>
+                                            <th>กลุ่มธุรกิจหลัก</th>
+                                            <th>ทุนจดทะเบียน (บาท)</th>
+                                            <th>จำนวนหุ้นทั้งหมด</th>
+                                            <th>จำนวนหุ้นที่ถือ</th>
+                                            <th>มูลค่า (บาท)</th>
+                                            <th>สัดส่วน</th>
+                                            <th>มูลค่าหุ้นละ</th>
+                                            <th>มูลค่าหุ้นที่ชำระแล้ว</th>
+                                            <th>Action</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr v-for="data in dataTableShow" :key="data.id">
+                                            <td>1</td>
+                                            <td>15/1/2564</td>
+                                            <td>0103564000029</td>
+                                            <td>หจ.แอล.พี.เจ. คลาวด์</td>
+                                            <td>บริการพื้นที่สำหรับจัดเก็บข้อมูลอิเล็กทรอนิคส์</td>
+                                            <td>30,000,000.00</td>
+                                            <td>30,000,000.00</td>
+                                            <td>30,000,000.00</td>
+                                            <td>30,000,000.00</td>
+                                            <td>100</td>
+                                            <td>10.000</td>
+                                            <td>30,000,000.00</td>
+                                            <td><a href="stock_AddEdit.php"><button type="button" class="btn btn-raised btn-default waves-effect"> <i class="material-icons">mode_edit</i></button></a></td>
+                                        </tr>
+                                        <tr v-for="data in dataTableShow" :key="data.id">
+                                            <td>2</td>
+                                            <td>15/1/2564</td>
+                                            <td>0505564001589</td>
+                                            <td>บจ.สตาร์ วีซ่า อินเตอร์เนชั่นแนล เซอร์วิส จำกัด</td>
+                                            <td>บริการขอวีซ่า</td>
+                                            <td>10,000,000.00</td>
+                                            <td>10,000,000.00</td>
+                                            <td>5,000,000.00</td>
+                                            <td>5,000,000.00</td>
+                                            <td>50</td>
+                                            <td>10.000</td>
+                                            <td>5,000,000.00</td>
+                                            <td><a href="stock_AddEdit.php"><button type="button" class="btn btn-raised btn-default waves-effect"> <i class="material-icons">mode_edit</i></button></a></td>
+                                        </tr>
+                                        <tr v-for="data in dataTableShow" :key="data.id">
+                                            <td>3</td>
+                                            <td>15/1/2564</td>
+                                            <td>0505564001619</td>
+                                            <td>บจ.มิลเลี่ยนกรุ๊ป คอนซัลท์ จำกัด</td>
+                                            <td>บริการขอวีซ่า</td>
+                                            <td>50,000,000.00</td>
+                                            <td>50,000,000.00</td>
+                                            <td>50,000,000.00</td>
+                                            <td>20,000,000.00</td>
+                                            <td>30</td>
+                                            <td>10.000</td>
+                                            <td>20,000,000.00</td>
+                                            <td><a href="stock_AddEdit.php"><button type="button" class="btn btn-raised btn-default waves-effect"> <i class="material-icons">mode_edit</i></button></a></td>
+                                        </tr>
+                                        
 
-                <!-- footer -->
-                <div class="row clearfix">
-                    <div class="col-lg-12">
-                        <div class="card">
-                            <div class="body">
-                                <p class="m-b-0">© 2021 <a href="#index" target="black">TCC GROUP</a> </p>
+
+                                    </tbody>
+                                </table>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+
+        </div>
     </section>
 
     <!-- Jquery Core Js -->
