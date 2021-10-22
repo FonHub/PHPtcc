@@ -54,31 +54,32 @@
             </li>
             <li><a href="javascript:void(0);" class="menu-toggle"><i class="zmdi zmdi-folder-outline"></i><span>รายงานบริษัท</span> </a>
                 <ul class="ml-menu">
-                    <li><a href="javascript:void(0);">บอจ. 5</a></li>
-                    <li><a href="javascript:void(0);">บมจ. 6</a></li>
-                    <li><a href="javascript:void(0);">ข้อมูลพื้นฐานและกรรมการ</a></li>
-                    <li><a href="javascript:void(0);">ประวัติการเป็นกรรมการ</a></li>
-                    <li><a href="javascript:void(0);">รายงานชื่อเดิมของบริษัท</a></li>
-                    <li><a href="javascript:void(0);">รายงานควบบริษัท</a></li>
-                    <li><a href="javascript:void(0);">รายงานสรุปจำนวนบริษัท</a></li>
-                    <li><a href="javascript:void(0);">รายงานเงินลงทุน</a></li>
-                    <li><a href="javascript:void(0);">รายงานการชำระบัญชี</a></li>
-                    <li><a href="javascript:void(0);">รายงานบริษัทชำระเงินไม่ครบ</a></li>
+                    <li><a href="ReoortBOJ5.php">บอจ. 5</a></li>
+                    <li><a href="ReoortBMJ6.php">บมจ. 6</a></li>
+                    <li><a href="Reoortinfd503.php">ข้อมูลพื้นฐานและกรรมการ</a></li>
+                    <li><a href="ReoortComDirector.php">ประวัติการเป็นกรรมการ</a></li>
+                    <li><a href="ReoortComNameHis.php">รายงานชื่อเดิมของบริษัท</a></li>
+                    <li><a href="ReoortComMerger.php">รายงานควบบริษัท</a></li>
+                    <li><a href="ReoortComSum.php">รายงานสรุปจำนวนบริษัท</a></li>
+                    <li><a href="ReoortStockInvestment.php">รายงานเงินลงทุน</a></li>
+                    <li><a href="ReoortComLiquidate.php">รายงานการชำระบัญชี</a></li>
+                    <li><a href="ReoortStockNot100.php">รายงานบริษัทชำระเงินไม่ครบ</a></li>
                 </ul>
             </li>
             <li><a href="javascript:void(0);" class="menu-toggle"><i class="zmdi zmdi-folder"></i><span>รายงานหุ้น</span> </a>
                 <ul class="ml-menu">
-                    <li><a href="javascript:void(0);">รายงานใบหุ้น</a></li>
-                    <li><a href="javascript:void(0);">สมุดทะเบียนหุ้น</a></li>
-                    <li><a href="javascript:void(0);">รายงานการเก็บใบหุ้น</a></li>
-                    <li><a href="javascript:void(0);">รายงานการจำนำหุ้น</a></li>
-                    <li><a href="javascript:void(0);">รายงานสรุปรวม</a></li>
-                    <li><a href="javascript:void(0)">รายงานสรุปผู้ถือหุ้น</a></li>
-                    <li><a href="javascript:void(0);">การจัดพิมพ์สัญญาซื้อขายหุ้น</a></li>
-                    <li><a href="javascript:void(0);">บัญชีรายชื่อผู้ถือหุ้น</a></li>
-                    <li><a href="javascript:void(0);">โครงสร้างการถือหุ้น</a></li>
-                    <li><a href="javascript:void(0);">Template ผู้ถือหุ้น</a></li>
-                    <li><a href="javascript:void(0);">Chartโครงสร้างการถือหุ้น</a></li>
+                    <li><a href="ReoortStockSumLot.php">รายงานใบหุ้น</a></li>
+                    <li><a href="ReoortStockNo.php">สมุดทะเบียนหุ้น</a></li>
+                    <li><a href="ReoortStockNoLocale.php">รายงานการเก็บใบหุ้น</a></li>
+                    <li><a href="ReoortStockFinance.php">รายงานการจำนำหุ้น</a></li>
+                    <li><a href="ReoortStockMartekSumLot.php">รายงานหุ้นตลาดสรุปรวม</a></li>
+                    <li><a href="ReoortStockLotAll.php">รายงานสรุปผู้ถือหุ้น</a></li>
+                    <li><a href="ReoortStockSell.php">การจัดพิมพ์สัญญาซื้อขายหุ้น</a></li>
+                    <li><a href="ReoortStockLotAcc.php">บัญชีรายชื่อผู้ถือหุ้น</a></li>
+                    <li><a href="ReoortStockLotRate.php">โครงสร้างการถือหุ้น</a></li>
+                    <li><a href="ReoortStockLotRateGroup.php">โครงสร้างการถือหุ้น แยกกลุ่ม</a></li>
+                    <li><a href="ReoortDocStockTemplet.php">Template ผู้ถือหุ้น</a></li>
+                    <li><a href="ReoortChart.php">Chartโครงสร้างการถือหุ้น</a></li>
                 </ul>
             </li>
         </ul>
