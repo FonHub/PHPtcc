@@ -7,5 +7,6 @@
 <!-- Custom Css -->
 <link rel="stylesheet" href="../assets/css/main.min.css">
 <link rel="stylesheet" href="../assets/css/color_skins.min.css">
+<link rel="stylesheet" href="../assets/scss/css/stylecustom.min.css">
 <!-- Bootstrap Select Css -->
 <link rel="stylesheet" href="../assets/plugins/bootstrap-select/css/bootstrap-select.css" />

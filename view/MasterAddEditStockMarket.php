@@ -58,33 +58,30 @@
                                 <div id="company_detail">
 
                                     <!-- form Stock -->
-                                    <form class="form-horizontal __docLocation">
-                                        <div class="block-header" style="padding-left: 0">
+                                    <form class="form-horizontal marterperson">
+                                        <div class="block-header" >
                                             <h2>Master กลุ่มหุ้นและหุ้นตลาด</h2>
                                         </div>
                                         <div class="row clearfix">
                                             <div class="col-lg-1 col-md-1">
                                                 <b>IDCode</b>
                                                 <div class="input-group">
-                                                    <div class="form-line">
-                                                        <input type="text" class="form-control disabled" placeholder="000" disabled />
-                                                    </div>
+                                                    <input type="text" class="form-control disabled" placeholder="1" disabled />
                                                 </div>
                                             </div>
                                             <div class="col-lg-4 col-md-4">
                                                 <b>ประเภทของประชุม</b>
-                                                <div class="input-group">
-                                                    <div class="form-line">
-                                                        <select class="form-control show-tick">
-                                                            <optgroup label="ประเภทของประชุม">
-                                                                <option>จัดตั้งบริษัท </option>
-                                                                <option>ประชุมสามัญ </option>
-                                                                <option>ประชุมวิสามัญ </option>
-                                                                <option>คัดลอกจากสมุดทะเบียน </option>
-                                                                <option>ควบบริษัท </option>
-                                                            </optgroup>
-                                                        </select><!-- From Master -->
-                                                    </div>
+                                                <div class="form-group">
+                                                    <select class="form-control show-tick">
+                                                        <optgroup label="กรุณาเลือก">
+                                                            <option>จัดตั้งบริษัท </option>
+                                                            <option>ประชุมสามัญ </option>
+                                                            <option>ประชุมวิสามัญ </option>
+                                                            <option>คัดลอกจากสมุดทะเบียน </option>
+                                                            <option>ควบบริษัท </option>
+                                                            <option>เพิ่มใหม่</option>
+                                                        </optgroup>
+                                                    </select><!-- From Master -->
                                                 </div>
                                             </div>
                                             <div class="col-lg-4 col-md-4">
@@ -97,18 +94,18 @@
                                             </div>
                                             <div class="col-lg-3 col-md-3">
                                                 <!-- bar function-->
-                                                <div class="btn_function" style="border-bottom: none;">
-                                                    <div class="__box" style="height: 60px;">
+                                                <div class="btn_function" >
+                                                    <div class="__box" >
                                                         <div class="_update">
                                                             <i class="material-icons">sync</i>
                                                         </div>
                                                     </div>
-                                                    <div class="__box" style="height: 60px;">
-                                                        <div class="_add" style="margin-top: 10px;">
+                                                    <div class="__box" >
+                                                        <div class="_add" >
                                                             <i class="material-icons">add</i>
                                                         </div>
                                                     </div>
-                                                    <div class="__box" style="height: 60px;">
+                                                    <div class="__box" >
                                                         <div class="_remove">
                                                             <i class="material-icons">remove</i>
                                                         </div>

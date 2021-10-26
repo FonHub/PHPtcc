@@ -60,32 +60,29 @@
                                 <div id="company_detail">
 
                                     <!-- form Company -->
-                                    <form class="form-horizontal __docLocation">
-                                        <div class="block-header" style="padding-left: 0">
+                                    <form class="form-horizontal marterperson">
+                                        <div class="block-header">
                                             <h2>Master กลุ่มบริษัท</h2>
                                         </div>
                                         <div class="row clearfix">
                                             <div class="col-lg-1 col-md-1">
                                                 <b>IDCode</b>
                                                 <div class="input-group">
-                                                    <div class="form-line">
-                                                        <input type="text" class="form-control disabled" placeholder="000" disabled />
-                                                    </div>
+                                                    <input type="text" class="form-control disabled" placeholder="1" disabled />
                                                 </div>
                                             </div>
                                             <div class="col-lg-4 col-md-4">
                                                 <b>นิติบุคคล</b>
-                                                <div class="input-group">
-                                                    <div class="form-line">
-                                                        <select class="form-control show-tick">
-                                                            <optgroup label="คำนำหน้าทะเบียนธุรกิจ">
-                                                                <option>ห้างหุ้นส่วนสามัญนิติบุคคล (หสน.)</option>
-                                                                <option>ห้างหุ้นส่วนจำกัด (หจก.)</option>
-                                                                <option>บริษัทจำกัด (บจ.)</option>
-                                                                <option>บริษัทมหาชนจำกัด (บมจ.)</option>
-                                                            </optgroup>
-                                                        </select><!-- From Master -->
-                                                    </div>
+                                                <div class="form-group">
+                                                    <select class="form-control show-tick">
+                                                        <optgroup label="กรุณาเลือก">
+                                                            <option>ห้างหุ้นส่วนสามัญนิติบุคคล (หสน.)</option>
+                                                            <option>ห้างหุ้นส่วนจำกัด (หจก.)</option>
+                                                            <option>บริษัทจำกัด (บจ.)</option>
+                                                            <option>บริษัทมหาชนจำกัด (บมจ.)</option>
+                                                            <option>เพิ่มใหม่</option>
+                                                        </optgroup>
+                                                    </select><!-- From Master -->
                                                 </div>
                                             </div>
                                             <div class="col-lg-4 col-md-4">
@@ -98,18 +95,18 @@
                                             </div>
                                             <div class="col-lg-3 col-md-3">
                                                 <!-- bar function-->
-                                                <div class="btn_function" style="border-bottom: none;">
-                                                    <div class="__box" style="height: 60px;">
+                                                <div class="btn_function">
+                                                    <div class="__box">
                                                         <div class="_update">
                                                             <i class="material-icons">sync</i>
                                                         </div>
                                                     </div>
-                                                    <div class="__box" style="height: 60px;">
-                                                        <div class="_add" style="margin-top: 10px;">
+                                                    <div class="__box">
+                                                        <div class="_add">
                                                             <i class="material-icons">add</i>
                                                         </div>
                                                     </div>
-                                                    <div class="__box" style="height: 60px;">
+                                                    <div class="__box">
                                                         <div class="_remove">
                                                             <i class="material-icons">remove</i>
                                                         </div>
@@ -121,28 +118,25 @@
                                             <div class="col-lg-1 col-md-1">
                                                 <b>IDCode</b>
                                                 <div class="input-group">
-                                                    <div class="form-line">
-                                                        <input type="text" class="form-control disabled" placeholder="000" disabled />
-                                                    </div>
+                                                    <input type="text" class="form-control disabled" placeholder="2" disabled />
                                                 </div>
                                             </div>
                                             <div class="col-lg-4 col-md-4">
                                                 <b>ประเภทประกอบการ (Sector)</b>
-                                                <div class="input-group">
-                                                    <div class="form-line">
-                                                        <select class="form-control show-tick">
-                                                            <optgroup label="Sector">
-                                                                <option>เกษตรและอุตสาหกรรมอาหาร</option>
-                                                                <option>สินค้าอุปโภคบริโภค</option>
-                                                                <option>ธุรกิจการเงิน</option>
-                                                                <option>สินค้าอุตสาหกรรม </option>
-                                                                <option>อสังหาริมทรัพย์และก่อสร้าง</option>
-                                                                <option>ทรัพยากร</option>
-                                                                <option>บริการ</option>
-                                                                <option>เทคโนโลยี </option>
-                                                            </optgroup>
-                                                        </select><!-- From Master -->
-                                                    </div>
+                                                <div class="form-group">
+                                                    <select class="form-control show-tick">
+                                                        <optgroup label="กรุณาเลือก Sector">
+                                                            <option>เกษตรและอุตสาหกรรมอาหาร</option>
+                                                            <option>สินค้าอุปโภคบริโภค</option>
+                                                            <option>ธุรกิจการเงิน</option>
+                                                            <option>สินค้าอุตสาหกรรม </option>
+                                                            <option>อสังหาริมทรัพย์และก่อสร้าง</option>
+                                                            <option>ทรัพยากร</option>
+                                                            <option>บริการ</option>
+                                                            <option>เทคโนโลยี </option>
+                                                            <option>เพิ่มใหม่</option>
+                                                        </optgroup>
+                                                    </select><!-- From Master -->
                                                 </div>
                                             </div>
                                             <div class="col-lg-4 col-md-4">
@@ -155,18 +149,18 @@
                                             </div>
                                             <div class="col-lg-3 col-md-3">
                                                 <!-- bar function-->
-                                                <div class="btn_function" style="border-bottom: none;">
-                                                    <div class="__box" style="height: 60px;">
+                                                <div class="btn_function">
+                                                    <div class="__box">
                                                         <div class="_update">
                                                             <i class="material-icons">sync</i>
                                                         </div>
                                                     </div>
-                                                    <div class="__box" style="height: 60px;">
-                                                        <div class="_add" style="margin-top: 10px;">
+                                                    <div class="__box">
+                                                        <div class="_add">
                                                             <i class="material-icons">add</i>
                                                         </div>
                                                     </div>
-                                                    <div class="__box" style="height: 60px;">
+                                                    <div class="__box">
                                                         <div class="_remove">
                                                             <i class="material-icons">remove</i>
                                                         </div>
@@ -174,68 +168,90 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        
+
                                         <div class="row clearfix">
                                             <div class="col-lg-1 col-md-1">
                                                 <b>IDCode</b>
                                                 <div class="input-group">
-                                                    <div class="form-line">
-                                                        <input type="text" class="form-control disabled" placeholder="000" disabled />
-                                                    </div>
+                                                    <input type="text" class="form-control disabled" placeholder="3" disabled />
                                                 </div>
                                             </div>
                                             <div class="col-lg-4 col-md-4">
-                                                <b>กลุ่มธุรกิจ</b>
-                                                <div class="clearfix m-b-20">
-                                                    <div class="dd">
-                                                        <ol class="dd-list">
-                                                            <li class="dd-item" data-id="1">
-                                                                <div class="dd-handle">ไพรเวท คอมพานี</div>
-                                                                <ol class="dd-list">
-                                                                    <li class="dd-item" data-id="2">
-                                                                        <div class="dd-handle">กลุ่มบริษัทลงทุน</div>
-                                                                        <ol class="dd-list">
-                                                                            <li class="dd-item" data-id="3">
-                                                                                <div class="dd-handle">กลุ่มสิริวนา</div>
-                                                                            </li>
-                                                                            <li class="dd-item" data-id="4">
-                                                                                <div class="dd-handle">กลุ่มทีซีซี คอร์ปอเรชั่น</div>
-                                                                            </li>
-                                                                            <li class="dd-item" data-id="5">
-                                                                                <div class="dd-handle">กลุ่มอาคเนย์ แมเนจเม้นท์</div>
-                                                                            </li>
-                                                                            <li class="dd-item" data-id="6">
-                                                                                <div class="dd-handle">กลุ่มถือหุ้นแอสเสท เวิรด์ คอร์ป</div>
-                                                                            </li>
-                                                                        </ol>
-                                                                    </li>
-                                                                    <li class="dd-item" data-id="7">
-                                                                        <div class="dd-handle">กลุ่มทีซีซี แลนด์ </div>
-                                                                    </li>
-                                                                    <li class="dd-item" data-id="8">
-                                                                        <div class="dd-handle">กลุ่มบริษัทบุคคล</div>
+                                                <b>กลุ่มธุรกิจหลัก</b>
+                                                <div class="form-group">
+                                                    <select class="form-control show-tick">
+                                                        <optgroup label="กรุณาเลือก Group">
+                                                            <option>ไพรเวท คอมพานี</option>
+                                                            <option>ไทยเบฟเวอเรจ</option>
+                                                            <option>อาคเนย์</option>
+                                                            <option>แอสเสท เวิรด์ คอร์ป</option>
+                                                            <option>เบอร์ลี่ ยุคเกอร์</option>
+                                                            <option>เพิ่มใหม่</option>
+                                                        </optgroup>
+                                                    </select><!-- From Master -->
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4 col-md-4">
+                                                <b>กลุ่มธุรกิจย่อย</b>
+                                                <div class="form-group">
+                                                    <select class="form-control show-tick">
+                                                        <optgroup label="กรุณาเลือก SupGroup">
+                                                            <option>กลุ่มทีซีซี แลนด์</option>
+                                                            <option>กลุ่มบริษัทลงทุน</option>
+                                                            <option>เพิ่มใหม่</option>
+                                                        </optgroup>
+                                                    </select><!-- From Master -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row clearfix">
+                                            <div class="col-lg-1 col-md-1">
+                                            </div>
+                                            <div class="col-lg-4 col-md-4">
+                                                <b>กลุ่มธุรกิจย่อยระดับ 1</b>
+                                                <div class="form-group">
+                                                    <select class="form-control show-tick">
+                                                        <optgroup label="กรุณาเลือก">
+                                                            <option>กลุ่มแลนด์แบงค์</option>
+                                                            <option>กลุ่มทีซีซี แลนด์ ทีซีซี เอดับบลิว</option>
+                                                            <option>กลุ่มพรรณธิอร</option>
+                                                            <option>กลุ่มทีซีซี อินเตอร์เทรด</option>
+                                                            <option>เพิ่มใหม่</option>
+                                                        </optgroup>
+                                                    </select><!-- From Master -->
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4 col-md-4">
+                                                <b>กลุ่มธุรกิจย่อยระดับ 2</b>
+                                                <div class="form-group">
+                                                    <select class="form-control show-tick">
+                                                        <optgroup label="กรุณาเลือก">
+                                                            <option>กลุ่มโรงแรมในประเทศ</option>
+                                                            <option>กลุ่มบริษัทที่ดิน</option>
+                                                            <option>กลุ่มบริหารจัดการ</option>
+                                                            <option>กลุ่มบริษัทลงทุนและอื่นๆ</option>
+                                                            <option>เพิ่มใหม่</option>
+                                                        </optgroup>
+                                                    </select><!-- From Master -->
+                                                </div>
+                                            </div>
 
-                                                                    </li>
-                                                                    <li class="dd-item" data-id="9">
-                                                                        <div class="dd-handle">กลุ่มทีซีซี แอสเซ็ทส์</div>
-                                                                    </li>
-                                                                    <li class="dd-item" data-id="10">
-                                                                        <div class="dd-handle">อื่นๆ</div>
-                                                                    </li>
-                                                                </ol>
-                                                            </li>
-                                                            <li class="dd-item" data-id="11">
-                                                                <div class="dd-handle">ไทยเบฟเวอเรจ</div>
-
-                                                            </li>
-                                                            <li class="dd-item" data-id="12">
-                                                                <div class="dd-handle">อาคเนย์</div>
-                                                            </li>
-                                                            <li class="dd-item" data-id="13">
-                                                                <div class="dd-handle">แอสเสท เวิรด์ คอร์ป</div>
-                                                            </li>
-                                                        </ol>
-                                                    </div>
+                                        </div>
+                                        <div class="row clearfix supgroup_3">
+                                            <div class="col-lg-1 col-md-1">
+                                            </div>
+                                            <div class="col-lg-4 col-md-4">
+                                                <b>กลุ่มธุรกิจย่อยระดับ 3</b>
+                                                <div class="form-group">
+                                                    <select class="form-control show-tick">
+                                                        <optgroup label="กรุณาเลือก">
+                                                            <option>กลุ่มโรงแรมไพรเวท</option>
+                                                            <option>กลุ่มโรงแรมบริษัทแม่</option>
+                                                            <option>กลุ่มโรงแรมไพรเวทภาคเหนือ</option>
+                                                            <option>กลุ่มแอสเสท เวิรด์ เวกซ์</option>
+                                                            <option>เพิ่มใหม่</option>
+                                                        </optgroup>
+                                                    </select><!-- From Master -->
                                                 </div>
                                             </div>
                                             <div class="col-lg-4 col-md-4">
@@ -248,49 +264,45 @@
                                             </div>
                                             <div class="col-lg-3 col-md-3">
                                                 <!-- bar function-->
-                                                <div class="btn_function" style="border-bottom: none;">
-                                                    <div class="__box" style="height: 60px;">
+                                                <div class="btn_function">
+                                                    <div class="__box">
                                                         <div class="_update">
                                                             <i class="material-icons">sync</i>
                                                         </div>
                                                     </div>
-                                                    <div class="__box" style="height: 60px;">
-                                                        <div class="_add" style="margin-top: 10px;">
+                                                    <div class="__box">
+                                                        <div class="_add">
                                                             <i class="material-icons">add</i>
                                                         </div>
                                                     </div>
-                                                    <div class="__box" style="height: 60px;">
+                                                    <div class="__box">
                                                         <div class="_remove">
                                                             <i class="material-icons">remove</i>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                        
 
+                                        </div>
                                         <div class="row clearfix">
                                             <div class="col-lg-1 col-md-1">
                                                 <b>IDCode</b>
                                                 <div class="input-group">
-                                                    <div class="form-line">
-                                                        <input type="text" class="form-control disabled" placeholder="000" disabled />
-                                                    </div>
+                                                    <input type="text" class="form-control disabled" placeholder="4" disabled />
                                                 </div>
                                             </div>
                                             <div class="col-lg-4 col-md-4">
                                                 <b>ประเภทเอกสารที่จัดเก็บ</b>
-                                                <div class="input-group">
-                                                    <div class="form-line">
-                                                        <select class="form-control show-tick">
-                                                            <optgroup label="ประเภทเอกสารที่จัดเก็บ">
-                                                                <option>สัญญาซื้อขายหุ้น</option>
-                                                                <option>สมุดทะเบียนหุ้น</option>
-                                                                <option>ใบหุ้น (ยกเลิก)</option>
-                                                                <option>ใบหุ้น (ลงทุน)</option>
-                                                            </optgroup>
-                                                        </select><!-- From Master -->
-                                                    </div>
+                                                <div class="form-group">
+                                                    <select class="form-control show-tick">
+                                                        <optgroup label="กรุณาเลือก">
+                                                            <option>สัญญาซื้อขายหุ้น</option>
+                                                            <option>สมุดทะเบียนหุ้น</option>
+                                                            <option>ใบหุ้น (ยกเลิก)</option>
+                                                            <option>ใบหุ้น (ลงทุน)</option>
+                                                            <option>เพิ่มใหม่</option>
+                                                        </optgroup>
+                                                    </select><!-- From Master -->
                                                 </div>
                                             </div>
                                             <div class="col-lg-4 col-md-4">
@@ -303,18 +315,18 @@
                                             </div>
                                             <div class="col-lg-3 col-md-3">
                                                 <!-- bar function-->
-                                                <div class="btn_function" style="border-bottom: none;">
-                                                    <div class="__box" style="height: 60px;">
+                                                <div class="btn_function">
+                                                    <div class="__box">
                                                         <div class="_update">
                                                             <i class="material-icons">sync</i>
                                                         </div>
                                                     </div>
-                                                    <div class="__box" style="height: 60px;">
-                                                        <div class="_add" style="margin-top: 10px;">
+                                                    <div class="__box">
+                                                        <div class="_add">
                                                             <i class="material-icons">add</i>
                                                         </div>
                                                     </div>
-                                                    <div class="__box" style="height: 60px;">
+                                                    <div class="__box">
                                                         <div class="_remove">
                                                             <i class="material-icons">remove</i>
                                                         </div>
@@ -326,22 +338,19 @@
                                             <div class="col-lg-1 col-md-1">
                                                 <b>IDCode</b>
                                                 <div class="input-group">
-                                                    <div class="form-line">
-                                                        <input type="text" class="form-control disabled" placeholder="000" disabled />
-                                                    </div>
+                                                    <input type="text" class="form-control disabled" placeholder="5" disabled />
                                                 </div>
                                             </div>
                                             <div class="col-lg-4 col-md-4">
                                                 <b>สถานที่เก็บเอกสาร(Location)</b>
-                                                <div class="input-group">
-                                                    <div class="form-line">
-                                                        <select class="form-control show-tick">
-                                                            <optgroup label="สถานที่เก็บเอกสาร">
-                                                                <option>อาคารสุรวงศ์ ห้อง A</option>
-                                                                <option>อาคารสุรวงศ์ ห้อง B</option>
-                                                            </optgroup>
-                                                        </select><!-- From Master -->
-                                                    </div>
+                                                <div class="form-group">
+                                                    <select class="form-control show-tick">
+                                                        <optgroup label="กรุณาเลือก">
+                                                            <option>อาคารสุรวงศ์ ห้อง A</option>
+                                                            <option>อาคารสุรวงศ์ ห้อง B</option>
+                                                            <option>เพิ่มใหม่</option>
+                                                        </optgroup>
+                                                    </select><!-- From Master -->
                                                 </div>
                                             </div>
                                             <div class="col-lg-4 col-md-4">
@@ -354,18 +363,18 @@
                                             </div>
                                             <div class="col-lg-3 col-md-3">
                                                 <!-- bar function-->
-                                                <div class="btn_function" style="border-bottom: none;">
-                                                    <div class="__box" style="height: 60px;">
+                                                <div class="btn_function">
+                                                    <div class="__box">
                                                         <div class="_update">
                                                             <i class="material-icons">sync</i>
                                                         </div>
                                                     </div>
-                                                    <div class="__box" style="height: 60px;">
-                                                        <div class="_add" style="margin-top: 10px;">
+                                                    <div class="__box">
+                                                        <div class="_add">
                                                             <i class="material-icons">add</i>
                                                         </div>
                                                     </div>
-                                                    <div class="__box" style="height: 60px;">
+                                                    <div class="__box">
                                                         <div class="_remove">
                                                             <i class="material-icons">remove</i>
                                                         </div>
@@ -378,22 +387,19 @@
                                             <div class="col-lg-1 col-md-1">
                                                 <b>IDCode</b>
                                                 <div class="input-group">
-                                                    <div class="form-line">
-                                                        <input type="text" class="form-control disabled" placeholder="000" disabled />
-                                                    </div>
+                                                    <input type="text" class="form-control disabled" placeholder="6" disabled />
                                                 </div>
                                             </div>
                                             <div class="col-lg-4 col-md-4">
                                                 <b>หมายเลขตู้เอกสาร</b>
-                                                <div class="input-group">
-                                                    <div class="form-line">
-                                                        <select class="form-control show-tick">
-                                                            <optgroup label="หมายเลขตู้เอกสาร">
-                                                                <option>A01</option>
-                                                                <option>B02 </option>
-                                                            </optgroup>
-                                                        </select><!-- From Master -->
-                                                    </div>
+                                                <div class="form-group">
+                                                    <select class="form-control show-tick">
+                                                        <optgroup label="กรุณาเลือก">
+                                                            <option>A01</option>
+                                                            <option>B02 </option>
+                                                            <option>เพิ่มใหม่</option>
+                                                        </optgroup>
+                                                    </select><!-- From Master -->
                                                 </div>
                                             </div>
                                             <div class="col-lg-4 col-md-4">
@@ -406,18 +412,18 @@
                                             </div>
                                             <div class="col-lg-3 col-md-3">
                                                 <!-- bar function-->
-                                                <div class="btn_function" style="border-bottom: none;">
-                                                    <div class="__box" style="height: 60px;">
+                                                <div class="btn_function">
+                                                    <div class="__box">
                                                         <div class="_update">
                                                             <i class="material-icons">sync</i>
                                                         </div>
                                                     </div>
-                                                    <div class="__box" style="height: 60px;">
-                                                        <div class="_add" style="margin-top: 10px;">
+                                                    <div class="__box">
+                                                        <div class="_add">
                                                             <i class="material-icons">add</i>
                                                         </div>
                                                     </div>
-                                                    <div class="__box" style="height: 60px;">
+                                                    <div class="__box">
                                                         <div class="_remove">
                                                             <i class="material-icons">remove</i>
                                                         </div>

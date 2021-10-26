@@ -89,8 +89,8 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="btn-control">
-                                        <button type="button" class="btn btn-raised btn-default __redvitality waves-effect">ค้นหา</button>
+                                    <div class="btn-control text-align">
+                                        <button type="button" class="btn btn-raised btn-default __redvitality waves-effect ">ค้นหา</button>
                                     </div>
                                 </form>
 

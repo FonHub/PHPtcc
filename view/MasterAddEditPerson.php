@@ -58,32 +58,34 @@
                                 <div id="company_detail">
 
                                     <!-- form Person -->
-                                    <form class="form-horizontal __docLocation">
-                                        <div class="block-header" style="padding-left: 0">
+                                    <form class="form-horizontal marterperson">
+                                        <div class="block-header">
                                             <h2>Master กลุ่มบุคคล</h2>
                                         </div>
                                         <div class="row clearfix">
                                             <div class="col-lg-1 col-md-1">
                                                 <b>IDCode</b>
                                                 <div class="input-group">
-                                                    <div class="form-line">
-                                                        <input type="text" class="form-control disabled" placeholder="000" disabled />
-                                                    </div>
+                                                    <input type="text" class="form-control disabled" placeholder="1" disabled />
                                                 </div>
                                             </div>
                                             <div class="col-lg-4 col-md-4">
                                                 <b>คำนำหน้าชื่อ</b>
-                                                <div class="input-group">
-                                                    <div class="form-line">
-                                                        <select class="form-control show-tick">
-                                                            <optgroup label="คำนำหน้าชื่อ">
-                                                                <option>นาย</option>
-                                                                <option>นาง</option>
-                                                                <option>นางสาว</option>
-                                                                <option>อื่นๆ</option>
-                                                            </optgroup>
-                                                        </select><!-- From Master -->
-                                                    </div>
+                                                <div class="form-group">
+                                                    <select class="form-control show-tick">
+                                                        <optgroup label="กรุณาเลือก">
+                                                            <option>นาย</option>
+                                                            <option>นาง</option>
+                                                            <option>นางสาว</option>
+                                                            <option>Mr.</option>
+                                                            <option>Mrs.</option>
+                                                            <option>เพิ่มใหม่</option>
+                                                        </optgroup>
+                                                    </select><!-- From Master -->
+                                                </div>
+
+                                                <div>
+
                                                 </div>
                                             </div>
                                             <div class="col-lg-4 col-md-4">
@@ -96,18 +98,18 @@
                                             </div>
                                             <div class="col-lg-3 col-md-3">
                                                 <!-- bar function-->
-                                                <div class="btn_function" style="border-bottom: none;">
-                                                    <div class="__box" style="height: 60px;">
+                                                <div class="btn_function">
+                                                    <div class="__box">
                                                         <div class="_update">
                                                             <i class="material-icons">sync</i>
                                                         </div>
                                                     </div>
-                                                    <div class="__box" style="height: 60px;">
-                                                        <div class="_add" style="margin-top: 10px;">
+                                                    <div class="__box">
+                                                        <div class="_add">
                                                             <i class="material-icons">add</i>
                                                         </div>
                                                     </div>
-                                                    <div class="__box" style="height: 60px;">
+                                                    <div class="__box">
                                                         <div class="_remove">
                                                             <i class="material-icons">remove</i>
                                                         </div>
@@ -119,24 +121,21 @@
                                             <div class="col-lg-1 col-md-1">
                                                 <b>IDCode</b>
                                                 <div class="input-group">
-                                                    <div class="form-line">
-                                                        <input type="text" class="form-control disabled" placeholder="000" disabled />
-                                                    </div>
+                                                    <input type="text" class="form-control disabled" placeholder="3" disabled />
                                                 </div>
                                             </div>
                                             <div class="col-lg-4 col-md-4">
                                                 <b>สัญชาติ</b>
-                                                <div class="input-group">
-                                                    <div class="form-line">
-                                                        <select class="form-control show-tick">
-                                                            <optgroup label="สัญชาติ">
-                                                                <option>ไทย</option>
-                                                                <option>อังกฤษ</option>
-                                                                <option>จีน</option>
-                                                                <option>อื่นๆ</option>
-                                                            </optgroup>
-                                                        </select><!-- From Master -->
-                                                    </div>
+                                                <div class="form-group">
+                                                    <select class="form-control show-tick">
+                                                        <optgroup label="กรุณาเลือก">
+                                                            <option>ไทย</option>
+                                                            <option>อังกฤษ</option>
+                                                            <option>นางสาว</option>
+                                                            <option>จีน</option>
+                                                            <option>เพิ่มใหม่</option>
+                                                        </optgroup>
+                                                    </select><!-- From Master -->
                                                 </div>
                                             </div>
                                             <div class="col-lg-4 col-md-4">
@@ -149,72 +148,18 @@
                                             </div>
                                             <div class="col-lg-3 col-md-3">
                                                 <!-- bar function-->
-                                                <div class="btn_function" style="border-bottom: none;">
-                                                    <div class="__box" style="height: 60px;">
+                                                <div class="btn_function">
+                                                    <div class="__box">
                                                         <div class="_update">
                                                             <i class="material-icons">sync</i>
                                                         </div>
                                                     </div>
-                                                    <div class="__box" style="height: 60px;">
-                                                        <div class="_add" style="margin-top: 10px;">
+                                                    <div class="__box">
+                                                        <div class="_add">
                                                             <i class="material-icons">add</i>
                                                         </div>
                                                     </div>
-                                                    <div class="__box" style="height: 60px;">
-                                                        <div class="_remove">
-                                                            <i class="material-icons">remove</i>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div> <!-- สัญชาติ -->
-
-                                        <div class="row clearfix">
-                                            <div class="col-lg-1 col-md-1">
-                                                <b>IDCode</b>
-                                                <div class="input-group">
-                                                    <div class="form-line">
-                                                        <input type="text" class="form-control disabled" placeholder="000" disabled />
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-4 col-md-4">
-                                                <b>อาชีพ</b>
-                                                <div class="input-group">
-                                                    <div class="form-line">
-                                                        <select class="form-control show-tick">
-                                                            <optgroup label="อาชีพ">
-                                                                <option>ข้าราชการ</option>
-                                                                <option>เจ้าของกิจการ</option>
-                                                                <option>พนักงานเอกชน</option>
-                                                                <option>อื่นๆ</option>
-                                                            </optgroup>
-                                                        </select><!-- From Master -->
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-4 col-md-4">
-                                                <b>เพิ่ม, ลบ หรือแก้ไขข้อมูล</b>
-                                                <div class="input-group">
-                                                    <div class="form-line">
-                                                        <input type="text" class="form-control" placeholder="" />
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-3 col-md-3">
-                                                <!-- bar function-->
-                                                <div class="btn_function" style="border-bottom: none;">
-                                                    <div class="__box" style="height: 60px;">
-                                                        <div class="_update">
-                                                            <i class="material-icons">sync</i>
-                                                        </div>
-                                                    </div>
-                                                    <div class="__box" style="height: 60px;">
-                                                        <div class="_add" style="margin-top: 10px;">
-                                                            <i class="material-icons">add</i>
-                                                        </div>
-                                                    </div>
-                                                    <div class="__box" style="height: 60px;">
+                                                    <div class="__box">
                                                         <div class="_remove">
                                                             <i class="material-icons">remove</i>
                                                         </div>
@@ -222,6 +167,56 @@
                                                 </div>
                                             </div>
                                         </div>
+                                        <div class="row clearfix">
+                                            <div class="col-lg-1 col-md-1">
+                                                <b>IDCode</b>
+                                                <div class="input-group">
+                                                    <input type="text" class="form-control disabled" placeholder="3" disabled />
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4 col-md-4">
+                                                <b>อาชีพ</b>
+                                                <div class="form-group">
+                                                    <select class="form-control show-tick" v-model="occupation">
+                                                        <optgroup label="กรุณาเลือก">
+                                                            <option>ข้าราชการ</option>
+                                                            <option>เจ้าของกิจการ</option>
+                                                            <option>พนักงานเอกชน</option>
+                                                            <option>เพิ่มใหม่</option>
+                                                        </optgroup>
+                                                    </select><!-- From Master -->
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4 col-md-4">
+                                                <b>เพิ่ม, ลบ หรือแก้ไขข้อมูล</b>
+                                                <div class="input-group">
+                                                    <div class="form-line">
+                                                        <input type="text" class="form-control" placeholder="" />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3 col-md-3">
+                                                <!-- bar function-->
+                                                <div class="btn_function">
+                                                    <div class="__box">
+                                                        <div class="_update">
+                                                            <i class="material-icons">sync</i>
+                                                        </div>
+                                                    </div>
+                                                    <div class="__box">
+                                                        <div class="_add">
+                                                            <i class="material-icons">add</i>
+                                                        </div>
+                                                    </div>
+                                                    <div class="__box">
+                                                        <div class="_remove">
+                                                            <i class="material-icons">remove</i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
                                     </form>
                                 </div>
                             </div>

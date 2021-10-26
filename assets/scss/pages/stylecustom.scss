@@ -1,0 +1,53 @@
+// btn_function
+
+#company_detail {
+    .marterperson {
+        .btn_function {
+            border-bottom: none;
+            padding: 15px 0px;
+        }
+
+        .__box {
+            width: 40px;
+            height: 40px;
+            margin: 5px 10px;
+            -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+
+        }
+
+        .block-header {
+            padding-left: 0;
+        }
+
+        ._update,
+        ._add,
+        ._remove {
+            margin-top: 0 !important;
+        }
+
+        .material-icons {
+            font-size: 20px;
+        }
+
+        .supgroup_3 {
+            margin-top: 20px;
+
+            .btn_function {
+                margin-bottom: 0;
+            }
+        }
+    }
+}
+
+.text-align {
+    text-align: center;
+}
+
+.red {
+    color: #dc3545;
+}
+
+.pt-10 {
+    padding-top: 10px;
+}

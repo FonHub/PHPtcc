@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AACI,eADW,CAAC,aAAa,CACzB,MAAM,AAAC,CACH,MAAM,CAAE,IAAI,CACf",
+    "sources": [
+        "../scss/stylecustom2.scss"
+    ],
+    "names": [],
+    "file": "stylecustom2.min.css"
+}

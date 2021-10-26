@@ -123,7 +123,6 @@
                                                             <option>กลุ่มทีซีซี แลนด์</option>
                                                             <option>กลุ่มบริษัทบุคคล</option>
                                                             <option>กลุ่มทีซีซี แอสเซ็ทส์</option>
-                                                            <option>อื่นๆ</option>
                                                         </optgroup>
                                                     </select><!-- From Master -->
                                                 </div>
