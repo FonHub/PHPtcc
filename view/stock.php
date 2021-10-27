@@ -31,7 +31,7 @@
             <div class="row">
                 <div class="col-lg-7 col-md-6 col-sm-12">
                     <h2>ทะเบียนหุ้น
-                        <small class="text-muted">Welcome to TCC Application</small>
+                        <small class="text-muted">ยินดีต้อนรับสู่ TCC Group</small>
                     </h2>
                 </div>
                 <div class="col-lg-5 col-md-6 col-sm-12">
@@ -133,7 +133,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="btn-control">
+                                    <div class="btn-control text-align">
                                         <button type="button" class="btn btn-raised btn-default __redvitality waves-effect">ค้นหา</button>
                                     </div>
                                 </form>

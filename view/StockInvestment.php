@@ -29,13 +29,13 @@
         <div class="block-header">
             <div class="row">
                 <div class="col-lg-7 col-md-6 col-sm-12">
-                    <h2>Dashboard
-                        <small class="text-muted">Welcome to TCC Application</small>
+                    <h2>เงินลงทุน
+                        <small class="text-muted">ยินดีต้อนรับสู่ TCC Group</small>
                     </h2>
                 </div>
                 <div class="col-lg-5 col-md-6 col-sm-12">
                     <ul class="breadcrumb float-md-right">
-                        <li class="breadcrumb-item"><a href="../view/index.php"><i class="zmdi zmdi-home"></i> Dashboard</a></li>
+                        <li class="breadcrumb-item"><a href="../view/index.php"><i class="zmdi zmdi-home"></i> หน้าหลัก</a></li>
                         <li class="breadcrumb-item"><a href="../view/stock.php"></a> ทะเบียนหุ้น</li>
                         <li class="breadcrumb-item active">เงินลงทุน</li>
                     </ul>
@@ -117,7 +117,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="btn-control">
+                                    <div class="btn-control text-align">
                                         <button type="button" class="btn btn-raised btn-default __redvitality waves-effect">ค้นหา</button>
                                     </div>
                                 </form>
@@ -129,104 +129,87 @@
             </section>
 
             <!-- stock -->
-            <div id="company_status">
+            <!-- stock detail-->
+            <div id="company_detail" class="detail__box">
                 <div class="row clearfix">
                     <div class="col-sm-12 col-md-12 col-lg-12">
-
                         <div class="card">
-                            <div class="header">
-                                <div class="header-status">
-                                    <h3>เงินลงทุน</h3>
-                                </div>
-                                <ul class="header-dropdown m-r--5">
-                                    <a href="stock_AddEdit.php" class="btn btn-raised btn-default waves-effect">
-                                        <i class="material-icons">add</i>
-                                    </a>
-                                    <li class="dropdown"><a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <i class="zmdi zmdi-more-vert"></i> </a>
-                                        <ul class="dropdown-menu slideUp ">
-                                            <li><a href="javascript:void(0);">ปัจจุบัน</a></li>
-                                            <li><a href="javascript:void(0);">สัปดาห์นี้</a></li>
-                                            <li><a href="javascript:void(0);">เดือนนี้</a></li>
-                                        </ul>
-                                    </li>
+                            <div class="body">
+                                <!-- Nav tabs -->
+                                <ul class="nav nav-tabs">
+                                    <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#Investment">เงินลงทุน</a></li>
                                 </ul>
-                            </div>
-                            <div class="body table-responsive company-list">
-                                <table class="table table-hover">
-                                    <thead>
-                                        <tr>
-                                            <th style="width:60px;">#</th>
-                                            <th>วันที่</th>
-                                            <th>เลขทะเบียนนิติบุคคล</th>
-                                            <th>บริษัทเจ้าของหุ้น</th>
-                                            <th>กลุ่มธุรกิจหลัก</th>
-                                            <th>ทุนจดทะเบียน (บาท)</th>
-                                            <th>จำนวนหุ้นทั้งหมด</th>
-                                            <th>จำนวนหุ้นที่ถือ</th>
-                                            <th>มูลค่า (บาท)</th>
-                                            <th>สัดส่วน</th>
-                                            <th>มูลค่าหุ้นละ</th>
-                                            <th>มูลค่าหุ้นที่ชำระแล้ว</th>
-                                            <th>Action</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr v-for="data in dataTableShow" :key="data.id">
-                                            <td>1</td>
-                                            <td>15/1/2564</td>
-                                            <td>0103564000029</td>
-                                            <td>หจ.แอล.พี.เจ. คลาวด์</td>
-                                            <td>บริการพื้นที่สำหรับจัดเก็บข้อมูลอิเล็กทรอนิคส์</td>
-                                            <td>30,000,000.00</td>
-                                            <td>30,000,000.00</td>
-                                            <td>30,000,000.00</td>
-                                            <td>30,000,000.00</td>
-                                            <td>100</td>
-                                            <td>10.000</td>
-                                            <td>30,000,000.00</td>
-                                            <td><a href="stock_AddEdit.php"><button type="button" class="btn btn-raised btn-default waves-effect"> <i class="material-icons">mode_edit</i></button></a></td>
-                                        </tr>
-                                        <tr v-for="data in dataTableShow" :key="data.id">
-                                            <td>2</td>
-                                            <td>15/1/2564</td>
-                                            <td>0505564001589</td>
-                                            <td>บจ.สตาร์ วีซ่า อินเตอร์เนชั่นแนล เซอร์วิส จำกัด</td>
-                                            <td>บริการขอวีซ่า</td>
-                                            <td>10,000,000.00</td>
-                                            <td>10,000,000.00</td>
-                                            <td>5,000,000.00</td>
-                                            <td>5,000,000.00</td>
-                                            <td>50</td>
-                                            <td>10.000</td>
-                                            <td>5,000,000.00</td>
-                                            <td><a href="stock_AddEdit.php"><button type="button" class="btn btn-raised btn-default waves-effect"> <i class="material-icons">mode_edit</i></button></a></td>
-                                        </tr>
-                                        <tr v-for="data in dataTableShow" :key="data.id">
-                                            <td>3</td>
-                                            <td>15/1/2564</td>
-                                            <td>0505564001619</td>
-                                            <td>บจ.มิลเลี่ยนกรุ๊ป คอนซัลท์ จำกัด</td>
-                                            <td>บริการขอวีซ่า</td>
-                                            <td>50,000,000.00</td>
-                                            <td>50,000,000.00</td>
-                                            <td>50,000,000.00</td>
-                                            <td>20,000,000.00</td>
-                                            <td>30</td>
-                                            <td>10.000</td>
-                                            <td>20,000,000.00</td>
-                                            <td><a href="stock_AddEdit.php"><button type="button" class="btn btn-raised btn-default waves-effect"> <i class="material-icons">mode_edit</i></button></a></td>
-                                        </tr>
-                                        
 
-
-                                    </tbody>
-                                </table>
+                                <!-- Tab panes -->
+                                <div class="tab-content">
+                                    <!-- Tab panes 5-->
+                                    <div role="tabpanel" class="tab-pane in active" id="Investment">
+                                        <div class="body table-responsive company-list">
+                                            <table class="table table-hover">
+                                                <thead>
+                                                    <tr>
+                                                        <th style="width:60px;">#</th>
+                                                        <th>วันที่</th>
+                                                        <th>เลขทะเบียนนิติบุคคล</th>
+                                                        <th>บริษัทเจ้าของหุ้น</th>
+                                                        <th>กลุ่มธุรกิจหลัก</th>
+                                                        <th>ทุนจดทะเบียน (บาท)</th>
+                                                        <th>จำนวนหุ้นทั้งหมด</th>
+                                                        <th>Action</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr v-for="data in dataTableShow" :key="data.id">
+                                                        <td>1</td>
+                                                        <td>15/1/2564</td>
+                                                        <td>0103564000029</td>
+                                                        <td>หจ.แอล.พี.เจ. คลาวด์</td>
+                                                        <td>บริการพื้นที่จัดเก็บข้อมูลอิเล็กทรอนิคส์</td>
+                                                        <td>30,000,000.00</td>
+                                                        <td>30,000,000.00</td>
+                                                        <td><a href="stock_AddEdit.php"><button type="button" class="btn btn-raised btn-default waves-effect"> <i class="material-icons">mode_edit</i></button></a></td>
+                                                    </tr>
+                                                    <tr v-for="data in dataTableShow" :key="data.id">
+                                                        <td>2</td>
+                                                        <td>15/1/2564</td>
+                                                        <td>0505564001589</td>
+                                                        <td>บจ.สตาร์ วีซ่า อินเตอร์เนชั่นแนล เซอร์วิส จำกัด</td>
+                                                        <td>บริการขอวีซ่า</td>
+                                                        <td>10,000,000.00</td>
+                                                        <td>5,000,000.00</td>
+                                                        <td><a href="stock_AddEdit.php"><button type="button" class="btn btn-raised btn-default waves-effect"> <i class="material-icons">mode_edit</i></button></a></td>
+                                                    </tr>
+                                                    <tr v-for="data in dataTableShow" :key="data.id">
+                                                        <td>3</td>
+                                                        <td>15/1/2564</td>
+                                                        <td>0505564001619</td>
+                                                        <td>บจ.มิลเลี่ยนกรุ๊ป คอนซัลท์ จำกัด</td>
+                                                        <td>บริการขอวีซ่า</td>
+                                                        <td>50,000,000.00</td>
+                                                        <td>20,000,000.00</td>
+                                                        <td><a href="stock_AddEdit.php"><button type="button" class="btn btn-raised btn-default waves-effect"> <i class="material-icons">mode_edit</i></button></a></td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-
+            <!-- //stock -->
+            <!-- footer -->
+            <div class="row clearfix">
+                <div class="col-lg-12">
+                    <div class="card">
+                        <div class="body">
+                            <p class="m-b-0">© 2021 <a href="#index" target="black">TCC GROUP</a> </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 

@@ -7,7 +7,7 @@
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <meta name="description" content="Responsive Bootstrap 4 and web Application ui kit.">
 
-    <title>ประวัติการเปลี่ยนแปลงชื่อบริษัท</title>
+    <title>เปลี่ยนชื่อบริษัท</title>
     <?php include('../view/linkhead.php'); ?>
 
 </head>
@@ -29,15 +29,15 @@
         <div class="block-header">
             <div class="row">
                 <div class="col-lg-7 col-md-6 col-sm-12">
-                    <h2>Dashboard
-                        <small class="text-muted">Welcome to TCC Application</small>
+                    <h2>เปลี่ยนชื่อบริษัท
+                        <small class="text-muted">ยินดีต้อนรับสู่ TCC Group</small>
                     </h2>
                 </div>
                 <div class="col-lg-5 col-md-6 col-sm-12">
                     <ul class="breadcrumb float-md-right">
-                        <li class="breadcrumb-item"><a href="../view/index.php"><i class="zmdi zmdi-home"></i> Dashboard</a></li>
+                        <li class="breadcrumb-item"><a href="../view/index.php"><i class="zmdi zmdi-home"></i> หน้าหลัก</a></li>
                         <li class="breadcrumb-item"><a href="../view/company.php"></a> ทะเบียนบริษัท</li>
-                        <li class="breadcrumb-item active">ประวัติการเปลี่ยนแปลงชื่อบริษัท</li>
+                        <li class="breadcrumb-item active">เปลี่ยนชื่อบริษัท</li>
                     </ul>
                 </div>
             </div>
@@ -144,71 +144,163 @@
                 </div>
             </section>
 
-            <!-- NameHistory -->
+            <!-- company detail-->
             <div id="company_detail" class="detail__box">
                 <div class="row clearfix">
                     <div class="col-sm-12 col-md-12 col-lg-12">
                         <div class="card">
-                            <div id="NameHistory">
-                                <!-- bar control-->
-                                <div class="row clearfix">
-                                    <div class="col-sm-12 col-md-12 col-lg-12 btn_control">
-                                        <div class="__save"><button type="button" class="btn btn-raised  waves-effect"> <i class="material-icons">save</i> </button></div>
-                                        <div class="__new"><button type="button" class="btn btn-raised  waves-effect"> <i class="material-icons">insert_drive_file</i> </button></div>
-                                        <div class="__close"><button type="button" class="btn btn-raised  waves-effect"> <i class="material-icons">clear</i> </button></div>
-                                        <div class="__exit"><button type="button" class="btn btn-raised  waves-effect"> <i class="material-icons">exit_to_app</i> </button></div>
-                                    </div>
-                                </div>
-                                <!-- bar function-->
-                                <div class="btn_function">
-                                    <div class="__box">
-                                        <div class="_update">
-                                            <button type="button" class="btn btn-default" data-toggle="modal" data-target="#syncNamecompany" style="padding: 0;">
-                                                <i class="material-icons">sync</i>
-                                                <span class="function-name">Update</span>
-                                            </button>
+                            <div class="body">
+                                <!-- Nav tabs -->
+                                <ul class="nav nav-tabs">
+                                    <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#NameHistory">เปลี่ยนชื่อบริษัท</a></li>
+                                </ul>
+                                <!-- Tab panes -->
+                                <div class="tab-content">
+                                    <div role="tabpanel" class="tab-pane in active" id="NameHistory">
+                                        <!-- table -->
+                                        <div class="body table-responsive company-list">
+                                            <table class="table table-hover">
+                                                <thead>
+                                                    <tr>
+                                                        <th style="width: 60px">ครั้งที่</th>
+                                                        <th>วันที่เริ่มต้น</th>
+                                                        <th>วันที่สิ้นสุด</th>
+                                                        <th>เลขทะเบียนนิติบุคคคล</th>
+                                                        <th>ชื่อเดิมภาษาไทย</th>
+                                                        <th>ชื่อเดิมภาษาอังกฤษ</th>
+                                                        <th>เอกสารแนบ</th>
+                                                        <th>หมายเหตุ</th>
+                                                        <th>Action</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>1</td>
+                                                        <td>12/2/2550</td>
+                                                        <td>12/2/2556</td>
+                                                        <td>0105564001931</td>
+                                                        <td>หจ.พ.พัฒนรักษ์</td>
+                                                        <td>บจ.จีจี เกฮลอท จำกัด</td>
+                                                        <td>-</td>
+                                                        <td>-</td>
+                                                        <td><a href="company_AddEdit.php"><button type="button" class="btn btn-raised btn-default waves-effect"> <i class="material-icons">mode_edit</i></button></a></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>2</td>
+                                                        <td>12/2/2556</td>
+                                                        <td>12/2/2560</td>
+                                                        <td>0105564001931</td>
+                                                        <td>บจ.จีจี เกฮลอท จำกัด</td>
+                                                        <td>บจ.ไพร์ม เอ็กซ์ จำกัด</td>
+                                                        <td>-</td>
+                                                        <td>-</td>
+                                                        <td><a href="company_AddEdit.php"><button type="button" class="btn btn-raised btn-default waves-effect"> <i class="material-icons">mode_edit</i></button></a></td>
+                                                    </tr>
+
+                                                </tbody>
+                                            </table>
                                         </div>
                                     </div>
-                                </div>
-                                <!-- table -->
-                                <div class="body table-responsive company-list">
-                                    <table class="table table-hover">
-                                        <thead>
-                                            <tr>
-                                                <th style="width: 60px">ครั้งที่</th>
-                                                <th>วันที่เริ่มต้น</th>
-                                                <th>วันที่สิ้นสุด</th>
-                                                <th>เลขทะเบียนนิติบุคคคล</th>
-                                                <th>ชื่อเดิมภาษาไทย</th>
-                                                <th>ชื่อเดิมภาษาอังกฤษ</th>
-                                                <th>เอกสารแนบ</th>
-                                                <th>หมายเหตุ</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td>1</td>
-                                                <td>12/2/2550</td>
-                                                <td>12/2/2556</td>
-                                                <td>0105564001931</td>
-                                                <td>หจ.พ.พัฒนรักษ์</td>
-                                                <td>บจ.จีจี เกฮลอท จำกัด</td>
-                                                <td>-</td>
-                                                <td>-</td>
-                                            </tr>
-                                            <tr>
-                                                <td>2</td>
-                                                <td>12/2/2556</td>
-                                                <td>12/2/2560</td>
-                                                <td>0105564001931</td>
-                                                <td>บจ.จีจี เกฮลอท จำกัด</td>
-                                                <td>บจ.ไพร์ม เอ็กซ์ จำกัด</td>
-                                                <td>-</td>
-                                                <td>-</td>
-                                            </tr>
 
-                                        </tbody>
-                                    </table>
+                                    <!-- Modal Large Size -->
+                                    <div class="modal fade" id="syncNamecompany" tabindex="-1" role="dialog">
+                                        <div class="modal-dialog modal-lg box__director" role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h4 class="modal-title" id="syncNamecompany">เปลี่ยนแปลงชื่อบริษัท</h4>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <form class="form-horizontal _namehistory">
+                                                        <div class="row clearfix">
+                                                            <div class="col-lg-1 col-md-1">
+                                                                <div><b>ครั้งที่<span class="red">*</span></b>
+                                                                    <div class="input-group">
+                                                                        <input type="text" class="form-control " placeholder="1">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-3 col-md-3">
+                                                                <div><b>เลขทะเบียนนิติบุคคคล<span class="red">*</span></b>
+                                                                    <div class="input-group">
+                                                                        <div class="form-line">
+                                                                            <input type="text" class="form-control " placeholder="0105564001931">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-4 col-md-4"> <b>วันที่เริ่มต้น<span class="red">*</span></b>
+                                                                <div class="input-group">
+                                                                    <div class="form-line">
+                                                                        <input type="text" class="form-control" placeholder="1/7/2560 ">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-4 col-md-4"> <b>วันที่สิ้นสุด<span class="red">*</span></b>
+                                                                <div class="input-group">
+                                                                    <div class="form-line">
+                                                                        <input type="text" class="form-control" placeholder="1/7/2564 ">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row clearfix">
+                                                            <div class="col-lg-6 col-md-6"> <b>ชื่อเดิมภาษาไทย<span class="red">*</span></b>
+                                                                <div class="input-group">
+                                                                    <div class="form-line">
+                                                                        <input type="text" class="form-control" placeholder="บจ.คิด ตรึก ตรอง จำกัด">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-6 col-md-6"> <b>ชื่อเดิมภาษาอังกฤษ<span class="red">*</span></b>
+                                                                <div class="input-group">
+                                                                    <div class="form-line">
+                                                                        <input type="text" class="form-control" placeholder="บจ.คิด ตรึก ตรอง จำกัด">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row clearfix">
+                                                            <div class="col-lg-6 col-md-6"> <b>ชื่อใหม่ภาษาไทย<span class="red">*</span></b>
+                                                                <div class="input-group">
+                                                                    <div class="form-line">
+                                                                        <input type="text" class="form-control" placeholder="บจ.ที โรบอติคส์ จำกัด">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-6 col-md-6"> <b>ชื่อใหม่ภาษาอังกฤษ<span class="red">*</span></b>
+                                                                <div class="input-group">
+                                                                    <div class="form-line">
+                                                                        <input type="text" class="form-control" placeholder="บจ.ที โรบอติคส์ จำกัด">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row clearfix">
+                                                            <div class="col-lg-6 col-md-6"> <b>เอกสารแนบ<span class="red">*</span></b>
+                                                                <div class="input-group">
+                                                                    <div class="form-line">
+                                                                        <input type="text" class="form-control" placeholder="">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-6 col-md-6"> <b>หมายเหตุ<span class="red">*</span></b>
+                                                                <div class="input-group">
+                                                                    <div class="form-line">
+                                                                        <input type="text" class="form-control" placeholder="">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-link waves-effect" data-dismiss="modal">ปิด</button>
+                                                    <a href="#cancel"></a><button type="button" class="btn  btn-raised bg-grey waves-effect"> ยกเลิก </button>
+                                                    <a href="#save"></a><button type="button" class="btn btn-raised btn-default __redvitality waves-effect"> บันทึก </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -234,107 +326,7 @@
     <!-- Jquery Core Js -->
     <?php include('../view/jquerycorejs.php'); ?>
 
-    <!-- Modal Large Size -->
-    <div class="modal fade" id="syncNamecompany" tabindex="-1" role="dialog">
-        <div class="modal-dialog modal-lg box__director" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h4 class="modal-title" id="syncNamecompany">เปลี่ยนแปลงชื่อบริษัท</h4>
-                </div>
-                <div class="modal-body">
-                    <form class="form-horizontal _namehistory">
-                        <div class="row clearfix">
-                            <div class="col-lg-2 col-md-2">
-                                <div><b>ครั้งที่</b>
-                                    <div class="input-group">
-                                        <div class="form-line">
-                                            <input type="text" class="form-control " placeholder="1">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-2 col-md-2">
-                                <div><b>เลขทะเบียนนิติบุคคคล</b>
-                                    <div class="input-group">
-                                        <div class="form-line">
-                                            <input type="text" class="form-control " placeholder="0105564001931">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-4"> <b>วันที่เริ่มต้น</b>
-                                <div class="input-group">
-                                    <div class="form-line">
-                                        <input type="text" class="form-control" placeholder="1/7/2560 ">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-4"> <b>วันที่สิ้นสุด</b>
-                                <div class="input-group">
-                                    <div class="form-line">
-                                        <input type="text" class="form-control" placeholder="1/7/2564 ">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row clearfix">
-                            <div class="col-lg-6 col-md-6"> <b>ชื่อเดิมภาษาไทย</b>
-                                <div class="input-group">
-                                    <div class="form-line">
-                                        <input type="text" class="form-control" placeholder="บจ.คิด ตรึก ตรอง จำกัด">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6 col-md-6"> <b>ชื่อเดิมภาษาอังกฤษ</b>
-                                <div class="input-group">
-                                    <div class="form-line">
-                                        <input type="text" class="form-control" placeholder="บจ.คิด ตรึก ตรอง จำกัด">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row clearfix">
-                            <div class="col-lg-6 col-md-6"> <b>ชื่อใหม่ภาษาไทย</b>
-                                <div class="input-group">
-                                    <div class="form-line">
-                                        <input type="text" class="form-control" placeholder="บจ.ที โรบอติคส์ จำกัด">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6 col-md-6"> <b>ชื่อใหม่ภาษาอังกฤษ</b>
-                                <div class="input-group">
-                                    <div class="form-line">
-                                        <input type="text" class="form-control" placeholder="บจ.ที โรบอติคส์ จำกัด">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row clearfix">
-                            <div class="col-lg-6 col-md-6"> <b>เอกสารแนบ</b>
-                                <div class="input-group">
-                                    <div class="form-line">
-                                        <input type="text" class="form-control" placeholder="">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6 col-md-6"> <b>หมายเหตุ</b>
-                                <div class="input-group">
-                                    <div class="form-line">
-                                        <input type="text" class="form-control" placeholder="">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-                <div class="modal-footer">
-                    <a href="#save"></a><button type="button" class="btn btn-raised btn-default __redvitality waves-effect"> บันทึก </button>
-                    <a href="#cancel"></a><button type="button" class="btn  btn-raised bg-grey waves-effect"> ยกเลิก </button>
-                    <button type="button" class="btn btn-link waves-effect" data-dismiss="modal">ปิด</button>
-                </div>
-            </div>
-        </div>
-    </div>
+    
 </body>
 
 </html>

@@ -1,20 +1,12 @@
 <div role="tabpanel" class="tab-pane" id="DocLocation">
-    <!-- bar control-->
-    <div class="row clearfix">
-        <div class="col-sm-12 col-md-12 col-lg-12 btn_control">
-            <div class="__save"><button type="button" class="btn btn-raised  waves-effect"> <i class="material-icons">save</i> </button></div>
-            <div class="__new"><button type="button" class="btn btn-raised  waves-effect"> <i class="material-icons">insert_drive_file</i> </button></div>
-            <div class="__close"><button type="button" class="btn btn-raised  waves-effect"> <i class="material-icons">clear</i> </button></div>
-            <div class="__exit"><button type="button" class="btn btn-raised  waves-effect"> <i class="material-icons">exit_to_app</i> </button></div>
-        </div>
-    </div>
+
     <!-- bar function-->
     <div class="btn_function">
         <div class="__box">
             <div class="_add">
                 <button type="button" class="btn btn-default" data-toggle="modal" data-target="#ModalFormDoc">
                     <i class="material-icons">add</i>
-                    <span class="function-name">Add</span>
+                    <span class="function-name">เพิ่ม</span>
                 </button>
             </div>
         </div>
@@ -43,7 +35,7 @@
                     <td>-</td>
                     <td>
                         <div class="action_btn">
-                            <a href="javascript:void(0);" class="btn btn-default"><i class="zmdi zmdi-edit"></i></a>
+                            <a href="javascript:void(0);" class="btn btn-default" data-toggle="modal" data-target="#ModalFormDoc"><i class="zmdi zmdi-edit"></i></a>
                             <a href="javascript:void(0);" class="btn btn-default col-red"><i class="zmdi zmdi-delete"></i></a>
                         </div>
                     </td>
@@ -57,13 +49,13 @@
                     <td>-</td>
                     <td>
                         <div class="action_btn">
-                            <a href="javascript:void(0);" class="btn btn-default"><i class="zmdi zmdi-edit"></i></a>
+                            <a href="javascript:void(0);" class="btn btn-default" data-toggle="modal" data-target="#ModalFormDoc"><i class="zmdi zmdi-edit"></i></a>
                             <a href="javascript:void(0);" class="btn btn-default col-red"><i class="zmdi zmdi-delete"></i></a>
                         </div>
                     </td>
                 </tr>
                 <tr>
-                    <td>1</td>
+                    <td>3</td>
                     <td>สมุดทะเบียนหุ้น</td>
                     <td>002</td>
                     <td>อาคารสุรวงศ์ ห้อง B</td>
@@ -71,7 +63,35 @@
                     <td>-</td>
                     <td>
                         <div class="action_btn">
-                            <a href="javascript:void(0);" class="btn btn-default"><i class="zmdi zmdi-edit"></i></a>
+                            <a href="javascript:void(0);" class="btn btn-default" data-toggle="modal" data-target="#ModalFormDoc"><i class="zmdi zmdi-edit"></i></a>
+                            <a href="javascript:void(0);" class="btn btn-default col-red"><i class="zmdi zmdi-delete"></i></a>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>เอกสารวันจดเลิกบริษัท</td>
+                    <td>002</td>
+                    <td>อาคารสุรวงศ์ ห้อง B</td>
+                    <td>B01</td>
+                    <td>-</td>
+                    <td>
+                        <div class="action_btn">
+                            <a href="javascript:void(0);" class="btn btn-default" data-toggle="modal" data-target="#ModalFormDoc"><i class="zmdi zmdi-edit"></i></a>
+                            <a href="javascript:void(0);" class="btn btn-default col-red"><i class="zmdi zmdi-delete"></i></a>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>เอกสารวันจดชำระบัญชี</td>
+                    <td>002</td>
+                    <td>อาคารสุรวงศ์ ห้อง B</td>
+                    <td>B01</td>
+                    <td>-</td>
+                    <td>
+                        <div class="action_btn">
+                            <a href="javascript:void(0);" class="btn btn-default" data-toggle="modal" data-target="#ModalFormDoc"><i class="zmdi zmdi-edit"></i></a>
                             <a href="javascript:void(0);" class="btn btn-default col-red"><i class="zmdi zmdi-delete"></i></a>
                         </div>
                     </td>
@@ -94,21 +114,19 @@
                 <form class="form-horizontal __docLocation">
                     <div>
                         <div class="row clearfix">
-                            <div class="col-lg-4 col-md-4"> <b>ประเภทเอกสารที่จัดเก็บ</b>
-                                <div class="input-group">
-                                    <div class="form-line">
-                                        <select class="form-control show-tick">
-                                            <optgroup label="ประเภทเอกสารที่จัดเก็บ">
-                                                <option>สัญญาซื้อขายหุ้น</option>
-                                                <option>สมุดทะเบียนหุ้น</option>
-                                                <option>ใบหุ้น (ยกเลิก)</option>
-                                                <option>ใบหุ้น (ลงทุน)</option>
-                                            </optgroup>
-                                        </select><!-- From Master -->
-                                    </div>
+                            <div class="col-lg-4 col-md-4"> <b>ประเภทเอกสารที่จัดเก็บ<span class="red">*</span></b>
+                                <div class="form-group">
+                                    <select class="form-control show-tick">
+                                        <optgroup label="กรุณาเลือก">
+                                            <option>สัญญาซื้อขายหุ้น</option>
+                                            <option>สมุดทะเบียนหุ้น</option>
+                                            <option>ใบหุ้น (ยกเลิก)</option>
+                                            <option>ใบหุ้น (ลงทุน)</option>
+                                        </optgroup>
+                                    </select><!-- From Master -->
                                 </div>
                             </div>
-                            <div class="col-lg-2 col-md-2"> <b>เลขลำดับเอกสาร</b>
+                            <div class="col-lg-2 col-md-2"> <b>เลขลำดับเอกสาร<span class="red">*</span></b>
                                 <div class="input-group">
                                     <div class="form-line">
                                         <input type="text" class="form-control" placeholder="001">
@@ -117,33 +135,27 @@
                             </div>
                         </div>
                         <div class="row clearfix">
-                            <div class="col-lg-4 col-md-4"> <b>สถานที่เก็บเอกสาร</b>
-                                <div class="input-group">
-                                    <div class="form-line">
-                                        <select class="form-control show-tick">
-                                            <optgroup label="กรุณาเลือก">
-                                                <option>อาคารสุรวงศ์</option>
-                                                <option>ห้อง A</option>
-                                                <option>ห้อง B</option>
-                                            </optgroup>
-                                        </select>
-                                    </div>
+                            <div class="col-lg-4 col-md-4"> <b>สถานที่เก็บเอกสาร<span class="red">*</span></b>
+                                <div class="form-group">
+                                    <select class="form-control show-tick">
+                                        <optgroup label="กรุณาเลือก">
+                                            <option>อาคารสุรวงศ์ ห้อง A</option>
+                                            <option>อาคารสุรวงศ์ ห้อง B</option>
+                                        </optgroup>
+                                    </select><!-- From Master -->
                                 </div>
                             </div>
-                            <div class="col-lg-4 col-md-4"> <b>หมายเลขตู้เอกสาร</b>
-                                <div class="input-group">
-                                    <div class="form-line">
-                                        <select class="form-control show-tick">
-                                            <optgroup label="กรุณาเลือก">
-                                                <option>A01</option>
-                                                <option>B02</option>
-                                                <option>C02</option>
-                                            </optgroup>
-                                        </select>
-                                    </div>
+                            <div class="col-lg-4 col-md-4"> <b>หมายเลขตู้เอกสาร<span class="red">*</span></b>
+                                <div class="form-group">
+                                    <select class="form-control show-tick">
+                                        <optgroup label="กรุณาเลือก">
+                                            <option>A01</option>
+                                            <option>B02 </option>
+                                        </optgroup>
+                                    </select><!-- From Master -->
                                 </div>
                             </div>
-                            <div class="col-lg-4 col-md-4"> <b>เลขลำดับเอกสาร</b>
+                            <div class="col-lg-4 col-md-4"> <b>เลขลำดับเอกสาร<span class="red">*</span></b>
                                 <div class="input-group">
                                     <div class="form-line">
                                         <input type="text" class="form-control" placeholder="000">
@@ -152,7 +164,7 @@
                             </div>
                         </div>
                         <div class="row clearfix">
-                            <div class="col-lg-12 col-md-12"> <b>หมายเหตุ</b>
+                            <div class="col-lg-12 col-md-12"> <b>หมายเหตุ<span class="red">*</span></b>
                                 <div class="input-group">
                                     <div class="form-line">
                                         <input type="text" class="form-control" placeholder="">
@@ -164,9 +176,9 @@
                 </form>
             </div>
             <div class="modal-footer">
-                <a href="#save"></a><button type="button" class="btn btn-raised btn-default __redvitality waves-effect"> บันทึก </button>
-                <a href="#cancel"></a><button type="button" class="btn  btn-raised bg-grey waves-effect"> ยกเลิก </button>
                 <button type="button" class="btn btn-link waves-effect" data-dismiss="modal">ปิด</button>
+                <a href="#cancel"></a><button type="button" class="btn  btn-raised bg-grey waves-effect"> ยกเลิก </button>
+                <a href="#save"></a><button type="button" class="btn btn-raised btn-default __redvitality waves-effect"> บันทึก </button>
             </div>
         </div>
     </div>

@@ -7,7 +7,7 @@
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <meta name="description" content="Responsive Bootstrap 4 and web Application ui kit.">
 
-    <title>TCC GROUP</title>
+    <title>ผู้รับจำนำ</title>
     <?php include('../view/linkhead.php'); ?>
     <!-- Bootstrap Select Css -->
     <link rel="stylesheet" href="../assets/plugins/bootstrap-select/css/bootstrap-select.css" />
@@ -31,7 +31,7 @@
             <div class="row">
                 <div class="col-lg-7 col-md-6 col-sm-12">
                     <h2>ผู้รับจำนำ
-                        <small class="text-muted">Welcome to TCC Application</small>
+                        <small class="text-muted">ยินดีต้อนรับสู่ TCC Group</small>
                     </h2>
                 </div>
                 <div class="col-lg-5 col-md-6 col-sm-12">
@@ -116,7 +116,8 @@
                                                 </select>
                                             </div>
                                         </div>
-                                        <div class="btn-control">
+                                    </div>
+                                        <div class="btn-control text-align">
                                             <button type="button" class="btn btn-raised btn-default __redvitality waves-effect">ค้นหา</button>
                                         </div>
                                 </form>

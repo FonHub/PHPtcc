@@ -29,13 +29,13 @@
         <div class="block-header">
             <div class="row">
                 <div class="col-lg-7 col-md-6 col-sm-12">
-                    <h2>Dashboard
-                        <small class="text-muted">Welcome to TCC Application</small>
+                    <h2>บริษัทเจ้าของหุ้น
+                        <small class="text-muted">ยินดีต้อนรับสู่ TCC Group</small>
                     </h2>
                 </div>
                 <div class="col-lg-5 col-md-6 col-sm-12">
                     <ul class="breadcrumb float-md-right">
-                        <li class="breadcrumb-item"><a href="../view/index.php"><i class="zmdi zmdi-home"></i> Dashboard</a></li>
+                        <li class="breadcrumb-item"><a href="../view/index.php"><i class="zmdi zmdi-home"></i> หน้าหลัก</a></li>
                         <li class="breadcrumb-item"><a href="../view/stock.php"></a> ทะเบียนหุ้น</li>
                         <li class="breadcrumb-item active">บริษัทเจ้าของหุ้น</li>
                     </ul>
@@ -117,7 +117,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="btn-control">
+                                    <div class="btn-control text-align">
                                         <button type="button" class="btn btn-raised btn-default __redvitality waves-effect">ค้นหา</button>
                                     </div>
                                 </form>
@@ -127,147 +127,124 @@
                     </div>
                 </div>
             </section>
-
-
+            <!-- stock detail-->
             <div id="company_detail" class="detail__box">
                 <div class="row clearfix">
                     <div class="col-sm-12 col-md-12 col-lg-12">
                         <div class="card">
-                            <!-- Content -->
-                            <div id="Lot">
-                                <div>
-                                    <!-- bar control-->
-                                    <div class="row clearfix">
-                                        <div class="col-sm-12 col-md-12 col-lg-12 btn_control">
-                                            <div class="__save"><button type="button" class="btn btn-raised  waves-effect"> <i class="material-icons">save</i> </button></div>
-                                            <div class="__new"><button type="button" class="btn btn-raised  waves-effect"> <i class="material-icons">insert_drive_file</i> </button></div>
-                                            <div class="__close"><button type="button" class="btn btn-raised  waves-effect"> <i class="material-icons">clear</i> </button></div>
-                                            <div class="__exit"><button type="button" class="btn btn-raised  waves-effect"> <i class="material-icons">exit_to_app</i> </button></div>
+                            <div class="body">
+                                <!-- Nav tabs -->
+                                <ul class="nav nav-tabs">
+                                    <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#Lot">เจ้าของหุ้น</a></li>
+                                </ul>
+
+                                <!-- Tab panes -->
+                                <div class="tab-content">
+                                    <div role="tabpanel" class="tab-pane in active" id="Lot">
+                                        <div class="body table-responsive company-list">
+                                            <table class="table table-hover">
+                                                <thead>
+                                                    <tr>
+                                                        <th style="width:60px;">#</th>
+                                                        <th>วันประชุม</th>
+                                                        <th>นิติบุคคล/บุคคล</th>
+                                                        <th>ชื่อบริษัทภาษาไทย</th>
+                                                        <th>เลขทะเบียนนิติบุคคล</th>
+                                                        <th>กลุ่มธุรกิจหลัก</th>
+                                                        <th>ใบหุ้นลงวันที่</th>
+                                                        <th>ใบหุ้นเลขที่</th>
+                                                        <th>สถานะหุ้น</th>
+                                                        <th>จำนวนหุ้น</th>
+                                                        <th>Action</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr v-for="data in dataTableShow" :key="data.id">
+                                                        <td>1</td>
+                                                        <td>1/4/2564</td>
+                                                        <td>บจ.ภัทโสภณ จำกัด</td>
+                                                        <td>หส.เดอะ ทรีไลน์ บีเอฟเอ็ม</td>
+                                                        <td>0102564000010</td>
+                                                        <td>ภัตตาคารและบาร์</td>
+                                                        <td>1/10/2564</td>
+                                                        <td>1</td>
+                                                        <td>จองหุ้น</td>
+                                                        <td>2,500</td>
+                                                        <td><a href="stock_AddEdit.php"><button type="button" class="btn btn-raised btn-default waves-effect"> <i class="material-icons">mode_edit</i></button></a></td>
+                                                    </tr>
+                                                    <tr v-for="data in dataTableShow" :key="data.id">
+                                                        <td>2</td>
+                                                        <td>1/4/2564</td>
+                                                        <td>นาย วิชัย วชิรพงศ์</td>
+                                                        <td>หจ.เดอะ ไลอ้อน มิลค์ที</td>
+                                                        <td>0103564000011</td>
+                                                        <td>จำน่ายอาหารและเครื่องดื่มทุกชนิด</td>
+                                                        <td>1/10/2564</td>
+                                                        <td>2</td>
+                                                        <td>จองหุ้น</td>
+                                                        <td>1,000</td>
+                                                        <td><a href="stock_AddEdit.php"><button type="button" class="btn btn-raised btn-default waves-effect"> <i class="material-icons">mode_edit</i></button></a></td>
+                                                    </tr>
+                                                    <tr v-for="data in dataTableShow" :key="data.id">
+                                                        <td>3</td>
+                                                        <td>1/4/2564</td>
+                                                        <td>บจ.พรอสเพอรัส วิน 168 จำกัด</td>
+                                                        <td>หจ.เกตเวย์ แอคเคาน์ติ้ง</td>
+                                                        <td>0103564001734</td>
+                                                        <td>การทำบัญชีและการตรวจสอบบัญชี</td>
+                                                        <td>1/10/2564</td>
+                                                        <td>3</td>
+                                                        <td>รับโอน</td>
+                                                        <td>1,000</td>
+                                                        <td><a href="stock_AddEdit.php"><button type="button" class="btn btn-raised btn-default waves-effect"> <i class="material-icons">mode_edit</i></button></a></td>
+                                                    </tr>
+                                                    <tr v-for="data in dataTableShow" :key="data.id">
+                                                        <td>4</td>
+                                                        <td>1/4/2564</td>
+                                                        <td>บจ.ณัฐปภัสร์ 59 จำกัด</td>
+                                                        <td>บจ.เพชรดีไซน์ เฟอร์นิเจอร์ จำกัด</td>
+                                                        <td>0105564000152</td>
+                                                        <td>ผลิตเฟอร์นิเจอร์ไม้ในครัวเรือน</td>
+                                                        <td>1/10/2564</td>
+                                                        <td>4</td>
+                                                        <td>รับโอน</td>
+                                                        <td>1,000</td>
+                                                        <td><a href="stock_AddEdit.php"><button type="button" class="btn btn-raised btn-default waves-effect"> <i class="material-icons">mode_edit</i></button></a></td>
+                                                    </tr>
+                                                    <tr v-for="data in dataTableShow" :key="data.id">
+                                                        <td>5</td>
+                                                        <td>1/4/2564</td>
+                                                        <td>บจ.วันดีดีโก จำกัด</td>
+                                                        <td>บจ.ซีเอ็นที สตาร์ จำกัด</td>
+                                                        <td>0105564002171</td>
+                                                        <td>นำเข้าและจำหน่ายสินค้า</td>
+                                                        <td>1/10/2564</td>
+                                                        <td>5</td>
+                                                        <td>จองหุ้น</td>
+                                                        <td>2,500</td>
+                                                        <td><a href="stock_AddEdit.php"><button type="button" class="btn btn-raised btn-default waves-effect"> <i class="material-icons">mode_edit</i></button></a></td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
                                         </div>
                                     </div>
-
-                                    <!-- table -->
-                                    <div class="body table-responsive stock_list">
-                                        <table class="table table-hover">
-                                            <thead>
-                                                <tr>
-                                                    <th>วันลงทะเบียน</th>
-                                                    <th>วันประชุม</th>
-                                                    <th>นิติบุคคล/บุคคล</th>
-                                                    <th>ทะเบียน</th>
-                                                    <th>ลำดับที่พิมพ์</th>
-                                                    <th>ใบหุ้นลงวันที่</th>
-                                                    <th>ใบหุ้นเลขที่</th>
-                                                    <th>จองหุ้น <br> /รับโอน</th>
-                                                    <th>Pay Type</th>
-                                                    <th>Start No.</th>
-                                                    <th>End No.</th>
-                                                    <th>มูลค่าหุ้น</th>
-                                                    <th>จำนวนหุ้น</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <tr>
-                                                    <td>19/2/2504</td>
-                                                    <td>19/5/2504</td>
-                                                    <td>บจ.พรอสเพอรัส วิน 168 จำกัด </td>
-                                                    <td>1</td>
-                                                    <td>1</td>
-                                                    <td>1/6/2504</td>
-                                                    <td>1</td>
-                                                    <td>จองหุ้น</td>
-                                                    <td>1</td>
-                                                    <td>2500</td>
-                                                    <td>5000</td>
-                                                    <td>10.000</td>
-                                                    <td>2,500</td>
-
-                                                </tr>
-                                                <tr>
-                                                    <td>19/2/2504</td>
-                                                    <td>19/5/2504</td>
-                                                    <td>บจ.ภัทโสภณ จำกัด </td>
-                                                    <td>8</td>
-                                                    <td>1</td>
-                                                    <td>1/6/2504</td>
-                                                    <td>2</td>
-                                                    <td>จองหุ้น</td>
-                                                    <td>1</td>
-                                                    <td>5000</td>
-                                                    <td>6000</td>
-                                                    <td>10.000</td>
-                                                    <td>1,000</td>
-
-                                                </tr>
-                                                <tr>
-                                                    <td>19/2/2504</td>
-                                                    <td>19/5/2504</td>
-                                                    <td>บจ.วันดีดีโก จำกัด</td>
-                                                    <td>8</td>
-                                                    <td>1</td>
-                                                    <td>1/6/2504</td>
-                                                    <td>2</td>
-                                                    <td>จองหุ้น</td>
-                                                    <td>8</td>
-                                                    <td>6000</td>
-                                                    <td>7000</td>
-                                                    <td>10.000</td>
-                                                    <td>1,000</td>
-
-                                                </tr>
-                                                <tr>
-                                                    <td>19/2/2504</td>
-                                                    <td>19/5/2504</td>
-                                                    <td>นาย วิชัย วชิรพงศ์ </td>
-                                                    <td>8</td>
-                                                    <td>1</td>
-                                                    <td>1/6/2504</td>
-                                                    <td>2</td>
-                                                    <td>จองหุ้น</td>
-                                                    <td>8</td>
-                                                    <td>7000</td>
-                                                    <td>8000</td>
-                                                    <td>10.000</td>
-                                                    <td>1,000</td>
-
-                                                </tr>
-                                                <tr>
-                                                    <td>19/8/2504</td>
-                                                    <td>30/9/2504</td>
-                                                    <td>บจ.ณัฐปภัสร์ 59 จำกัด</td>
-                                                    <td>8</td>
-                                                    <td>1</td>
-                                                    <td>30/9/2504</td>
-                                                    <td>2</td>
-                                                    <td>จองหุ้น</td>
-                                                    <td>8</td>
-                                                    <td>2500</td>
-                                                    <td>3500</td>
-                                                    <td>10.000</td>
-                                                    <td>1,000</td>
-
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                    </div>
-
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-
-                <!-- footer -->
-                <div class="row clearfix">
-                    <div class="col-lg-12">
-                        <div class="card">
-                            <div class="body">
-                                <p class="m-b-0">© 2021 <a href="#index" target="black">TCC GROUP</a> </p>
-                            </div>
+            </div>
+            <!-- footer -->
+            <div class="row clearfix">
+                <div class="col-lg-12">
+                    <div class="card">
+                        <div class="body">
+                            <p class="m-b-0">© 2021 <a href="#index" target="black">TCC GROUP</a> </p>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
     </section>
 
     <!-- Jquery Core Js -->

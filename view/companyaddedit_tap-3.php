@@ -1,20 +1,11 @@
 <div role="tabpanel" class="tab-pane" id="Director">
-    <!-- bar control-->
-    <div class="row clearfix">
-        <div class="col-sm-12 col-md-12 col-lg-12 btn_control">
-            <div class="__save"><button type="button" class="btn btn-raised  waves-effect"> <i class="material-icons">save</i> </button></div>
-            <div class="__new"><button type="button" class="btn btn-raised  waves-effect"> <i class="material-icons">insert_drive_file</i> </button></div>
-            <div class="__close"><button type="button" class="btn btn-raised  waves-effect"> <i class="material-icons">clear</i> </button></div>
-            <div class="__exit"><button type="button" class="btn btn-raised  waves-effect"> <i class="material-icons">exit_to_app</i> </button></div>
-        </div>
-    </div>
     <!-- bar function-->
     <div class="btn_function">
         <div class="__box">
             <div class="_add">
                 <button type="button" class="btn btn-default" data-toggle="modal" data-target="#ModalAdd">
                     <i class="material-icons">add</i>
-                    <span class="function-name">Add</span>
+                    <span class="function-name">เพิ่ม</span>
                 </button>
             </div>
         </div>
@@ -22,12 +13,12 @@
             <div class="_person_add">
                 <button type="button" class="btn btn-default" data-toggle="modal" data-target="#ModalCreate">
                     <i class="material-icons">person_add</i>
-                    <span class="function-name">Create</span>
+                    <span class="function-name">สร้าง</span>
                 </button>
             </div>
         </div>
     </div>
-    <!-- form -->
+    <!-- table -->
     <div class="body table-responsive company-list">
         <table id="mainTable" class="table table-hover">
             <thead>
@@ -50,8 +41,8 @@
                     <td>1</td>
                     <td>12 เม.ย.2564</td>
                     <td>-</td>
-                    <td>แก้ไขตัวเลข</td>
-                    <td>แก้ไขตัวเลข</td>
+                    <td>1</td>
+                    <td>1</td>
                     <td>นาย</td>
                     <td>วิชัย</td>
                     <td>วชิรพงศ์</td>
@@ -59,7 +50,7 @@
                     <td>กรรมการ</td>
                     <td>
                         <div class="action_btn">
-                            <a href="javascript:void(0);" class="btn btn-default"><i class="zmdi zmdi-edit"></i></a>
+                            <a href="javascript:void(0);" class="btn btn-default" data-toggle="modal" data-target="#ModalCreate"><i class="zmdi zmdi-edit"></i></a>
                             <a href="javascript:void(0);" class="btn btn-default col-red"><i class="zmdi zmdi-delete"></i></a>
                         </div>
                     </td>
@@ -77,7 +68,7 @@
                     <td>กรรมการ</td>
                     <td>
                         <div class="action_btn">
-                            <a href="javascript:void(0);" class="btn btn-default"><i class="zmdi zmdi-edit"></i></a>
+                            <a href="javascript:void(0);" class="btn btn-default" data-toggle="modal" data-target="#ModalCreate"><i class="zmdi zmdi-edit"></i></a>
                             <a href="javascript:void(0);" class="btn btn-default col-red"><i class="zmdi zmdi-delete"></i></a>
                         </div>
                     </td>
@@ -86,8 +77,8 @@
                     <td>3</td>
                     <td>12 เม.ย.2564</td>
                     <td>-</td>
-                    <td>2</td>
-                    <td>2</td>
+                    <td>0</td>
+                    <td>0</td>
                     <td>MR.</td>
                     <td>SUNSHINE </td>
                     <td>TAGALOG </td>
@@ -95,7 +86,7 @@
                     <td>กรรมการ</td>
                     <td>
                         <div class="action_btn">
-                            <a href="javascript:void(0);" class="btn btn-default"><i class="zmdi zmdi-edit"></i></a>
+                            <a href="javascript:void(0);" class="btn btn-default" data-toggle="modal" data-target="#ModalCreate"><i class="zmdi zmdi-edit"></i></a>
                             <a href="javascript:void(0);" class="btn btn-default col-red"><i class="zmdi zmdi-delete"></i></a>
                         </div>
                     </td>
@@ -104,8 +95,8 @@
                     <td>4</td>
                     <td>12 เม.ย.2564</td>
                     <td>-</td>
-                    <td>2</td>
-                    <td>3</td>
+                    <td>0</td>
+                    <td>0</td>
                     <td>นาย</td>
                     <td>ชนุชตร</td>
                     <td>สุขสันต์</td>
@@ -113,7 +104,7 @@
                     <td>กรรมการ</td>
                     <td>
                         <div class="action_btn">
-                            <a href="javascript:void(0);" class="btn btn-default"><i class="zmdi zmdi-edit"></i></a>
+                            <a href="javascript:void(0);" class="btn btn-default" data-toggle="modal" data-target="#ModalCreate"><i class="zmdi zmdi-edit"></i></a>
                             <a href="javascript:void(0);" class="btn btn-default col-red"><i class="zmdi zmdi-delete"></i></a>
                         </div>
                     </td>
@@ -122,8 +113,8 @@
                     <td>5</td>
                     <td>12 เม.ย.2564</td>
                     <td>-</td>
-                    <td>1</td>
-                    <td>5</td>
+                    <td>0</td>
+                    <td>0</td>
                     <td>นางสาว </td>
                     <td>กรรณธิมา</td>
                     <td>คมแก้ว</td>
@@ -131,7 +122,7 @@
                     <td>กรรมการ</td>
                     <td>
                         <div class="action_btn">
-                            <a href="javascript:void(0);" class="btn btn-default"><i class="zmdi zmdi-edit"></i></a>
+                            <a href="javascript:void(0);" class="btn btn-default" data-toggle="modal" data-target="#ModalCreate"><i class="zmdi zmdi-edit"></i></a>
                             <a href="javascript:void(0);" class="btn btn-default col-red"><i class="zmdi zmdi-delete"></i></a>
                         </div>
                     </td>
@@ -152,29 +143,27 @@
                 <form class="form-horizontal box__director">
                     <div class="row clearfix">
                         <div class="col-lg-3 col-md-3">
-                            <div class="w-100px"><b>หมายเลข</b>
+                            <div class="w-100px"><b>หมายเลข<span class="red">*</span></b>
                                 <div class="input-group">
-                                    <div class="form-line disabled">
-                                        <input type="text" class="form-control" placeholder="0000" disabled>
+                                    <div class="disabled">
+                                        <input type="text" class="form-control" placeholder="0010" disabled>
                                     </div>
                                 </div>
                             </div>
-                            <div class="w-100px"><b>กลุ่ม</b>
-                                <div class="input-group">
-                                    <div class="form-line">
-                                        <select class="form-control show-tick">
-                                            <optgroup label="กลุ่ม">
-                                                <option> 1</option>
-                                                <option> 2</option>
-                                                <option> 3</option>
-                                                <option> 4</option>
-                                                <option> 5</option>
-                                            </optgroup>
-                                        </select>
-                                    </div>
+                            <div class="w-100px"><b>กลุ่ม<span class="red">*</span></b>
+                                <div class="form-group">
+                                    <select class="form-control show-tick">
+                                        <optgroup label="กรุณาเลือก">
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                            <option>5</option>
+                                        </optgroup>
+                                    </select><!-- From Master -->
                                 </div>
                             </div>
-                            <div class="w-100px"><b>Running</b>
+                            <div class="w-100px"><b>Running<span class="red">*</span></b>
                                 <div class="input-group">
                                     <div class="form-line">
                                         <input type="text" class="form-control" placeholder="1">
@@ -183,7 +172,7 @@
                             </div>
                         </div>
                         <div class="col-lg-2 col-md-2">
-                            <div><b>คำนำหน้าชื่อ</b>
+                            <div><b>คำนำหน้าชื่อ<span class="red">*</span></b>
                                 <div class="input-group">
                                     <div class="form-line">
                                         <input type="text" class="form-control" placeholder="นาย">
@@ -192,7 +181,7 @@
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-3">
-                            <div><b>ชื่อ </b>
+                            <div><b>ชื่อ <span class="red">*</span></b>
                                 <div class="input-group">
                                     <div class="form-line">
                                         <input type="text" class="form-control" placeholder="วิชัย">
@@ -201,7 +190,7 @@
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-3">
-                            <div><b>นามสกุล </b>
+                            <div><b>นามสกุล <span class="red">*</span></b>
                                 <div class="input-group">
                                     <div class="form-line">
                                         <input type="text" class="form-control" placeholder="วชิรพงศ์">
@@ -211,35 +200,35 @@
                         </div>
                     </div>
                     <div class="row clearfix">
-                        <div class="col-lg-1 col-md-1"> <b>Status</b>
+                        <div class="col-lg-1 col-md-1"> <b>Status<span class="red">*</span></b>
                             <div class="input-group">
                                 <div class="switch">
                                     <label>Active<input type="checkbox" checked><span class="lever"></span></label>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-3"> <b>วันที่เป็นกรรมการ</b>
+                        <div class="col-lg-3 col-md-3"> <b>วันที่เป็นกรรมการ<span class="red">*</span></b>
                             <div class="input-group">
                                 <div class="form-line">
                                     <input type="text" class="form-control" placeholder="1/7/2564">
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-3"> <b>วันที่สิ้นสุด</b>
+                        <div class="col-lg-3 col-md-3"> <b>วันที่สิ้นสุด<span class="red">*</span></b>
                             <div class="input-group">
                                 <div class="form-line">
                                     <input type="text" class="form-control" placeholder="วัน-เดือน-ปี พ.ศ. ">
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-2 col-md-2"> <b>สัญชาติ</b>
+                        <div class="col-lg-2 col-md-2"> <b>สัญชาติ<span class="red">*</span></b>
                             <div class="input-group">
                                 <div class="form-line">
                                     <input type="text" class="form-control" placeholder="ไทย">
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-2 col-md-2"> <b>อาชีพ</b>
+                        <div class="col-lg-2 col-md-2"> <b>อาชีพ<span class="red">*</span></b>
                             <div class="input-group">
                                 <div class="form-line">
                                     <input type="text" class="form-control" placeholder="เจ้าของกิจการ">
@@ -248,14 +237,14 @@
                         </div>
                     </div>
                     <div class="row clearfix">
-                        <div class="col-lg-6 col-md-6"> <b>เลขบัตรประชาชน หรือ หมายเลขพาสปอร์ต</b>
+                        <div class="col-lg-6 col-md-6"> <b>เลขบัตรประชาชน หรือ หมายเลขพาสปอร์ต<span class="red">*</span></b>
                             <div class="input-group">
                                 <div class="form-line">
                                     <input type="text" class="form-control" placeholder="1-7209-00289-07-6">
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-6 col-md-6"> <b>บริษัท</b>
+                        <div class="col-lg-6 col-md-6"> <b>บริษัท<span class="red">*</span></b>
                             <div class="input-group">
                                 <div class="form-line">
                                     <input type="text" class="form-control" placeholder="บจ.ฟลอร่า โปรดัคส์ โซลูชั่น จำกัด ">
@@ -270,7 +259,7 @@
                         </div>
                         <div class="row clearfix">
                             <div class="col-lg-3 col-md-3">
-                                <b>เลขที</b>
+                                <b>เลขที<span class="red">*</span></b>
                                 <div class="input-group">
                                     <div class="form-line">
                                         <input type="text" class="form-control" placeholder="" />
@@ -278,7 +267,7 @@
                                 </div>
                             </div>
                             <div class="col-lg-3 col-md-3">
-                                <b>หมู่ที่/หมู่บ้าน</b>
+                                <b>หมู่ที่/หมู่บ้าน<span class="red">*</span></b>
                                 <div class="input-group">
                                     <div class="form-line">
                                         <input type="text" class="form-control" placeholder="" />
@@ -286,7 +275,7 @@
                                 </div>
                             </div>
                             <div class="col-lg-3 col-md-3">
-                                <b>ถนน</b>
+                                <b>ถนน<span class="red">*</span></b>
                                 <div class="input-group">
                                     <div class="form-line">
                                         <input type="text" class="form-control" placeholder="" />
@@ -296,7 +285,7 @@
                         </div>
                         <div class="row clearfix">
                             <div class="col-lg-3 col-md-3">
-                                <b>จังหวัด</b>
+                                <b>จังหวัด<span class="red">*</span></b>
                                 <div class="input-group">
                                     <div class="form-line">
 
@@ -310,7 +299,7 @@
                                 </div>
                             </div>
                             <div class="col-lg-3 col-md-3">
-                                <b>อำเภอ/เขต</b>
+                                <b>อำเภอ/เขต<span class="red">*</span></b>
 
                                 <div class="input-group">
                                     <div class="form-line">
@@ -323,7 +312,7 @@
                                 </div>
                             </div>
                             <div class="col-lg-3 col-md-3">
-                                <b>ตำบล/แขวง</b>
+                                <b>ตำบล/แขวง<span class="red">*</span></b>
                                 <div class="input-group">
                                     <div class="form-line">
 
@@ -335,7 +324,7 @@
                                 </div>
                             </div>
                             <div class="col-lg-3 col-md-3">
-                                <b>รหัสไปรษณีย์</b>
+                                <b>รหัสไปรษณีย์<span class="red">*</span></b>
                                 <div class="input-group">
                                     <div class="form-line">
                                         <input type="text" class="form-control" :placeholder="zipcode_th" disabled="true" />
@@ -350,7 +339,7 @@
                         </div>
                         <div class="row clearfix">
                             <div class="col-lg-3 col-md-3">
-                                <b>เลขที</b>
+                                <b>เลขที<span class="red">*</span></b>
                                 <div class="input-group">
                                     <div class="form-line">
                                         <input type="text" class="form-control" placeholder="" />
@@ -358,7 +347,7 @@
                                 </div>
                             </div>
                             <div class="col-lg-3 col-md-3">
-                                <b>หมู่ที่/หมู่บ้าน</b>
+                                <b>หมู่ที่/หมู่บ้าน<span class="red">*</span></b>
                                 <div class="input-group">
                                     <div class="form-line">
                                         <input type="text" class="form-control" placeholder="" />
@@ -366,7 +355,7 @@
                                 </div>
                             </div>
                             <div class="col-lg-3 col-md-3">
-                                <b>ถนน</b>
+                                <b>ถนน<span class="red">*</span></b>
                                 <div class="input-group">
                                     <div class="form-line">
                                         <input type="text" class="form-control" placeholder="" />
@@ -376,7 +365,7 @@
                         </div>
                         <div class="row clearfix">
                             <div class="col-lg-3 col-md-3">
-                                <b>จังหวัด</b>
+                                <b>จังหวัด<span class="red">*</span></b>
                                 <div class="input-group">
                                     <div class="form-line">
                                         <b-form-input list="provinces_en" class="form-control show-tick" v-model="province_en" :state="provinceState_en"></b-form-input>
@@ -389,7 +378,7 @@
                                 </div>
                             </div>
                             <div class="col-lg-3 col-md-3">
-                                <b>อำเภอ/เขต</b>
+                                <b>อำเภอ/เขต<span class="red">*</span></b>
                                 <div class="input-group">
                                     <div class="form-line">
                                         <b-form-input list="districts_en" class="form-control show-tick" v-model="district_en" :state="districtState_en"></b-form-input>
@@ -400,7 +389,7 @@
                                 </div>
                             </div>
                             <div class="col-lg-3 col-md-3">
-                                <b>ตำบล/แขวง</b>
+                                <b>ตำบล/แขวง<span class="red">*</span></b>
                                 <div class="input-group">
                                     <div class="form-line">
                                         <b-form-input list="sub_district_en" class="form-control show-tick" v-model="sub_district_en" :state="sub_districtState_en"></b-form-input>
@@ -411,7 +400,7 @@
                                 </div>
                             </div>
                             <div class="col-lg-3 col-md-3">
-                                <b>รหัสไปรษณีย์</b>
+                                <b>รหัสไปรษณีย์<span class="red">*</span></b>
                                 <div class="input-group">
                                     <div class="form-line">
                                         <input type="text" class="form-control" :placeholder="zipcode_en" disabled="true" />
@@ -421,7 +410,7 @@
                         </div>
                         <div class="row clearfix">
                             <div class="col-lg-6 col-md-6">
-                                <b>แนบเอกสาร</b>
+                                <b>แนบเอกสาร<span class="red">*</span></b>
                                 <div class="input-group">
                                     <div class="form-line">
                                         <input type="text" class="form-control" placeholder="" />
@@ -434,9 +423,9 @@
                 </form>
             </div>
             <div class="modal-footer">
-                <a href="#save"></a><button type="button" class="btn btn-raised btn-default __redvitality waves-effect"> บันทึก </button>
-                <a href="#cancel"></a><button type="button" class="btn  btn-raised bg-grey waves-effect"> ยกเลิก </button>
                 <button type="button" class="btn btn-link waves-effect" data-dismiss="modal">ปิด</button>
+                <a href="#cancel"></a><button type="button" class="btn  btn-raised bg-grey waves-effect"> ยกเลิก </button>
+                <a href="#save"></a><button type="button" class="btn btn-raised btn-default __redvitality waves-effect"> บันทึก </button>
             </div>
         </div>
     </div>
@@ -610,9 +599,9 @@
 
             </div>
             <div class="modal-footer">
-                <a href="#save"></a><button type="button" class="btn btn-raised btn-default __redvitality waves-effect"> บันทึก </button>
-                <a href="#cancel"></a><button type="button" class="btn  btn-raised bg-grey waves-effect"> ยกเลิก </button>
                 <button type="button" class="btn btn-link waves-effect" data-dismiss="modal">ปิด</button>
+                <a href="#cancel"></a><button type="button" class="btn  btn-raised bg-grey waves-effect"> ยกเลิก </button>
+                <a href="#save"></a><button type="button" class="btn btn-raised btn-default __redvitality waves-effect"> บันทึก </button>
             </div>
         </div>
     </div>

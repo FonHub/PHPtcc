@@ -1,27 +1,16 @@
  <div role="tabpanel" class="tab-pane in active" id="HeadAdd">
-     <!-- bar control-->
-     <div class="row clearfix">
-         <div class="col-sm-12 col-md-12 col-lg-12 btn_control">
-             <div class="__save"><button type="button" class="btn btn-raised  waves-effect"> <i class="material-icons">save</i> </button></div>
-             <div class="__new"><button type="button" class="btn btn-raised  waves-effect"> <i class="material-icons">insert_drive_file</i> </button></div>
-             <div class="__close"><button type="button" class="btn btn-raised  waves-effect"> <i class="material-icons">clear</i> </button></div>
-             <div class="__exit"><button type="button" class="btn btn-raised  waves-effect"> <i class="material-icons">exit_to_app</i> </button></div>
-         </div>
-     </div>
+
      <!-- bar function-->
      <div class="btn_function">
          <div class="__box">
              <div class="_update">
-                 <i class="material-icons">sync</i>
-                 <span class="function-name">Update</span>
+                 <button type="button" class="btn btn-default">
+                     <i class="material-icons">sync</i>
+                     <br>
+                     <span class="function-name">อัพเดต</span>
+                 </button>
              </div>
          </div>
-         <div class="__box">
-             <div class="_add">
-                 <i class="material-icons">add</i>
-                 <span class="function-name">Add</span>
-             </div>
-         </div>         
      </div>
      <!-- form -->
      <form class="form-horizontal __HeadAdd">
@@ -31,7 +20,7 @@
          </div>
          <div class="row clearfix">
              <div class="col-lg-3 col-md-3">
-                 <b>เลขที</b>
+                 <b>เลขที<span class="red">*</span></b>
                  <div class="input-group">
                      <div class="form-line">
                          <input type="text" class="form-control" placeholder="1  อาคารทีพี แอนด์ ที" />
@@ -39,7 +28,7 @@
                  </div>
              </div>
              <div class="col-lg-3 col-md-3">
-                 <b>หมู่ที่/หมู่บ้าน</b>
+                 <b>หมู่ที่/หมู่บ้าน<span class="red">*</span></b>
                  <div class="input-group">
                      <div class="form-line">
                          <input type="text" class="form-control" placeholder=" ชั้นที่ 22 ซอยวิภาวดีรังสิต 19" />
@@ -47,7 +36,7 @@
                  </div>
              </div>
              <div class="col-lg-3 col-md-3">
-                 <b>ถนน</b>
+                 <b>ถนน<span class="red">*</span></b>
                  <div class="input-group">
                      <div class="form-line">
                          <input type="text" class="form-control" placeholder="วิภาวดีรังสิต" />
@@ -57,7 +46,7 @@
          </div>
          <div class="row clearfix">
              <div class="col-lg-3 col-md-3">
-                 <b>จังหวัด</b>
+                 <b>จังหวัด<span class="red">*</span></b>
                  <div class="input-group">
                      <div class="form-line">
 
@@ -71,7 +60,7 @@
                  </div>
              </div>
              <div class="col-lg-3 col-md-3">
-                 <b>อำเภอ/เขต</b>
+                 <b>อำเภอ/เขต<span class="red">*</span></b>
 
                  <div class="input-group">
                      <div class="form-line">
@@ -84,7 +73,7 @@
                  </div>
              </div>
              <div class="col-lg-3 col-md-3">
-                 <b>ตำบล/แขวง</b>
+                 <b>ตำบล/แขวง<span class="red">*</span></b>
                  <div class="input-group">
                      <div class="form-line">
 
@@ -96,7 +85,7 @@
                  </div>
              </div>
              <div class="col-lg-3 col-md-3">
-                 <b>รหัสไปรษณีย์</b>
+                 <b>รหัสไปรษณีย์<span class="red">*</span></b>
                  <div class="input-group">
                      <div class="form-line">
                          <input type="text" class="form-control" :placeholder="zipcode_th" disabled="true" />
@@ -111,7 +100,7 @@
          </div>
          <div class="row clearfix">
              <div class="col-lg-3 col-md-3">
-                 <b>เลขที</b>
+                 <b>เลขที<span class="red">*</span></b>
                  <div class="input-group">
                      <div class="form-line">
                          <input type="text" class="form-control" placeholder="" />
@@ -119,7 +108,7 @@
                  </div>
              </div>
              <div class="col-lg-3 col-md-3">
-                 <b>หมู่ที่/หมู่บ้าน</b>
+                 <b>หมู่ที่/หมู่บ้าน<span class="red">*</span></b>
                  <div class="input-group">
                      <div class="form-line">
                          <input type="text" class="form-control" placeholder="" />
@@ -127,7 +116,7 @@
                  </div>
              </div>
              <div class="col-lg-3 col-md-3">
-                 <b>ถนน</b>
+                 <b>ถนน<span class="red">*</span></b>
                  <div class="input-group">
                      <div class="form-line">
                          <input type="text" class="form-control" placeholder="" />
@@ -137,7 +126,7 @@
          </div>
          <div class="row clearfix">
              <div class="col-lg-3 col-md-3">
-                 <b>จังหวัด</b>
+                 <b>จังหวัด<span class="red">*</span></b>
                  <div class="input-group">
                      <div class="form-line">
                          <b-form-input list="provinces_en" class="form-control show-tick" v-model="province_en" :state="provinceState_en"></b-form-input>
@@ -150,7 +139,7 @@
                  </div>
              </div>
              <div class="col-lg-3 col-md-3">
-                 <b>อำเภอ/เขต</b>
+                 <b>อำเภอ/เขต<span class="red">*</span></b>
                  <div class="input-group">
                      <div class="form-line">
                          <b-form-input list="districts_en" class="form-control show-tick" v-model="district_en" :state="districtState_en"></b-form-input>
@@ -161,7 +150,7 @@
                  </div>
              </div>
              <div class="col-lg-3 col-md-3">
-                 <b>ตำบล/แขวง</b>
+                 <b>ตำบล/แขวง<span class="red">*</span></b>
                  <div class="input-group">
                      <div class="form-line">
                          <b-form-input list="sub_district_en" class="form-control show-tick" v-model="sub_district_en" :state="sub_districtState_en"></b-form-input>
@@ -172,7 +161,7 @@
                  </div>
              </div>
              <div class="col-lg-3 col-md-3">
-                 <b>รหัสไปรษณีย์</b>
+                 <b>รหัสไปรษณีย์<span class="red">*</span></b>
                  <div class="input-group">
                      <div class="form-line">
                          <input type="text" class="form-control" :placeholder="zipcode_en" disabled="true" />
@@ -181,14 +170,14 @@
              </div>
          </div>
          <div class="row clearfix">
-             <div class="col-lg-6 col-md-6"> <b>เบอร์โทรศัพท์</b>
+             <div class="col-lg-6 col-md-6"> <b>เบอร์โทรศัพท์<span class="red">*</span></b>
                  <div class="input-group">
                      <div class="form-line">
                          <input type="text" class="form-control" placeholder="">
                      </div>
                  </div>
              </div>
-             <div class="col-lg-6 col-md-6"> <b>เบอร์โทรสาร</b>
+             <div class="col-lg-6 col-md-6"> <b>เบอร์โทรสาร<span class="red">*</span></b>
                  <div class="input-group">
                      <div class="form-line">
                          <input type="text" class="form-control" placeholder="">
@@ -197,7 +186,7 @@
              </div>
          </div>
          <div class="row clearfix">
-             <div class="col-lg-6 col-md-6"> <b>แนบเอกสาร</b>
+             <div class="col-lg-6 col-md-6"> <b>แนบเอกสาร<span class="red">*</span></b>
                  <div class="input-group">
                      <div class="form-line">
                          <input type="text" class="form-control" placeholder="">
@@ -205,9 +194,9 @@
                  </div>
              </div>
          </div>
-         <div class="btn-control">
-             <a href="#save"></a><button type="button" class="btn btn-raised btn-default __redvitality waves-effect"> บันทึก </button>
+         <div class="btn-control text-align">
              <a href="#cancel"></a><button type="button" class="btn  btn-raised bg-grey waves-effect"> ยกเลิก </button>
+             <a href="#save"></a><button type="button" class="btn btn-raised btn-default __redvitality waves-effect"> บันทึก </button>
          </div>
      </form>
  </div>

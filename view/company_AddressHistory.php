@@ -29,13 +29,13 @@
         <div class="block-header">
             <div class="row">
                 <div class="col-lg-7 col-md-6 col-sm-12">
-                    <h2>Dashboard
-                        <small class="text-muted">Welcome to TCC Application</small>
+                    <h2>ประวัติการเปลี่ยนแปลงที่อยู่บริษัท
+                        <small class="text-muted">ยินดีต้อนรับสู่ TCC Group</small>
                     </h2>
                 </div>
                 <div class="col-lg-5 col-md-6 col-sm-12">
                     <ul class="breadcrumb float-md-right">
-                        <li class="breadcrumb-item"><a href="../view/index.php"><i class="zmdi zmdi-home"></i> Dashboard</a></li>
+                        <li class="breadcrumb-item"><a href="../view/index.php"><i class="zmdi zmdi-home"></i> หน้าหลัก</a></li>
                         <li class="breadcrumb-item"><a href="../view/company.php"></a> ทะเบียนบริษัท</li>
                         <li class="breadcrumb-item active">ประวัติการเปลี่ยนแปลงที่อยู่บริษัท</li>
                     </ul>
@@ -133,7 +133,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="btn-control">
+                                    <div class="btn-control text-align">
                                         <button type="button" class="btn btn-raised btn-default __redvitality waves-effect">ค้นหา</button>
                                     </div>
                                 </form>
@@ -143,71 +143,78 @@
                     </div>
                 </div>
             </section>
-
-            <!-- NameHistory -->
+            <!-- company detail-->
             <div id="company_detail" class="detail__box">
                 <div class="row clearfix">
                     <div class="col-sm-12 col-md-12 col-lg-12">
                         <div class="card">
-                            <div id="AddHistory">
+                            <div class="body">
+                                <!-- Nav tabs -->
+                                <ul class="nav nav-tabs">
+                                    <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#AddHistory">ประวัติการเปลี่ยนที่อยู่บริษัท</a></li>
+                                </ul>
+                                <!-- Tab panes -->
+                                <div class="tab-content">
+                                    <div role="tabpanel" class="tab-pane  in active" id="AddHistory">
 
-                                <!-- table -->
-                                <div class="body table-responsive company-list">
-                                    <table class="table table-hover">
-                                        <thead>
-                                            <tr>
-                                                <th style="width: 60px">ครั้งที่</th>
-                                                <th>วันที่เริ่มต้น</th>
-                                                <th>วันที่สิ้นสุด</th>
-                                                <th>ที่อยู่เดิมภาษาไทย</th>
-                                                <th>ที่อยู่เดิมภาษาอังกฤษ</th>
-                                                <th>เอกสารแนบ</th>
-                                                <th>หมายเหตุ</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td>1</td>
-                                                <td>12/2/2550</td>
-                                                <td>12/2/2556</td>
-                                                <td>257/6 หมู่ที่ 14 ถนนมิตรภาพ ต.ในเมือง อ.เมืองขอนแก่น จ.ขอนแก่น 40000</td>
-                                                <td>8/5 ถนนสามัคคีอุทิศ ต.ในเมือง อ.เมืองขอนแก่น จ.ขอนแก่น 40000</td>
-                                                <td>-</td>
-                                                <td>-</td>
-                                            </tr>
-                                            <tr>
-                                                <td>2</td>
-                                                <td>12/2/2556</td>
-                                                <td>12/2/2560</td>
-                                                <td>
-                                                    449 ซอยอินทามระ 41 แขวงดินแดง เขตดินแดง กรุงเทพมหานคร 10400
-                                                </td>
-                                                <td>999 ชั้น 5 ห้อง 5 บี 1 ถนนเพลินจิต แขวงลุมพินี เขตปทุมวัน กรุงเทพมหานคร 10330</td>
-                                                <td>-</td>
-                                                <td>-</td>
-                                            </tr>
+                                        <!-- table -->
+                                        <div class="body table-responsive company-list">
+                                            <table class="table table-hover">
+                                                <thead>
+                                                    <tr>
+                                                        <th style="width: 60px">ครั้งที่</th>
+                                                        <th>วันที่เริ่มต้น</th>
+                                                        <th>วันที่สิ้นสุด</th>
+                                                        <th>ชื่อบริษัทภาษาไทย</th>
+                                                        <th>เลขทะเบียนนิติบุคคล</th>
+                                                        <th>ที่อยู่เดิมภาษาไทย</th>
+                                                        <th>ที่อยู่เดิมภาษาอังกฤษ</th>
+                                                        <th>เอกสารแนบ</th>
+                                                        <th>หมายเหตุ</th>
+                                                        <th>Action</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>1</td>
+                                                        <td>12/2/2550</td>
+                                                        <td>12/2/2556</td>
+                                                        <td>หส.เดอะ ทรีไลน์ บีเอฟเอ็ม</td>
+                                                        <td>0102564000010</td>
+                                                        <td>257/6 หมู่ที่ 14 ถนนมิตรภาพ ต.ในเมือง อ.เมืองขอนแก่น จ.ขอนแก่น 40000</td>
+                                                        <td>8/5 ถนนสามัคคีอุทิศ ต.ในเมือง อ.เมืองขอนแก่น จ.ขอนแก่น 40000</td>
+                                                        <td>-</td>
+                                                        <td>-</td>
+                                                        <td><a href="company_AddEdit.php"><button type="button" class="btn btn-raised btn-default waves-effect"> <i class="material-icons">mode_edit</i></button></a></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>2</td>
+                                                        <td>12/2/2556</td>
+                                                        <td>12/2/2560</td>
+                                                        <td>หจ.เดอะ ไลอ้อน มิลค์ที</td>
+                                                        <td>0103564000011</td>
+                                                        <td>
+                                                            449 ซอยอินทามระ 41 แขวงดินแดง เขตดินแดง กรุงเทพมหานคร 10400
+                                                        </td>
+                                                        <td>999 ชั้น 5 ห้อง 5 บี 1 ถนนเพลินจิต แขวงลุมพินี เขตปทุมวัน กรุงเทพมหานคร 10330</td>
+                                                        <td>-</td>
+                                                        <td>-</td>
+                                                        <td><a href="company_AddEdit.php"><button type="button" class="btn btn-raised btn-default waves-effect"> <i class="material-icons">mode_edit</i></button></a></td>
+                                                    </tr>
 
-                                        </tbody>
-                                    </table>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-
-
-
-                <!-- footer -->
-                <div class="row clearfix">
-                    <div class="col-lg-12">
-                        <div class="card">
-                            <div class="body">
-                                <p class="m-b-0">© 2021 <a href="#index" target="black">TCC GROUP</a> </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
+            <!-- footer -->
+            <?php include('../view/footer.php'); ?>
+        </div>
     </section>
 
     <!-- Jquery Core Js -->

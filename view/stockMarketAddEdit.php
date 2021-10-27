@@ -31,7 +31,7 @@
                 <div class="col-lg-7 col-md-6 col-sm-12">
                     <h2>
                         ข้อมูลหุ้นตลาด
-                        <small class="text-muted">Welcome to TCC Application</small>
+                        <small class="text-muted">ยินดีต้อนรับสู่ TCC Group</small>
                     </h2>
                 </div>
                 <div class="col-lg-5 col-md-6 col-sm-12">
@@ -60,21 +60,21 @@
 
                                 <form class="form-horizontal __info">
                                     <div class="row clearfix">
-                                        <div class="col-lg-2 col-md-2"> <b>ชื่อย่อหุ้น</b>
+                                        <div class="col-lg-2 col-md-2"> <b>ชื่อย่อหุ้น<span class="red">*</span></b>
                                             <div class="input-group">
                                                 <div class="form-line">
                                                     <input type="text" class="form-control" placeholder="SET01">
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-lg-3 col-md-3"> <b>เลขทะเบียนนิติบุคคล</b>
+                                        <div class="col-lg-3 col-md-3"> <b>เลขทะเบียนนิติบุคคล<span class="red">*</span></b>
                                             <div class="input-group">
                                                 <div class="form-line">
                                                     <input type="text" class="form-control" placeholder="0505564001775">
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-lg-7 col-md-7"> <b>ชื่อบริษัทภาษาไทย</b>
+                                        <div class="col-lg-7 col-md-7"> <b>ชื่อบริษัทภาษาไทย<span class="red">*</span></b>
                                             <div class="input-group">
                                                 <div class="form-line">
                                                     <input type="text" class="form-control" placeholder="บจ.ชิวา1982 จำกัด">
@@ -83,88 +83,95 @@
                                         </div>
                                     </div>
                                     <div class="row clearfix">
-                                        <div class="col-lg-2 col-md-2"> <b>ประเภทหุ้น</b>
-                                            <div class="input-group">
-                                                <div class="form-line">
-                                                    <select class="form-control show-tick">
-                                                        <optgroup label="กรุณาเลือก">
-                                                            <option>หุ้นสามัญ</option>
-                                                            <option>หุ้นบุริสิทธิ</option>
-                                                        </optgroup>
-                                                    </select>
-                                                </div>
+                                        <div class="col-lg-2 col-md-2"> <b>ประเภทหุ้น<span class="red">*</span></b>
+                                            <div class="form-group">
+                                                <select class="form-control show-tick">
+                                                    <optgroup label="กรุณาเลือก">
+                                                        <option>หุ้นสามัญ</option>
+                                                        <option>หุ้นบุริสิทธิ </option>
+                                                    </optgroup>
+                                                </select>
                                             </div>
                                         </div>
-                                        <div class="col-lg-3 col-md-3"> <b>จำนวนหุ้น</b>
+                                        <div class="col-lg-3 col-md-3"> <b>จำนวนหุ้น<span class="red">*</span></b>
                                             <div class="input-group">
                                                 <div class="form-line">
                                                     <input type="text" class="form-control" placeholder="30,000,000.00">
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-lg-2 col-md-2"> <b>มูลค่าหุ้น</b>
+                                        <div class="col-lg-2 col-md-2"> <b>มูลค่าหุ้น<span class="red">*</span></b>
                                             <div class="input-group">
                                                 <div class="form-line">
                                                     <input type="text" class="form-control" placeholder="10.00">
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-lg-3 col-md-3"> <b>ข้อมูลทางบัญชี</b>
+                                        <div class="col-lg-2 col-md-2"> <b>ข้อมูลทางบัญชี<span class="red">*</span></b>
                                             <div class="input-group">
                                                 <div class="form-line">
                                                     <input type="text" class="form-control" placeholder="00">
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-lg-2 col-md-2"> <b>สกุลเงิน</b>
-                                            <div class="input-group">
-                                                <div class="form-line">
-                                                    <select class="form-control show-tick">
-                                                        <optgroup label="กรุณาเลือก">
-                                                            <option>TH</option>
-                                                            <option>$</option>
-                                                        </optgroup>
-                                                    </select>
-                                                </div>
+                                        <div class="col-lg-3 col-md-3"> <b>สกุลเงิน<span class="red">*</span></b>
+                                            <div class="form-group">
+                                                <select class="form-control show-tick">
+                                                    <optgroup label="สกุลเงินหลัก">
+                                                        <option>บาทไทย THB</option>
+                                                        <option>ยูโร EUR</option>
+                                                        <option>ปอนด์อังกฤษ GBP</option>
+                                                        <option>เยนญี่ปุ่น JPY</option>
+                                                        <option>ฟรังค์สวิส CHF</option>
+                                                    </optgroup>
+                                                    <optgroup label="สกุลเงินทั่วโลก">
+                                                        <option>ค่าเงินหยวนในตลาดนอกประเทศ CNH</option>
+                                                        <option>จ๊าดพม่า MMK</option>
+                                                        <option>ซวอตีโปแลนด์ PLN</option>
+                                                        <option>ดงเวียดนาม VND</option>
+                                                    </optgroup>
+                                                </select>
                                             </div>
                                         </div>
 
                                     </div>
                                     <div class="row clearfix">
 
-                                        <div class="col-lg-3 col-md-3"> <b>ตลาด</b>
-                                            <div class="input-group">
-                                                <div class="form-line">
-                                                    <select class="form-control show-tick">
-                                                        <optgroup label="กรุณาเลือก">
-                                                            <option>ไทย</option>
-                                                            <option>ต่างประเทศ </option>
-                                                        </optgroup>
-                                                    </select>
-                                                </div>
+                                        <div class="col-lg-3 col-md-3"> <b>ตลาด<span class="red">*</span></b>
+                                            <div class="form-group">
+                                                <select class="form-control show-tick">
+                                                    <optgroup label="กรุณาเลือก">
+                                                        <option>ไทย </option>
+                                                        <option>ต่างประเทศ </option>
+                                                    </optgroup>
+                                                </select><!-- From Master -->
                                             </div>
                                         </div>
-                                        <div class="col-lg-3 col-md-3"> <b>พื้นที่</b>
+                                        <div class="col-lg-3 col-md-3"> <b>พื้นที่<span class="red">*</span></b>
                                             <div class="input-group">
                                                 <div class="form-line">
                                                     <input type="text" class="form-control date" placeholder="กรุงเทพฯ">
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-lg-3 col-md-3"> <b>วันลงทะเบียน</b>
+                                        <div class="col-lg-3 col-md-3"> <b>วันลงทะเบียน<span class="red">*</span></b>
                                             <div class="input-group">
                                                 <div class="form-line">
                                                     <input type="text" class="form-control" placeholder="30/1/2464">
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-lg-3 col-md-3"> <b>ทุนจดทะเบียน<span>(สำหรับ บอจ.)</span></b>
+                                        <div class="col-lg-3 col-md-3"> <b>ทุนจดทะเบียน<span>(สำหรับ บอจ.)</span><span class="red">*</span></b>
                                             <div class="input-group">
                                                 <div class="form-line">
                                                     <input type="text" class="form-control" placeholder="30,000,000,000">
                                                 </div>
                                             </div>
                                         </div>
+                                    </div>
+                                    <div class="btn-control text-align">
+                                        <a href="#cancel"></a><button type="button" class="btn  btn-raised bg-grey waves-effect"> ยกเลิก </button>
+                                        <a href="#save"></a><button type="button" class="btn btn-raised btn-default __redvitality waves-effect"> บันทึก </button>
                                     </div>
                                 </form>
 
@@ -189,36 +196,11 @@
                                     <!-- Tab panes 1-->
                                     <div role="tabpanel" class="tab-pane in active" id="Finance">
                                         <div>
-                                            <!-- bar control-->
-                                            <div class="row clearfix">
-                                                <div class="col-sm-12 col-md-12 col-lg-12 btn_control">
-                                                    <div class="__save">
-                                                        <button type="button" class="btn btn-raised waves-effect">
-                                                            <i class="material-icons">save</i>
-                                                        </button>
-                                                    </div>
-                                                    <div class="__new">
-                                                        <button type="button" class="btn btn-raised waves-effect">
-                                                            <i class="material-icons">insert_drive_file</i>
-                                                        </button>
-                                                    </div>
-                                                    <div class="__close">
-                                                        <button type="button" class="btn btn-raised waves-effect">
-                                                            <i class="material-icons">clear</i>
-                                                        </button>
-                                                    </div>
-                                                    <div class="__exit">
-                                                        <button type="button" class="btn btn-raised waves-effect">
-                                                            <i class="material-icons">exit_to_app</i>
-                                                        </button>
-                                                    </div>
-                                                </div>
-                                            </div>
                                             <!-- bar function-->
                                             <div class="btn_function">
                                                 <div class="__box">
                                                     <div class="_calendar">
-                                                        <button type="button" class="btn btn-default" data-toggle="modal" data-target="#FinanceModal" style="margin-top: 10px 0px;">
+                                                        <button type="button" class="btn btn-default" data-toggle="modal" data-target="#FinanceModal">
                                                             <i class="material-icons">account_balance</i>
                                                             <span class="function-name">จำนำ</span>
                                                         </button>
@@ -259,7 +241,7 @@
                                                             <td>สำนักงาน</td>
                                                             <td>
                                                                 <div class="action_btn">
-                                                                    <a href="javascript:void(0);" class="btn btn-default"><i class="zmdi zmdi-edit"></i></a>
+                                                                    <a href="javascript:void(0);" class="btn btn-default" data-toggle="modal" data-target="#FinanceModal"><i class="zmdi zmdi-edit"></i></a>
                                                                     <a href="javascript:void(0);" class="btn btn-default col-red"><i class="zmdi zmdi-delete"></i></a>
                                                                 </div>
                                                             </td>
@@ -278,7 +260,7 @@
                                                             <td>บริษัทหลักทรัพย์</td>
                                                             <td>
                                                                 <div class="action_btn">
-                                                                    <a href="javascript:void(0);" class="btn btn-default"><i class="zmdi zmdi-edit"></i></a>
+                                                                    <a href="javascript:void(0);" class="btn btn-default" data-toggle="modal" data-target="#FinanceModal"><i class="zmdi zmdi-edit"></i></a>
                                                                     <a href="javascript:void(0);" class="btn btn-default col-red"><i class="zmdi zmdi-delete"></i></a>
                                                                 </div>
                                                             </td>
@@ -298,41 +280,39 @@
                                                     <div class="modal-body">
                                                         <form class="form-horizontal box__director">
                                                             <div class="row clearfix">
-                                                                <div class="col-lg-2 col-md-2"> <b>ชื่อย่อหุ้น</b>
+                                                                <div class="col-lg-1 col-md-1"> <b>ชื่อย่อหุ้น</b>
                                                                     <div class="input-group">
-                                                                        <div class="form-line">
+                                                                        <div>
                                                                             <input type="text" class="form-control" placeholder="SET01">
                                                                         </div>
                                                                     </div>
                                                                 </div>
-                                                                <div class="col-lg-3 col-md-3"> <b>เลขทะเบียนนิติบุคคล</b>
+                                                                <div class="col-lg-2 col-md-2"> <b>เลขทะเบียนนิติบุคคล</b>
                                                                     <div class="input-group">
-                                                                        <div class="form-line">
+                                                                        <div>
                                                                             <input type="text" class="form-control" placeholder="0505564001775">
                                                                         </div>
                                                                     </div>
                                                                 </div>
-                                                                <div class="col-lg-7 col-md-7"> <b>ชื่อบริษัทภาษาไทย</b>
+                                                                <div class="col-lg-3 col-md-3"> <b>ชื่อบริษัทภาษาไทย</b>
                                                                     <div class="input-group">
-                                                                        <div class="form-line">
+                                                                        <div>
                                                                             <input type="text" class="form-control" placeholder="บจ.ชิวา1982 จำกัด">
                                                                         </div>
                                                                     </div>
                                                                 </div>
-                                                            </div>
-                                                            <div class="row clearfix">
-                                                                <div class="col-lg-3 col-md-3">
+                                                                <div class="col-lg-2 col-md-2">
                                                                     <b>วันที่ขึ้นทะเบียน</b>
                                                                     <div class="input-group">
-                                                                        <div class="form-line">
+                                                                        <div>
                                                                             <input v-model="date_start" type="text" class="form-control date" placeholder="25/1/2564" />
                                                                         </div>
                                                                     </div>
                                                                 </div>
-                                                                <div class="col-lg-3 col-md-3">
+                                                                <div class="col-lg-2 col-md-2">
                                                                     <b>ทุนจดทะเบียน</b>
                                                                     <div class="input-group">
-                                                                        <div class="form-line">
+                                                                        <div>
                                                                             <input type="text" class="form-control" placeholder="2,500,0000" />
                                                                         </div>
                                                                     </div>
@@ -340,7 +320,7 @@
                                                                 <div class="col-lg-2 col-md-2">
                                                                     <b>มูลค่าหุ้น</b>
                                                                     <div class="input-group">
-                                                                        <div class="form-line">
+                                                                        <div>
                                                                             <input type="text" class="form-control" placeholder="2,500,0000" />
                                                                         </div>
                                                                     </div>
@@ -422,29 +402,70 @@
                                                                 </div>
                                                             </div>
                                                             <div class="row clearfix">
-                                                                <div class="col-lg-4 col-md-4">
-                                                                    <b>สถานที่จัดเก็บใบหุ้น</b>
+                                                                <div class="col-lg-4 col-md-4"> <b>ประเภทเอกสารที่จัดเก็บ<span class="red">*</span></b>
+                                                                    <div class="form-group">
+                                                                        <select class="form-control show-tick">
+                                                                            <optgroup label="กรุณาเลือก">
+                                                                                <option>สัญญาซื้อขายหุ้น</option>
+                                                                                <option>สมุดทะเบียนหุ้น</option>
+                                                                                <option>ใบหุ้น (ยกเลิก)</option>
+                                                                                <option>ใบหุ้น (ลงทุน)</option>
+                                                                            </optgroup>
+                                                                        </select><!-- From Master -->
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-lg-2 col-md-2"> <b>เลขลำดับเอกสาร<span class="red">*</span></b>
                                                                     <div class="input-group">
                                                                         <div class="form-line">
-                                                                            <input type="text" class="form-control" placeholder="สำนักงาน" />
+                                                                            <input type="text" class="form-control" placeholder="001">
                                                                         </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
-
-
+                                                            <div class="row clearfix">
+                                                                <div class="col-lg-4 col-md-4"> <b>สถานที่เก็บเอกสาร<span class="red">*</span></b>
+                                                                    <div class="form-group">
+                                                                        <select class="form-control show-tick">
+                                                                            <optgroup label="กรุณาเลือก">
+                                                                                <option>อาคารสุรวงศ์ ห้อง A</option>
+                                                                                <option>อาคารสุรวงศ์ ห้อง B</option>
+                                                                            </optgroup>
+                                                                        </select><!-- From Master -->
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-lg-4 col-md-4"> <b>หมายเลขตู้เอกสาร<span class="red">*</span></b>
+                                                                    <div class="form-group">
+                                                                        <select class="form-control show-tick">
+                                                                            <optgroup label="กรุณาเลือก">
+                                                                                <option>A01</option>
+                                                                                <option>B02 </option>
+                                                                            </optgroup>
+                                                                        </select><!-- From Master -->
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-lg-4 col-md-4"> <b>เลขลำดับเอกสาร<span class="red">*</span></b>
+                                                                    <div class="input-group">
+                                                                        <div class="form-line">
+                                                                            <input type="text" class="form-control" placeholder="000">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row clearfix">
+                                                                <div class="col-lg-12 col-md-12"> <b>หมายเหตุ<span class="red">*</span></b>
+                                                                    <div class="input-group">
+                                                                        <div class="form-line">
+                                                                            <input type="text" class="form-control" placeholder="">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
                                                         </form>
                                                     </div>
                                                     <div class="modal-footer">
-                                                        <a href="#save"></a><button type="button" class="btn btn-raised btn-default __redvitality waves-effect">
-                                                            บันทึก
-                                                        </button>
-                                                        <a href="#cancel"></a><button type="button" class="btn btn-raised bg-grey waves-effect">
-                                                            ยกเลิก
-                                                        </button>
-                                                        <button type="button" class="btn btn-link waves-effect" data-dismiss="modal">
-                                                            ปิด
-                                                        </button>
+                                                        <button type="button" class="btn btn-link waves-effect" data-dismiss="modal">ปิด</button>
+                                                        <a href="#cancel"></a><button type="button" class="btn  btn-raised bg-grey waves-effect"> ยกเลิก </button>
+                                                        <a href="#save"></a><button type="button" class="btn btn-raised btn-default __redvitality waves-effect"> บันทึก </button>
                                                     </div>
                                                 </div>
                                             </div>

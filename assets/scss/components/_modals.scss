@@ -1,8 +1,12 @@
 ﻿.modal {
-    
+    .modal-footer {
+        align-items: center !important;
+        justify-content: center !important;
+    }
 }
 
-@each $key, $val in $colors {
+@each $key,
+$val in $colors {
     .modal-col-#{$key} {
         background-color: $val;
 
@@ -12,7 +16,7 @@
         }
 
         .modal-footer {
-            background-color: rgba(0,0,0,0.12);
+            background-color: rgba(0, 0, 0, 0.12);
 
             .btn-link {
                 color: #fff !important;
@@ -20,7 +24,7 @@
                 &:hover,
                 &:active,
                 &:focus {
-                    background-color: rgba(0,0,0,0.12);
+                    background-color: rgba(0, 0, 0, 0.12);
                 }
             }
         }

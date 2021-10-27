@@ -21,8 +21,8 @@
             <li><a href="javascript:void(0);" class="menu-toggle"><i class="zmdi zmdi-home"></i><span>ทะเบียนบริษัท</span></a>
                 <ul class="ml-menu">
                     <li><a href="../view/company.php">ข้อมูลบริษัท</a></li>
-                    <li><a href="../view/Director.php">รายละเอียดกรรมการ</a></li>
-                    <li><a href="../view/company_NameHistory.php">ประวัติการเปลี่ยนแปลงชื่อบริษัท</a></li>
+                    <li><a href="../view/Director.php">กรรมการ</a></li>
+                    <li><a href="../view/company_NameHistory.php">เปลี่ยนชื่อบริษัท</a></li>
                     <li><a href="../view/company_AddressHistory.php">ประวัติการเปลี่ยนแปลงที่อยู่บริษัท</a></li>
                     <li><a href="../view/company_Merger.php">การควบบริษัท</a></li>
                     <li><a href="../view/company_Liquidate.php">การชำระบัญชี</a></li>

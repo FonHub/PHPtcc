@@ -32,7 +32,7 @@
                 <div class="col-lg-7 col-md-6 col-sm-12">
                     <h2>
                         ข้อมูลบริษัท
-                        <small class="text-muted">Welcome to TCC Application</small>
+                        <small class="text-muted">ยินดีต้อนรับสู่ TCC Group</small>
                     </h2>
                 </div>
                 <div class="col-lg-5 col-md-6 col-sm-12">
@@ -54,10 +54,11 @@
                 <div class="row clearfix">
                     <div class="col-sm-12 col-md-12 col-lg-12">
                         <div class="card">
-                            <div class="header">
-                                <h2>ข้อมูลบริษัท </h2>
-                            </div>
+
                             <div class="body">
+                                <div class="header-status">
+                                    <h3>ข้อมูลบริษัท </h3>
+                                </div>
                                 <div class="col-lg-2 col-md-2 __Status">
                                     <div class="boxname_inner">
                                         <h3>สถานะ</h3>
@@ -69,22 +70,20 @@
                                 <form class="form-horizontal __info" @submit="onClickUpdate">
                                     <div class="row clearfix">
                                         <div class="col-lg-6 col-md-6">
-                                            <b>เลขทะเบียนนิติบุคคล </b>
+                                            <b>เลขทะเบียนนิติบุคคล <span class="red">*</span></b>
                                             <div class="input-group">
                                                 <div class="form-line">
                                                     <input v-model="old_juristic_id" type="text" class="form-control ip" placeholder="0105564002147" maxlength="13" />
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-lg-4 col-md-4">
-                                            <b>นิติบุคคล</b>
+                                        <div class="col-lg-6 col-md-6">
+                                            <b>นิติบุคคล<span class="red">*</span></b>
                                             <div class="input-group">
-                                                <div class="form-line">
+                                                <div class="form-group">
                                                     <select class="form-control show-tick">
-                                                        <optgroup label="คำนำหน้าทะเบียนธุรกิจ">
-                                                            <option>
-                                                                ห้างหุ้นส่วนสามัญนิติบุคคล (หสน.)
-                                                            </option>
+                                                        <optgroup label="กรุณาเลือก">
+                                                            <option>ห้างหุ้นส่วนสามัญนิติบุคคล (หสน.)</option>
                                                             <option>ห้างหุ้นส่วนจำกัด (หจก.)</option>
                                                             <option>บริษัทจำกัด (บจ.)</option>
                                                             <option>บริษัทมหาชนจำกัด (บมจ.)</option>
@@ -96,7 +95,7 @@
                                     </div>
                                     <div class="row clearfix">
                                         <div class="col-lg-6 col-md-6">
-                                            <b>ชื่อบริษัทภาษาไทย</b>
+                                            <b>ชื่อบริษัทภาษาไทย<span class="red">*</span></b>
                                             <div class="input-group">
                                                 <div class="form-line">
                                                     <input v-model="company_th" type="text" class="form-control ip" placeholder="บจ.ไพร์ม เอ็กซ์ จำกัด" />
@@ -104,7 +103,7 @@
                                             </div>
                                         </div>
                                         <div class="col-lg-6 col-md-6">
-                                            <b>ชื่อบริษัทภาษาอังกฤษ</b>
+                                            <b>ชื่อบริษัทภาษาอังกฤษ<span class="red">*</span></b>
                                             <div class="input-group">
                                                 <div class="form-line">
                                                     <input v-model="company_en" type="text" class="form-control ip" placeholder="บจ.ไพร์ม เอ็กซ์ จำกัด" />
@@ -112,113 +111,131 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="row clearfix">
+                                    <div class="row clearfix py-10">
                                         <div class="col-lg-4 col-md-4">
-                                            <b>ประเภทประกอบการ</b>
-                                            <div class="input-group">
-                                                <div class="form-line">
-                                                    <select class="form-control show-tick" v-model="operate_type">
-                                                        <optgroup label="ประเภทประกอบการ">
-                                                            <option>กลุ่มบริษัทลงทุน</option>
-                                                            <option>กลุ่มทีซีซี แลนด์</option>
-                                                            <option>กลุ่มบริษัทบุคคล</option>
-                                                            <option>กลุ่มทีซีซี แอสเซ็ทส์</option>
-                                                        </optgroup>
-                                                    </select><!-- From Master -->
-                                                </div>
+                                            <b>ประเภทประกอบการ (Sector)<span class="red">*</span></b>
+                                            <div class="form-group">
+                                                <select class="form-control show-tick">
+                                                    <optgroup label="กรุณาเลือก Sector">
+                                                        <option>เกษตรและอุตสาหกรรมอาหาร</option>
+                                                        <option>สินค้าอุปโภคบริโภค</option>
+                                                        <option>ธุรกิจการเงิน</option>
+                                                        <option>สินค้าอุตสาหกรรม </option>
+                                                        <option>อสังหาริมทรัพย์และก่อสร้าง</option>
+                                                        <option>ทรัพยากร</option>
+                                                        <option>บริการ</option>
+                                                        <option>เทคโนโลยี </option>
+                                                    </optgroup>
+                                                </select><!-- From Master -->
                                             </div>
                                         </div>
                                         <div class="col-lg-4 col-md-4">
-                                            <b>กลุ่มธุรกิจหลัก</b>
-                                            <div class="input-group">
-                                                <div class="form-line">
-                                                    <select class="form-control show-tick" v-model="business_core">
-                                                        <optgroup label="กลุ่มธุรกิจหลัก">
-                                                            <option>ไพรเวท คอมพานี</option>
-                                                            <option>ไทยเบฟเวอเรจ</option>
-                                                            <option>อาคเนย์</option>
-                                                            <option>แอสเสท เวิรด์ คอร์ป</option>
-                                                            <option>เบอร์ลี่ ยุคเกอร์</option>
-                                                            <option>อื่นๆ</option>
-                                                        </optgroup>
-                                                    </select>
-                                                </div>
+                                            <b>กลุ่มธุรกิจหลัก<span class="red">*</span></b>
+                                            <div class="form-group">
+                                                <select class="form-control show-tick">
+                                                    <optgroup label="กรุณาเลือก Group">
+                                                        <option>ไพรเวท คอมพานี</option>
+                                                        <option>ไทยเบฟเวอเรจ</option>
+                                                        <option>อาคเนย์</option>
+                                                        <option>แอสเสท เวิรด์ คอร์ป</option>
+                                                        <option>เบอร์ลี่ ยุคเกอร์</option>
+                                                    </optgroup>
+                                                </select><!-- From Master -->
                                             </div>
-                                        </div>
-                                        <div class="col-lg-4 col-md-4">
-                                            <b>กลุ่มธุรกิจย่อย</b>
-                                            <div class="input-group">
-                                                <div class="form-line">
-                                                    <select class="form-control show-tick">
-                                                        <optgroup label="กลุ่มบริษัทลงทุน">
-                                                            <option>กลุ่มสิริวนา</option>
-                                                            <option>กลุ่มทีซีซี คอร์ปอเรชั่น</option>
-                                                            <option>กลุ่มอาคเนย์ แมเนจเม้นท์</option>
-                                                            <option>กลุ่มถือหุ้นแอสเสท เวิรด์ คอร์ป</option>
-                                                        </optgroup>
-                                                        <optgroup label="กลุ่มทีซีซี แลนด์">
-                                                            <option>กลุ่มทีซีซี แลนด์ ทีซีซี เอดับบลิว</option>
-                                                            <option>กลุ่มพรรณธิอร</option>
-                                                            <option>กลุ่มทีซีซี อินเตอร์เทรด</option>
-                                                            <option>กลุ่มแลนด์แบงค์</option>
-                                                            <option style="margin-left: 20px;">- กลุ่มบริษัทที่ดิน</option>
-                                                            <option style="margin-left: 20px;">- กลุ่มบริหารจัดการ </option>
-                                                            <option style="margin-left: 20px;">- กลุ่มบริษัทลงทุนและอื่นๆ </option>
-                                                            <option>กลุ่มทรัพย์กทม. ปริมณฑล และ ภาคเหนือ </option>
-                                                            <option style="margin-left: 20px;">- กลุ่มทรัพย์กทม. ปริมณฑล และ ภาคเหนือบริษัทแม่ </option>
-                                                            <option style="margin-left: 20px;">- กลุ่มบริหารทรัพย์สินภาคเหนือ </option>
-                                                            <option style="margin-left: 20px;">- กลุ่มบริหารทรัพย์สินรอบบ้าน </option>
-                                                            <option style="margin-left: 20px;">- กลุ่มบริหารทรัพย์สินกรุงเทพฯและปริมณฑล </option>
-                                                            <option>กลุ่มโรงแรม ช็อปปิ้ง อพาร์ตเม้นท์ </option>
-                                                            <option style="margin-left: 20px;">- กลุ่มโรงแรมในประเทศ</option>
-                                                            <option style="margin-left: 40px;"> -- กลุ่มโรงแรมบริษัทแม่ </option>
-                                                            <option style="margin-left: 40px;"> -- กลุ่มโรงแรมไพรเวท </option>
-                                                            <option style="margin-left: 40px;"> -- กลุ่มโรงแรมไพรเวทภาคเหนือ </option>
-                                                            <option style="margin-left: 40px;"> -- กลุ่มแอสเสท เวิรด์ เวกซ์ </option>
-                                                            <option style="margin-left: 20px;">- กลุ่มศูนย์การค้าและตลาด </option>
-                                                            <option style="margin-left: 40px;"> -- กลุ่มศูนย์การค้าบริษัทแม่ </option>
-                                                            <option style="margin-left: 40px;"> -- กลุ่มช้อปปิ้งไพรเวท </option>
-                                                            <option style="margin-left: 40px;"> -- กลุ่มช้อปปิ้งภาคเหนือ </option>
-                                                            <option style="margin-left: 40px;"> -- กลุ่มช้อปปิ้งลงทุนอื่นๆ</option>
-                                                            <option style="margin-left: 20px;">- กลุ่มพัฒนาที่อยู่อาศัย</option>
-                                                            <option style="margin-left: 40px;"> -- กลุ่มพัฒนที่อยู่อาศัยบริษัทแม่ </option>
-                                                            <option style="margin-left: 40px;"> -- กลุ่มอพาร์ทเม้นท์และคอนโดปล่อยเช่า </option>
-                                                            <option style="margin-left: 40px;"> -- กลุ่มที่พักอาศัยเพื่อขาย </option>
-
-                                                        </optgroup>
-
-
-
-                                                    </select> <!-- From Master -->
-                                                </div>
-                                            </div>
-
                                         </div>
                                     </div>
-                                    <div class="row clearfix">
-                                        <div class="col-lg-2 col-md-2">
-                                            <b>ภาษี</b>
-                                            <div class="input-group">
-                                                <div class="form-line">
-                                                    <select class="form-control show-tick" v-model="vat_company">
-                                                        <optgroup label="ภาษี">
-                                                            <option>มี</option>
-                                                            <option>ไม่มี</option>
-                                                        </optgroup>
-                                                    </select>
+                                    <div class="row clearfix py-10">
+                                        <div class="col-lg-4 col-md-4">
+                                            <b>กลุ่มธุรกิจย่อย<span class="red">*</span></b>
+                                            <div class="form-group">
+                                                <select class="form-control show-tick">
+                                                    <optgroup label="กรุณาเลือก SupGroup">
+                                                        <option>กลุ่มทีซีซี แลนด์</option>
+                                                        <option>กลุ่มบริษัทลงทุน</option>
+                                                        <option>เพิ่มใหม่</option>
+                                                    </optgroup>
+                                                </select><!-- From Master -->
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-4">
+                                            <b>กลุ่มธุรกิจย่อยระดับ 1<span class="red">*</span></b>
+                                            <div class="form-group">
+                                                <select class="form-control show-tick">
+                                                    <optgroup label="กรุณาเลือก">
+                                                        <option>กลุ่มแลนด์แบงค์</option>
+                                                        <option>กลุ่มทีซีซี แลนด์ ทีซีซี เอดับบลิว</option>
+                                                        <option>กลุ่มพรรณธิอร</option>
+                                                        <option>กลุ่มทีซีซี อินเตอร์เทรด</option>
+                                                        <option>เพิ่มใหม่</option>
+                                                    </optgroup>
+                                                </select><!-- From Master -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row clearfix py-10">
+                                        <div class="col-lg-4 col-md-4">
+                                            <b>กลุ่มธุรกิจย่อยระดับ 2<span class="red">*</span></b>
+                                            <div class="form-group">
+                                                <select class="form-control show-tick">
+                                                    <optgroup label="กรุณาเลือก">
+                                                        <option>กลุ่มโรงแรมในประเทศ</option>
+                                                        <option>กลุ่มบริษัทที่ดิน</option>
+                                                        <option>กลุ่มบริหารจัดการ</option>
+                                                        <option>กลุ่มบริษัทลงทุนและอื่นๆ</option>
+                                                        <option>เพิ่มใหม่</option>
+                                                    </optgroup>
+                                                </select><!-- From Master -->
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-4">
+                                            <b>กลุ่มธุรกิจย่อยระดับ 3<span class="red">*</span></b>
+                                            <div class="form-group">
+                                                <select class="form-control show-tick">
+                                                    <optgroup label="กรุณาเลือก">
+                                                        <option>กลุ่มโรงแรมไพรเวท</option>
+                                                        <option>กลุ่มโรงแรมบริษัทแม่</option>
+                                                        <option>กลุ่มโรงแรมไพรเวทภาคเหนือ</option>
+                                                        <option>กลุ่มแอสเสท เวิรด์ เวกซ์</option>
+                                                        <option>เพิ่มใหม่</option>
+                                                    </optgroup>
+                                                </select><!-- From Master -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row clearfix py-10">
+                                        <div class="col-lg-3 col-md-3">
+                                            <b>ภาษี<span class="red">*</span></b>
+                                            <div class="box_flex">
+                                                <div class="input-group">
+                                                    <span class="input-group-addon">
+                                                        <input type="radio" class="with-gap" id="ig_radio">
+                                                        <label for="ig_radio"></label>
+                                                    </span>
+                                                    <div class="form-line noborder">
+                                                        <input type="text" class="form-control" placeholder="มี" />
+                                                    </div>
+                                                </div>
+                                                <div class="input-group">
+                                                    <span class="input-group-addon">
+                                                        <input type="radio" class="with-gap" id="ig_radio_2">
+                                                        <label for="ig_radio_2"></label>
+                                                    </span>
+                                                    <div class="form-line noborder">
+                                                        <input type="text" class="form-control" placeholder="ไม่มี" />
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-lg-5 col-md-5">
-                                            <b>วันที่ขึ้นทะเบียนนิติบุคคล</b>
+                                        <div class="col-lg-4 col-md-4">
+                                            <b>วันที่ขึ้นทะเบียนนิติบุคคล<span class="red">*</span></b>
                                             <div class="input-group">
                                                 <div class="form-line">
                                                     <input v-model="date_start" type="text" class="form-control date" placeholder="25/1/2560" />
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-lg-5 col-md-5">
-                                            <b>วันปิดกิจการหรือควบรวมกิจการ</b>
+                                        <div class="col-lg-4 col-md-4">
+                                            <b>วันปิดกิจการหรือควบรวมกิจการ<span class="red">*</span></b>
                                             <div class="input-group">
                                                 <div class="form-line">
                                                     <input v-model="date_end" type="text" class="form-control date disabled" placeholder="" disabled="disabled" />
@@ -226,7 +243,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="btn-control">
+                                    <div class="btn-control text-align ">
                                         <a href="#symbol"></a><button type="submit" class="btn btn-raised btn-default __redvitality waves-effect">
                                             อัพเดตเข้าทะเบียนหุ้น
                                         </button>
@@ -250,10 +267,10 @@
                                     <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#BranchAdd">ที่อยู่สาขา</a></li>
                                     <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#Director">กรรมการ</a></li>
                                     <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#Merger">การควบรวมบริษัท</a></li>
-                                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#Liquidate">วันชำระบัญชี</a></li>
-                                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#NameHistory">ประวัติการเปลี่ยนแปลงชื่อ</a></li>
+                                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#NameHistory">เปลี่ยนชื่อบริษัท</a></li>
                                     <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#AddHistory">ประวัติการเปลี่ยนที่อยู่บริษัท</a></li>
                                     <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#Account">ผู้ทำบัญชีและการเงิน</a></li>
+                                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#Liquidate">วันชำระบัญชี</a></li>
                                     <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#DocLocation">ที่เก็บเอกสาร</a></li>
                                 </ul>
                                 <!-- Tab panes -->
@@ -301,8 +318,6 @@
     <!-- Jquery Core Js -->
     <?php include('../view/jquerycorejs.php'); ?>
 
-    <script src="../assets/plugins/editable-table/mindmup-editabletable.js"></script> <!-- Editable Table Plugin Js -->
-    <script src="../assets/js/pages/tables/editable-table.js"></script>
 
 
 </body>

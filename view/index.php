@@ -33,14 +33,14 @@
             <div class="row">
                 <div class="col-lg-7 col-md-6 col-sm-12">
                     <h2>
-                        Dashboard
-                        <small class="text-muted">Welcome to TCC Application</small>
+                        หน้าหลัก
+                        <small class="text-muted">ยินดีต้อนรับสู่ TCC Group</small>
                     </h2>
                 </div>
                 <div class="col-lg-5 col-md-6 col-sm-12">
                     <ul class="breadcrumb float-md-right">
                         <li class="breadcrumb-item">
-                            <a href="/"><i class="zmdi zmdi-home"></i> Dashboard</a>
+                            <a href="/"><i class="zmdi zmdi-home"></i> หน้าหลัก</a>
                         </li>
                         <li class="breadcrumb-item active">หน้าแรก</li>
                     </ul>

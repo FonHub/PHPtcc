@@ -7,7 +7,7 @@
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <meta name="description" content="Responsive Bootstrap 4 and web Application ui kit.">
 
-    <title>TCC GROUP</title>
+    <title>Master กลุ่มบริษัท</title>
     <?php include('../view/linkhead.php'); ?>
 
     <link rel="stylesheet" href="../assets/plugins/nestable/jquery-nestable.css" />
@@ -35,8 +35,8 @@
             <div class="row">
                 <div class="col-lg-7 col-md-6 col-sm-12">
                     <h2>
-                        Master
-                        <small class="text-muted">Welcome to TCC Application</small>
+                        Master กลุ่มบริษัท
+                        <small class="text-muted">ยินดีต้อนรับสู่ TCC Group</small>
                     </h2>
                 </div>
                 <div class="col-lg-5 col-md-6 col-sm-12">
@@ -98,17 +98,17 @@
                                                 <div class="btn_function">
                                                     <div class="__box">
                                                         <div class="_update">
-                                                            <i class="material-icons">sync</i>
+                                                            <button type="button" class="btn btn-default"><i class="material-icons">sync</i></button>
                                                         </div>
                                                     </div>
                                                     <div class="__box">
                                                         <div class="_add">
-                                                            <i class="material-icons">add</i>
+                                                            <button type="button" class="btn btn-default"><i class="material-icons">add</i></button>
                                                         </div>
                                                     </div>
                                                     <div class="__box">
                                                         <div class="_remove">
-                                                            <i class="material-icons">remove</i>
+                                                            <button type="button" class="btn btn-default"><i class="material-icons">remove</i></button>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -152,17 +152,17 @@
                                                 <div class="btn_function">
                                                     <div class="__box">
                                                         <div class="_update">
-                                                            <i class="material-icons">sync</i>
+                                                            <button type="button" class="btn btn-default"><i class="material-icons">sync</i></button>
                                                         </div>
                                                     </div>
                                                     <div class="__box">
                                                         <div class="_add">
-                                                            <i class="material-icons">add</i>
+                                                            <button type="button" class="btn btn-default"><i class="material-icons">add</i></button>
                                                         </div>
                                                     </div>
                                                     <div class="__box">
                                                         <div class="_remove">
-                                                            <i class="material-icons">remove</i>
+                                                            <button type="button" class="btn btn-default"><i class="material-icons">remove</i></button>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -267,17 +267,17 @@
                                                 <div class="btn_function">
                                                     <div class="__box">
                                                         <div class="_update">
-                                                            <i class="material-icons">sync</i>
+                                                            <button type="button" class="btn btn-default"><i class="material-icons">sync</i></button>
                                                         </div>
                                                     </div>
                                                     <div class="__box">
                                                         <div class="_add">
-                                                            <i class="material-icons">add</i>
+                                                            <button type="button" class="btn btn-default"><i class="material-icons">add</i></button>
                                                         </div>
                                                     </div>
                                                     <div class="__box">
                                                         <div class="_remove">
-                                                            <i class="material-icons">remove</i>
+                                                            <button type="button" class="btn btn-default"><i class="material-icons">remove</i></button>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -318,17 +318,17 @@
                                                 <div class="btn_function">
                                                     <div class="__box">
                                                         <div class="_update">
-                                                            <i class="material-icons">sync</i>
+                                                            <button type="button" class="btn btn-default"><i class="material-icons">sync</i></button>
                                                         </div>
                                                     </div>
                                                     <div class="__box">
                                                         <div class="_add">
-                                                            <i class="material-icons">add</i>
+                                                            <button type="button" class="btn btn-default"><i class="material-icons">add</i></button>
                                                         </div>
                                                     </div>
                                                     <div class="__box">
                                                         <div class="_remove">
-                                                            <i class="material-icons">remove</i>
+                                                            <button type="button" class="btn btn-default"><i class="material-icons">remove</i></button>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -366,17 +366,17 @@
                                                 <div class="btn_function">
                                                     <div class="__box">
                                                         <div class="_update">
-                                                            <i class="material-icons">sync</i>
+                                                            <button type="button" class="btn btn-default"><i class="material-icons">sync</i></button>
                                                         </div>
                                                     </div>
                                                     <div class="__box">
                                                         <div class="_add">
-                                                            <i class="material-icons">add</i>
+                                                            <button type="button" class="btn btn-default"><i class="material-icons">add</i></button>
                                                         </div>
                                                     </div>
                                                     <div class="__box">
                                                         <div class="_remove">
-                                                            <i class="material-icons">remove</i>
+                                                            <button type="button" class="btn btn-default"><i class="material-icons">remove</i></button>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -415,17 +415,17 @@
                                                 <div class="btn_function">
                                                     <div class="__box">
                                                         <div class="_update">
-                                                            <i class="material-icons">sync</i>
+                                                            <button type="button" class="btn btn-default"><i class="material-icons">sync</i></button>
                                                         </div>
                                                     </div>
                                                     <div class="__box">
                                                         <div class="_add">
-                                                            <i class="material-icons">add</i>
+                                                            <button type="button" class="btn btn-default"><i class="material-icons">add</i></button>
                                                         </div>
                                                     </div>
                                                     <div class="__box">
                                                         <div class="_remove">
-                                                            <i class="material-icons">remove</i>
+                                                            <button type="button" class="btn btn-default"><i class="material-icons">remove</i></button>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -449,13 +449,8 @@
         </div>
     </section>
     <!-- Jquery Core Js -->
-    <script src="../assets/bundles/libscripts.bundle.js"></script> <!-- Lib Scripts Plugin Js -->
-    <script src="../assets/bundles/vendorscripts.bundle.js"></script> <!-- Lib Scripts Plugin Js -->
+    <?php include('../view/jquerycorejs.php'); ?>
 
-    <script src="../assets/plugins/nestable/jquery.nestable.js"></script> <!-- Jquery Nestable -->
-
-    <script src="../assets/bundles/mainscripts.bundle.js"></script><!-- Custom Js -->
-    <script src="../assets/js/pages/ui/sortable-nestable.js"></script>
 
 </body>
 

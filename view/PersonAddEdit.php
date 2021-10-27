@@ -7,7 +7,7 @@
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <meta name="description" content="Responsive Bootstrap 4 and web Application ui kit.">
 
-    <title>Person</title>
+    <title>ทะเบียนบุคคล</title>
     <?php include('../view/linkhead.php'); ?>
     <!-- Sweetalert Css -->
     <link href="../assets/plugins/sweetalert/sweetalert.css" rel="stylesheet" />
@@ -33,7 +33,7 @@
                 <div class="col-lg-7 col-md-6 col-sm-12">
                     <h2>
                         ทะเบียนบุคคล
-                        <small class="text-muted">Welcome to TCC Application</small>
+                        <small class="text-muted">ยินดีต้อนรับสู่ TCC Group</small>
                     </h2>
                 </div>
                 <div class="col-lg-5 col-md-6 col-sm-12">
@@ -55,11 +55,12 @@
                 <div class="row clearfix">
                     <div class="col-sm-12 col-md-12 col-lg-12">
                         <div class="card">
-                            <div class="header">
-                                <h2>ข้อมูลบุคคล</h2>
-                            </div>
+
                             <div class="body">
                                 <form class="form-horizontal __info">
+                                    <div class="header-status">
+                                        <h3>ข้อมูลบุคคล</h3>
+                                    </div>
                                     <div class="row clearfix">
                                         <div class="col-lg-6 col-md-6">
                                             <b>เลขบัตรประชาชน หรือ หมายเลขพาสปอร์ต <span class="red">*</span></b>
@@ -300,11 +301,11 @@
                                         <AddressForeigner />
                                     </div>
 
-                                    <div class="btn-control">
-                                        <a href="#save"></a><button type="button" class="btn btn-raised btn-default __redvitality waves-effect"> บันทึก </button>
+                                    <div class="btn-control text-align">
                                         <a href="#cancel"></a><button type="reset" class="btn btn-raised bg-grey waves-effect">
                                             ยกเลิก
                                         </button>
+                                        <a href="#save"></a><button type="button" class="btn btn-raised btn-default __redvitality waves-effect"> บันทึก </button>
                                     </div>
 
                                 </form>
@@ -400,10 +401,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="modal-footer">
-                    <a href="#save"></a><button type="button" class="btn btn-raised btn-default __redvitality waves-effect"> บันทึก </button>
+                <div class="modal-footer text-align">
                     <a href="#cancel"></a><button type="button" class="btn  btn-raised bg-grey waves-effect"> ยกเลิก </button>
                     <button type="button" class="btn btn-link waves-effect" data-dismiss="modal">ปิด</button>
+                    <a href="#save"></a><button type="button" class="btn btn-raised btn-default __redvitality waves-effect"> บันทึก </button>
 
                 </div>
             </div>

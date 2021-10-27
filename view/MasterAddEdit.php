@@ -34,7 +34,7 @@
                 <div class="col-lg-7 col-md-6 col-sm-12">
                     <h2>
                         Master
-                        <small class="text-muted">Welcome to TCC Application</small>
+                        <small class="text-muted">ยินดีต้อนรับสู่ TCC Group</small>
                     </h2>
                 </div>
                 <div class="col-lg-5 col-md-6 col-sm-12">
