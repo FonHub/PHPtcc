@@ -71,24 +71,99 @@
                                     <div class="row clearfix">
                                         <div class="col-lg-6 col-md-6">
                                             <b>เลขทะเบียนนิติบุคคล <span class="red">*</span></b>
-                                            <div class="input-group">
-                                                <div class="form-line">
-                                                    <input v-model="old_juristic_id" type="text" class="form-control ip" placeholder="0105564002147" maxlength="13" />
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-6 col-md-6">
-                                            <b>นิติบุคคล<span class="red">*</span></b>
-                                            <div class="input-group">
-                                                <div class="form-group">
-                                                    <select class="form-control show-tick">
-                                                        <optgroup label="กรุณาเลือก">
-                                                            <option>ห้างหุ้นส่วนสามัญนิติบุคคล (หสน.)</option>
-                                                            <option>ห้างหุ้นส่วนจำกัด (หจก.)</option>
-                                                            <option>บริษัทจำกัด (บจ.)</option>
-                                                            <option>บริษัทมหาชนจำกัด (บมจ.)</option>
-                                                        </optgroup>
-                                                    </select><!-- From Master -->
+                                            <div class="row clearfix">
+                                                <div class="col-lg-12 col-md-12 display-flex">
+                                                    <div class="width-45">
+                                                        <div class="input-group">
+                                                            <div class="form-line">
+                                                                <input type="text" class="form-control" placeholder="0" maxlength="1" />
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="width-45">
+                                                        <div class="input-group">
+                                                            <div class="form-line">
+                                                                <input type="text" class="form-control" placeholder="0" maxlength="1" />
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="width-45">
+                                                        <div class="input-group">
+                                                            <div class="form-line">
+                                                                <input type="text" class="form-control" placeholder="0" maxlength="1" />
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="width-45">
+                                                        <div class="input-group">
+                                                            <div class="form-line">
+                                                                <input type="text" class="form-control" placeholder="0" maxlength="1" />
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="width-45">
+                                                        <div class="input-group">
+                                                            <div class="form-line">
+                                                                <input type="text" class="form-control" placeholder="0" maxlength="1" />
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="width-45">
+                                                        <div class="input-group">
+                                                            <div class="form-line">
+                                                                <input type="text" class="form-control" placeholder="0" maxlength="1" />
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="width-45">
+                                                        <div class="input-group">
+                                                            <div class="form-line">
+                                                                <input type="text" class="form-control" placeholder="0" maxlength="1" />
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="width-45">
+                                                        <div class="input-group">
+                                                            <div class="form-line">
+                                                                <input type="text" class="form-control" placeholder="0" maxlength="1" />
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="width-45">
+                                                        <div class="input-group">
+                                                            <div class="form-line">
+                                                                <input type="text" class="form-control" placeholder="0" maxlength="1" />
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="width-45">
+                                                        <div class="input-group">
+                                                            <div class="form-line">
+                                                                <input type="text" class="form-control" placeholder="0" maxlength="1" />
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="width-45">
+                                                        <div class="input-group">
+                                                            <div class="form-line">
+                                                                <input type="text" class="form-control" placeholder="0" maxlength="1" />
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="width-45">
+                                                        <div class="input-group">
+                                                            <div class="form-line">
+                                                                <input type="text" class="form-control" placeholder="0" maxlength="1" />
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="width-45">
+                                                        <div class="input-group">
+                                                            <div class="form-line">
+                                                                <input type="text" class="form-control" placeholder="0" maxlength="1" />
+                                                            </div>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -103,10 +178,103 @@
                                             </div>
                                         </div>
                                         <div class="col-lg-6 col-md-6">
-                                            <b>ชื่อบริษัทภาษาอังกฤษ<span class="red">*</span></b>
+                                            <b>นิติบุคคล<span class="red">*</span></b>
+                                            <div class="input-group">
+                                                <div class="form-group">
+                                                    <select class="form-control show-tick">
+                                                        <optgroup label="กรุณาเลือก">
+                                                            <option>บริษัทจำกัด (บจ.)</option>
+                                                            <option>บริษัทมหาชนจำกัด (บมจ.)</option>
+                                                            <option>ห้างหุ้นส่วนจำกัด (หจ.)</option>
+                                                            <option>ธนาคารจำกัดมหาชน</option>
+                                                            <option>มูลนิธิ</option>
+                                                        </optgroup>
+                                                    </select><!-- From Master -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row clearfix py-10">
+                                        <div class="col-lg-6 col-md-6">
+                                            <b>Juristic ID <span class="red">*</span></b>
+                                            <div class="row clearfix">
+                                                <div class="col-lg-12 col-md-12 display-flex">
+                                                    <div class="width-45">
+                                                        <div class="input-group">
+                                                            <div class="form-line">
+                                                                <input type="text" class="form-control" placeholder="0" maxlength="1" />
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="width-45">
+                                                        <div class="input-group">
+                                                            <div class="form-line">
+                                                                <input type="text" class="form-control" placeholder="0" maxlength="1" />
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="width-45">
+                                                        <div class="input-group">
+                                                            <div class="form-line">
+                                                                <input type="text" class="form-control" placeholder="0" maxlength="1" />
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="width-45">
+                                                        <div class="input-group">
+                                                            <div class="form-line">
+                                                                <input type="text" class="form-control" placeholder="0" maxlength="1" />
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="width-45">
+                                                        <div class="input-group">
+                                                            <div class="form-line">
+                                                                <input type="text" class="form-control" placeholder="0" maxlength="1" />
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="width-45">
+                                                        <div class="input-group">
+                                                            <div class="form-line">
+                                                                <input type="text" class="form-control" placeholder="0" maxlength="1" />
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="width-45">
+                                                        <div class="input-group">
+                                                            <div class="form-line">
+                                                                <input type="text" class="form-control" placeholder="0" maxlength="1" />
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row clearfix py-10">
+                                        <div class="col-lg-6 col-md-6">
+                                            <b>Juristic Name <span class="red">*</span></b>
                                             <div class="input-group">
                                                 <div class="form-line">
-                                                    <input v-model="company_en" type="text" class="form-control ip" placeholder="บจ.ไพร์ม เอ็กซ์ จำกัด" />
+                                                    <input v-model="company_th" type="text" class="form-control ip" placeholder="Prime X Co., Ltd." />
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6">
+                                            <b>Juristic Type<span class="red">*</span></b>
+                                            <div class="input-group">
+                                                <div class="form-group">
+                                                    <select class="form-control show-tick">
+                                                        <optgroup label="กรุณาเลือก">
+                                                            <option>COMPANY LIMITED (CO., LTD.)</option>
+                                                            <option>PUBLIC COMPANY LIMITED (PUB CO., LTD.)</option>
+                                                            <option>PARTNERSHIP LIMITED (PART., LTD.)</option>
+                                                            <option>BANK PUBLIC COMPANY LIMITED</option>
+                                                            <option>FOUNDATION</option>
+                                                        </optgroup>
+                                                    </select><!-- From Master -->
                                                 </div>
                                             </div>
                                         </div>
@@ -204,7 +372,7 @@
                                     </div>
                                     <div class="row clearfix py-10">
                                         <div class="col-lg-3 col-md-3">
-                                            <b>ภาษี<span class="red">*</span></b>
+                                            <b>ภาษีมูลค่าเพิ่ม<span class="red">*</span></b>
                                             <div class="box_flex">
                                                 <div class="input-group">
                                                     <span class="input-group-addon">
@@ -227,7 +395,7 @@
                                             </div>
                                         </div>
                                         <div class="col-lg-4 col-md-4">
-                                            <b>วันที่ขึ้นทะเบียนนิติบุคคล<span class="red">*</span></b>
+                                            <b>วันที่จดทะเบียน<span class="red">*</span></b>
                                             <div class="input-group">
                                                 <div class="form-line">
                                                     <input v-model="date_start" type="text" class="form-control date" placeholder="25/1/2560" />
@@ -236,9 +404,9 @@
                                         </div>
                                         <div class="col-lg-4 col-md-4">
                                             <b>วันปิดกิจการหรือควบรวมกิจการ<span class="red">*</span></b>
-                                            <div class="input-group">
-                                                <div class="form-line">
-                                                    <input v-model="date_end" type="text" class="form-control date disabled" placeholder="" disabled="disabled" />
+                                            <div class="form-group">
+                                                <div class="form-line disabled">
+                                                    <input v-model="date_end" type="text" class="form-control date disabled" placeholder="disabled" disabled="disabled" />
                                                 </div>
                                             </div>
                                         </div>
