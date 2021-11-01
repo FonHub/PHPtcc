@@ -11,7 +11,7 @@
 body {
     background-color: #E7E8EC;
     @include transition(all .5s);
-    font-family: 'Muli', Arial, Tahoma, sans-serif;
+    font-family: "Sarabun", sans-serif !important;
     font-weight: $font-weight-default;
     font-size: 14px;
 }

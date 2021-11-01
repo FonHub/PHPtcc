@@ -52,6 +52,7 @@
         <div class="container-fluid">
             <!-- main info-->
             <section class="sec-maininfo">
+                <!-- Thai Lang-->
                 <div class="row clearfix">
                     <div class="col-sm-12 col-md-12 col-lg-12">
                         <div class="card">
@@ -59,19 +60,37 @@
                             <div class="body">
                                 <form class="form-horizontal __info">
                                     <div class="header-status">
-                                        <h3>ข้อมูลบุคคล</h3>
+                                        <h3>ข้อมูลบุคคลภาษาไทย</h3>
                                     </div>
                                     <div class="row clearfix">
-                                        <div class="col-lg-6 col-md-6">
-                                            <b>เลขบัตรประชาชน หรือ หมายเลขพาสปอร์ต <span class="red">*</span></b>
+                                        <div class="col-lg-3 col-md-3">
+                                            <b>เลขบัตรประชาชน<span class="red">*</span></b>
                                             <div class="input-group">
                                                 <div class="form-line">
                                                     <input v-model="person_id" type="text" class="form-control ip" placeholder="1-11-01123-5540-9" />
                                                 </div>
                                             </div>
                                         </div>
+                                        <div class="col-lg-3 col-md-3">
+                                            <b>วันหมดอายุบัตร<span class="red">*</span></b>
+                                            <div class="input-group">
+                                                <div class="form-line">
+                                                    <input v-model="person_id" type="text" class="form-control ip" placeholder="1/1/2565" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3 col-md-3">
+                                            <b>แนบเอกสาร<span class="red">*</span></b>
+                                            <div class="input-group">
+                                                <div class="form-line">
+                                                    <input v-model="person_id" type="text" class="form-control ip" placeholder="" />
+                                                </div>
+                                                <span class="input-group-addon"> <i class="zmdi zmdi-attachment-alt"></i> </span>
+                                            </div>
+                                        </div>
                                     </div>
                                     <div class="row clearfix">
+
                                         <div class="col-lg-2 col-md-2">
                                             <b>คำนำหน้าชื่อ<span class="red">*</span></b>
                                             <!-- From Master -->
@@ -80,8 +99,6 @@
                                                     <option>นาย</option>
                                                     <option>นาง</option>
                                                     <option>นางสาว</option>
-                                                    <option>Mr.</option>
-                                                    <option>Mrs.</option>
                                                 </optgroup>
                                             </select>
                                         </div>
@@ -106,6 +123,7 @@
                                             </div>
                                         </div>
                                     </div>
+
                                     <div class="row clearfix">
                                         <div class="col-lg-2 col-md-2">
                                             <b>สัญชาติ<span class="red">*</span></b>
@@ -114,9 +132,7 @@
                                                     <optgroup label="กรุณาเลือก">
                                                         <option>ไทย</option>
                                                         <option>อังกฤษ</option>
-                                                        <option>นางสาว</option>
                                                         <option>จีน</option>
-                                                        <option>เพิ่มใหม่</option>
                                                     </optgroup>
                                                 </select><!-- From Master -->
                                             </div>
@@ -140,7 +156,7 @@
                                             </div>
                                         </div>
                                         <div class="col-lg-3 col-md-3">
-                                            <b>หมายเลขโทรศัพท์<span class="red">*</span></b>
+                                            <b>โทรศัพท์<span class="red">*</span></b>
                                             <div class="input-group">
                                                 <div class="form-line">
                                                     <input type="text" class="form-control" placeholder="02-520-5000" />
@@ -148,7 +164,7 @@
                                             </div>
                                         </div>
                                         <div class="col-lg-3 col-md-3">
-                                            <b>หมายเลขโทรสาร<span class="red">*</span></b>
+                                            <b>อีเมล์<span class="red">*</span></b>
                                             <div class="input-group">
                                                 <div class="form-line">
                                                     <input type="text" class="form-control" placeholder="02-520-5000" />
@@ -161,30 +177,56 @@
                                     <div v-if="!isForeigners">
                                         <!-- Address Thai -->
                                         <div class="header-status">
-                                            <h3>ที่อยู่ภาษาไทย</h3>
+                                            <h3>ที่อยู่</h3>
                                         </div>
                                         <div class="row clearfix">
                                             <div class="col-lg-3 col-md-3">
-                                                <b>เลขที<span class="red">*</span></b>
+                                                <b>บ้านเลขที่<span class="red">*</span></b>
                                                 <div class="input-group">
                                                     <div class="form-line">
-                                                        <input type="text" class="form-control" placeholder="1  อาคารทีพี แอนด์ ที" />
+                                                        <input type="text" class="form-control" placeholder="1" />
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="col-lg-3 col-md-3">
-                                                <b>หมู่ที่/หมู่บ้าน<span class="red">*</span></b>
+                                                <b>หมู่ที่/หมู่บ้าน</b>
                                                 <div class="input-group">
                                                     <div class="form-line">
-                                                        <input type="text" class="form-control" placeholder="ชั้นที่ 22 ซอยวิภาวดีรังสิต 19" />
+                                                        <input type="text" class="form-control" placeholder="-" />
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="col-lg-3 col-md-3">
-                                                <b>ถนน<span class="red">*</span></b>
+                                                <b>อาคาร/หมู่บ้าน</b>
                                                 <div class="input-group">
                                                     <div class="form-line">
-                                                        <input type="text" class="form-control" placeholder="วิภาวดีรังสิต" />
+                                                        <input type="text" class="form-control" placeholder="TCC" />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row clearfix">
+                                            <div class="col-lg-3 col-md-3">
+                                                <b>ชั้น</b>
+                                                <div class="input-group">
+                                                    <div class="form-line">
+                                                        <input type="text" class="form-control" placeholder="1" />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3 col-md-3">
+                                                <b>ซอย</b>
+                                                <div class="input-group">
+                                                    <div class="form-line">
+                                                        <input type="text" class="form-control" placeholder="-" />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3 col-md-3">
+                                                <b>ถนน</b>
+                                                <div class="input-group">
+                                                    <div class="form-line">
+                                                        <input type="text" class="form-control" placeholder="สุรวงศ์" />
                                                     </div>
                                                 </div>
                                             </div>
@@ -202,7 +244,7 @@
                                                 <b>อำเภอ/เขต<span class="red">*</span></b>
                                                 <div class="input-group">
                                                     <div class="form-line">
-                                                        <input type="text" class="form-control" placeholder="พระนคร" />
+                                                        <input type="text" class="form-control" placeholder="บางรัก" />
                                                     </div>
                                                 </div>
                                             </div>
@@ -210,7 +252,7 @@
                                                 <b>ตำบล/แขวง<span class="red">*</span></b>
                                                 <div class="input-group">
                                                     <div class="form-line">
-                                                        <input type="text" class="form-control" placeholder="เสาชิงช้า" />
+                                                        <input type="text" class="form-control" placeholder="สี่พระยา" />
                                                     </div>
                                                 </div>
                                             </div>
@@ -218,79 +260,236 @@
                                                 <b>รหัสไปรษณีย์<span class="red">*</span></b>
                                                 <div class="input-group">
                                                     <div class="form-line">
-                                                        <input type="text" class="form-control" placeholder="10200 " />
+                                                        <input type="text" class="form-control" placeholder="10500" />
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
+                                    </div>
+                                    <div class="btn-control text-align">
+                                        <a href="#cancel"></a><button type="reset" class="btn btn-raised bg-grey waves-effect">
+                                            ยกเลิก
+                                        </button>
+                                        <a href="#save"></a><button type="button" class="btn btn-raised btn-default __redvitality waves-effect"> บันทึก </button>
+                                    </div>
+
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Eng Lang-->
+                <div class="row clearfix">
+                    <div class="col-sm-12 col-md-12 col-lg-12">
+                        <div class="card">
+
+                            <div class="body">
+                                <form class="form-horizontal __info">
+                                    <div class="header-status">
+                                        <h3>ข้อมูลบุคคลอังกฤษ</h3>
+                                    </div>
+                                    <div class="row clearfix">
+                                        <div class="col-lg-3 col-md-3">
+                                            <b>Passport No.<span class="red">*</span></b>
+                                            <div class="input-group">
+                                                <div class="form-line">
+                                                    <input v-model="person_id" type="text" class="form-control " placeholder="A123456" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3 col-md-3">
+                                            <b>Date of expiry<span class="red">*</span></b>
+                                            <div class="input-group">
+                                                <div class="form-line">
+                                                    <input v-model="person_id" type="text" class="form-control " placeholder="1/1/2565" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3 col-md-3">
+                                            <b>File Upload<span class="red">*</span></b>
+                                            <div class="input-group">
+                                                <div class="form-line">
+                                                    <input v-model="person_id" type="text" class="form-control " placeholder="" />
+                                                </div>
+                                                <span class="input-group-addon"> <i class="zmdi zmdi-attachment-alt"></i> </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row clearfix">
+                                        <div class="col-lg-12 col-md-12 py-10px">
+                                            <p><strong>Name</strong></p>
+                                        </div>
+                                        <div class="col-lg-2 col-md-2">
+                                            <b>Title Name<span class="red">*</span></b>
+                                            <!-- From Master -->
+                                            <select class="form-control show-tick" v-model="title_name">
+                                                <optgroup label="คำนำหน้าชื่อ">
+                                                    <option>Mr.</option>
+                                                    <option>Mrs.</option>
+                                                </optgroup>
+                                            </select>
+                                        </div>
+                                        <div class="col-lg-3 col-md-3">
+                                            <div>
+                                                <b>First Name <span class="red">*</span></b>
+                                                <div class="input-group">
+                                                    <div class="form-line">
+                                                        <input type="text" class="form-control" placeholder="Mariah" />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3 col-md-3">
+                                            <div>
+                                                <b>Middle Name <span class="red">*</span></b>
+                                                <div class="input-group">
+                                                    <div class="form-line">
+                                                        <input type="text" class="form-control" placeholder="Appen" />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3 col-md-3">
+                                            <div>
+                                                <b>Surname<span class="red">*</span></b>
+                                                <div class="input-group">
+                                                    <div class="form-line">
+                                                        <input type="text" class="form-control" placeholder="Caraiban" />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row clearfix">
+                                        <div class="col-lg-2 col-md-2">
+                                            <b>Nationality<span class="red">*</span></b>
+                                            <div class="form-group">
+                                                <select class="form-control show-tick">
+                                                    <optgroup label="กรุณาเลือก">
+                                                        <option>Thai</option>
+                                                        <option>British Virgin Islands</option>
+                                                    </optgroup>
+                                                </select><!-- From Master -->
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3 col-md-3">
+                                            <b>Occupation<span class="red">*</span></b>
+                                            <div class="form-group">
+                                                <select class="form-control show-tick" v-model="occupation">
+                                                    <optgroup label="กรุณาเลือก">
+                                                        <option>Commercial</option>
+                                                        <option>Commerce</option>
+                                                    </optgroup>
+                                                </select><!-- From Master -->
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3 col-md-3">
+                                            <b>Phone No.<span class="red">*</span></b>
+                                            <div class="input-group">
+                                                <div class="form-line">
+                                                    <input type="text" class="form-control" placeholder="02-520-5000" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3 col-md-3">
+                                            <b>Email<span class="red">*</span></b>
+                                            <div class="input-group">
+                                                <div class="form-line">
+                                                    <input type="text" class="form-control" placeholder="02-520-5000" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <div v-if="!isForeigners">
                                         <!-- Address English -->
                                         <div class="header-status">
-                                            <h3>ที่อยู่ภาษาอังกฤษ</h3>
+                                            <h3>Address</h3>
                                         </div>
                                         <div class="row clearfix">
                                             <div class="col-lg-3 col-md-3">
-                                                <b>เลขที<span class="red">*</span></b>
+                                                <b>House No.<span class="red">*</span></b>
                                                 <div class="input-group">
                                                     <div class="form-line">
-                                                        <input type="text" class="form-control" placeholder="" />
+                                                        <input type="text" class="form-control" placeholder="1" />
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="col-lg-3 col-md-3">
-                                                <b>หมู่ที่/หมู่บ้าน<span class="red">*</span></b>
+                                                <b>Village No.</b>
                                                 <div class="input-group">
                                                     <div class="form-line">
-                                                        <input type="text" class="form-control" placeholder="" />
+                                                        <input type="text" class="form-control" placeholder="-" />
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="col-lg-3 col-md-3">
-                                                <b>ถนน<span class="red">*</span></b>
+                                                <b>Building/Village</b>
                                                 <div class="input-group">
                                                     <div class="form-line">
-                                                        <input type="text" class="form-control" placeholder="" />
+                                                        <input type="text" class="form-control" placeholder="TCC" />
                                                     </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="row clearfix">
-                                            <div class="col-lg-3 col-md-3">
-                                                <b>จังหวัด<span class="red">*</span></b>
-                                                <div class="input-group">
-                                                    <div class="form-line">
-                                                        <input type="text" class="form-control" placeholder="" />
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-3 col-md-3">
-                                                <b>อำเภอ/เขต<span class="red">*</span></b>
-                                                <div class="input-group">
-                                                    <div class="form-line">
-                                                        <input type="text" class="form-control" placeholder="" />
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-3 col-md-3">
-                                                <b>ตำบล/แขวง<span class="red">*</span></b>
-                                                <div class="input-group">
-                                                    <div class="form-line">
-                                                        <input type="text" class="form-control" placeholder="" />
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-3 col-md-3">
-                                                <b>รหัสไปรษณีย์<span class="red">*</span></b>
-                                                <div class="form-line">
-                                                    <input type="text" class="form-control" placeholder="" />
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="row clearfix">
-                                            <div class="col-lg-6 col-md-6">
-                                                <b>แนบเอกสาร<span class="red">*</span></b>
+                                            <div class="col-lg-3 col-md-3">
+                                                <b>Floor</b>
                                                 <div class="input-group">
                                                     <div class="form-line">
-                                                        <input type="text" class="form-control" placeholder="" />
+                                                        <input type="text" class="form-control" placeholder="1st" />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3 col-md-3">
+                                                <b>Soi</b>
+                                                <div class="input-group">
+                                                    <div class="form-line">
+                                                        <input type="text" class="form-control" placeholder="-" />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3 col-md-3">
+                                                <b>Road</b>
+                                                <div class="input-group">
+                                                    <div class="form-line">
+                                                        <input type="text" class="form-control" placeholder="Surawong" />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row clearfix">
+                                            <div class="col-lg-3 col-md-3">
+                                                <b>Province<span class="red">*</span></b>
+                                                <div class="input-group">
+                                                    <div class="form-line">
+                                                        <input type="text" class="form-control" placeholder="Bangkok" />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3 col-md-3">
+                                                <b>District<span class="red">*</span></b>
+                                                <div class="input-group">
+                                                    <div class="form-line">
+                                                        <input type="text" class="form-control" placeholder="Bangrak" />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3 col-md-3">
+                                                <b>Sub-district<span class="red">*</span></b>
+                                                <div class="input-group">
+                                                    <div class="form-line">
+                                                        <input type="text" class="form-control" placeholder="Si Phraya" />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3 col-md-3">
+                                                <b>Postal code<span class="red">*</span></b>
+                                                <div class="input-group">
+                                                    <div class="form-line">
+                                                        <input type="text" class="form-control" placeholder="10500" />
                                                     </div>
                                                 </div>
                                             </div>

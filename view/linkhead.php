@@ -11,6 +11,7 @@
 <link rel="stylesheet" href="../assets/css/chatapp.min.css" />
 <link rel="stylesheet" href="../assets/css/color_skins.min.css" />
 <link rel="stylesheet" href="../assets/css/timeline.min.css" />
+<link rel="stylesheet" href="../assets/css/stylecustom.min.css" />
 
 <!-- Bootstrap Select Css -->
 <link rel="stylesheet" href="../assets/plugins/bootstrap-select/css/bootstrap-select.css" />
