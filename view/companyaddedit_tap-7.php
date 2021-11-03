@@ -1,4 +1,4 @@
-<div role="tabpanel" class="tab-pane" id="AddHistory">
+<div>
 
     <!-- table -->
     <div class="body table-responsive company-list">

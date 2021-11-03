@@ -60,7 +60,7 @@
 
                                 <form class="form-horizontal __info">
                                     <div class="row clearfix">
-                                        <div class="col-lg-2 col-md-2"> <b>ชื่อย่อหุ้น<span class="red">*</span></b>
+                                        <div class="col-lg-3 col-md-3"> <b>ชื่อย่อหุ้น<span class="red">*</span></b>
                                             <div class="input-group">
                                                 <div class="form-line">
                                                     <input type="text" class="form-control" placeholder="SET01">
@@ -72,14 +72,14 @@
                                                 <input type="text" class="form-control" placeholder="0505564001775">
                                             </div>
                                         </div>
-                                        <div class="col-lg-7 col-md-7"> <b>ชื่อบริษัทภาษาไทย<span class="red">*</span></b>
+                                        <div class="col-lg-6 col-md-6"> <b>ชื่อบริษัทภาษาไทย<span class="red">*</span></b>
                                             <div class="input-group">
                                                 <input type="text" class="form-control" placeholder="บจ.ชิวา1982 จำกัด">
                                             </div>
                                         </div>
                                     </div>
                                     <div class="row clearfix">
-                                        <div class="col-lg-2 col-md-2"> <b>ประเภทหุ้น<span class="red">*</span></b>
+                                        <div class="col-lg-3 col-md-3"> <b>ประเภทหุ้น<span class="red">*</span></b>
                                             <div class="form-group">
                                                 <select class="form-control show-tick">
                                                     <optgroup label="กรุณาเลือก">
@@ -96,20 +96,15 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-lg-2 col-md-2"> <b>มูลค่าหุ้น<span class="red">*</span></b>
+                                        <div class="col-lg-3 col-md-3"> <b>มูลค่าหุ้น<span class="red">*</span></b>
                                             <div class="input-group">
                                                 <div class="form-line">
                                                     <input type="text" class="form-control" placeholder="10.00">
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-lg-2 col-md-2"> <b>ข้อมูลทางบัญชี<span class="red">*</span></b>
-                                            <div class="input-group">
-                                                <div class="form-line">
-                                                    <input type="text" class="form-control" placeholder="00">
-                                                </div>
-                                            </div>
-                                        </div>
+                                    </div>
+                                    <div class="row clearfix">
                                         <div class="col-lg-3 col-md-3"> <b>สกุลเงิน<span class="red">*</span></b>
                                             <div class="form-group">
                                                 <select class="form-control show-tick">
@@ -129,10 +124,6 @@
                                                 </select>
                                             </div>
                                         </div>
-
-                                    </div>
-                                    <div class="row clearfix">
-
                                         <div class="col-lg-3 col-md-3"> <b>ตลาด<span class="red">*</span></b>
                                             <div class="form-group">
                                                 <select class="form-control show-tick">
@@ -144,22 +135,34 @@
                                             </div>
                                         </div>
                                         <div class="col-lg-3 col-md-3"> <b>พื้นที่<span class="red">*</span></b>
-                                            <div class="input-group">
-                                                <div class="form-line">
-                                                    <input type="text" class="form-control date" placeholder="กรุงเทพฯ">
-                                                </div>
+                                            <div class="form-group">
+                                                <select class="form-control show-tick">
+                                                    <optgroup label="กรุณาเลือก">
+                                                        <option>กรุงเทพฯ </option>
+                                                        <option>นนทบุรี </option>
+                                                    </optgroup>
+                                                </select><!-- From Master -->
                                             </div>
                                         </div>
-                                        <div class="col-lg-3 col-md-3"> <b>วันลงทะเบียน<span class="red">*</span></b>
+                                    </div>
+                                    <div class="row clearfix py-10px">
+                                        <div class="col-lg-3 col-md-3"> <b>วันลงทะเบียนจัดตั้งบริษัท<span class="red">*</span></b>
                                             <div class="input-group">
                                                 <div class="form-line">
                                                     <input type="text" class="form-control" placeholder="30/1/2464">
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-lg-3 col-md-3"> <b>ทุนจดทะเบียน<span>(สำหรับ บอจ.)</span><span class="red">*</span></b>
+                                        <div class="col-lg-3 col-md-3"> <b>ทุนจดทะเบียน<span>(จัดตั้งบริษัท)</span><span class="red">*</span></b>
                                             <div class="input-group">
                                                 <div class="form-line">
+                                                    <input type="text" class="form-control" placeholder="10,000,000,000">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3 col-md-3"> <b>ทุนจดทะเบียน<span>(ปัจจุบัน)</span><span class="red">*</span></b>
+                                            <div class="input-group">
+                                                <div>
                                                     <input type="text" class="form-control" placeholder="30,000,000,000">
                                                 </div>
                                             </div>

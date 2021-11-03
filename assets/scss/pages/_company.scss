@@ -134,6 +134,24 @@
     width: 45px;
 }
 
+.width-100 {
+    width: 100px;
+}
+
 .display-flex {
     display: flex;
+}
+
+.pd-l0 {
+    padding-left: 0px !important;
+}
+
+.mp-bottom {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.mp-0 {
+    padding: 0px !important;
+    margin: 0px !important;
 }

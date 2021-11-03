@@ -1,4 +1,4 @@
-<div role="tabpanel" class="tab-pane" id="BranchAdd">
+<div>
 
     <!-- bar function-->
     <div class="btn_function">
@@ -18,11 +18,13 @@
             <thead>
                 <tr>
                     <th style="width: 60px">#</th>
-                    <th>วันที่</th>
-                    <th>ชื่อบริษัทภาษาไทย</th>
-                    <th>ชื่อบริษัทภาษาอังกฤษ</th>
-                    <th>เลขทะเบียนนิติบุคคล</th>
+                    <th>วันที่จดทะเบียน</th>
+                    <th>ชื่อสาขาภาษาไทย</th>
+                    <th>ชื่อสาขาภาษาอังกฤษ</th>
+                    <th>ภาษีมูลค่าเพิ่ม</th>
                     <th>ที่อยู่</th>
+                    <th>โทรศัพท์</th>
+                    <th>อีเมล์</th>
                     <th>Action</th>
                 </tr>
             </thead>
@@ -32,9 +34,10 @@
                     <td>12 เม.ย.2564</td>
                     <td>หส.เดอะ ทรีไลน์ บีเอฟเอ็ม</td>
                     <td>หส.เดอะ ทรีไลน์ บีเอฟเอ็ม</td>
-                    <td>0102564000010</td>
+                    <td>มี</td>
                     <td>257/6 หมู่ที่ 14 ถนนมิตรภาพ ต.ในเมือง อ.เมืองขอนแก่น จ.ขอนแก่น 40000</td>
-                    <td>257/6 หมู่ที่ 14 ถนนมิตรภาพ ต.ในเมือง อ.เมืองขอนแก่น จ.ขอนแก่น 40000</td>
+                    <td>02-123-4987</td>
+                    <td>exemple@mail.com</td>
                     <td>
                         <div class="action_btn">
                             <a href="javascript:void(0);" class="btn btn-default" data-toggle="modal" data-target="#AddBranch"><i class="zmdi zmdi-edit"></i></a>
@@ -47,9 +50,10 @@
                     <td>12 เม.ย.2564</td>
                     <td> หจ.เดอะ ไลอ้อน มิลค์ที</td>
                     <td> หจ.เดอะ ไลอ้อน มิลค์ที</td>
-                    <td>0103564000011</td>
+                    <td>มี</td>
                     <td>8/5 ถนนสามัคคีอุทิศ ต.ในเมือง อ.เมืองขอนแก่น จ.ขอนแก่น 40000</td>
-                    <td>8/5 ถนนสามัคคีอุทิศ ต.ในเมือง อ.เมืองขอนแก่น จ.ขอนแก่น 40000</td>
+                    <td>02-123-4987</td>
+                    <td>exemple@mail.com</td>
                     <td>
                         <div class="action_btn">
                             <a href="javascript:void(0);" class="btn btn-default" data-toggle="modal" data-target="#AddBranch"><i class="zmdi zmdi-edit"></i></a>
@@ -70,62 +74,60 @@
                 <div class="modal-body">
                     <!-- form -->
                     <form class="form-horizontal __HeadAdd">
-
                         <div class="row clearfix">
-                            <div class="col-lg-6 col-md-6">
-                                <b>เลขทะเบียนนิติบุคคล <span class="red">*</span></b>
-                                <div class="input-group">
-                                    <div class="form-line">
-                                        <input v-model="old_juristic_id" type="text" class="form-control ip" placeholder="0105564002147" maxlength="13" />
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6 col-md-6">
-                                <b>นิติบุคคล<span class="red">*</span></b>
-                                <div class="form-group">
-                                    <select class="form-control show-tick">
-                                        <optgroup label="กรุณาเลือก">
-                                            <option>ห้างหุ้นส่วนสามัญนิติบุคคล (หสน.)</option>
-                                            <option>ห้างหุ้นส่วนจำกัด (หจก.)</option>
-                                            <option>บริษัทจำกัด (บจ.)</option>
-                                            <option>บริษัทมหาชนจำกัด (บมจ.)</option>
-                                        </optgroup>
-                                    </select><!-- From Master -->
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row clearfix">
-                            <div class="col-lg-6 col-md-6">
-                                <b>ชื่อบริษัทภาษาไทย<span class="red">*</span></b>
+                            <div class="col-lg-4 col-md-4">
+                                <b>ชื่อสาขาภาษาไทย<span class="red">*</span></b>
                                 <div class="input-group">
                                     <div class="form-line">
                                         <input v-model="company_th" type="text" class="form-control ip" placeholder="บจ.ไพร์ม เอ็กซ์ จำกัด" />
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-6 col-md-6">
-                                <b>ชื่อบริษัทภาษาอังกฤษ<span class="red">*</span></b>
+                            <div class="col-lg-4 col-md-4">
+                                <b>ชื่อสาขาภาษาอังกฤษ<span class="red">*</span></b>
                                 <div class="input-group">
                                     <div class="form-line">
                                         <input v-model="company_en" type="text" class="form-control ip" placeholder="บจ.ไพร์ม เอ็กซ์ จำกัด" />
                                     </div>
                                 </div>
                             </div>
+                            <div class="col-lg-3 col-md-3">
+                                <b>ภาษีมูลค่าเพิ่ม<span class="red">*</span></b>
+                                <div class="box_flex">
+                                    <div class="input-group">
+                                        <span class="input-group-addon">
+                                            <input type="radio" class="with-gap" id="ig_radio_b1">
+                                            <label for="ig_radio_b1"></label>
+                                        </span>
+                                        <div class="form-line noborder">
+                                            <input type="text" class="form-control" placeholder="มี" />
+                                        </div>
+                                    </div>
+                                    <div class="input-group">
+                                        <span class="input-group-addon">
+                                            <input type="radio" class="with-gap" id="ig_radio__b2">
+                                            <label for="ig_radio__b2"></label>
+                                        </span>
+                                        <div class="form-line noborder">
+                                            <input type="text" class="form-control" placeholder="ไม่มี" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <!-- Switch Address -->
-
-                        <div v-if="!isForeigners">
+                        <!-- Address Thai -->
+                        <div class="header-status">
+                            <h3>ที่อยู่ภาษาไทย</h3>
+                        </div>
+                        <div>
                             <!-- Address Thai -->
-                            <div class="header-status">
-                                <h3>ที่อยู่ภาษาไทย</h3>
-                            </div>
-                            <div class="row clearfix"></div>
+
                             <div class="row clearfix">
                                 <div class="col-lg-3 col-md-3">
-                                    <b>เลขที</b>
+                                    <b>บ้านเลขที่<span class="red">*</span></b>
                                     <div class="input-group">
                                         <div class="form-line">
-                                            <input type="text" class="form-control" placeholder="" />
+                                            <input type="text" class="form-control" placeholder="1" />
                                         </div>
                                     </div>
                                 </div>
@@ -133,7 +135,33 @@
                                     <b>หมู่ที่/หมู่บ้าน</b>
                                     <div class="input-group">
                                         <div class="form-line">
-                                            <input type="text" class="form-control" placeholder="" />
+                                            <input type="text" class="form-control" placeholder="-" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-3">
+                                    <b>อาคาร/หมู่บ้าน</b>
+                                    <div class="input-group">
+                                        <div class="form-line">
+                                            <input type="text" class="form-control" placeholder="TCC" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row clearfix">
+                                <div class="col-lg-3 col-md-3">
+                                    <b>ชั้น</b>
+                                    <div class="input-group">
+                                        <div class="form-line">
+                                            <input type="text" class="form-control" placeholder="1" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-3">
+                                    <b>ซอย</b>
+                                    <div class="input-group">
+                                        <div class="form-line">
+                                            <input type="text" class="form-control" placeholder="-" />
                                         </div>
                                     </div>
                                 </div>
@@ -141,160 +169,181 @@
                                     <b>ถนน</b>
                                     <div class="input-group">
                                         <div class="form-line">
-                                            <input type="text" class="form-control" placeholder="" />
+                                            <input type="text" class="form-control" placeholder="สุรวงศ์" />
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="row clearfix">
                                 <div class="col-lg-3 col-md-3">
-                                    <b>จังหวัด</b>
+                                    <b>จังหวัด<span class="red">*</span></b>
                                     <div class="input-group">
                                         <div class="form-line">
-
-                                            <b-form-input list="provinces_th" class="form-control show-tick" v-model="province_th" :state="provinceState_th"></b-form-input>
-                                            <datalist id="provinces_th">
-                                                <option v-for="list in provinces" :key="list.id">
-                                                    {{ list.name_th }}
-                                                </option>
-                                            </datalist>
+                                            <input type="text" class="form-control" placeholder="กรุงเทพมหานคร" />
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-lg-3 col-md-3">
-                                    <b>อำเภอ/เขต</b>
-
+                                    <b>อำเภอ/เขต<span class="red">*</span></b>
                                     <div class="input-group">
                                         <div class="form-line">
-
-                                            <b-form-input list="districts_th" class="form-control show-tick" v-model="district_th" :state="districtState_th"></b-form-input>
-                                            <datalist id="districts_th">
-                                                <option v-for="list in districts" :key="list.id" :value="list.name_th"></option>
-                                            </datalist>
+                                            <input type="text" class="form-control" placeholder="บางรัก" />
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-lg-3 col-md-3">
-                                    <b>ตำบล/แขวง</b>
+                                    <b>ตำบล/แขวง<span class="red">*</span></b>
                                     <div class="input-group">
                                         <div class="form-line">
-
-                                            <b-form-input list="sub_district_th" class="form-control show-tick" v-model="sub_district_th" :state="sub_districtState_th"></b-form-input>
-                                            <datalist id="sub_district_th">
-                                                <option v-for="list in sub_districts" :key="list.id" :value="list.name_th"></option>
-                                            </datalist>
+                                            <input type="text" class="form-control" placeholder="สี่พระยา" />
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-lg-3 col-md-3">
-                                    <b>รหัสไปรษณีย์</b>
+                                    <b>รหัสไปรษณีย์<span class="red">*</span></b>
                                     <div class="input-group">
                                         <div class="form-line">
-                                            <input type="text" class="form-control" :placeholder="zipcode_th" disabled="true" />
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Address English -->
-                            <div class="header-status">
-                                <h3>ที่อยู่ภาษาอังกฤษ</h3>
-                            </div>
-                            <div class="row clearfix">
-                                <div class="col-lg-3 col-md-3">
-                                    <b>เลขที</b>
-                                    <div class="input-group">
-                                        <div class="form-line">
-                                            <input type="text" class="form-control" placeholder="" />
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-3 col-md-3">
-                                    <b>หมู่ที่/หมู่บ้าน</b>
-                                    <div class="input-group">
-                                        <div class="form-line">
-                                            <input type="text" class="form-control" placeholder="" />
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-3 col-md-3">
-                                    <b>ถนน</b>
-                                    <div class="input-group">
-                                        <div class="form-line">
-                                            <input type="text" class="form-control" placeholder="" />
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row clearfix">
-                                <div class="col-lg-3 col-md-3">
-                                    <b>จังหวัด</b>
-                                    <div class="input-group">
-                                        <div class="form-line">
-                                            <b-form-input list="provinces_en" class="form-control show-tick" v-model="province_en" :state="provinceState_en"></b-form-input>
-                                            <datalist id="provinces_en">
-                                                <option v-for="list in provinces" :key="list.id">
-                                                    {{ list.name_en }}
-                                                </option>
-                                            </datalist>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-3 col-md-3">
-                                    <b>อำเภอ/เขต</b>
-                                    <div class="input-group">
-                                        <div class="form-line">
-                                            <b-form-input list="districts_en" class="form-control show-tick" v-model="district_en" :state="districtState_en"></b-form-input>
-                                            <datalist id="districts_en">
-                                                <option v-for="list in districts" :key="list.id" :value="list.name_en"></option>
-                                            </datalist>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-3 col-md-3">
-                                    <b>ตำบล/แขวง</b>
-                                    <div class="input-group">
-                                        <div class="form-line">
-                                            <b-form-input list="sub_district_en" class="form-control show-tick" v-model="sub_district_en" :state="sub_districtState_en"></b-form-input>
-                                            <datalist id="sub_district_en">
-                                                <option v-for="list in sub_districts" :key="list.id" :value="list.name_en"></option>
-                                            </datalist>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-3 col-md-3">
-                                    <b>รหัสไปรษณีย์</b>
-                                    <div class="input-group">
-                                        <div class="form-line">
-                                            <input type="text" class="form-control" :placeholder="zipcode_en" disabled="true" />
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row clearfix">
-                                <div class="col-lg-6 col-md-6">
-                                    <b>แนบเอกสาร</b>
-                                    <div class="input-group">
-                                        <div class="form-line">
-                                            <input type="text" class="form-control" placeholder="" />
+                                            <input type="text" class="form-control" placeholder="10500" />
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="row clearfix">
-                            <div class="col-lg-6 col-md-6"> <b>เบอร์โทรศัพท์</b>
-                                <div class="input-group">
-                                    <div class="form-line">
-                                        <input type="text" class="form-control" placeholder="">
+                        <!-- Address English -->
+                        <div class="header-status">
+                            <h3>ที่อยู่ภาษาอังกฤษ</h3>
+                        </div>
+                        <div>
+                            <!-- Address English -->
+
+                            <div class="row clearfix">
+                                <div class="col-lg-3 col-md-3">
+                                    <b>House No.<span class="red">*</span></b>
+                                    <div class="input-group">
+                                        <div class="form-line">
+                                            <input type="text" class="form-control" placeholder="1" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-3">
+                                    <b>Village No.</b>
+                                    <div class="input-group">
+                                        <div class="form-line">
+                                            <input type="text" class="form-control" placeholder="-" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-3">
+                                    <b>Building/Village</b>
+                                    <div class="input-group">
+                                        <div class="form-line">
+                                            <input type="text" class="form-control" placeholder="TCC" />
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-6 col-md-6"> <b>เบอร์โทรสาร</b>
-                                <div class="input-group">
-                                    <div class="form-line">
-                                        <input type="text" class="form-control" placeholder="">
+                            <div class="row clearfix">
+                                <div class="col-lg-3 col-md-3">
+                                    <b>Floor</b>
+                                    <div class="input-group">
+                                        <div class="form-line">
+                                            <input type="text" class="form-control" placeholder="1st" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-3">
+                                    <b>Soi</b>
+                                    <div class="input-group">
+                                        <div class="form-line">
+                                            <input type="text" class="form-control" placeholder="-" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-3">
+                                    <b>Road</b>
+                                    <div class="input-group">
+                                        <div class="form-line">
+                                            <input type="text" class="form-control" placeholder="Surawong" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row clearfix">
+                                <div class="col-lg-3 col-md-3">
+                                    <b>Province</b>
+                                    <div class="input-group">
+                                        <div class="form-line">
+                                            <input type="text" class="form-control" placeholder="Bangkok" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-3">
+                                    <b>District</b>
+                                    <div class="input-group">
+                                        <div class="form-line">
+                                            <input type="text" class="form-control" placeholder="Bangrak" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-3">
+                                    <b>Sub-district</b>
+                                    <div class="input-group">
+                                        <div class="form-line">
+                                            <input type="text" class="form-control" placeholder="Si Phraya" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-3">
+                                    <b>Postal code</b>
+                                    <div class="input-group">
+                                        <div class="form-line">
+                                            <input type="text" class="form-control" placeholder="10500" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="header-status">
+                                <h3>ข้อมูลเพิ่มเติม</h3>
+                            </div>
+                            <div class="row clearfix">
+                                <div class="col-lg-3 col-md-3"> <b>โทรศัพท์<span class="red">*</span></b>
+                                    <div class="input-group">
+                                        <div class="form-line">
+                                            <input type="text" class="form-control" placeholder="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-3"> <b>อีเมล์<span class="red">*</span></b>
+                                    <div class="input-group">
+                                        <div class="form-line">
+                                            <input type="text" class="form-control" placeholder="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-2">
+                                    <b>แนบเอกสาร<span class="red">*</span></b>
+                                    <div class="input-group">
+                                        <div class="form-line">
+                                            <input type="text" class="form-control" placeholder="" />
+                                        </div>
+                                        <span class="input-group-addon"> <i class="zmdi zmdi-attachment-alt"></i> </span>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-2">
+                                    <b>วันที่จดทะเบียนจัดตั้ง<span class="red">*</span></b>
+                                    <div class="input-group">
+                                        <div class="disabled">
+                                            <input type="text" class="form-control" placeholder="1/1/2520" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-2">
+                                    <b>วันที่เปลี่ยนแปลง<span class="red">*</span></b>
+                                    <div class="input-group">
+                                        <div class="form-line disabled">
+                                            <input type="text" class="form-control" placeholder="1/1/2520" />
+                                        </div>
                                     </div>
                                 </div>
                             </div>

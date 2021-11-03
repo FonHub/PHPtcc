@@ -76,91 +76,91 @@
                                                     <div class="width-45">
                                                         <div class="input-group">
                                                             <div class="form-line">
-                                                                <input type="text" class="form-control" placeholder="0" maxlength="1" />
+                                                                <input type="text" class="form-control pd-l0" placeholder="1" maxlength="1" />
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="width-45">
                                                         <div class="input-group">
                                                             <div class="form-line">
-                                                                <input type="text" class="form-control" placeholder="0" maxlength="1" />
+                                                                <input type="text" class="form-control pd-l0" placeholder="1" maxlength="1" />
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="width-45">
                                                         <div class="input-group">
                                                             <div class="form-line">
-                                                                <input type="text" class="form-control" placeholder="0" maxlength="1" />
+                                                                <input type="text" class="form-control pd-l0" placeholder="1" maxlength="1" />
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="width-45">
                                                         <div class="input-group">
                                                             <div class="form-line">
-                                                                <input type="text" class="form-control" placeholder="0" maxlength="1" />
+                                                                <input type="text" class="form-control pd-l0" placeholder="1" maxlength="1" />
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="width-45">
                                                         <div class="input-group">
                                                             <div class="form-line">
-                                                                <input type="text" class="form-control" placeholder="0" maxlength="1" />
+                                                                <input type="text" class="form-control pd-l0" placeholder="1" maxlength="1" />
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="width-45">
                                                         <div class="input-group">
                                                             <div class="form-line">
-                                                                <input type="text" class="form-control" placeholder="0" maxlength="1" />
+                                                                <input type="text" class="form-control pd-l0" placeholder="1" maxlength="1" />
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="width-45">
                                                         <div class="input-group">
                                                             <div class="form-line">
-                                                                <input type="text" class="form-control" placeholder="0" maxlength="1" />
+                                                                <input type="text" class="form-control pd-l0" placeholder="1" maxlength="1" />
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="width-45">
                                                         <div class="input-group">
                                                             <div class="form-line">
-                                                                <input type="text" class="form-control" placeholder="0" maxlength="1" />
+                                                                <input type="text" class="form-control pd-l0" placeholder="1" maxlength="1" />
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="width-45">
                                                         <div class="input-group">
                                                             <div class="form-line">
-                                                                <input type="text" class="form-control" placeholder="0" maxlength="1" />
+                                                                <input type="text" class="form-control pd-l0" placeholder="1" maxlength="1" />
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="width-45">
                                                         <div class="input-group">
                                                             <div class="form-line">
-                                                                <input type="text" class="form-control" placeholder="0" maxlength="1" />
+                                                                <input type="text" class="form-control pd-l0" placeholder="1" maxlength="1" />
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="width-45">
                                                         <div class="input-group">
                                                             <div class="form-line">
-                                                                <input type="text" class="form-control" placeholder="0" maxlength="1" />
+                                                                <input type="text" class="form-control pd-l0" placeholder="1" maxlength="1" />
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="width-45">
                                                         <div class="input-group">
                                                             <div class="form-line">
-                                                                <input type="text" class="form-control" placeholder="0" maxlength="1" />
+                                                                <input type="text" class="form-control pd-l0" placeholder="1" maxlength="1" />
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="width-45">
                                                         <div class="input-group">
                                                             <div class="form-line">
-                                                                <input type="text" class="form-control" placeholder="0" maxlength="1" />
+                                                                <input type="text" class="form-control pd-l0" placeholder="1" maxlength="1" />
                                                             </div>
                                                         </div>
                                                     </div>
@@ -195,56 +195,56 @@
                                         </div>
                                     </div>
                                     <div class="row clearfix py-10">
-                                        <div class="col-lg-6 col-md-6">
+                                        <div class="col-lg-4 col-md-4">
                                             <b>Juristic ID <span class="red">*</span></b>
                                             <div class="row clearfix">
                                                 <div class="col-lg-12 col-md-12 display-flex">
                                                     <div class="width-45">
                                                         <div class="input-group">
                                                             <div class="form-line">
-                                                                <input type="text" class="form-control" placeholder="0" maxlength="1" />
+                                                                <input type="text" class="form-control" placeholder="1" maxlength="1" />
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="width-45">
                                                         <div class="input-group">
                                                             <div class="form-line">
-                                                                <input type="text" class="form-control" placeholder="0" maxlength="1" />
+                                                                <input type="text" class="form-control" placeholder="1" maxlength="1" />
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="width-45">
                                                         <div class="input-group">
                                                             <div class="form-line">
-                                                                <input type="text" class="form-control" placeholder="0" maxlength="1" />
+                                                                <input type="text" class="form-control" placeholder="1" maxlength="1" />
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="width-45">
                                                         <div class="input-group">
                                                             <div class="form-line">
-                                                                <input type="text" class="form-control" placeholder="0" maxlength="1" />
+                                                                <input type="text" class="form-control" placeholder="1" maxlength="1" />
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="width-45">
                                                         <div class="input-group">
                                                             <div class="form-line">
-                                                                <input type="text" class="form-control" placeholder="0" maxlength="1" />
+                                                                <input type="text" class="form-control" placeholder="1" maxlength="1" />
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="width-45">
                                                         <div class="input-group">
                                                             <div class="form-line">
-                                                                <input type="text" class="form-control" placeholder="0" maxlength="1" />
+                                                                <input type="text" class="form-control" placeholder="1" maxlength="1" />
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="width-45">
                                                         <div class="input-group">
                                                             <div class="form-line">
-                                                                <input type="text" class="form-control" placeholder="0" maxlength="1" />
+                                                                <input type="text" class="form-control" placeholder="1" maxlength="1" />
                                                             </div>
                                                         </div>
                                                     </div>
@@ -281,10 +281,10 @@
                                     </div>
                                     <div class="row clearfix py-10">
                                         <div class="col-lg-4 col-md-4">
-                                            <b>ประเภทประกอบการ (Sector)<span class="red">*</span></b>
+                                            <b>ประเภทธุรกิจ(ภายในองค์กร)<span class="red">*</span></b>
                                             <div class="form-group">
                                                 <select class="form-control show-tick">
-                                                    <optgroup label="กรุณาเลือก Sector">
+                                                    <optgroup label="กรุณาเลือก">
                                                         <option>เกษตรและอุตสาหกรรมอาหาร</option>
                                                         <option>สินค้าอุปโภคบริโภค</option>
                                                         <option>ธุรกิจการเงิน</option>
@@ -298,10 +298,58 @@
                                             </div>
                                         </div>
                                         <div class="col-lg-4 col-md-4">
+                                            <b>ประเภทธุรกิจตอนจดทะเบียน(กรมพัฒฯ)<span class="red">*</span></b>
+                                            <div class="display-flex">
+                                                <div class="form-group width-100">
+                                                    <select class="form-control show-tick">
+                                                        <optgroup label="กรุณาเลือก">
+                                                            <option>01111</option>
+                                                            <option>01112</option>
+                                                            <option>01113</option>
+                                                        </optgroup>
+                                                    </select><!-- From Master -->
+                                                </div>
+                                                <div class="form-group">
+                                                    <select class="form-control show-tick">
+                                                        <optgroup label="กรุณาเลือก">
+                                                            <option>การปลูกข้าวโพดที่ใช้เมล็ดแก่</option>
+                                                            <option>การปลูกธัญพืช (ยกเว้น ข้าวและข้าวโพด)</option>
+                                                            <option>การปลูกพืชตระกูลถั่ว</option>
+                                                        </optgroup>
+                                                    </select><!-- From Master -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-4">
+                                            <b>ประเภทธุรกิจที่ส่งงบการเงินปีล่าสุด<span class="red">*</span></b>
+                                            <div class="display-flex">
+                                                <div class="form-group width-100">
+                                                    <select class="form-control show-tick">
+                                                        <optgroup label="กรุณาเลือก">
+                                                            <option>01111</option>
+                                                            <option>01112</option>
+                                                            <option>01113</option>
+                                                        </optgroup>
+                                                    </select><!-- From Master -->
+                                                </div>
+                                                <div class="form-group">
+                                                    <select class="form-control show-tick">
+                                                        <optgroup label="กรุณาเลือก">
+                                                            <option>การปลูกข้าวโพดที่ใช้เมล็ดแก่</option>
+                                                            <option>การปลูกธัญพืช (ยกเว้น ข้าวและข้าวโพด)</option>
+                                                            <option>การปลูกพืชตระกูลถั่ว</option>
+                                                        </optgroup>
+                                                    </select><!-- From Master -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row clearfix py-10">
+                                        <div class="col-lg-4 col-md-4">
                                             <b>กลุ่มธุรกิจหลัก<span class="red">*</span></b>
                                             <div class="form-group">
                                                 <select class="form-control show-tick">
-                                                    <optgroup label="กรุณาเลือก Group">
+                                                    <optgroup label="กรุณาเลือก">
                                                         <option>ไพรเวท คอมพานี</option>
                                                         <option>ไทยเบฟเวอเรจ</option>
                                                         <option>อาคเนย์</option>
@@ -311,8 +359,6 @@
                                                 </select><!-- From Master -->
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="row clearfix py-10">
                                         <div class="col-lg-4 col-md-4">
                                             <b>กลุ่มธุรกิจย่อย<span class="red">*</span></b>
                                             <div class="form-group">
@@ -325,6 +371,9 @@
                                                 </select><!-- From Master -->
                                             </div>
                                         </div>
+
+                                    </div>
+                                    <div class="row clearfix py-10">
                                         <div class="col-lg-4 col-md-4">
                                             <b>กลุ่มธุรกิจย่อยระดับ 1<span class="red">*</span></b>
                                             <div class="form-group">
@@ -339,8 +388,6 @@
                                                 </select><!-- From Master -->
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="row clearfix py-10">
                                         <div class="col-lg-4 col-md-4">
                                             <b>กลุ่มธุรกิจย่อยระดับ 2<span class="red">*</span></b>
                                             <div class="form-group">
@@ -395,7 +442,7 @@
                                             </div>
                                         </div>
                                         <div class="col-lg-4 col-md-4">
-                                            <b>วันที่จดทะเบียน<span class="red">*</span></b>
+                                            <b>วันที่จดทะเบียน/วันจัดตั้ง<span class="red">*</span></b>
                                             <div class="input-group">
                                                 <div class="form-line">
                                                     <input v-model="date_start" type="text" class="form-control date" placeholder="25/1/2560" />
@@ -403,7 +450,7 @@
                                             </div>
                                         </div>
                                         <div class="col-lg-4 col-md-4">
-                                            <b>วันปิดกิจการหรือควบรวมกิจการ<span class="red">*</span></b>
+                                            <b>วันปิดกิจการหรือควบรวมกิจการ/วันที่สิ้นสุด<span class="red">*</span></b>
                                             <div class="form-group">
                                                 <div class="form-line disabled">
                                                     <input v-model="date_end" type="text" class="form-control date disabled" placeholder="disabled" disabled="disabled" />
@@ -423,6 +470,7 @@
                 </div>
             </section>
 
+
             <!-- company detail-->
             <div id="company_detail">
                 <div class="row clearfix">
@@ -440,27 +488,64 @@
                                     <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#Account">ผู้ทำบัญชีและการเงิน</a></li>
                                     <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#Liquidate">วันชำระบัญชี</a></li>
                                     <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#DocLocation">ที่เก็บเอกสาร</a></li>
+                                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#CashAccount">บัญชีหลักทรัพย์</a></li>
+                                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#Note">บันทึกเพิ่มเติม</a></li>
                                 </ul>
                                 <!-- Tab panes -->
                                 <div class="tab-content">
+                                    <div class="block-header">
+                                        <div class="row">
+                                            <div class="col-lg-7 col-md-6 col-sm-12">
+                                                <h2>
+                                                    ชื่อบริษัท
+                                                </h2>
+                                            </div>
+                                        </div>
+                                    </div>
                                     <!-- Tab panes 1-->
-                                    <?php include('../view/companyaddedit_tap-1.php'); ?>
+                                    <div role="tabpanel" class="tab-pane in active" id="HeadAdd">
+                                        <?php include('../view/companyaddedit_tap-1.php'); ?>
+                                    </div>
                                     <!-- Tab panes 2-->
-                                    <?php include('../view/companyaddedit_tap-2.php'); ?>
+                                    <div role="tabpanel" class="tab-pane" id="BranchAdd">
+                                        <?php include('../view/companyaddedit_tap-2.php'); ?>
+                                    </div>
                                     <!-- Tab panes 3-->
-                                    <?php include('../view/companyaddedit_tap-3.php'); ?>
+                                    <div role="tabpanel" class="tab-pane" id="Director">
+                                        <?php include('../view/companyaddedit_tap-3.php'); ?>
+                                    </div>
                                     <!-- Tab panes 4-->
-                                    <?php include('../view/companyaddedit_tap-4.php'); ?>
+                                    <div role="tabpanel" class="tab-pane" id="Merger">
+                                        <?php include('../view/companyaddedit_tap-4.php'); ?>
+                                    </div>
                                     <!-- Tab panes 5-->
-                                    <?php include('../view/companyaddedit_tap-5.php'); ?>
+                                    <div role="tabpanel" class="tab-pane" id="NameHistory">
+                                        <?php include('../view/companyaddedit_tap-6.php'); ?>
+                                    </div>
                                     <!-- Tab panes 6-->
-                                    <?php include('../view/companyaddedit_tap-6.php'); ?>
+                                    <div role="tabpanel" class="tab-pane" id="AddHistory">
+                                        <?php include('../view/companyaddedit_tap-7.php'); ?>
+                                    </div>
                                     <!-- Tab panes 7-->
-                                    <?php include('../view/companyaddedit_tap-7.php'); ?>
+                                    <div role="tabpanel" class="tab-pane" id="Account">
+                                        <?php include('../view/companyaddedit_tap-8.php'); ?>
+                                    </div>
                                     <!-- Tab panes 8-->
-                                    <?php include('../view/companyaddedit_tap-8.php'); ?>
+                                    <div role="tabpanel" class="tab-pane" id="Liquidate">
+                                        <?php include('../view/companyaddedit_tap-5.php'); ?>
+                                    </div>
                                     <!-- Tab panes 9-->
-                                    <?php include('../view/companyaddedit_tap-9.php'); ?>
+                                    <div role="tabpanel" class="tab-pane" id="DocLocation">
+                                        <?php include('../view/companyaddedit_tap-9.php'); ?>
+                                    </div>
+                                    <!-- Tab panes 10-->
+                                    <div role="tabpanel" class="tab-pane" id="CashAccount">
+                                        <?php include('../view/companyaddedit_tap-10.php'); ?>
+                                    </div>
+                                    <!-- Tab panes 11-->
+                                    <div role="tabpanel" class="tab-pane" id="Note">
+                                        <?php include('../view/companyaddedit_tap-11.php'); ?>
+                                    </div>
                                 </div>
                             </div>
                         </div>

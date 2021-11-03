@@ -1,4 +1,4 @@
-<div role="tabpanel" class="tab-pane" id="Director">
+<div>
     <!-- bar function-->
     <div class="btn_function">
         <div class="__box">
@@ -11,10 +11,10 @@
         </div>
         <div class="__box">
             <div class="_person_add">
-                <button type="button" class="btn btn-default" data-toggle="modal" data-target="#ModalCreate">
+                <a type="button" class="btn btn-default" href="../view/PersonAddEdit.php" target="_blank">
                     <i class="material-icons">person_add</i>
                     <span class="function-name">สร้าง</span>
-                </button>
+                </a>
             </div>
         </div>
     </div>
@@ -26,8 +26,8 @@
                     <th style="width: 60px">#</th>
                     <th>วันที่เป็นกรรมการ</th>
                     <th>วันที่สิ้นสุด</th>
-                    <th>กลุ่ม <span class="badge badge-primary" data-toggle="modal" data-target="#Detaillist">คำอธิบาย</span> </th>
-                    <th>Running</th>
+                    <th>อำนาจกรรมการ <span class="badge badge-primary" data-toggle="modal" data-target="#Detaillist">คำอธิบาย</span> </th>
+                    <th>กลุ่ม</th>
                     <th>คำนำหน้าชื่อ</th>
                     <th>ชื่อ</th>
                     <th>นามสกุล</th>
@@ -47,7 +47,7 @@
                     <td>วิชัย</td>
                     <td>วชิรพงศ์</td>
                     <td>ไทย</td>
-                    <td>กรรมการ</td>
+                    <td>Active</td>
                     <td>
                         <div class="action_btn">
                             <a href="javascript:void(0);" class="btn btn-default" data-toggle="modal" data-target="#ModalCreate"><i class="zmdi zmdi-edit"></i></a>
@@ -65,7 +65,7 @@
                     <td>มณีรัตน์</td>
                     <td>งามเรืองพงศ์</td>
                     <td>ไทย</td>
-                    <td>กรรมการ</td>
+                    <td>Active</td>
                     <td>
                         <div class="action_btn">
                             <a href="javascript:void(0);" class="btn btn-default" data-toggle="modal" data-target="#ModalCreate"><i class="zmdi zmdi-edit"></i></a>
@@ -83,7 +83,7 @@
                     <td>SUNSHINE </td>
                     <td>TAGALOG </td>
                     <td>english</td>
-                    <td>กรรมการ</td>
+                    <td>Active</td>
                     <td>
                         <div class="action_btn">
                             <a href="javascript:void(0);" class="btn btn-default" data-toggle="modal" data-target="#ModalCreate"><i class="zmdi zmdi-edit"></i></a>
@@ -101,7 +101,7 @@
                     <td>ชนุชตร</td>
                     <td>สุขสันต์</td>
                     <td>ไทย</td>
-                    <td>กรรมการ</td>
+                    <td>No Active</td>
                     <td>
                         <div class="action_btn">
                             <a href="javascript:void(0);" class="btn btn-default" data-toggle="modal" data-target="#ModalCreate"><i class="zmdi zmdi-edit"></i></a>
@@ -119,7 +119,7 @@
                     <td>กรรณธิมา</td>
                     <td>คมแก้ว</td>
                     <td>ไทย</td>
-                    <td>กรรมการ</td>
+                    <td>No Active</td>
                     <td>
                         <div class="action_btn">
                             <a href="javascript:void(0);" class="btn btn-default" data-toggle="modal" data-target="#ModalCreate"><i class="zmdi zmdi-edit"></i></a>
@@ -143,7 +143,7 @@
                 <form class="form-horizontal box__director">
                     <div class="row clearfix">
                         <div class="col-lg-3 col-md-3">
-                            <div class="w-100px"><b>หมายเลข<span class="red">*</span></b>
+                            <div class="w-100px"><b>รหัสบุคคล<span class="red">*</span></b>
                                 <div class="input-group">
                                     <div class="disabled">
                                         <input type="text" class="form-control" placeholder="0010" disabled>
@@ -158,48 +158,29 @@
                                             <option>2</option>
                                             <option>3</option>
                                             <option>4</option>
-                                            <option>5</option>
                                         </optgroup>
                                     </select><!-- From Master -->
                                 </div>
                             </div>
-                            <div class="w-100px"><b>Running<span class="red">*</span></b>
-                                <div class="input-group">
-                                    <div class="form-line">
-                                        <input type="text" class="form-control" placeholder="1">
-                                    </div>
-                                </div>
+                        </div>
+                        <div class="col-lg-2 col-md-2"><b>อำนาจกรรมการ<span class="red">*</span></b>
+                            <div class="form-group">
+                                <select class="form-control show-tick">
+                                    <optgroup label="กรุณาเลือก">
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                        <option>6</option>
+                                        <option>7</option>
+                                        <option>8</option>
+                                        <option>9</option>
+                                        <option>10</option>
+                                    </optgroup>
+                                </select><!-- From Master -->
                             </div>
                         </div>
-                        <div class="col-lg-2 col-md-2">
-                            <div><b>คำนำหน้าชื่อ<span class="red">*</span></b>
-                                <div class="input-group">
-                                    <div class="form-line">
-                                        <input type="text" class="form-control" placeholder="นาย">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-3">
-                            <div><b>ชื่อ <span class="red">*</span></b>
-                                <div class="input-group">
-                                    <div class="form-line">
-                                        <input type="text" class="form-control" placeholder="วิชัย">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-3">
-                            <div><b>นามสกุล <span class="red">*</span></b>
-                                <div class="input-group">
-                                    <div class="form-line">
-                                        <input type="text" class="form-control" placeholder="วชิรพงศ์">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row clearfix">
                         <div class="col-lg-1 col-md-1"> <b>Status<span class="red">*</span></b>
                             <div class="input-group">
                                 <div class="switch">
@@ -207,6 +188,9 @@
                                 </div>
                             </div>
                         </div>
+
+                    </div>
+                    <div class="row clearfix">
                         <div class="col-lg-3 col-md-3"> <b>วันที่เป็นกรรมการ<span class="red">*</span></b>
                             <div class="input-group">
                                 <div class="form-line">
@@ -217,209 +201,20 @@
                         <div class="col-lg-3 col-md-3"> <b>วันที่สิ้นสุด<span class="red">*</span></b>
                             <div class="input-group">
                                 <div class="form-line">
-                                    <input type="text" class="form-control" placeholder="วัน-เดือน-ปี พ.ศ. ">
+                                    <input type="text" class="form-control" placeholder="1/7/2564">
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-2 col-md-2"> <b>สัญชาติ<span class="red">*</span></b>
+                        <div class="col-lg-2 col-md-2">
+                            <b>แนบเอกสาร<span class="red">*</span></b>
                             <div class="input-group">
                                 <div class="form-line">
-                                    <input type="text" class="form-control" placeholder="ไทย">
+                                    <input type="text" class="form-control" placeholder="" />
                                 </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-2 col-md-2"> <b>อาชีพ<span class="red">*</span></b>
-                            <div class="input-group">
-                                <div class="form-line">
-                                    <input type="text" class="form-control" placeholder="เจ้าของกิจการ">
-                                </div>
+                                <span class="input-group-addon"> <i class="zmdi zmdi-attachment-alt"></i> </span>
                             </div>
                         </div>
                     </div>
-                    <div class="row clearfix">
-                        <div class="col-lg-6 col-md-6"> <b>เลขบัตรประชาชน หรือ หมายเลขพาสปอร์ต<span class="red">*</span></b>
-                            <div class="input-group">
-                                <div class="form-line">
-                                    <input type="text" class="form-control" placeholder="1-7209-00289-07-6">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-6"> <b>บริษัท<span class="red">*</span></b>
-                            <div class="input-group">
-                                <div class="form-line">
-                                    <input type="text" class="form-control" placeholder="บจ.ฟลอร่า โปรดัคส์ โซลูชั่น จำกัด ">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div v-if="!isForeigners">
-                        <!-- Address Thai -->
-                        <div class="header-status">
-                            <h3>ที่อยู่ภาษาไทย</h3>
-                        </div>
-                        <div class="row clearfix">
-                            <div class="col-lg-3 col-md-3">
-                                <b>เลขที<span class="red">*</span></b>
-                                <div class="input-group">
-                                    <div class="form-line">
-                                        <input type="text" class="form-control" placeholder="" />
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-md-3">
-                                <b>หมู่ที่/หมู่บ้าน<span class="red">*</span></b>
-                                <div class="input-group">
-                                    <div class="form-line">
-                                        <input type="text" class="form-control" placeholder="" />
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-md-3">
-                                <b>ถนน<span class="red">*</span></b>
-                                <div class="input-group">
-                                    <div class="form-line">
-                                        <input type="text" class="form-control" placeholder="" />
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row clearfix">
-                            <div class="col-lg-3 col-md-3">
-                                <b>จังหวัด<span class="red">*</span></b>
-                                <div class="input-group">
-                                    <div class="form-line">
-
-                                        <b-form-input list="provinces_th" class="form-control show-tick" v-model="province_th" :state="provinceState_th"></b-form-input>
-                                        <datalist id="provinces_th">
-                                            <option v-for="list in provinces" :key="list.id">
-                                                {{ list.name_th }}
-                                            </option>
-                                        </datalist>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-md-3">
-                                <b>อำเภอ/เขต<span class="red">*</span></b>
-
-                                <div class="input-group">
-                                    <div class="form-line">
-
-                                        <b-form-input list="districts_th" class="form-control show-tick" v-model="district_th" :state="districtState_th"></b-form-input>
-                                        <datalist id="districts_th">
-                                            <option v-for="list in districts" :key="list.id" :value="list.name_th"></option>
-                                        </datalist>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-md-3">
-                                <b>ตำบล/แขวง<span class="red">*</span></b>
-                                <div class="input-group">
-                                    <div class="form-line">
-
-                                        <b-form-input list="sub_district_th" class="form-control show-tick" v-model="sub_district_th" :state="sub_districtState_th"></b-form-input>
-                                        <datalist id="sub_district_th">
-                                            <option v-for="list in sub_districts" :key="list.id" :value="list.name_th"></option>
-                                        </datalist>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-md-3">
-                                <b>รหัสไปรษณีย์<span class="red">*</span></b>
-                                <div class="input-group">
-                                    <div class="form-line">
-                                        <input type="text" class="form-control" :placeholder="zipcode_th" disabled="true" />
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Address English -->
-                        <div class="header-status">
-                            <h3>ที่อยู่ภาษาอังกฤษ</h3>
-                        </div>
-                        <div class="row clearfix">
-                            <div class="col-lg-3 col-md-3">
-                                <b>เลขที<span class="red">*</span></b>
-                                <div class="input-group">
-                                    <div class="form-line">
-                                        <input type="text" class="form-control" placeholder="" />
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-md-3">
-                                <b>หมู่ที่/หมู่บ้าน<span class="red">*</span></b>
-                                <div class="input-group">
-                                    <div class="form-line">
-                                        <input type="text" class="form-control" placeholder="" />
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-md-3">
-                                <b>ถนน<span class="red">*</span></b>
-                                <div class="input-group">
-                                    <div class="form-line">
-                                        <input type="text" class="form-control" placeholder="" />
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row clearfix">
-                            <div class="col-lg-3 col-md-3">
-                                <b>จังหวัด<span class="red">*</span></b>
-                                <div class="input-group">
-                                    <div class="form-line">
-                                        <b-form-input list="provinces_en" class="form-control show-tick" v-model="province_en" :state="provinceState_en"></b-form-input>
-                                        <datalist id="provinces_en">
-                                            <option v-for="list in provinces" :key="list.id">
-                                                {{ list.name_en }}
-                                            </option>
-                                        </datalist>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-md-3">
-                                <b>อำเภอ/เขต<span class="red">*</span></b>
-                                <div class="input-group">
-                                    <div class="form-line">
-                                        <b-form-input list="districts_en" class="form-control show-tick" v-model="district_en" :state="districtState_en"></b-form-input>
-                                        <datalist id="districts_en">
-                                            <option v-for="list in districts" :key="list.id" :value="list.name_en"></option>
-                                        </datalist>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-md-3">
-                                <b>ตำบล/แขวง<span class="red">*</span></b>
-                                <div class="input-group">
-                                    <div class="form-line">
-                                        <b-form-input list="sub_district_en" class="form-control show-tick" v-model="sub_district_en" :state="sub_districtState_en"></b-form-input>
-                                        <datalist id="sub_district_en">
-                                            <option v-for="list in sub_districts" :key="list.id" :value="list.name_en"></option>
-                                        </datalist>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-md-3">
-                                <b>รหัสไปรษณีย์<span class="red">*</span></b>
-                                <div class="input-group">
-                                    <div class="form-line">
-                                        <input type="text" class="form-control" :placeholder="zipcode_en" disabled="true" />
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row clearfix">
-                            <div class="col-lg-6 col-md-6">
-                                <b>แนบเอกสาร<span class="red">*</span></b>
-                                <div class="input-group">
-                                    <div class="form-line">
-                                        <input type="text" class="form-control" placeholder="" />
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
                 </form>
             </div>
             <div class="modal-footer">
@@ -433,7 +228,7 @@
 
 <!-- modal Detaillist -->
 <div class="modal fade" id="Detaillist" tabindex="-1" role="dialog" style="display: none;" aria-hidden="true">
-    <div class="modal-dialog" role="document">
+    <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
             <div class="modal-header">
                 <h4 class="modal-title" id="DetaillistLabel">คำอธิบายกลุ่มคณะกรรมการ</h4>
@@ -441,23 +236,43 @@
             <div class="modal-body">
                 <div>
                     <h5> กลุ่ม 1</h5>
-                    <small>กรรมการกลุ่ม 1 และกลุ่ม 2 รวมเป็นสองคน ลงลายมือชื่อร่วม</small>
+                    <small>กรรมการคนใดคนหนึ่งลงลายมือชื่อ และประทับตราสำคัญของบริษัท</small>
                 </div>
                 <div>
                     <h5> กลุ่ม 2 </h5>
-                    <small>คนใดคนหนึ่งลงลายมือชื่อพร้อมประทับตราสำคัญของบริษัท</small>
+                    <small>กรรมการสองคนลงลายมือชื่อร่วมกัน และประทับตราสำคัญของบริษัท</small>
                 </div>
                 <div>
                     <h5> กลุ่ม 3 </h5>
-                    <small>สองคนลงลายมือชื่อร่วมกันพร้อมประทับตราสำคัญของบริษัท</small>
+                    <small>กรรมการสองคนลงลายมือชื่อร่วมกัน</small>
                 </div>
                 <div>
                     <h5>กลุ่ม 4 </h5>
-                    <small>กรรมการกลุ่ม 2 และกลุ่ม 3 รวมเป็นสองคน ลงลายมือชื่อร่วม</small>
+                    <small>กรรมการกลุ่ม 1 และกลุ่ม 2 รวมเป็นสองคนลงลายมือชื่อร่วมกัน และประทับตราสำคัญของบริษัท</small>
                 </div>
                 <div>
                     <h5>กลุ่ม 5 </h5>
-                    <small>กรรมการกลุ่ม 1 และกลุ่ม 2 หรือกลุ่ม 3 รวมเป็นสองคน ลงลายมือชื่อร่วม</small>
+                    <small>กรรมการกลุ่ม 1 และกลุ่ม 2 รวมเป็นสองคนลงลายมือชื่อร่วมกัน</small>
+                </div>
+                <div>
+                    <h5>กลุ่ม 6 </h5>
+                    <small>กรรมการกลุ่ม 1 และกลุ่ม 2 หรือกลุ่ม 3 รวมเป็นสองคนลงลายมือชื่อร่วมกัน และประทับตราสำคัญของบริษัท</small>
+                </div>
+                <div>
+                    <h5>กลุ่ม 7 </h5>
+                    <small>กรรมการกลุ่ม 2 และกลุ่ม 3 รวมเป็นสองคนลงลายมือชื่อร่วมกัน และประทับตราสำคัญของบริษัท</small>
+                </div>
+                <div>
+                    <h5>กลุ่ม 8 </h5>
+                    <small>กรรมการกลุ่ม 2 และกลุ่ม 3 หรือกลุ่ม 4 รวมเป็นสองคนลงลายมือชื่อร่วม และประทับตราสำคัญของบริษัท</small>
+                </div>
+                <div>
+                    <h5>กลุ่ม 9 </h5>
+                    <small>กรรมการกลุ่ม 3 และกลุ่ม 4 รวมเป็นสองคนลงลายมือชื่อร่วม และประทับตราสำคัญของบริษัท</small>
+                </div>
+                <div>
+                    <h5>กลุ่ม 10 </h5>
+                    <small>กรรมการที่ไม่มีอำนาจลงนาม (กรรมการลอย)</small>
                 </div>
             </div>
             <div class="modal-footer">
@@ -479,19 +294,19 @@
                 <div class="row clearfix">
                     <div class="col-sm-12 col-md-12 col-lg-12">
                         <div class="card">
-                            <div class="header">
+                            <div class="header mp-0">
                                 <h2>ค้นหา</h2>
                             </div>
-                            <div class="body">
-                                <form class="form-horizontal __search">
-                                    <div class="col-sm-12">
+                            <div class="body mp-0">
+                                <form class="form-horizontal __search ">
+                                    <div class="col-sm-12 mp-0">
                                         <div class="input-group"> <span class="input-group-addon"> <i class="material-icons">search</i></span>
                                             <div class="form-line">
                                                 <input type="text" class="form-control" placeholder="พิมพ์ชื่อ">
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="btn-control">
+                                    <div class="btn-control mp-0">
                                         <button type="button" class="btn btn-raised btn-default __redvitality waves-effect">ค้นหา</button>
                                     </div>
                                 </form>
@@ -503,7 +318,7 @@
                 <!-- table-->
                 <div class="row clearfix">
                     <div class="body table-responsive company-list">
-                        <table class="table table-hover">
+                        <table class="table table-hover mp-0">
                             <thead>
                                 <tr>
                                     <th style="width: 60px">#</th>
@@ -512,7 +327,6 @@
                                     <th>ชื่อ</th>
                                     <th>นามสกุล</th>
                                     <th>สัญชาติ</th>
-                                    <th>สถานะ</th>
                                     <th>Action</th>
                                 </tr>
                             </thead>
@@ -524,11 +338,10 @@
                                     <td>วิชัย</td>
                                     <td>วชิรพงศ์</td>
                                     <td>ไทย</td>
-                                    <td>กรรมการ</td>
                                     <td>
                                         <div class="input-group">
-                                            <input type="checkbox" id="md_checkbox_21" class="filled-in chk-col-red _red-vitality" checked />
-                                            <label for="md_checkbox_21"></label>
+                                            <input type="checkbox" id="md_checkbox_d1" class="filled-in chk-col-red _red-vitality" checked />
+                                            <label for="md_checkbox_d1"></label>
                                         </div>
                                     </td>
                                 </tr>
@@ -539,11 +352,10 @@
                                     <td>มณีรัตน์</td>
                                     <td>งามเรืองพงศ์</td>
                                     <td>ไทย</td>
-                                    <td>กรรมการ</td>
                                     <td>
                                         <div class="input-group">
-                                            <input type="checkbox" id="md_checkbox_21" class="filled-in chk-col-red _red-vitality" checked />
-                                            <label for="md_checkbox_21"></label>
+                                            <input type="checkbox" id="md_checkbox_d2" class="filled-in chk-col-red _red-vitality" checked />
+                                            <label for="md_checkbox_d2"></label>
                                         </div>
                                     </td>
                                 </tr>
@@ -554,11 +366,10 @@
                                     <td>SUNSHINE </td>
                                     <td>TAGALOG </td>
                                     <td>english</td>
-                                    <td>กรรมการ</td>
                                     <td>
                                         <div class="input-group">
-                                            <input type="checkbox" id="md_checkbox_21" class="filled-in chk-col-red _red-vitality" checked />
-                                            <label for="md_checkbox_21"></label>
+                                            <input type="checkbox" id="md_checkbox_d3" class="filled-in chk-col-red _red-vitality" checked />
+                                            <label for="md_checkbox_d3"></label>
                                         </div>
                                     </td>
                                 </tr>
@@ -569,11 +380,10 @@
                                     <td>ชนุชตร</td>
                                     <td>สุขสันต์</td>
                                     <td>ไทย</td>
-                                    <td>กรรมการ</td>
                                     <td>
                                         <div class="input-group">
-                                            <input type="checkbox" id="md_checkbox_21" class="filled-in chk-col-red _red-vitality" checked />
-                                            <label for="md_checkbox_21"></label>
+                                            <input type="checkbox" id="md_checkbox_d4" class="filled-in chk-col-red _red-vitality" checked />
+                                            <label for="md_checkbox_d4"></label>
                                         </div>
                                     </td>
                                 </tr>
@@ -584,11 +394,10 @@
                                     <td>กรรณธิมา</td>
                                     <td>คมแก้ว</td>
                                     <td>ไทย</td>
-                                    <td>กรรมการ</td>
                                     <td>
                                         <div class="input-group">
-                                            <input type="checkbox" id="md_checkbox_21" class="filled-in chk-col-red _red-vitality" checked />
-                                            <label for="md_checkbox_21"></label>
+                                            <input type="checkbox" id="md_checkbox_d5" class="filled-in chk-col-red _red-vitality" checked />
+                                            <label for="md_checkbox_d5"></label>
                                         </div>
                                     </td>
                                 </tr>

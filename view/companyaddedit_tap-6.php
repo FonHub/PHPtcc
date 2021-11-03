@@ -1,4 +1,4 @@
-<div role="tabpanel" class="tab-pane" id="NameHistory">
+<div>
 
     <!-- bar function-->
     <div class="btn_function">
@@ -73,7 +73,7 @@
                         <div class="col-lg-3 col-md-3">
                             <div><b>เลขทะเบียนนิติบุคคคล<span class="red">*</span></b>
                                 <div class="input-group">
-                                    <div class="form-line">
+                                    <div>
                                         <input type="text" class="form-control " placeholder="0105564001931">
                                     </div>
                                 </div>
@@ -81,7 +81,7 @@
                         </div>
                         <div class="col-lg-4 col-md-4"> <b>วันที่เริ่มต้น<span class="red">*</span></b>
                             <div class="input-group">
-                                <div class="form-line">
+                                <div>
                                     <input type="text" class="form-control" placeholder="1/7/2560 ">
                                 </div>
                             </div>
@@ -97,14 +97,14 @@
                     <div class="row clearfix">
                         <div class="col-lg-6 col-md-6"> <b>ชื่อเดิมภาษาไทย<span class="red">*</span></b>
                             <div class="input-group">
-                                <div class="form-line">
+                                <div>
                                     <input type="text" class="form-control" placeholder="บจ.คิด ตรึก ตรอง จำกัด">
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-6"> <b>ชื่อเดิมภาษาอังกฤษ<span class="red">*</span></b>
                             <div class="input-group">
-                                <div class="form-line">
+                                <div>
                                     <input type="text" class="form-control" placeholder="บจ.คิด ตรึก ตรอง จำกัด">
                                 </div>
                             </div>
@@ -127,11 +127,13 @@
                         </div>
                     </div>
                     <div class="row clearfix">
-                        <div class="col-lg-6 col-md-6"> <b>เอกสารแนบ<span class="red">*</span></b>
+                        <div class="col-lg-2 col-md-2">
+                            <b>แนบเอกสาร<span class="red">*</span></b>
                             <div class="input-group">
                                 <div class="form-line">
-                                    <input type="text" class="form-control" placeholder="">
+                                    <input type="text" class="form-control" placeholder="" />
                                 </div>
+                                <span class="input-group-addon"> <i class="zmdi zmdi-attachment-alt"></i> </span>
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-6"> <b>หมายเหตุ<span class="red">*</span></b>

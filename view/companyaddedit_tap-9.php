@@ -1,4 +1,4 @@
-<div role="tabpanel" class="tab-pane" id="DocLocation">
+<div>
 
     <!-- bar function-->
     <div class="btn_function">

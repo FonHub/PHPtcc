@@ -1,4 +1,4 @@
-<div role="tabpanel" class="tab-pane " id="Liquidate">
+<div>
 
     <!-- form -->
     <form class="form-horizontal __Liquidate">
@@ -10,11 +10,13 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6 col-md-6"> <b>แนบเอกสาร<span class="red">*</span></b>
+            <div class="col-lg-2 col-md-2">
+                <b>แนบเอกสาร<span class="red">*</span></b>
                 <div class="input-group">
                     <div class="form-line">
-                        <input type="text" class="form-control" placeholder="">
+                        <input type="text" class="form-control" placeholder="" />
                     </div>
+                    <span class="input-group-addon"> <i class="zmdi zmdi-attachment-alt"></i> </span>
                 </div>
             </div>
         </div>
@@ -67,11 +69,13 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6 col-md-6"> <b>แนบเอกสาร<span class="red">*</span></b>
+            <div class="col-lg-2 col-md-2">
+                <b>แนบเอกสาร<span class="red">*</span></b>
                 <div class="input-group">
                     <div class="form-line">
-                        <input type="text" class="form-control" placeholder="">
+                        <input type="text" class="form-control" placeholder="" />
                     </div>
+                    <span class="input-group-addon"> <i class="zmdi zmdi-attachment-alt"></i> </span>
                 </div>
             </div>
         </div>

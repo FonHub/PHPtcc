@@ -1,4 +1,4 @@
-<div role="tabpanel" class="tab-pane" id="Account">
+<div>
 
     <!-- bar function-->
     <div class="btn_function">
@@ -28,7 +28,7 @@
                         <th>เลขผู้ทำบัญชี</th>
                         <th>ที่อยู่</th>
                         <th>เบอร์โทรศัพท์</th>
-                        <th>เบอร์โทรสาร</th>
+                        <th>อีเมล์</th>
                         <th>Action</th>
                     </tr>
                 </thead>
@@ -41,7 +41,7 @@
                         <td>1025554870998</td>
                         <td>2/1 ซอย พระราม 2 ที่ 32 ถนนพะราม 2 แขวงบางมด เขตจอมทอง กรุงเทพมหานคร 10150</td>
                         <td>02-251-1100</td>
-                        <td>02-251-1100</td>
+                        <td>mail@email.com</td>
                         <td>
                             <div class="action_btn">
                                 <a href="PersonAddEdit.php" class="btn btn-default"><i class="zmdi zmdi-edit"></i></a>
@@ -67,7 +67,7 @@
                         <th>นามสกุล</th>
                         <th>ที่อยู่</th>
                         <th>เบอร์โทรศัพท์</th>
-                        <th>เบอร์โทรสาร</th>
+                        <th>อีเมล์</th>
                         <th>Action</th>
                     </tr>
                 </thead>
@@ -79,7 +79,7 @@
                         <td>งามเรืองพงศ์</td>
                         <td>449 ซอยอินทามระ 41 แขวงดินแดง เขตดินแดง กรุงเทพมหานคร 10400</td>
                         <td>02-003-1000</td>
-                        <td>02-003-1000</td>
+                        <td>mail@email.com</td>
                         <td>
                             <div class="action_btn">
                                 <a href="PersonAddEdit.php" class="btn btn-default"><i class="zmdi zmdi-edit"></i></a>
