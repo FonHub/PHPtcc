@@ -104,19 +104,19 @@
                 <div class="row clearfix">
                     <div class="col-sm-12 col-md-12 col-lg-12">
                         <div class="card">
-                            <div class="header">
+                            <div class="header mp-0">
                                 <h2>ค้นหา</h2>
                             </div>
-                            <div class="body">
+                            <div class="body mp-0">
                                 <form class="form-horizontal __search">
-                                    <div class="col-sm-12">
+                                    <div class="col-sm-12 mp-0">
                                         <div class="input-group"> <span class="input-group-addon"> <i class="material-icons">search</i></span>
                                             <div class="form-line">
                                                 <input type="text" class="form-control" placeholder="พิมพ์ชื่อ">
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="btn-control">
+                                    <div class="btn-control mp-0 text-align">
                                         <button type="button" class="btn btn-raised btn-default __redvitality waves-effect">ค้นหา</button>
                                     </div>
                                 </form>
@@ -128,7 +128,7 @@
                 <!-- table-->
                 <div class="row clearfix">
                     <div class="body table-responsive company-list">
-                        <table class="table table-hover">
+                        <table class="table table-hover mp-0">
                             <thead>
                                 <tr>
                                     <th style="width: 60px">#</th>
@@ -152,8 +152,8 @@
                                     <td>02-800-2000</td>
                                     <td>
                                         <div class="input-group">
-                                            <input type="checkbox" id="md_checkbox_21" class="filled-in chk-col-red _red-vitality" checked />
-                                            <label for="md_checkbox_21"></label>
+                                            <input type="checkbox" id="md_checkbox_acc1" class="filled-in chk-col-red _red-vitality" checked />
+                                            <label for="md_checkbox_acc1"></label>
                                         </div>
                                     </td>
                                 </tr>
@@ -167,8 +167,8 @@
                                     <td>02-300-2000</td>
                                     <td>
                                         <div class="input-group">
-                                            <input type="checkbox" id="md_checkbox_21" class="filled-in chk-col-red _red-vitality" checked />
-                                            <label for="md_checkbox_21"></label>
+                                            <input type="checkbox" id="md_checkbox_acc2" class="filled-in chk-col-red _red-vitality" checked />
+                                            <label for="md_checkbox_acc2"></label>
                                         </div>
                                     </td>
                                 </tr>
@@ -182,8 +182,8 @@
                                     <td>02-000-2000</td>
                                     <td>
                                         <div class="input-group">
-                                            <input type="checkbox" id="md_checkbox_21" class="filled-in chk-col-red _red-vitality" checked />
-                                            <label for="md_checkbox_21"></label>
+                                            <input type="checkbox" id="md_checkbox_acc3" class="filled-in chk-col-red _red-vitality" checked />
+                                            <label for="md_checkbox_acc3"></label>
                                         </div>
                                     </td>
                                 </tr>
@@ -194,7 +194,6 @@
 
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-link waves-effect" data-dismiss="modal">ปิด</button>
                 <a href="#cancel"></a><button type="button" class="btn  btn-raised bg-grey waves-effect"> ยกเลิก </button>
                 <a href="#save"></a><button type="button" class="btn btn-raised btn-default __redvitality waves-effect"> บันทึก </button>
             </div>

@@ -196,7 +196,7 @@
                                     </div>
                                     <div class="row clearfix py-10">
                                         <div class="col-lg-4 col-md-4">
-                                            <b>Juristic ID <span class="red">*</span></b>
+                                            <b>Juristic ID </b>
                                             <div class="row clearfix">
                                                 <div class="col-lg-12 col-md-12 display-flex">
                                                     <div class="width-45">
@@ -255,7 +255,7 @@
 
                                     <div class="row clearfix py-10">
                                         <div class="col-lg-6 col-md-6">
-                                            <b>Juristic Name <span class="red">*</span></b>
+                                            <b>Juristic Name </b>
                                             <div class="input-group">
                                                 <div class="form-line">
                                                     <input v-model="company_th" type="text" class="form-control ip" placeholder="Prime X Co., Ltd." />
@@ -263,7 +263,7 @@
                                             </div>
                                         </div>
                                         <div class="col-lg-6 col-md-6">
-                                            <b>Juristic Type<span class="red">*</span></b>
+                                            <b>Juristic Type</b>
                                             <div class="input-group">
                                                 <div class="form-group">
                                                     <select class="form-control show-tick">

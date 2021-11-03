@@ -26,32 +26,32 @@
                 <tr>
                     <td>1</td>
                     <td>12 เม.ย.2564</td>
-                    <td>0105564002121</td>
-                    <td>-</td>
+                    <td>ข้อความตัวอย่างเพื่อแสดงให้คุณเห็นว่าทำงานอย่างไร</td>
+                    <td>ชื่อผู้ใช้ผู้บันทึก</td>
                 </tr>
                 <tr>
                     <td>2</td>
                     <td>1 เม.ย.2564</td>
-                    <td>0105564002139</td>
-                    <td>บจ.ไพร์ม เอ็กซ์ จำกัด</td>
+                    <td>ข้อความตัวอย่างเพื่อแสดงให้คุณเห็นว่าทำงานอย่างไร</td>
+                    <td>ชื่อผู้ใช้ผู้บันทึก</td>
                 </tr>
                 <tr>
                     <td>3</td>
                     <td>20 มี.ค. 2564</td>
-                    <td>0105564002325</td>
-                    <td>บจ.วีไทยมิน จำกัด </td>
+                    <td>ข้อความตัวอย่างเพื่อแสดงให้คุณเห็นว่าทำงานอย่างไร</td>
+                    <td>ชื่อผู้ใช้ผู้บันทึก</td>
                 </tr>
                 <tr>
                     <td>4</td>
                     <td>12 เม.ย.2564</td>
-                    <td>0105564002490</td>
-                    <td>บจ.วอนนา วัน กรุ๊ป จำกัด</td>
+                    <td>ข้อความตัวอย่างเพื่อแสดงให้คุณเห็นว่าทำงานอย่างไร</td>
+                    <td>ชื่อผู้ใช้ผู้บันทึก</td>
                 </tr>
                 <tr>
                     <td>5</td>
                     <td>10 เม.ย.2564</td>
-                    <td>0105564002511 </td>
-                    <td>บจ.อินฟินิตี้ วิสดอม จำกัด</td>
+                    <td>ข้อความตัวอย่างเพื่อแสดงให้คุณเห็นว่าทำงานอย่างไร </td>
+                    <td>ชื่อผู้ใช้ผู้บันทึก</td>
                 </tr>
             </tbody>
         </table>
@@ -64,10 +64,15 @@
                     <h4 class="modal-title" id="largeModalLabel">บันทึกเพิ่มเติม</h4>
                 </div>
                 <div class="modal-body">
-                    <div class="row clearfix"></div>
+                    <div class="row clearfix">
+                        <div class="col-md-12">
+                            <form>
+                                <textarea>บันทึก...</textarea>
+                            </form>
+                        </div>
+                    </div>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-link waves-effect" data-dismiss="modal">ปิด</button>
                     <a href="#cancel"></a><button type="button" class="btn  btn-raised bg-grey waves-effect"> ยกเลิก </button>
                     <a href="#save"></a><button type="button" class="btn btn-raised btn-default __redvitality waves-effect"> บันทึก </button>
                 </div>

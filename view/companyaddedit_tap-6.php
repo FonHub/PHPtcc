@@ -147,7 +147,6 @@
                 </form>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-link waves-effect" data-dismiss="modal">ปิด</button>
                 <a href="#cancel"></a><button type="button" class="btn  btn-raised bg-grey waves-effect"> ยกเลิก </button>
                 <a href="#save"></a><button type="button" class="btn btn-raised btn-default __redvitality waves-effect"> บันทึก </button>
             </div>
