@@ -9,8 +9,6 @@
 
     <title>ทะเบียนบุคคล</title>
     <?php include('../view/linkhead.php'); ?>
-    <!-- Sweetalert Css -->
-    <link href="../assets/plugins/sweetalert/sweetalert.css" rel="stylesheet" />
 
 </head>
 
@@ -75,7 +73,7 @@
                                                         <div class="body">
                                                             <form class="form-horizontal __info">
                                                                 <div class="header-status">
-                                                                    <h3>ข้อมูลบุคคลภาษาไทย</h3>
+                                                                    <h3>ข้อมูลส่วนบุคคล</h3>
                                                                 </div>
                                                                 <div class="row clearfix">
                                                                     <div class="col-lg-3 col-md-3">
@@ -198,7 +196,7 @@
                                                                         <b>อีเมล์<span class="red">*</span></b>
                                                                         <div class="input-group">
                                                                             <div class="form-line">
-                                                                                <input type="text" class="form-control" placeholder="02-520-5000" />
+                                                                                <input type="text" class="form-control" placeholder="mail@email.com" />
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -320,11 +318,11 @@
                                                         <div class="body">
                                                             <form class="form-horizontal __info">
                                                                 <div class="header-status">
-                                                                    <h3>ข้อมูลบุคคลอังกฤษ</h3>
+                                                                    <h3>Personal Data</h3>
                                                                 </div>
                                                                 <div class="row clearfix">
                                                                     <div class="col-lg-3 col-md-3">
-                                                                        <b>Passport No.<span class="red">*</span></b>
+                                                                        <b>Passport No.</b>
                                                                         <div class="input-group">
                                                                             <div class="form-line">
                                                                                 <input type="text" class="form-control " placeholder="A123456" />
@@ -332,7 +330,7 @@
                                                                         </div>
                                                                     </div>
                                                                     <div class="col-lg-2 col-md-2">
-                                                                        <b>Birthday<span class="red">*</span></b>
+                                                                        <b>Birthday</b>
                                                                         <div class="input-group">
                                                                             <div class="form-line disabled">
                                                                                 <input type="text" class="form-control" placeholder="1/1/1980" />
@@ -340,7 +338,7 @@
                                                                         </div>
                                                                     </div>
                                                                     <div class="col-lg-1 col-md-1">
-                                                                        <b>Age<span class="red">*</span></b>
+                                                                        <b>Age</b>
                                                                         <div class="form-group">
                                                                             <div class="form-line">
                                                                                 <input type="text" class="form-control" placeholder="45" />
@@ -348,7 +346,7 @@
                                                                         </div>
                                                                     </div>
                                                                     <div class="col-lg-2 col-md-2">
-                                                                        <b>Date of expiry<span class="red">*</span></b>
+                                                                        <b>Date of expiry</b>
                                                                         <div class="input-group">
                                                                             <div class="form-line">
                                                                                 <input type="text" class="form-control " placeholder="1/1/2565" />
@@ -356,7 +354,7 @@
                                                                         </div>
                                                                     </div>
                                                                     <div class="col-lg-2 col-md-2">
-                                                                        <b>File Upload<span class="red">*</span></b>
+                                                                        <b>File Upload</b>
                                                                         <div class="input-group">
                                                                             <div class="form-line">
                                                                                 <input type="text" class="form-control " placeholder="" />
@@ -370,7 +368,7 @@
                                                                         <p><strong>Name</strong></p>
                                                                     </div>
                                                                     <div class="col-lg-2 col-md-2">
-                                                                        <b>Title Name<span class="red">*</span></b>
+                                                                        <b>Title Name</b>
                                                                         <!-- From Master -->
                                                                         <select class="form-control show-tick" v-model="title_name">
                                                                             <optgroup label="คำนำหน้าชื่อ">
@@ -381,7 +379,7 @@
                                                                     </div>
                                                                     <div class="col-lg-3 col-md-3">
                                                                         <div>
-                                                                            <b>First Name <span class="red">*</span></b>
+                                                                            <b>First Name</b>
                                                                             <div class="input-group">
                                                                                 <div class="form-line">
                                                                                     <input type="text" class="form-control" placeholder="Mariah" />
@@ -391,7 +389,7 @@
                                                                     </div>
                                                                     <div class="col-lg-3 col-md-3">
                                                                         <div>
-                                                                            <b>Middle Name <span class="red">*</span></b>
+                                                                            <b>Middle Name</b>
                                                                             <div class="input-group">
                                                                                 <div class="form-line">
                                                                                     <input type="text" class="form-control" placeholder="Appen" />
@@ -401,7 +399,7 @@
                                                                     </div>
                                                                     <div class="col-lg-3 col-md-3">
                                                                         <div>
-                                                                            <b>Surname<span class="red">*</span></b>
+                                                                            <b>Surname</b>
                                                                             <div class="input-group">
                                                                                 <div class="form-line">
                                                                                     <input type="text" class="form-control" placeholder="Caraiban" />
@@ -413,7 +411,7 @@
 
                                                                 <div class="row clearfix">
                                                                     <div class="col-lg-2 col-md-2">
-                                                                        <b>Nationality<span class="red">*</span></b>
+                                                                        <b>Nationality</b>
                                                                         <div class="form-group">
                                                                             <select class="form-control show-tick">
                                                                                 <optgroup label="กรุณาเลือก">
@@ -424,7 +422,7 @@
                                                                         </div>
                                                                     </div>
                                                                     <div class="col-lg-3 col-md-3">
-                                                                        <b>Occupation<span class="red">*</span></b>
+                                                                        <b>Occupation</b>
                                                                         <div class="form-group">
                                                                             <select class="form-control show-tick" v-model="occupation">
                                                                                 <optgroup label="กรุณาเลือก">
@@ -435,7 +433,7 @@
                                                                         </div>
                                                                     </div>
                                                                     <div class="col-lg-3 col-md-3">
-                                                                        <b>Phone No.<span class="red">*</span></b>
+                                                                        <b>Phone No.</b>
                                                                         <div class="input-group">
                                                                             <div class="form-line">
                                                                                 <input type="text" class="form-control" placeholder="02-520-5000" />
@@ -443,10 +441,10 @@
                                                                         </div>
                                                                     </div>
                                                                     <div class="col-lg-3 col-md-3">
-                                                                        <b>Email<span class="red">*</span></b>
+                                                                        <b>Email</b>
                                                                         <div class="input-group">
                                                                             <div class="form-line">
-                                                                                <input type="text" class="form-control" placeholder="02-520-5000" />
+                                                                                <input type="text" class="form-control" placeholder="mail@email.com" />
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -460,7 +458,7 @@
                                                                     </div>
                                                                     <div class="row clearfix">
                                                                         <div class="col-lg-3 col-md-3">
-                                                                            <b>House No.<span class="red">*</span></b>
+                                                                            <b>House No.</b>
                                                                             <div class="input-group">
                                                                                 <div class="form-line">
                                                                                     <input type="text" class="form-control" placeholder="1" />
@@ -578,94 +576,7 @@
 
     <!-- Jquery Core Js -->
     <?php include('../view/jquerycorejs.php'); ?>
-    <!-- Modal -->
-    <div class="modal fade" id="OutsideModal" tabindex="-1" role="dialog">
-        <div class="modal-dialog modal-lg box__director" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Address</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <div v-if="!isForeigners">
-
-                        <!-- Address English -->
-
-                        <div class="row clearfix">
-                            <div class="col-lg-3 col-md-3">
-                                <b>Unit number<span class="red">*</span></b>
-                                <div class="input-group">
-                                    <div class="form-line">
-                                        <input type="text" class="form-control" placeholder="" />
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-md-3">
-                                <b>Unit type<span class="red">*</span></b>
-                                <div class="input-group">
-                                    <div class="form-line">
-                                        <input type="text" class="form-control" placeholder="" />
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-md-3">
-                                <b>Street address<span class="red">*</span></b>
-                                <div class="input-group">
-                                    <div class="form-line">
-                                        <input type="text" class="form-control" placeholder="" />
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row clearfix">
-                            <div class="col-lg-3 col-md-3">
-                                <b>City <span class="red">*</span></b>
-                                <div class="input-group">
-                                    <div class="form-line">
-                                        <input type="text" class="form-control" placeholder="" />
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-md-3">
-                                <b>State / Province<span class="red">*</span></b>
-                                <div class="input-group">
-                                    <div class="form-line">
-                                        <input type="text" class="form-control" placeholder="" />
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-md-3">
-                                <b>ZIP code<span class="red">*</span></b>
-                                <div class="input-group">
-                                    <div class="form-line">
-                                        <input type="text" class="form-control" placeholder="" />
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row clearfix">
-                            <div class="col-lg-6 col-md-6">
-                                <b>file<span class="red">*</span></b>
-                                <div class="input-group">
-                                    <div class="form-line">
-                                        <input type="text" class="form-control" placeholder="" />
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="modal-footer text-align">
-                    <a href="#cancel"></a><button type="button" class="btn  btn-raised bg-grey waves-effect"> ยกเลิก </button>
-                    <button type="button" class="btn btn-link waves-effect" data-dismiss="modal">ปิด</button>
-                    <a href="#save"></a><button type="button" class="btn btn-raised btn-default __redvitality waves-effect"> บันทึก </button>
-
-                </div>
-            </div>
-        </div>
-    </div>
+   
 
 </body>
 
