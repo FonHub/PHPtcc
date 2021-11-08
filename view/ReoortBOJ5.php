@@ -186,7 +186,7 @@
                                             <td>0102564000010</td>
                                             <td>ภัตตาคารและบาร์</td>
                                             <td>2,500,0000</td>
-                                            <td><a href="https://www.dbd.go.th/download/downloads/03_boj/form_boj5.pdf"><button type="button" class="btn btn-raised btn-default waves-effect"> <i class="material-icons">mode_edit</i></button></a></td>
+                                            <td><a href="javascript:void(0)"><button type="button" class="btn btn-raised btn-default waves-effect" data-toggle="modal" data-target="#ModalMeet"> <i class="material-icons">mode_edit</i></button></a></td>
                                         </tr>
                                         <tr v-for="data in dataTableShow" :key="data.id">
                                             <td>2</td>
@@ -197,7 +197,7 @@
                                             <td>0102564000010</td>
                                             <td>ภัตตาคารและบาร์</td>
                                             <td>2,500,0000</td>
-                                            <td><a href="https://www.dbd.go.th/download/downloads/03_boj/form_boj5.pdf"><button type="button" class="btn btn-raised btn-default waves-effect"> <i class="material-icons">mode_edit</i></button></a></td>
+                                            <td><a href="javascript:void(0)"><button type="button" class="btn btn-raised btn-default waves-effect" data-toggle="modal" data-target="#ModalMeet"> <i class="material-icons">mode_edit</i></button></a></td>
                                         </tr>
                                         <tr v-for="data in dataTableShow" :key="data.id">
                                             <td>3</td>
@@ -208,7 +208,7 @@
                                             <td>0102564000010</td>
                                             <td>ภัตตาคารและบาร์</td>
                                             <td>2,500,0000</td>
-                                            <td><a href="https://www.dbd.go.th/download/downloads/03_boj/form_boj5.pdf"><button type="button" class="btn btn-raised btn-default waves-effect"> <i class="material-icons">mode_edit</i></button></a></td>
+                                            <td><a href="javascript:void(0)"><button type="button" class="btn btn-raised btn-default waves-effect" data-toggle="modal" data-target="#ModalMeet"> <i class="material-icons">mode_edit</i></button></a></td>
                                         </tr>
                                         <tr v-for="data in dataTableShow" :key="data.id">
                                             <td>4</td>
@@ -219,7 +219,7 @@
                                             <td>0102564000010</td>
                                             <td>ภัตตาคารและบาร์</td>
                                             <td>2,500,0000</td>
-                                            <td><a href="https://www.dbd.go.th/download/downloads/03_boj/form_boj5.pdf"><button type="button" class="btn btn-raised btn-default waves-effect"> <i class="material-icons">mode_edit</i></button></a></td>
+                                            <td><a href="javascript:void(0)"><button type="button" class="btn btn-raised btn-default waves-effect" data-toggle="modal" data-target="#ModalMeet"> <i class="material-icons">mode_edit</i></button></a></td>
                                         </tr>
                                         <tr v-for="data in dataTableShow" :key="data.id">
                                             <td>5</td>
@@ -230,7 +230,7 @@
                                             <td>0102564000010</td>
                                             <td>ภัตตาคารและบาร์</td>
                                             <td>2,500,0000</td>
-                                            <td><a href="https://www.dbd.go.th/download/downloads/03_boj/form_boj5.pdf"><button type="button" class="btn btn-raised btn-default waves-effect"> <i class="material-icons">mode_edit</i></button></a></td>
+                                            <td><a href="javascript:void(0)"><button type="button" class="btn btn-raised btn-default waves-effect" data-toggle="modal" data-target="#ModalMeet"> <i class="material-icons">mode_edit</i></button></a></td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -239,7 +239,88 @@
                     </div>
                 </div>
             </div>
-
+            <!-- ModalMeet -->
+            <div class="modal fade" id="ModalMeet" tabindex="-1" role="dialog">
+                <div class="modal-dialog modal-lg box__director" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title" id="largeModalLabel">ประชุม</h4>
+                        </div>
+                        <div class="modal-body">
+                            <form class="form-horizontal box__director">
+                                <div class="row clearfix">
+                                    <div class="col-lg-2 col-md-2"> <b>ชื่อย่อหุ้น<span class="red">*</span></b>
+                                        <div class="input-group">
+                                            <input type="text" class="form-control" placeholder="SET01">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-3"> <b>เลขทะเบียนนิติบุคคล<span class="red">*</span></b>
+                                        <div class="input-group">
+                                            <input type="text" class="form-control" placeholder="0505564001775">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-7 col-md-7"> <b>ชื่อบริษัทภาษาไทย<span class="red">*</span></b>
+                                        <div class="input-group">
+                                            <input type="text" class="form-control" placeholder="บจ.ชิวา1982 จำกัด">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row clearfix">
+                                    <div class="col-lg-3 col-md-3">
+                                        <b>วันที่<span class="red">*</span></b>
+                                        <div class="input-group">
+                                            <div class="form-line">
+                                                <input v-model="date_start" type="text" class="form-control date" placeholder="25/1/2564" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-2 col-md-2">
+                                        <b>ประเภท<span class="red">*</span></b>
+                                        <div class="input-group">
+                                            <div class="form-group">
+                                                <select class="form-control show-tick">
+                                                    <optgroup label="กรุณาเลือก">
+                                                        <option>จัดตั้งบริษัท </option>
+                                                        <option>ประชุมสามัญ </option>
+                                                        <option>ประชุมวิสามัญ </option>
+                                                        <option>คัดลอกจากสมุดทะเบียน </option>
+                                                        <option>ควบบริษัท </option>
+                                                        <option>เพิ่มใหม่</option>
+                                                    </optgroup>
+                                                </select><!-- From Master -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-2 col-md-2">
+                                        <b>ลำดับ<span class="red">*</span></b>
+                                        <div class="input-group">
+                                            <div class="form-line">
+                                                <input type="text" class="form-control" placeholder="1/2564" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-3">
+                                        <b>ทุนจดทะเบียน<span class="red">*</span></b>
+                                        <div class="input-group">
+                                            <input type="text" class="form-control" placeholder="2,500,0000" />
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-2 col-md-2">
+                                        <b>มูลค่าหุ้น<span class="red">*</span></b>
+                                        <div class="input-group">
+                                            <input type="text" class="form-control" placeholder="10.00" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <a href="#cancel"></a><button type="button" class="btn  btn-raised bg-grey waves-effect"> ยกเลิก </button>
+                            <a href="https://www.dbd.go.th/download/downloads/03_boj/form_boj5.pdf"><button type="button" class="btn btn-raised btn-default __redvitality waves-effect"> บันทึก </button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
             <!-- footer -->
         </div>

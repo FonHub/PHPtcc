@@ -106,54 +106,9 @@
                                                     <input type="text" class="form-control" placeholder="10.00">
                                                 </div>
                                             </div>
-                                        </div>
-                                        <div class="col-lg-2 col-md-2"> <b>ข้อมูลทางบัญชี<span class="red">*</span></b>
-                                            <div class="input-group">
-                                                <div class="form-line">
-                                                    <input type="text" class="form-control" placeholder="00">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-3 col-md-3"> <b>สกุลเงิน<span class="red">*</span></b>
-                                            <div class="form-group">
-                                                <select class="form-control show-tick">
-                                                    <optgroup label="สกุลเงินหลัก">
-                                                        <option>บาทไทย THB</option>
-                                                        <option>ยูโร EUR</option>
-                                                        <option>ปอนด์อังกฤษ GBP</option>
-                                                        <option>เยนญี่ปุ่น JPY</option>
-                                                        <option>ฟรังค์สวิส CHF</option>
-                                                    </optgroup>
-                                                    <optgroup label="สกุลเงินทั่วโลก">
-                                                        <option>ค่าเงินหยวนในตลาดนอกประเทศ CNH</option>
-                                                        <option>จ๊าดพม่า MMK</option>
-                                                        <option>ซวอตีโปแลนด์ PLN</option>
-                                                        <option>ดงเวียดนาม VND</option>
-                                                    </optgroup>
-                                                </select>
-                                            </div>
-                                        </div>
-
+                                        </div>                                        
                                     </div>
                                     <div class="row clearfix">
-
-                                        <div class="col-lg-3 col-md-3"> <b>ตลาด<span class="red">*</span></b>
-                                            <div class="form-group">
-                                                <select class="form-control show-tick">
-                                                    <optgroup label="กรุณาเลือก">
-                                                        <option>ไทย </option>
-                                                        <option>ต่างประเทศ </option>
-                                                    </optgroup>
-                                                </select><!-- From Master -->
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-3 col-md-3"> <b>พื้นที่<span class="red">*</span></b>
-                                            <div class="input-group">
-                                                <div class="form-line">
-                                                    <input type="text" class="form-control date" placeholder="กรุงเทพฯ">
-                                                </div>
-                                            </div>
-                                        </div>
                                         <div class="col-lg-3 col-md-3"> <b>วันลงทะเบียน<span class="red">*</span></b>
                                             <div class="input-group">
                                                 <div class="form-line">

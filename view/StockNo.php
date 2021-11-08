@@ -7,7 +7,7 @@
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <meta name="description" content="Responsive Bootstrap 4 and web Application ui kit.">
 
-    <title>รายละเอียดใบหุ้น</title>
+    <title>ใบหุ้น</title>
     <?php include('../view/linkhead.php'); ?>
 
 </head>
@@ -29,7 +29,7 @@
         <div class="block-header">
             <div class="row">
                 <div class="col-lg-7 col-md-6 col-sm-12">
-                    <h2>รายละเอียดใบหุ้น
+                    <h2>ใบหุ้น
                         <small class="text-muted">ยินดีต้อนรับสู่ TCC Group</small>
                     </h2>
                 </div>
@@ -37,7 +37,7 @@
                     <ul class="breadcrumb float-md-right">
                         <li class="breadcrumb-item"><a href="../view/index.php"><i class="zmdi zmdi-home"></i> Dashboard</a></li>
                         <li class="breadcrumb-item"><a href="../view/stock.php"></a> ทะเบียนหุ้น</li>
-                        <li class="breadcrumb-item active">รายละเอียดใบหุ้น</li>
+                        <li class="breadcrumb-item active">ใบหุ้น</li>
                     </ul>
                 </div>
             </div>
@@ -135,103 +135,114 @@
                             <div class="body">
                                 <!-- Nav tabs -->
                                 <ul class="nav nav-tabs">
-                                    <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#StockNo">ใบรายละเอียดหุ้น</a></li>
+                                    <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#StockNo">ใบหุ้น</a></li>
                                 </ul>
                                 <!-- Tab panes -->
                                 <div class="tab-content">
                                     <!-- Tab panes 3-->
                                     <div role="tabpanel" class="tab-pane in active" id="StockNo">
                                         <div class="body table-responsive company-list">
-                                            <table class="table table-hover">
-                                                <thead>
-                                                    <tr>
-                                                        <th style="width:60px;">#</th>
-                                                        <th>วันประชุม</th>
-                                                        <th>เจ้าของหุ้น</th>
-                                                        <th>บริษัทเจ้าของหุ้น</th>
-                                                        <th>เลขทะเบียนนิติบุคคล</th>
-                                                        <th>ใบหุ้นลงวันที่</th>
-                                                        <th>ใบหุ้นเลขที่</th>
-                                                        <th>สถานะหุ้น</th>
-                                                        <th>จำนวนหุ้น</th>
-                                                        <th>Start No.</th>
-                                                        <th>End No.</th>
-                                                        <th>Action</th>
-                                                    </tr>
-                                                </thead>
-                                                <tbody>
-                                                    <tr v-for="data in dataTableShow" :key="data.id">
-                                                        <td>1</td>
-                                                        <td>1/4/2564</td>
-                                                        <td>บจ.ภัทโสภณ จำกัด</td>
-                                                        <td>หส.เดอะ ทรีไลน์ บีเอฟเอ็ม</td>
-                                                        <td>0102564000010</td>
-                                                        <td>1/10/2564</td>
-                                                        <td>1</td>
-                                                        <td>จองหุ้น</td>
-                                                        <td>2,500</td>
-                                                        <td>2500</td>
-                                                        <td>5000</td>
-                                                        <td><a href="stock_AddEdit.php"><button type="button" class="btn btn-raised btn-default waves-effect"> <i class="material-icons">mode_edit</i></button></a></td>
-                                                    </tr>
-                                                    <tr v-for="data in dataTableShow" :key="data.id">
-                                                        <td>2</td>
-                                                        <td>1/4/2564</td>
-                                                        <td>นาย วิชัย วชิรพงศ์</td>
-                                                        <td>หจ.เดอะ ไลอ้อน มิลค์ที</td>
-                                                        <td>0103564000011</td>
-                                                        <td>1/10/2564</td>
-                                                        <td>2</td>
-                                                        <td>จองหุ้น</td>
-                                                        <td>1,000</td>
-                                                        <td>5000</td>
-                                                        <td>6000</td>
-                                                        <td><a href="stock_AddEdit.php"><button type="button" class="btn btn-raised btn-default waves-effect"> <i class="material-icons">mode_edit</i></button></a></td>
-                                                    </tr>
-                                                    <tr v-for="data in dataTableShow" :key="data.id">
-                                                        <td>3</td>
-                                                        <td>1/4/2564</td>
-                                                        <td>บจ.พรอสเพอรัส วิน 168 จำกัด</td>
-                                                        <td>หจ.เกตเวย์ แอคเคาน์ติ้ง</td>
-                                                        <td>0103564001734</td>
-                                                        <td>1/10/2564</td>
-                                                        <td>3</td>
-                                                        <td>รับโอน</td>
-                                                        <td>1,000</td>
-                                                        <td>6000</td>
-                                                        <td>7000</td>
-                                                        <td><a href="stock_AddEdit.php"><button type="button" class="btn btn-raised btn-default waves-effect"> <i class="material-icons">mode_edit</i></button></a></td>
-                                                    </tr>
-                                                    <tr v-for="data in dataTableShow" :key="data.id">
-                                                        <td>4</td>
-                                                        <td>1/4/2564</td>
-                                                        <td>บจ.ณัฐปภัสร์ 59 จำกัด</td>
-                                                        <td>บจ.เพชรดีไซน์ เฟอร์นิเจอร์ จำกัด</td>
-                                                        <td>0105564000152</td>
-                                                        <td>1/10/2564</td>
-                                                        <td>4</td>
-                                                        <td>รับโอน</td>
-                                                        <td>1,000</td>
-                                                        <td>7000</td>
-                                                        <td>8000</td>
-                                                        <td><a href="stock_AddEdit.php"><button type="button" class="btn btn-raised btn-default waves-effect"> <i class="material-icons">mode_edit</i></button></a></td>
-                                                    </tr>
-                                                    <tr v-for="data in dataTableShow" :key="data.id">
-                                                        <td>5</td>
-                                                        <td>1/4/2564</td>
-                                                        <td>บจ.วันดีดีโก จำกัด</td>
-                                                        <td>บจ.ซีเอ็นที สตาร์ จำกัด</td>
-                                                        <td>0105564002171</td>
-                                                        <td>1/10/2564</td>
-                                                        <td>5</td>
-                                                        <td>จองหุ้น</td>
-                                                        <td>2,500</td>
-                                                        <td>8000</td>
-                                                        <td>9000</td>
-                                                        <td><a href="stock_AddEdit.php"><button type="button" class="btn btn-raised btn-default waves-effect"> <i class="material-icons">mode_edit</i></button></a></td>
-                                                    </tr>
-                                                </tbody>
-                                            </table>
+                                            <!-- table -->
+                                            <div class="body table-responsive stock_list">
+                                                <table class="table table-hover">
+                                                    <thead>
+                                                        <tr>
+                                                            <th>เข้าเป็นผู้ถือหุ้นโดย</th>
+                                                            <th>ใบหุ้นลงวันที่</th>
+                                                            <th>ผู้ถือหุ้น</th>
+                                                            <th>ใบหุ้นเลขที่</th>
+                                                            <th>มูลค่าหุ้น</th>
+                                                            <th>หุ้นหมายเลข จาก-ถึง</th>
+                                                            <th>จำนวนหุ้น</th>
+                                                            <th>Action</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>เพิ่มทุน</td> <!-- เข้าเป็นผู้ถือหุ้นโดย -->
+                                                            <td>18 ก.ย. 56</td><!-- ใบหุ้นลงวันที่ -->
+                                                            <td>จองหุ้น/เพิ่มทุน </td><!-- ผู้ถือหุ้น -->
+                                                            <td>15</td><!-- ใบหุ้นเลขที่ -->
+                                                            <td>10.00</td><!-- มูลค่าหุ้น -->
+                                                            <td>118400007-184200004</td><!-- หุ้นหมายเลข จาก-ถึง -->
+                                                            <td>65,799,996</th><!-- จำนวนหุ้น -->
+                                                            <td><a href="stock_AddEdit.php"><button type="button" class="btn btn-raised btn-default waves-effect"> <i class="material-icons">mode_edit</i></button></a></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>รับโอน</td> <!-- เข้าเป็นผู้ถือหุ้นโดย -->
+                                                            <td>22 ธ.ค. 59</td><!-- ใบหุ้นลงวันที่ -->
+                                                            <td>บจ.ซีเอ็นที สตาร์ จำกัด</td><!-- ผู้ถือหุ้น -->
+                                                            <td>1</td><!-- ใบหุ้นเลขที่ -->
+                                                            <td>10.00</td><!-- มูลค่าหุ้น -->
+                                                            <td>1-9993</td><!-- หุ้นหมายเลข จาก-ถึง -->
+                                                            <td>9,993</th><!-- จำนวนหุ้น -->
+                                                            <td><a href="stock_AddEdit.php"><button type="button" class="btn btn-raised btn-default waves-effect"> <i class="material-icons">mode_edit</i></button></a></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>หุ้นเหลือ</td> <!-- เข้าเป็นผู้ถือหุ้นโดย -->
+                                                            <td>22 ธ.ค. 59</td><!-- ใบหุ้นลงวันที่ -->
+                                                            <td>หุ้นคงเหลือ</td><!-- ผู้ถือหุ้น -->
+                                                            <td>18</td><!-- ใบหุ้นเลขที่ -->
+                                                            <td>10.00</td><!-- มูลค่าหุ้น -->
+                                                            <td>100-9993</td><!-- หุ้นหมายเลข จาก-ถึง -->
+                                                            <td>9,894</th><!-- จำนวนหุ้น -->
+                                                            <td><a href="stock_AddEdit.php"><button type="button" class="btn btn-raised btn-default waves-effect"> <i class="material-icons">mode_edit</i></button></a></td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                            <div class="row clearfix">
+                                                <div class="col-sm-12 col-md-12 col-lg-12">
+                                                    <div class="card">
+                                                        <div class="header">
+                                                            <h2>ผู้ถือขาด</h2>
+                                                        </div>
+                                                        <!-- table -->
+                                                        <div class="body table-responsive stock_list">
+                                                            <table class="table table-hover">
+                                                                <thead>
+                                                                    <tr>
+                                                                        <th>ผู้โอน</th>
+                                                                        <th>ใบหุ้นเดิมเลขที่</th>
+                                                                        <th>หุ้นหมายเลข จาก-ถึง</th>
+                                                                        <th>จำนวนหุ้น</th>
+                                                                        <th>การรับโอน</th>
+                                                                        <th>วันที่โอน</th>
+                                                                    </tr>
+                                                                </thead>
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td>นาย วิชัย วชิรพงศ์</td> <!-- ผู้โอน -->
+                                                                        <td>2</td><!-- ใบหุ้นเดิมเลขที่ -->
+                                                                        <td>1-9994</td><!-- หุ้นหมายเลข จาก-ถึง -->
+                                                                        <td>1</td><!-- จำนวนหุ้น -->
+                                                                        <td>ยกเลิกหุ้น/ลดทุน</td><!-- การรับโอน-->
+                                                                        <td>2 พ.ย. 60</th><!-- วันที่โอน -->
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>นาง มณีรัตน์ งามเรืองพงศ์</td> <!-- ผู้โอน -->
+                                                                        <td>3</td><!-- ใบหุ้นเดิมเลขที่ -->
+                                                                        <td>1-9995</td><!-- หุ้นหมายเลข จาก-ถึง -->
+                                                                        <td>1</td><!-- จำนวนหุ้น -->
+                                                                        <td>ยกเลิกหุ้น/ลดทุน</td><!-- การรับโอน-->
+                                                                        <td>2 พ.ย. 60</th><!-- วันที่โอน -->
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>บจ.ซีเอ็นที สตาร์ จำกัด</td> <!-- ผู้โอน -->
+                                                                        <td>13</td><!-- ใบหุ้นเดิมเลขที่ -->
+                                                                        <td>9996-9998</td><!-- หุ้นหมายเลข จาก-ถึง -->
+                                                                        <td>3</td><!-- จำนวนหุ้น -->
+                                                                        <td>ยกเลิกใบหุ้น</td><!-- การรับโอน-->
+                                                                        <td>4 ส.ค. 60</th><!-- วันที่โอน -->
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+
                                         </div>
                                     </div>
                                 </div>

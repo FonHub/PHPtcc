@@ -11,8 +11,12 @@
                 <ul class="dropdown-menu slideDown">
                     <li class="body">
                         <ul class="menu">
-                            <li><a href="javascript:void(0)"><i class="zmdi zmdi-accounts-list"></i><span>ข้อมูลบริษัท</span></a></li>
-                            <li><a href="javascript:void(0)"><i class="zmdi zmdi-calendar-note"></i><span>การประชุม</span></a></li>
+                            <li><a href="../view/Person.php"><i class="zmdi zmdi-accounts-list"></i><span>ทะเบียนบุคคล</span></a></li>
+                            <li><a href="../view/company.php"><i class="zmdi zmdi-home"></i><span>ทะเบียนบริษัท</span></a></li>
+                            <li><a href="../view/stock.php"><i class="zmdi zmdi-trending-up"></i><span>ทะเบียนหุ้น</span></a></li>
+                            <li><a href="../view/stockMarket.php"><i class="zmdi zmdi-globe-alt"></i><span>หุ้นตลาด</span></a></li>
+                            <li><a href="../view/MasterAddEditCompany.php"><i class="zmdi zmdi-view-module"></i><span>Masterบริษัท</span></a></li>
+                            <li><a href="../view/ReoortStockNo.php"><i class="zmdi zmdi-folder"></i><span>สมุดทะเบียน</span></a></li>
                         </ul>
                     </li>
                 </ul>

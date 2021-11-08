@@ -108,11 +108,11 @@ $gold:#B89761 !default;
 
 .navbar-header {
     @extend .inlineblock;
-    @extend .p-t-15;
+    @extend .p-t-5;
     @extend .p-r-0;
-    @extend .p-b-15;
+    @extend .p-b-5;
     @extend .p-l-15;
-    width: 300px;
+    width: 235px;
     font-size: 0;
     text-align: center;
 
@@ -128,7 +128,7 @@ $gold:#B89761 !default;
 
     .imglogo-brand {
         max-width: 249px;
-        height: 100px;
+        height: 45px;
     }
 }
 

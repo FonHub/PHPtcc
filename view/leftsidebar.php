@@ -2,14 +2,13 @@
     <!-- User Info -->
     <div class="user-info">
         <div class="info-container">
-            <div class="name" data-toggle="dropdown">John Doe</div>
+            <div class="name" data-toggle="dropdown">ฐาปณี เจริญวิกุล</div>
             <div class="btn-group user-helper-dropdown">
                 <i class="material-icons" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" role="button"> keyboard_arrow_down </i>
                 <ul class="dropdown-menu slideUp">
                     <li><a href="../view/login.php"><i class="material-icons">input</i>Sign Out</a></li>
                 </ul>
             </div>
-            <div class="email">john.doe@example.com</div>
         </div>
     </div>
     <!-- #User Info -->
@@ -30,13 +29,12 @@
             <li><a href="javascript:void(0);" class="menu-toggle"><i class="zmdi zmdi-trending-up"></i><span>ทะเบียนหุ้น</span> </a>
                 <ul class="ml-menu">
                     <li><a href="stock.php">ข้อมูลหุ้น</a></li>
-                    <li><a href="StockLot.php">เจ้าของหุ้น</a></li>
                     <li><a href="StockNo.php">ใบหุ้น</a></li>
                     <li><a href="StockInvestment.php">เงินลงทุน</a></li>
                     <li><a href="StockDividend.php">เงินปันผล</a></li>
                 </ul>
             </li>
-            <li><a href="javascript:void(0);" class="menu-toggle"><i class="zmdi zmdi-grid"></i><span>หุ้นตลาด</span> </a>
+            <li><a href="javascript:void(0);" class="menu-toggle"><i class="zmdi zmdi-globe-alt"></i><span>หุ้นตลาด</span> </a>
                 <ul class="ml-menu">
                     <li><a href="stockMarket.php">ข้อมูลหุ้นตลาด</a></li>
                     <li><a href="stockMarketLot.php">บริษัทเจ้าของหุ้น</a></li>

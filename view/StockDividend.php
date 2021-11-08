@@ -156,7 +156,6 @@
                                                         <th>วันที่ปันผล</th>
                                                         <th>วันที่ส่งเงิน</th>
                                                         <th>วันที่ชำระเงิน</th>
-                                                        <th>วันกำหนดจ่ายเงิน</th>
                                                         <th>Action</th>
                                                     </tr>
                                                 </thead>
@@ -171,7 +170,6 @@
                                                         <td>1/11/2564</td>
                                                         <td>1/11/2564</td>
                                                         <td>1/1/2565</td>
-                                                        <td>1/1/2565</td>
                                                         <td><a href="stock_AddEdit.php"><button type="button" class="btn btn-raised btn-default waves-effect"> <i class="material-icons">mode_edit</i></button></a></td>
                                                     </tr>
                                                     <tr v-for="data in dataTableShow" :key="data.id">
@@ -184,7 +182,6 @@
                                                         <td>1/6/2560</td>
                                                         <td>1/7/2560</td>
                                                         <td>1/8/2560</td>
-                                                        <td>1/8/2560</td>
                                                         <td><a href="stock_AddEdit.php"><button type="button" class="btn btn-raised btn-default waves-effect"> <i class="material-icons">mode_edit</i></button></a></td>
                                                     </tr>
                                                     <tr v-for="data in dataTableShow" :key="data.id">
@@ -196,7 +193,6 @@
                                                         <td>1/5/2560</td>
                                                         <td>1/6/2560</td>
                                                         <td>1/7/2560</td>
-                                                        <td>1/8/2560</td>
                                                         <td>1/8/2560</td>
                                                         <td><a href="stock_AddEdit.php"><button type="button" class="btn btn-raised btn-default waves-effect"> <i class="material-icons">mode_edit</i></button></a></td>
                                                     </tr>

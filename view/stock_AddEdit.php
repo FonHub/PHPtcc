@@ -188,9 +188,7 @@
                             <div class="body">
                                 <!-- Nav tabs -->
                                 <ul class="nav nav-tabs">
-                                    <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#Meeting">ประชุม</a></li>
-                                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#StockNo">ใบรายละเอียดหุ้น</a></li>
-                                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#Lot">เจ้าของหุ้น</a></li>
+                                    <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#StockNo">ใบหุ้น</a></li>
                                     <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#Print">พิมพ์</a></li>
                                     <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#Investment">เงินลงทุน</a></li>
                                     <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#Dividend">เงินปันผล</a></li>
@@ -199,26 +197,18 @@
                                 <!-- Tab panes -->
                                 <div class="tab-content">
                                     <!-- Tab panes 1-->
-                                    <div role="tabpanel" class="tab-pane in active" id="Meeting">
-                                        <?php include('../view/stockTapMeet.php'); ?>
-                                    </div>
-                                    <!-- Tab panes 2-->
-                                    <div role="tabpanel" class="tab-pane" id="Lot">
-                                        <?php include('../view/stockTapLot.php'); ?>
-                                    </div>
-                                    <!-- Tab panes 3-->
-                                    <div role="tabpanel" class="tab-pane" id="StockNo">
+                                    <div role="tabpanel" class="tab-pane in active" id="StockNo">
                                         <?php include('../view/stockTapNo.php'); ?>
                                     </div>
-                                    <!-- Tab panes 4-->
+                                    <!-- Tab panes 2-->
                                     <div role="tabpanel" class="tab-pane" id="Print">
                                         <?php include('../view/stockTapPrint.php'); ?>
                                     </div>
-                                    <!-- Tab panes 5-->
+                                    <!-- Tab panes 3-->
                                     <div role="tabpanel" class="tab-pane" id="Investment">
                                         <?php include('../view/stockTapInvestment.php'); ?>
                                     </div>
-                                    <!-- Tab panes 6-->
+                                    <!-- Tab panes 4-->
                                     <div role="tabpanel" class="tab-pane" id="Dividend">
                                         <?php include('../view/stockTapDividend.php'); ?>
                                     </div>

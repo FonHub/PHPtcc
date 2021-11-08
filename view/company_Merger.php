@@ -149,48 +149,85 @@
                                                         </div>
                                                     </div>
                                                     <!-- #END# Multi Select -->
-                                                    <!--กรณีต้องการใช้ข้อมูลบริษัทควบ -->
-
-                                                    <div class="row clearfix">
-                                                        <div class="col-lg-7 col-md-7"></div>
-                                                        <div class="col-lg-5 col-md-5"> <b>กรณีต้องการใช้ข้อมูลบริษัทควบ </b>
-                                                            <div class="row clearfix pt-10">
-                                                                <div class="col-lg-12 col-md-12 ">
-                                                                    <b>เลือกเลขทะเบียนนิติบุคคคล</b>
-                                                                    <div class="form-group py-10">
-                                                                        <select class="form-control show-tick">
-                                                                            <optgroup label="กรุณาเลือก">
-                                                                                <option>0105564012444</option>
-                                                                                <option>0105564012533 </option>
-                                                                            </optgroup>
-                                                                        </select>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="row clearfix">
-                                                                <div class="col-lg-6 col-md-6">
-                                                                    <div class="input-group">
-                                                                        <input type="checkbox" id="md_checkbox_21" class="filled-in chk-col-red _red-vitality" />
-                                                                        <label for="md_checkbox_21">ชื่อบริษัท</label>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="col-lg-6 col-md-6">
-                                                                    <input type="checkbox" id="md_checkbox_22" class="filled-in chk-col-red" />
-                                                                    <label for="md_checkbox_22">ที่อยู่บริษัท</label>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-
-
-
 
                                                     <div class="btn-control text-align">
                                                         <a href="#cancel"></a><button type="button" class="btn  btn-raised bg-grey waves-effect"> ยกเลิก </button>
-                                                        <a href="#save"></a><button type="button" class="btn btn-raised btn-default __redvitality waves-effect"> บันทึก </button>
+                                                        <a href="#save"></a><button type="button" class="btn btn-raised btn-default __redvitality waves-effect" data-toggle="modal" data-target="#BeforeSave"> บันทึก </button>
                                                     </div>
                                                 </form>
 
+                                                <!-- modal BeforeSave -->
+                                                <div class="modal fade" id="BeforeSave" tabindex="-1" role="dialog" style="display: none;" aria-hidden="true">
+                                                    <div class="modal-dialog modal-lg" role="document">
+                                                        <div class="modal-content">
+                                                            <div class="modal-header">
+                                                                <h4 class="modal-title" id="DetaillistLabel">ยืนยันการควบบริษัท</h4>
+                                                            </div>
+                                                            <div class="modal-body">
+                                                                <div class="body table-responsive company-list">
+                                                                    <table class="table table-hover">
+                                                                        <thead>
+                                                                            <tr>
+                                                                                <th style="width: 60px">#</th>
+                                                                                <th>วันที่ควบกิจการ</th>
+                                                                                <th>เลขทะเบียนนิติบุคคล</th>
+                                                                                <th>ชื่อบริษัทควบรวม</th>
+                                                                                <th>ควบกิจการเป็นบริษัท</th>
+                                                                                <th>สถานะ</th>
+                                                                            </tr>
+                                                                        </thead>
+                                                                        <tbody>
+                                                                            <tr>
+                                                                                <td>1</td>
+                                                                                <td>12 เม.ย.2564</td>
+                                                                                <td>0105564002121</td>
+                                                                                <td>-</td>
+                                                                                <td>บจ.สัมพันธ์โชติวิสุทธิ์ จำกัด</td>
+                                                                                <td>ควบกิจการ</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>2</td>
+                                                                                <td>12 เม.ย.2564</td>
+                                                                                <td>0105564002139</td>
+                                                                                <td>บจ.ไพร์ม เอ็กซ์ จำกัด</td>
+                                                                                <td>-</td>
+                                                                                <td>ควบรวม</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>3</td>
+                                                                                <td>12 เม.ย.2564</td>
+                                                                                <td>0105564002325</td>
+                                                                                <td>บจ.วีไทยมิน จำกัด </td>
+                                                                                <td>-</td>
+                                                                                <td>ควบรวม</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>4</td>
+                                                                                <td>12 เม.ย.2564</td>
+                                                                                <td>0105564002490</td>
+                                                                                <td>บจ.วอนนา วัน กรุ๊ป จำกัด</td>
+                                                                                <td>-</td>
+                                                                                <td>ควบรวม</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>5</td>
+                                                                                <td>12 เม.ย.2564</td>
+                                                                                <td>0105564002511 </td>
+                                                                                <td>บจ.อินฟินิตี้ วิสดอม จำกัด</td>
+                                                                                <td>-</td>
+                                                                                <td>ควบรวม</td>
+                                                                            </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                                </div>
+
+                                                            </div>
+                                                            <div class="modal-footer">
+                                                                <button type="button" class="btn btn-link waves-effect" data-dismiss="modal">ยืนยัน</button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
 
 
                                             </div>

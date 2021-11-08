@@ -57,7 +57,7 @@ small {
 
 section {
     &.content {
-        margin: 130px 0px 15px 300px;
+        margin: 60px 0px 15px 260px;
         @include transition(.5s);
         position: relative;
         @include border-radius(3px);
