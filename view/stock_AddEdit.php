@@ -60,13 +60,7 @@
 
                                 <form class="form-horizontal __info">
                                     <div class="row clearfix">
-                                        <div class="col-lg-3 col-md-3"> <b>ชื่อย่อหุ้น<span class="red">*</span></b>
-                                            <div class="input-group">
-                                                <div class="form-line">
-                                                    <input type="text" class="form-control" placeholder="SET01">
-                                                </div>
-                                            </div>
-                                        </div>
+                                        
                                         <div class="col-lg-3 col-md-3"> <b>เลขทะเบียนนิติบุคคล<span class="red">*</span></b>
                                             <div class="input-group">
                                                 <input type="text" class="form-control" placeholder="0505564001775">

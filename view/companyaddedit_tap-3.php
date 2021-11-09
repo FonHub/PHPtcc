@@ -90,8 +90,8 @@
                     <td>3</td>
                     <td>12 เม.ย.2564</td>
                     <td>-</td>
-                    <td>0</td>
-                    <td>0</td>
+                    <td>2</td>
+                    <td>2</td>
                     <td>MR.</td>
                     <td>SUNSHINE </td>
                     <td>TAGALOG </td>
@@ -112,8 +112,8 @@
                 </tr>
                 <tr>
                     <td>4</td>
-                    <td>12 เม.ย.2564</td>
-                    <td>-</td>
+                    <td>12 เม.ย.2550</td>
+                    <td>12 เม.ย.2552</td>
                     <td>0</td>
                     <td>0</td>
                     <td>นาย</td>
@@ -136,8 +136,8 @@
                 </tr>
                 <tr>
                     <td>5</td>
-                    <td>12 เม.ย.2564</td>
-                    <td>-</td>
+                    <td>12 เม.ย.2545</td>
+                    <td>12 เม.ย.2554</td>
                     <td>0</td>
                     <td>0</td>
                     <td>นางสาว </td>
