@@ -222,7 +222,7 @@
                      <b>วันที่จดทะเบียนจัดตั้ง<span class="red">*</span></b>
                      <div class="input-group">
                          <div class="disabled">
-                             <input type="text" class="form-control" placeholder="1/1/2520" />
+                             <input type="text" class="form-control" placeholder="30 ต.ค. 2550" />
                          </div>
                      </div>
                  </div>
@@ -230,7 +230,7 @@
                      <b>วันที่เปลี่ยนแปลง<span class="red">*</span></b>
                      <div class="input-group">
                          <div class="form-line disabled">
-                             <input type="text" class="form-control" placeholder="1/1/2520" />
+                             <input type="text" class="form-control" placeholder="30 ต.ค. 2550" />
                          </div>
                      </div>
                  </div>

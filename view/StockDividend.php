@@ -69,7 +69,7 @@
                                                 <div class="col-sm-9">
                                                     <div class="form-group">
                                                         <div class="form-line">
-                                                            <input type="text" class="form-control date" placeholder="30/07/2017">
+                                                            <input type="text" class="form-control date" placeholder="30 ก.ค. 2550">
                                                         </div>
                                                     </div>
                                                 </div>
@@ -83,7 +83,7 @@
                                                 <div class="col-sm-9">
                                                     <div class="form-group">
                                                         <div class="form-line">
-                                                            <input type="text" class="form-control date" placeholder="30/07/2021">
+                                                            <input type="text" class="form-control date" placeholder="30 ต.ค. 2550">
                                                         </div>
                                                     </div>
                                                 </div>
@@ -169,7 +169,7 @@
                                                         <td>1/10/2564</td>
                                                         <td>1/11/2564</td>
                                                         <td>1/11/2564</td>
-                                                        <td>1/1/2565</td>
+                                                        <td>30 ต.ค. 2550</td>
                                                         <td><a href="stock_AddEdit.php"><button type="button" class="btn btn-raised btn-default waves-effect"> <i class="material-icons">mode_edit</i></button></a></td>
                                                     </tr>
                                                     <tr v-for="data in dataTableShow" :key="data.id">

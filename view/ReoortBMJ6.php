@@ -69,7 +69,7 @@
                                                 <div class="col-sm-9">
                                                     <div class="form-group">
                                                         <div class="form-line">
-                                                            <input type="text" class="form-control date" placeholder="30/07/2017">
+                                                            <input type="text" class="form-control date" placeholder="30 ก.ค. 2550">
                                                         </div>
                                                     </div>
                                                 </div>
@@ -83,7 +83,7 @@
                                                 <div class="col-sm-9">
                                                     <div class="form-group">
                                                         <div class="form-line">
-                                                            <input type="text" class="form-control date" placeholder="30/07/2021">
+                                                            <input type="text" class="form-control date" placeholder="30 ต.ค. 2550">
                                                         </div>
                                                     </div>
                                                 </div>
@@ -182,7 +182,7 @@
                                     <tbody>
                                         <tr v-for="data in dataTableShow" :key="data.id">
                                             <td>1</td>
-                                            <td>1/4/2564</td>
+                                            <td>12 เม.ย.2564</td>
                                             <td>จัดตั้งบริษัท</td>
                                             <td>-</td>
                                             <td>หส.เดอะ ทรีไลน์ บีเอฟเอ็ม</td>
@@ -238,7 +238,7 @@
                                         </tr>
                                         <tr v-for="data in dataTableShow" :key="data.id">
                                             <td>5</td>
-                                            <td>1/7/2564</td>
+                                            <td>30 ต.ค. 2550</td>
                                             <td>วิสามัญผู้ถือหุ้น </td>
                                             <td>2/2564</td>
                                             <td>หส.เดอะ ทรีไลน์ บีเอฟเอ็ม</td>

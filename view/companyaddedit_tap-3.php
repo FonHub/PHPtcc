@@ -236,14 +236,14 @@
                         <div class="col-lg-3 col-md-3"> <b>วันที่เป็นกรรมการ<span class="red">*</span></b>
                             <div class="input-group">
                                 <div class="form-line">
-                                    <input type="text" class="form-control" placeholder="1/7/2564">
+                                    <input type="text" class="form-control" placeholder="30 ต.ค. 2550">
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-3"> <b>วันที่สิ้นสุด<span class="red">*</span></b>
                             <div class="input-group">
                                 <div class="form-line">
-                                    <input type="text" class="form-control" placeholder="1/7/2564">
+                                    <input type="text" class="form-control" placeholder="30 ต.ค. 2550">
                                 </div>
                             </div>
                         </div>

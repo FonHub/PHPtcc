@@ -69,7 +69,7 @@
                                                 <div class="col-sm-9">
                                                     <div class="form-group">
                                                         <div class="form-line">
-                                                            <input type="text" class="form-control date" placeholder="30/07/2017">
+                                                            <input type="text" class="form-control date" placeholder="30 ก.ค. 2550">
                                                         </div>
                                                     </div>
                                                 </div>
@@ -83,7 +83,7 @@
                                                 <div class="col-sm-9">
                                                     <div class="form-group">
                                                         <div class="form-line">
-                                                            <input type="text" class="form-control date" placeholder="30/07/2021">
+                                                            <input type="text" class="form-control date" placeholder="30 ต.ค. 2550">
                                                         </div>
                                                     </div>
                                                 </div>
@@ -176,8 +176,8 @@
                                                 <tbody>
                                                     <tr>
                                                         <td>1</td>
-                                                        <td>12/2/2550</td>
-                                                        <td>12/2/2556</td>
+                                                        <td>1 ต.ค. 2550</td>
+                                                        <td>1 ต.ค. 2550</td>
                                                         <td>0105564001931</td>
                                                         <td>หจ.พ.พัฒนรักษ์</td>
                                                         <td>บจ.จีจี เกฮลอท จำกัด</td>
@@ -187,8 +187,8 @@
                                                     </tr>
                                                     <tr>
                                                         <td>2</td>
-                                                        <td>12/2/2556</td>
-                                                        <td>12/2/2560</td>
+                                                        <td>1 ต.ค. 2550</td>
+                                                        <td>1 ต.ค. 2550</td>
                                                         <td>0105564001931</td>
                                                         <td>บจ.จีจี เกฮลอท จำกัด</td>
                                                         <td>บจ.ไพร์ม เอ็กซ์ จำกัด</td>
@@ -238,7 +238,7 @@
                                                             <div class="col-lg-4 col-md-4"> <b>วันที่สิ้นสุด<span class="red">*</span></b>
                                                                 <div class="input-group">
                                                                     <div class="form-line">
-                                                                        <input type="text" class="form-control" placeholder="1/7/2564 ">
+                                                                        <input type="text" class="form-control" placeholder="30 ต.ค. 2550 ">
                                                                     </div>
                                                                 </div>
                                                             </div>

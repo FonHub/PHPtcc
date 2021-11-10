@@ -68,7 +68,7 @@
                                                         <div class="col-lg-6 col-md-6"> <b>วันที่</b>
                                                             <div class="input-group">
                                                                 <div class="form-line">
-                                                                    <input type="text" class="form-control" placeholder="1/7/2564">
+                                                                    <input type="text" class="form-control" placeholder="30 ต.ค. 2550">
                                                                 </div>
                                                             </div>
                                                         </div>

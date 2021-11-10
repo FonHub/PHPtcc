@@ -20,7 +20,6 @@
 .sidebar {
     @extend .inlineblock;
     @include transition(all .5s ease-in-out);
-    font-family: $sidebar-font-family;
     background: $white;
     width: 235px;
     overflow: hidden;

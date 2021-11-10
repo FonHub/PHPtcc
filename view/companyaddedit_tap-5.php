@@ -6,7 +6,7 @@
             <div class="col-lg-6 col-md-6"> <b>วันจดเลิกบริษัท<span class="red">*</span></b>
                 <div class="input-group">
                     <div class="form-line">
-                        <input type="text" class="form-control" placeholder="20/1/2060">
+                        <input type="text" class="form-control" placeholder="1 ต.ค. 2550">
                     </div>
                 </div>
             </div>
@@ -65,7 +65,7 @@
             <div class="col-lg-6 col-md-6"> <b>วันจดชำระบัญชี<span class="red">*</span></b>
                 <div class="input-group">
                     <div class="form-line">
-                        <input type="text" class="form-control" placeholder="20/1/2060">
+                        <input type="text" class="form-control" placeholder="1 ต.ค. 2550">
                     </div>
                 </div>
             </div>

@@ -98,7 +98,7 @@
                                                                         <b>วันเกิด<span class="red">*</span></b>
                                                                         <div class="input-group">
                                                                             <div class="form-line disabled">
-                                                                                <input type="text" class="form-control" placeholder="1/1/2520" />
+                                                                                <input type="text" class="form-control" placeholder="30 ต.ค. 2550" />
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -114,7 +114,7 @@
                                                                         <b>วันหมดอายุบัตร<span class="red">*</span></b>
                                                                         <div class="input-group">
                                                                             <div class="form-line disabled">
-                                                                                <input type="text" class="form-control" placeholder="1/1/2565" />
+                                                                                <input type="text" class="form-control" placeholder="30 ต.ค. 2550" />
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -382,7 +382,7 @@
                                                                         <b>Date of expiry</b>
                                                                         <div class="input-group">
                                                                             <div class="form-line">
-                                                                                <input type="text" class="form-control " placeholder="1/1/2565" />
+                                                                                <input type="text" class="form-control " placeholder="30 ต.ค. 2550" />
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -619,15 +619,15 @@
                                                     <tbody>
                                                         <tr>
                                                             <td>1</td>
-                                                            <td>12/2/2550</td>
-                                                            <td>12/2/2556</td>
+                                                            <td>1 ต.ค. 2550</td>
+                                                            <td>1 ต.ค. 2550</td>
                                                             <td>นาย เอ็กซ์ สุขสันต์ </td>
                                                             <td>-</td>
                                                         </tr>
                                                         <tr>
                                                             <td>2</td>
                                                             <td>12/2/2545</td>
-                                                            <td>12/2/2550</td>
+                                                            <td>1 ต.ค. 2550</td>
                                                             <td>นาย กันต์ชัย สุขสันต์ </td>
                                                             <td>-</td>
                                                         </tr>
@@ -652,15 +652,15 @@
                                                     <tbody>
                                                         <tr>
                                                             <td>1</td>
-                                                            <td>12/2/2550</td>
-                                                            <td>12/2/2556</td>
+                                                            <td>1 ต.ค. 2550</td>
+                                                            <td>1 ต.ค. 2550</td>
                                                             <td>257/6 หมู่ที่ 14 ถนนมิตรภาพ ต.ในเมือง อ.เมืองขอนแก่น จ.ขอนแก่น 40000</td>
                                                             <td>-</td>
                                                         </tr>
                                                         <tr>
                                                             <td>2</td>
                                                             <td>12/2/2545</td>
-                                                            <td>12/2/2550</td>
+                                                            <td>1 ต.ค. 2550</td>
                                                             <td>449 ซอยอินทามระ 41 แขวงดินแดง เขตดินแดง กรุงเทพมหานคร 10400</td>
                                                             <td>-</td>
                                                         </tr>

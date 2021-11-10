@@ -29,7 +29,7 @@
                 <tr>
                     <td>1</td>
                     <td>สัญญาซื้อขายหุ้น</td>
-                    <td>001</td>
+                    <td>0001</td>
                     <td>อาคารสุรวงศ์ ห้อง A</td>
                     <td>A01</td>
                     <td>-</td>
@@ -43,7 +43,7 @@
                 <tr>
                     <td>2</td>
                     <td>สมุดทะเบียนหุ้น</td>
-                    <td>001</td>
+                    <td>0001</td>
                     <td>อาคารสุรวงศ์ ห้อง A</td>
                     <td>A01</td>
                     <td>-</td>
@@ -57,7 +57,7 @@
                 <tr>
                     <td>3</td>
                     <td>สมุดทะเบียนหุ้น</td>
-                    <td>002</td>
+                    <td>0001</td>
                     <td>อาคารสุรวงศ์ ห้อง B</td>
                     <td>B01</td>
                     <td>-</td>
@@ -71,7 +71,7 @@
                 <tr>
                     <td>4</td>
                     <td>เอกสารวันจดเลิกบริษัท</td>
-                    <td>002</td>
+                    <td>0001</td>
                     <td>อาคารสุรวงศ์ ห้อง B</td>
                     <td>B01</td>
                     <td>-</td>
@@ -85,7 +85,7 @@
                 <tr>
                     <td>5</td>
                     <td>เอกสารวันจดชำระบัญชี</td>
-                    <td>002</td>
+                    <td>0001</td>
                     <td>อาคารสุรวงศ์ ห้อง B</td>
                     <td>B01</td>
                     <td>-</td>
@@ -129,7 +129,7 @@
                             <div class="col-lg-2 col-md-2"> <b>เลขลำดับเอกสาร<span class="red">*</span></b>
                                 <div class="input-group">
                                     <div class="form-line">
-                                        <input type="text" class="form-control" placeholder="001">
+                                        <input type="text" class="form-control" placeholder="00000001">
                                     </div>
                                 </div>
                             </div>
@@ -158,7 +158,7 @@
                             <div class="col-lg-4 col-md-4"> <b>เลขลำดับเอกสาร<span class="red">*</span></b>
                                 <div class="input-group">
                                     <div class="form-line">
-                                        <input type="text" class="form-control" placeholder="000">
+                                        <input type="text" class="form-control" placeholder="000000001">
                                     </div>
                                 </div>
                             </div>

@@ -69,7 +69,7 @@
                                                 <div class="col-sm-9">
                                                     <div class="form-group">
                                                         <div class="form-line">
-                                                            <input type="text" class="form-control date" placeholder="30/07/2017">
+                                                            <input type="text" class="form-control date" placeholder="30 ก.ค. 2550">
                                                         </div>
                                                     </div>
                                                 </div>
@@ -83,7 +83,7 @@
                                                 <div class="col-sm-9">
                                                     <div class="form-group">
                                                         <div class="form-line">
-                                                            <input type="text" class="form-control date" placeholder="30/07/2021">
+                                                            <input type="text" class="form-control date" placeholder="30 ต.ค. 2550">
                                                         </div>
                                                     </div>
                                                 </div>
@@ -177,8 +177,8 @@
                                                 <tbody>
                                                     <tr>
                                                         <td>1</td>
-                                                        <td>12/2/2550</td>
-                                                        <td>12/2/2556</td>
+                                                        <td>1 ต.ค. 2550</td>
+                                                        <td>1 ต.ค. 2550</td>
                                                         <td>หส.เดอะ ทรีไลน์ บีเอฟเอ็ม</td>
                                                         <td>0102564000010</td>
                                                         <td>257/6 หมู่ที่ 14 ถนนมิตรภาพ ต.ในเมือง อ.เมืองขอนแก่น จ.ขอนแก่น 40000</td>
@@ -189,8 +189,8 @@
                                                     </tr>
                                                     <tr>
                                                         <td>2</td>
-                                                        <td>12/2/2556</td>
-                                                        <td>12/2/2560</td>
+                                                        <td>1 ต.ค. 2550</td>
+                                                        <td>1 ต.ค. 2550</td>
                                                         <td>หจ.เดอะ ไลอ้อน มิลค์ที</td>
                                                         <td>0103564000011</td>
                                                         <td>

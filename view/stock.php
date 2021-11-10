@@ -69,7 +69,7 @@
                                                 <div class="col-sm-9">
                                                     <div class="form-group">
                                                         <div class="form-line">
-                                                            <input type="text" class="form-control date" placeholder="30/07/2017">
+                                                            <input type="text" class="form-control date" placeholder="30 ก.ค. 2550">
                                                         </div>
                                                     </div>
                                                 </div>
@@ -83,7 +83,7 @@
                                                 <div class="col-sm-9">
                                                     <div class="form-group">
                                                         <div class="form-line">
-                                                            <input type="text" class="form-control date" placeholder="30/07/2021">
+                                                            <input type="text" class="form-control date" placeholder="30 ต.ค. 2550">
                                                         </div>
                                                     </div>
                                                 </div>
@@ -187,7 +187,7 @@
                                     <tbody>
                                         <tr v-for="data in dataTableShow" :key="data.id">
                                             <td>1</td>
-                                            <td>15/1/2564</td>
+                                            <td>15 เม.ย. 2564</td>
                                             <td>หจ.แอล.พี.เจ. คลาวด์</td>
                                             <td>0103564000029</td>
                                             <td>บริการพื้นที่สำหรับจัดเก็บข้อมูลอิเล็กทรอนิคส์</td>
@@ -198,7 +198,7 @@
                                         </tr>
                                         <tr v-for="data in dataTableShow" :key="data.id">
                                             <td>2</td>
-                                            <td>15/1/2564</td>
+                                            <td>15 เม.ย. 2564</td>
                                             <td>บจ.สตาร์ วีซ่า อินเตอร์เนชั่นแนล เซอร์วิส จำกัด</td>
                                             <td>0505564001589</td>
                                             <td>บริการขอวีซ่า</td>
@@ -209,7 +209,7 @@
                                         </tr>
                                         <tr v-for="data in dataTableShow" :key="data.id">
                                             <td>3</td>
-                                            <td>15/1/2564</td>
+                                            <td>15 เม.ย. 2564</td>
                                             <td>บจ.มิลเลี่ยนกรุ๊ป คอนซัลท์ จำกัด</td>
                                             <td>0505564001619</td>
                                             <td>บริการขอวีซ่า</td>
@@ -220,7 +220,7 @@
                                         </tr>
                                         <tr v-for="data in dataTableShow" :key="data.id">
                                             <td>4</td>
-                                            <td>15/1/2564</td>
+                                            <td>15 เม.ย. 2564</td>
                                             <td>บจ.บีบี เบิร์ด กรุ๊ป จำกัด</td>
                                             <td>0505564001635</td>
                                             <td>จำหน่ายผลิตภัณฑ์อาหารเสริมทุกชนิด</td>
@@ -231,7 +231,7 @@
                                         </tr>
                                         <tr v-for="data in dataTableShow" :key="data.id">
                                             <td>5</td>
-                                            <td>15/1/2564</td>
+                                            <td>15 เม.ย. 2564</td>
                                             <td>บจ.ฟาร์มเกษตร ทีทีที จำกัด</td>
                                             <td>0505564001643</td>
                                             <td>จำหน่ายผลิตภัณฑ์อาหารเสริมทุกชนิด</td>

@@ -69,7 +69,7 @@
                                                 <div class="col-sm-9">
                                                     <div class="form-group">
                                                         <div class="form-line">
-                                                            <input type="text" class="form-control date" placeholder="30/07/2017">
+                                                            <input type="text" class="form-control date" placeholder="30 ก.ค. 2550">
                                                         </div>
                                                     </div>
                                                 </div>
@@ -83,7 +83,7 @@
                                                 <div class="col-sm-9">
                                                     <div class="form-group">
                                                         <div class="form-line">
-                                                            <input type="text" class="form-control date" placeholder="30/07/2021">
+                                                            <input type="text" class="form-control date" placeholder="30 ต.ค. 2550">
                                                         </div>
                                                     </div>
                                                 </div>
@@ -161,7 +161,7 @@
                                                 <tbody>
                                                     <tr v-for="data in dataTableShow" :key="data.id">
                                                         <td>1</td>
-                                                        <td>1/4/2564</td>
+                                                        <td>12 เม.ย.2564</td>
                                                         <td>บจ.ภัทโสภณ จำกัด</td>
                                                         <td>หส.เดอะ ทรีไลน์ บีเอฟเอ็ม</td>
                                                         <td>0102564000010</td>
@@ -174,7 +174,7 @@
                                                     </tr>
                                                     <tr v-for="data in dataTableShow" :key="data.id">
                                                         <td>2</td>
-                                                        <td>1/4/2564</td>
+                                                        <td>12 เม.ย.2564</td>
                                                         <td>นาย วิชัย วชิรพงศ์</td>
                                                         <td>หจ.เดอะ ไลอ้อน มิลค์ที</td>
                                                         <td>0103564000011</td>
@@ -187,7 +187,7 @@
                                                     </tr>
                                                     <tr v-for="data in dataTableShow" :key="data.id">
                                                         <td>3</td>
-                                                        <td>1/4/2564</td>
+                                                        <td>12 เม.ย.2564</td>
                                                         <td>บจ.พรอสเพอรัส วิน 168 จำกัด</td>
                                                         <td>หจ.เกตเวย์ แอคเคาน์ติ้ง</td>
                                                         <td>0103564001734</td>
@@ -200,7 +200,7 @@
                                                     </tr>
                                                     <tr v-for="data in dataTableShow" :key="data.id">
                                                         <td>4</td>
-                                                        <td>1/4/2564</td>
+                                                        <td>12 เม.ย.2564</td>
                                                         <td>บจ.ณัฐปภัสร์ 59 จำกัด</td>
                                                         <td>บจ.เพชรดีไซน์ เฟอร์นิเจอร์ จำกัด</td>
                                                         <td>0105564000152</td>
@@ -213,7 +213,7 @@
                                                     </tr>
                                                     <tr v-for="data in dataTableShow" :key="data.id">
                                                         <td>5</td>
-                                                        <td>1/4/2564</td>
+                                                        <td>12 เม.ย.2564</td>
                                                         <td>บจ.วันดีดีโก จำกัด</td>
                                                         <td>บจ.ซีเอ็นที สตาร์ จำกัด</td>
                                                         <td>0105564002171</td>

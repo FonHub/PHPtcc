@@ -186,7 +186,7 @@
                                     <b>วันที่จัดตั้งบริษัท<span class="red">*</span></b>
                                     <div class="input-group">
                                         <div class="disabled">
-                                            <input type="text" class="form-control" placeholder="1/1/2520" />
+                                            <input type="text" class="form-control" placeholder="30 ต.ค. 2550" />
                                         </div>
                                     </div>
                                 </div>
@@ -194,7 +194,7 @@
                                     <b>วันที่ชำระหุ้นเพิ่ม<span class="red">*</span></b>
                                     <div class="input-group">
                                         <div class="form-line">
-                                            <input type="text" class="form-control" placeholder="1/1/2520" />
+                                            <input type="text" class="form-control" placeholder="30 ต.ค. 2550" />
                                         </div>
                                     </div>
                                 </div>

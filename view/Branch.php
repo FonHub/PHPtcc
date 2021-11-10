@@ -114,7 +114,7 @@
                                             <b>วันที่จดทะเบียนจัดตั้ง<span class="red">*</span></b>
                                             <div class="input-group">
                                                 <div class="disabled">
-                                                    <input type="text" class="form-control" placeholder="1/1/2520" />
+                                                    <input type="text" class="form-control" placeholder="30 ต.ค. 2550" />
                                                 </div>
                                             </div>
                                         </div>
@@ -122,7 +122,7 @@
                                             <b>วันที่เปลี่ยนแปลง<span class="red">*</span></b>
                                             <div class="input-group">
                                                 <div class="form-line disabled">
-                                                    <input type="text" class="form-control" placeholder="1/1/2520" />
+                                                    <input type="text" class="form-control" placeholder="30 ต.ค. 2550" />
                                                 </div>
                                             </div>
                                         </div>
@@ -346,7 +346,7 @@
                                                 <b>วันที่จดทะเบียนจัดตั้ง<span class="red">*</span></b>
                                                 <div class="input-group">
                                                     <div class="disabled">
-                                                        <input type="text" class="form-control" placeholder="1/1/2520" />
+                                                        <input type="text" class="form-control" placeholder="30 ต.ค. 2550" />
                                                     </div>
                                                 </div>
                                             </div>
@@ -354,7 +354,7 @@
                                                 <b>วันที่เปลี่ยนแปลง<span class="red">*</span></b>
                                                 <div class="input-group">
                                                     <div class="form-line disabled">
-                                                        <input type="text" class="form-control" placeholder="1/1/2520" />
+                                                        <input type="text" class="form-control" placeholder="30 ต.ค. 2550" />
                                                     </div>
                                                 </div>
                                             </div>
@@ -390,8 +390,8 @@
                                         <tbody>
                                             <tr>
                                                 <td>1</td>
-                                                <td>12/2/2550</td>
-                                                <td>12/2/2556</td>
+                                                <td>1 ต.ค. 2550</td>
+                                                <td>1 ต.ค. 2550</td>
                                                 <td>หส.เดอะ ทรีไลน์ บีเอฟเอ็ม </td>
                                                 <td>257/6 หมู่ที่ 14 ถนนมิตรภาพ ต.ในเมือง อ.เมืองขอนแก่น จ.ขอนแก่น 40000</td>
                                                 <td>ใบเปลี่ยนชื่อ, ใบเปลี่ยนที่อยู่</td>
@@ -399,7 +399,7 @@
                                             <tr>
                                                 <td>2</td>
                                                 <td>12/2/2545</td>
-                                                <td>12/2/2550</td>
+                                                <td>1 ต.ค. 2550</td>
                                                 <td>-</td>
                                                 <td>999 ชั้น 5 ห้อง 5 บี 1 ถนนเพลินจิต แขวงลุมพินี เขตปทุมวัน กรุงเทพมหานคร 10330</td>
                                                 <td>ใบเปลี่ยนที่อยู่</td>

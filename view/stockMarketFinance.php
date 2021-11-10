@@ -69,7 +69,7 @@
                                                 <div class="col-sm-9">
                                                     <div class="form-group">
                                                         <div class="form-line">
-                                                            <input type="text" class="form-control date" placeholder="30/07/2017">
+                                                            <input type="text" class="form-control date" placeholder="30 ก.ค. 2550">
                                                         </div>
                                                     </div>
                                                 </div>
@@ -83,7 +83,7 @@
                                                 <div class="col-sm-9">
                                                     <div class="form-group">
                                                         <div class="form-line">
-                                                            <input type="text" class="form-control date" placeholder="30/07/2021">
+                                                            <input type="text" class="form-control date" placeholder="30 ต.ค. 2550">
                                                         </div>
                                                     </div>
                                                 </div>
@@ -173,12 +173,12 @@
                                     <tbody>
                                         <tr v-for="data in dataTableShow" :key="data.id">
                                             <td>1</td>
-                                            <td>15/1/2564</td>
+                                            <td>15 เม.ย. 2564</td>
                                             <td>สถาบันการเงิน</td>
                                             <td>1 - 1,000,0000</td>
                                             <td>1,000,0000</td>
                                             <td>1,000,0000</td>
-                                            <td>1/1/2565</td>
+                                            <td>30 ต.ค. 2550</td>
                                             <td>1,100,0000</td>
                                             <td>สำนักงาน</td>
                                             <td>ปลดจำนำ</td>
@@ -186,12 +186,12 @@
                                         </tr>
                                         <tr v-for="data in dataTableShow" :key="data.id">
                                             <td>2</td>
-                                            <td>15/1/2564</td>
+                                            <td>15 เม.ย. 2564</td>
                                             <td>สถาบันการเงิน</td>
                                             <td>1 - 1,000,0000</td>
                                             <td>1,000,0000</td>
                                             <td>1,000,0000</td>
-                                            <td>1/1/2565</td>
+                                            <td>30 ต.ค. 2550</td>
                                             <td>1,100,0000</td>
                                             <td>สำนักงาน</td>
                                             <td>ปลดจำนำ</td>
@@ -199,12 +199,12 @@
                                         </tr>
                                         <tr v-for="data in dataTableShow" :key="data.id">
                                             <td>3</td>
-                                            <td>15/1/2564</td>
+                                            <td>15 เม.ย. 2564</td>
                                             <td>สถาบันการเงิน</td>
                                             <td>1 - 1,000,0000</td>
                                             <td>1,000,0000</td>
                                             <td>1,000,0000</td>
-                                            <td>1/1/2565</td>
+                                            <td>30 ต.ค. 2550</td>
                                             <td>1,100,0000</td>
                                             <td>สำนักงาน</td>
                                             <td>ปลดจำนำ</td>
@@ -212,12 +212,12 @@
                                         </tr>
                                         <tr v-for="data in dataTableShow" :key="data.id">
                                             <td>4</td>
-                                            <td>15/1/2564</td>
+                                            <td>15 เม.ย. 2564</td>
                                             <td>สถาบันการเงิน</td>
                                             <td>1 - 1,000,0000</td>
                                             <td>1,000,0000</td>
                                             <td>1,000,0000</td>
-                                            <td>1/1/2565</td>
+                                            <td>30 ต.ค. 2550</td>
                                             <td>1,100,0000</td>
                                             <td>สำนักงาน</td>
                                             <td>ปลดจำนำ</td>
@@ -225,12 +225,12 @@
                                         </tr>
                                         <tr v-for="data in dataTableShow" :key="data.id">
                                             <td>5</td>
-                                            <td>15/1/2564</td>
+                                            <td>15 เม.ย. 2564</td>
                                             <td>สถาบันการเงิน</td>
                                             <td>1 - 1,000,0000</td>
                                             <td>1,000,0000</td>
                                             <td>1,000,0000</td>
-                                            <td>1/1/2565</td>
+                                            <td>30 ต.ค. 2550</td>
                                             <td>1,100,0000</td>
                                             <td>สำนักงาน</td>
                                             <td>ปลดจำนำ</td>
