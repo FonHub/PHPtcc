@@ -7,7 +7,7 @@
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <meta name="description" content="Responsive Bootstrap 4 and web Application ui kit.">
 
-    <title>บริษัทเจ้าของหุ้น</title>
+    <title>ผู้ถือหุ้น</title>
     <?php include('../view/linkhead.php'); ?>
 
 </head>
@@ -29,7 +29,7 @@
         <div class="block-header">
             <div class="row">
                 <div class="col-lg-7 col-md-6 col-sm-12">
-                    <h2>บริษัทเจ้าของหุ้น
+                    <h2>ผู้ถือหุ้น
                         <small class="text-muted">ยินดีต้อนรับสู่ TCC Group</small>
                     </h2>
                 </div>
@@ -37,7 +37,7 @@
                     <ul class="breadcrumb float-md-right">
                         <li class="breadcrumb-item"><a href="../view/index.php"><i class="zmdi zmdi-home"></i> หน้าหลัก</a></li>
                         <li class="breadcrumb-item"><a href="../view/stock.php"></a> ทะเบียนหุ้น</li>
-                        <li class="breadcrumb-item active">บริษัทเจ้าของหุ้น</li>
+                        <li class="breadcrumb-item active">ผู้ถือหุ้น</li>
                     </ul>
                 </div>
             </div>

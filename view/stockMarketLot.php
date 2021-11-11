@@ -7,7 +7,7 @@
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <meta name="description" content="Responsive Bootstrap 4 and web Application ui kit.">
 
-    <title>บริษัทเจ้าของหุ้น</title>
+    <title>ผู้ถือหุ้น</title>
     <?php include('../view/linkhead.php'); ?>
     <!-- Bootstrap Select Css -->
     <link rel="stylesheet" href="../assets/plugins/bootstrap-select/css/bootstrap-select.css" />
@@ -30,14 +30,14 @@
         <div class="block-header">
             <div class="row">
                 <div class="col-lg-7 col-md-6 col-sm-12">
-                    <h2>บริษัทเจ้าของหุ้น
+                    <h2>ผู้ถือหุ้น
                         <small class="text-muted">ยินดีต้อนรับสู่ TCC Group</small>
                     </h2>
                 </div>
                 <div class="col-lg-5 col-md-6 col-sm-12">
                     <ul class="breadcrumb float-md-right">
                         <li class="breadcrumb-item"><a href="/"><i class="zmdi zmdi-home"></i> หน้าหลัก</a></li>
-                        <li class="breadcrumb-item active">บริษัทเจ้าของหุ้น</li>
+                        <li class="breadcrumb-item active">ผู้ถือหุ้น</li>
                     </ul>
                 </div>
             </div>
@@ -137,7 +137,7 @@
                         <div class="card">
                             <div class="header">
                                 <div class="header-status">
-                                    <h3>รายการบริษัทเจ้าของหุ้นเพิ่มล่าสุดทั้งหมด</h3>
+                                    <h3>รายการผู้ถือหุ้นเพิ่มล่าสุดทั้งหมด</h3>
                                     <span>302,240</span>
                                 </div>
                                 <ul class="header-dropdown m-r--5">
@@ -159,7 +159,7 @@
                                         <tr>
                                             <th style="width:60px;">#</th>
                                             <th>วันที่จำนำหุ้น</th>
-                                            <th>บริษัทเจ้าของหุ้น</th>
+                                            <th>ผู้ถือหุ้น</th>
                                             <th>เลขทะเบียนนิติบุคคล</th>
                                             <th>กลุ่มธุรกิจหลัก</th>
                                             <th>เลขที่หุ้น</th>

@@ -37,7 +37,7 @@
             <li><a href="javascript:void(0);" class="menu-toggle"><i class="zmdi zmdi-globe-alt"></i><span>หุ้นตลาด</span> </a>
                 <ul class="ml-menu">
                     <li><a href="stockMarket.php">ข้อมูลหุ้นตลาด</a></li>
-                    <li><a href="stockMarketLot.php">บริษัทเจ้าของหุ้น</a></li>
+                    <li><a href="stockMarketLot.php">ผู้ถือหุ้น</a></li>
                     <li><a href="stockMarketFinance.php">ผู้รับจำนำ</a></li>
                 </ul>
             </li>
