@@ -392,12 +392,11 @@
                                         <th>วันที่</th>
                                         <th>ผู้ถือหุ้น</th>
                                         <th>เลขทะเบียนนิติบุคคล</th>
-                                        <th>บริษัทผู้ถือหุ้น</th>
-                                        <th>กลุ่มธุรกิจหลัก</th>
-                                        <th>หุ้นทั้งหมด</th>
+                                        <th>เจ้าของหุ้น</th>
+                                        <th>สถานะหุ้นที่ลงทุน</th>
+                                        <th>จำนวนหุ้นจดทะเบียน</th>
                                         <th>มูลค่าหุ้นละ</th>
-                                        <th>มูลค่ารวมทั้งหมด</th>
-                                        <th>สถานะ</th>
+                                        <th>ตลาด</th>
                                         <th>Action</th>
                                     </tr>
                                 </thead>
@@ -407,12 +406,11 @@
                                         <td>15 เม.ย. 2564</td>
                                         <td>หจ.แอล.พี.เจ. คลาวด์</td>
                                         <td>0103564000029</td>
-                                        <td>บจ.สหมิติ จำกัด</td>
-                                        <td>บริการพื้นที่สำหรับจัดเก็บข้อมูลอิเล็กทรอนิคส์</td>
+                                        <td>บริษัทอยู่ในตลาดหลักทรัพย์</td>
+                                        <td>จำนำ</td>
                                         <td>20,500,000</td>
                                         <td>10.000</td>
-                                        <td>200,500,000</td>
-                                        <td>จำนำ</td>
+                                        <td>ไทย</td>
                                         <td><a href="stockMarketAddEdit.php"><button type="button" class="btn btn-raised btn-default waves-effect"> <i class="material-icons">mode_edit</i></button></a></td>
                                     </tr>
                                     <tr v-for="data in dataTableShow" :key="data.id">
@@ -420,12 +418,11 @@
                                         <td>15 เม.ย. 2564</td>
                                         <td>บจ.สตาร์ วีซ่า อินเตอร์เนชั่นแนล เซอร์วิส จำกัด</td>
                                         <td>0505564001589</td>
-                                        <td>บจ.ช้างคู่ช้อป จำกัด</td>
-                                        <td>บริการขอวีซ่า</td>
+                                        <td>บริษัทอยู่ในตลาดหลักทรัพย์</td>
+                                        <td>จำนำ</td>
                                         <td>20,500,000</td>
                                         <td>10.000</td>
-                                        <td>200,500,000</td>
-                                        <td>จำนำ</td>
+                                        <td>ไทย</td>
                                         <td><a href="stockMarketAddEdit.php"><button type="button" class="btn btn-raised btn-default waves-effect"> <i class="material-icons">mode_edit</i></button></a></td>
                                     </tr>
                                     <tr v-for="data in dataTableShow" :key="data.id">
@@ -433,12 +430,11 @@
                                         <td>15 เม.ย. 2564</td>
                                         <td>บจ.มิลเลี่ยนกรุ๊ป คอนซัลท์ จำกัด</td>
                                         <td>0505564001619</td>
-                                        <td>บจ.ทรี ที พลัส แพ็ค จำกัด</td>
-                                        <td>บริการขอวีซ่า</td>
+                                        <td>บริษัทอยู่ในตลาดหลักทรัพย์</td>
+                                        <td>ปลอดจำนำ</td>
                                         <td>50,000,000</td>
                                         <td>10.000</td>
-                                        <td>50,000,000</td>
-                                        <td>ปลอดจำนำ</td>
+                                        <td>สิงคโปร์</td>
                                         <td><a href="stockMarketAddEdit.php"><button type="button" class="btn btn-raised btn-default waves-effect"> <i class="material-icons">mode_edit</i></button></a></td>
                                     </tr>
                                     <tr v-for="data in dataTableShow" :key="data.id">
@@ -446,12 +442,11 @@
                                         <td>15 เม.ย. 2564</td>
                                         <td>บจ.บีบี เบิร์ด กรุ๊ป จำกัด</td>
                                         <td>0505564001635</td>
-                                        <td>บจ.ธารทอง โกลบอล จำกัด</td>
-                                        <td>จำหน่ายผลิตภัณฑ์อาหารเสริมทุกชนิด</td>
+                                        <td>บริษัทนอกกลุ่ม</td>
+                                        <td>ปลอดจำนำ</td>
                                         <td>50,000,000</td>
                                         <td>10.000</td>
-                                        <td>50,000,000</td>
-                                        <td>ปลอดจำนำ</td>
+                                        <td>สิงคโปร์</td>
                                         <td><a href="stockMarketAddEdit.php"><button type="button" class="btn btn-raised btn-default waves-effect"> <i class="material-icons">mode_edit</i></button></a></td>
                                     </tr>
                                     <tr v-for="data in dataTableShow" :key="data.id">
@@ -459,12 +454,11 @@
                                         <td>15 เม.ย. 2564</td>
                                         <td>บจ.ฟาร์มเกษตร ทีทีที จำกัด</td>
                                         <td>0505564001643</td>
-                                        <td>บจ.อินเตอร์ เรียลเอสเตท จำกัด</td>
-                                        <td>จำหน่ายผลิตภัณฑ์อาหารเสริมทุกชนิด</td>
+                                        <td>บริษัทนอกกลุ่ม</td>
+                                        <td>ปลอดจำนำ</td>
                                         <td>50,000,000</td>
                                         <td>10.000</td>
-                                        <td>50,000,000</td>
-                                        <td>จำนำ</td>
+                                        <td>สิงคโปร์</td>
                                         <td><a href="stockMarketAddEdit.php"><button type="button" class="btn btn-raised btn-default waves-effect"> <i class="material-icons">mode_edit</i></button></a></td>
                                     </tr>
 

@@ -117,9 +117,9 @@
                                             </div>
                                         </div>
                                     </div>
-                                        <div class="btn-control text-align">
-                                            <button type="button" class="btn btn-raised btn-default __redvitality waves-effect">ค้นหา</button>
-                                        </div>
+                                    <div class="btn-control text-align">
+                                        <button type="button" class="btn btn-raised btn-default __redvitality waves-effect">ค้นหา</button>
+                                    </div>
                                 </form>
 
                             </div>
@@ -163,7 +163,7 @@
                                             <th>เลขที่หุ้น</th>
                                             <th>จำนวนหุ้น</th>
                                             <th>มูลค่ารวม</th>
-                                            <th>วันที่ปลดจำนำ</th>
+                                            <th>วันที่ปลอดจำนำ</th>
                                             <th>ยอดชำระ</th>
                                             <th>สถานที่จัดเก็บใบหุ้น</th>
                                             <th>สถานะ</th>
@@ -181,7 +181,7 @@
                                             <td>30 ต.ค. 2550</td>
                                             <td>1,100,0000</td>
                                             <td>สำนักงาน</td>
-                                            <td>ปลดจำนำ</td>
+                                            <td>ปลอดจำนำ</td>
                                             <td><a href="stockMarketAddEdit.php"><button type="button" class="btn btn-raised btn-default waves-effect"> <i class="material-icons">mode_edit</i></button></a></td>
                                         </tr>
                                         <tr v-for="data in dataTableShow" :key="data.id">
@@ -194,7 +194,7 @@
                                             <td>30 ต.ค. 2550</td>
                                             <td>1,100,0000</td>
                                             <td>สำนักงาน</td>
-                                            <td>ปลดจำนำ</td>
+                                            <td>ปลอดจำนำ</td>
                                             <td><a href="stockMarketAddEdit.php"><button type="button" class="btn btn-raised btn-default waves-effect"> <i class="material-icons">mode_edit</i></button></a></td>
                                         </tr>
                                         <tr v-for="data in dataTableShow" :key="data.id">
@@ -207,7 +207,7 @@
                                             <td>30 ต.ค. 2550</td>
                                             <td>1,100,0000</td>
                                             <td>สำนักงาน</td>
-                                            <td>ปลดจำนำ</td>
+                                            <td>ปลอดจำนำ</td>
                                             <td><a href="stockMarketAddEdit.php"><button type="button" class="btn btn-raised btn-default waves-effect"> <i class="material-icons">mode_edit</i></button></a></td>
                                         </tr>
                                         <tr v-for="data in dataTableShow" :key="data.id">
@@ -220,7 +220,7 @@
                                             <td>30 ต.ค. 2550</td>
                                             <td>1,100,0000</td>
                                             <td>สำนักงาน</td>
-                                            <td>ปลดจำนำ</td>
+                                            <td>ปลอดจำนำ</td>
                                             <td><a href="stockMarketAddEdit.php"><button type="button" class="btn btn-raised btn-default waves-effect"> <i class="material-icons">mode_edit</i></button></a></td>
                                         </tr>
                                         <tr v-for="data in dataTableShow" :key="data.id">
@@ -233,7 +233,7 @@
                                             <td>30 ต.ค. 2550</td>
                                             <td>1,100,0000</td>
                                             <td>สำนักงาน</td>
-                                            <td>ปลดจำนำ</td>
+                                            <td>ปลอดจำนำ</td>
                                             <td><a href="stockMarketAddEdit.php"><button type="button" class="btn btn-raised btn-default waves-effect"> <i class="material-icons">mode_edit</i></button></a></td>
 
                                         </tr>
@@ -246,9 +246,8 @@
                     </div>
                 </div>
             </div>
-
-
             <!-- footer -->
+            <?php include('../view/footer.php'); ?>
         </div>
     </section>
 

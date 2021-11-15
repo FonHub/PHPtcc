@@ -148,46 +148,46 @@
                                             <table class="table table-hover">
                                                 <thead>
                                                     <tr>
-                                                        <th style="width:60px;">#</th>
                                                         <th>วันที่</th>
                                                         <th>เลขทะเบียนนิติบุคคล</th>
-                                                        <th>ผู้ถือหุ้น</th>
-                                                        <th>กลุ่มธุรกิจหลัก</th>
-                                                        <th>ทุนจดทะเบียน (บาท)</th>
+                                                        <th>บริษัทเจ้าของหุ้น</th>
+                                                        <th>ทุนจดทะเบียน(จัดตั้งบริษัท)</th>
+                                                        <th>ทุนจดทะเบียน(ปัจจุบัน)</th>
                                                         <th>จำนวนหุ้นทั้งหมด</th>
+                                                        <th>มูลค่าหุ้นละ</th>
+                                                        <th>เพิ่มทุน</th>
+                                                        <th>ลดทุน</th>
                                                         <th>Action</th>
                                                     </tr>
                                                 </thead>
                                                 <tbody>
-                                                    <tr v-for="data in dataTableShow" :key="data.id">
-                                                        <td>1</td>
-                                                        <td>15 เม.ย. 2564</td>
+                                                    <tr>
+                                                        <td>18 ก.ย. 56</td><!-- ใบหุ้นลงวันที่-->
                                                         <td>0103564000029</td>
-                                                        <td>หจ.แอล.พี.เจ. คลาวด์</td>
-                                                        <td>บริการพื้นที่จัดเก็บข้อมูลอิเล็กทรอนิคส์</td>
-                                                        <td>30,000,000.00</td>
-                                                        <td>30,000,000.00</td>
-                                                        <td><a href="stock_AddEdit.php"><button type="button" class="btn btn-raised btn-default waves-effect"> <i class="material-icons">mode_edit</i></button></a></td>
+                                                        <td>บจ. ชิวา1982 จำกัด</td><!-- บริษัท-->
+                                                        <td>30,000,000.00</td><!-- ทุนจดทะเบียน(จัดตั้งบริษัท)-->
+                                                        <td>60,000,000.00</td><!-- ทุนจดทะเบียน(ปัจจุบัน)-->
+                                                        <td>15,000,000.00</td><!-- จำนวนหุ้นทั้งหมด-->
+                                                        <td>10.00</td><!-- มูลค่าหุ้นละ -->
+                                                        <td>
+                                                            <p class="font-bold col-teal">+15,000,000.00</p>
+                                                        </td><!-- เพิ่มมูลค่า (บาท)-->
+                                                        <td>-</td><!-- ลดทุน (บาท)-->
+                                                        <td><a href="IncreaseHistory01.php"><button type="button" class="btn btn-raised btn-default waves-effect"> <i class="material-icons">visibility</i></button></a></td>
                                                     </tr>
-                                                    <tr v-for="data in dataTableShow" :key="data.id">
-                                                        <td>2</td>
-                                                        <td>15 เม.ย. 2564</td>
-                                                        <td>0505564001589</td>
-                                                        <td>บจ.สตาร์ วีซ่า อินเตอร์เนชั่นแนล เซอร์วิส จำกัด</td>
-                                                        <td>บริการขอวีซ่า</td>
-                                                        <td>10,000,000.00</td>
-                                                        <td>5,000,000.00</td>
-                                                        <td><a href="stock_AddEdit.php"><button type="button" class="btn btn-raised btn-default waves-effect"> <i class="material-icons">mode_edit</i></button></a></td>
-                                                    </tr>
-                                                    <tr v-for="data in dataTableShow" :key="data.id">
-                                                        <td>3</td>
-                                                        <td>15 เม.ย. 2564</td>
-                                                        <td>0505564001619</td>
-                                                        <td>บจ.มิลเลี่ยนกรุ๊ป คอนซัลท์ จำกัด</td>
-                                                        <td>บริการขอวีซ่า</td>
-                                                        <td>50,000,000.00</td>
-                                                        <td>20,000,000.00</td>
-                                                        <td><a href="stock_AddEdit.php"><button type="button" class="btn btn-raised btn-default waves-effect"> <i class="material-icons">mode_edit</i></button></a></td>
+                                                    <tr>
+                                                        <td>1 ก.ย. 56</td><!-- ใบหุ้นลงวันที่-->
+                                                        <td>บจ.ซีเอ็นที สตาร์ จำกัด</td><!-- บริษัท-->
+                                                        <td>0103564000029</td>
+                                                        <td>30,000,000.00</td><!-- ทุนจดทะเบียน(จัดตั้งบริษัท)-->
+                                                        <td>40,000,000.00</td><!-- ทุนจดทะเบียน(ปัจจุบัน)-->
+                                                        <td>10,000,000.00</td><!-- จำนวนหุ้นทั้งหมด-->
+                                                        <td>10.00</td><!-- มูลค่าหุ้นละ -->
+                                                        <td>-</td><!-- เพิ่มมูลค่า (บาท)-->
+                                                        <td>
+                                                            <p class="font-bold col-pink">-10,000,000.00</p>
+                                                        </td><!-- ลดมูลค่า (บาท) -->
+                                                        <td><a href="ReductionHistory01.php"><button type="button" class="btn btn-raised btn-default waves-effect"> <i class="material-icons">visibility</i></button></a></td>
                                                     </tr>
                                                 </tbody>
                                             </table>

@@ -279,7 +279,6 @@
                         </div>
                         <div>
                             <div class="row clearfix">
-
                                 <div class="col-lg-1 col-md-1"><b>กลุ่ม <span class="red">*</span></b>
                                     <div class="form-group">
                                         <select class="form-control show-tick">

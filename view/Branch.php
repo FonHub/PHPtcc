@@ -361,6 +361,12 @@
                                         </div>
                                     </div>
                                 </form>
+                                <div class="btn-control text-align">
+                                    <a href="#cancel"></a><button type="reset" class="btn btn-raised bg-grey waves-effect">
+                                        ยกเลิก
+                                    </button>
+                                    <a href="#save"></a><button type="button" class="btn btn-raised btn-default __redvitality waves-effect"> บันทึก </button>
+                                </div>
 
                             </div>
                         </div>

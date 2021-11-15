@@ -147,57 +147,43 @@
                                             <table class="table table-hover">
                                                 <thead>
                                                     <tr>
-                                                        <th style="width:60px;">#</th>
+                                                        <th>วันที่</th>
                                                         <th>เลขทะเบียนนิติบุคคล</th>
-                                                        <th>ผู้ถือหุ้น</th>
-                                                        <th>กลุ่มธุรกิจหลัก</th>
-                                                        <th>เงินปันผล</th>
-                                                        <th>วันที่ประกาศ</th>
-                                                        <th>วันที่ปันผล</th>
-                                                        <th>วันที่ส่งเงิน</th>
-                                                        <th>วันที่ชำระเงิน</th>
+                                                        <th>บริษัทเจ้าของหุ้น</th>
+                                                        <th>เงินลงทุนทั้งหมด</th>
+                                                        <th>จำนวนหุ้นทั้งหมด</th>
+                                                        <th>เงินปันผลมูลค่า(บาท/หุ้น)</th>
+                                                        <th>วันปิดสมุดทะเบียน</th>
+                                                        <th>วันที่จ่ายเงินปันผล</th>
                                                         <th>Action</th>
                                                     </tr>
                                                 </thead>
                                                 <tbody>
                                                     <tr v-for="data in dataTableShow" :key="data.id">
-                                                        <td>1</td>
+                                                        <td>18 ก.ย. 56</td>
                                                         <td>0103564000029</td>
-                                                        <td>หจ.แอล.พี.เจ. คลาวด์</td>
-                                                        <td>บริการพื้นที่จัดเก็บข้อมูลอิเล็กทรอนิคส์</td>
-                                                        <td>1,000,000.00</td>
-                                                        <td>1/10/2564</td>
-                                                        <td>1/11/2564</td>
-                                                        <td>1/11/2564</td>
-                                                        <td>30 ต.ค. 2550</td>
-                                                        <td><a href="stock_AddEdit.php"><button type="button" class="btn btn-raised btn-default waves-effect"> <i class="material-icons">mode_edit</i></button></a></td>
+                                                        <td>บจ. ชิวา1982 จำกัด</td>
+                                                        <td>30,000,000.00</td>
+                                                        <td>30,000,000.00</td>
+                                                        <td>15.00</td>
+                                                        <td>18 ก.ย. 56</td>
+                                                        <td>01 ธ.ค. 56</td>
+                                                        <td><a href="DividendLotHistory.php"><button type="button" class="btn btn-raised btn-default waves-effect"> <i class="material-icons">visibility</i></button></a></td>
                                                     </tr>
                                                     <tr v-for="data in dataTableShow" :key="data.id">
-                                                        <td>2</td>
-                                                        <td>0505564001589</td>
-                                                        <td>บจ.สตาร์ วีซ่า อินเตอร์เนชั่นแนล เซอร์วิส จำกัด</td>
-                                                        <td>บริการขอวีซ่า</td>
-                                                        <td>100,000.00</td>
-                                                        <td>1/5/2560</td>
-                                                        <td>1/6/2560</td>
-                                                        <td>1/7/2560</td>
-                                                        <td>1/8/2560</td>
-                                                        <td><a href="stock_AddEdit.php"><button type="button" class="btn btn-raised btn-default waves-effect"> <i class="material-icons">mode_edit</i></button></a></td>
-                                                    </tr>
-                                                    <tr v-for="data in dataTableShow" :key="data.id">
-                                                        <td>3</td>
-                                                        <td>0505564001619</td>
-                                                        <td>บจ.มิลเลี่ยนกรุ๊ป คอนซัลท์ จำกัด</td>
-                                                        <td>บริการขอวีซ่า</td>
-                                                        <td>200,000.00</td>
-                                                        <td>1/5/2560</td>
-                                                        <td>1/6/2560</td>
-                                                        <td>1/7/2560</td>
-                                                        <td>1/8/2560</td>
-                                                        <td><a href="stock_AddEdit.php"><button type="button" class="btn btn-raised btn-default waves-effect"> <i class="material-icons">mode_edit</i></button></a></td>
+                                                        <td>18 ก.ย. 56</td>
+                                                        <td>0103564000029</td>
+                                                        <td>บจ.ซีเอ็นที สตาร์ จำกัด</td>
+                                                        <td>30,000,000.00</td>
+                                                        <td>30,000,000.00</td>
+                                                        <td>5.00</td>
+                                                        <td>18 ก.ย. 55</td>
+                                                        <td>01 ธ.ค. 55</td>
+                                                        <td><a href="DividendLotHistory.php"><button type="button" class="btn btn-raised btn-default waves-effect"> <i class="material-icons">visibility</i></button></a></td>
                                                     </tr>
                                                 </tbody>
                                             </table>
+
                                         </div>
                                     </div>
                                 </div>

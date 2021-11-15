@@ -1,19 +1,18 @@
 <div>
-
     <!-- bar function-->
     <div class="btn_function">
-        <div class="__box">
-            <div class="_update">
-                <a href="../view/DividendLot.php" target="_blank">
+        <div class="__box width80">
+            <div class="_addlot">
+                <a href="../view/StockMarDividendAdd.php" target="_blank">
                     <button type="button" class="btn btn-default">
-                        <i class="material-icons">sync</i>
+                        <i class="material-icons">add</i> <br>
                         <span class="function-name">อัพเดต</span>
                     </button>
                 </a>
             </div>
         </div>
     </div>
-    <!-- table-->
+    <!-- table -->
     <div class="body table-responsive company-list">
         <table class="table table-hover">
             <thead>
@@ -55,4 +54,5 @@
             </tbody>
         </table>
     </div>
+
 </div>

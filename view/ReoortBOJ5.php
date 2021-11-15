@@ -312,6 +312,40 @@
                                         </div>
                                     </div>
                                 </div>
+                                <div class="row clearfix">
+                                    <div class="col-lg-1 col-md-1"><b>กลุ่ม <span class="red">*</span></b>
+                                        <div class="form-group">
+                                            <select class="form-control show-tick">
+                                                <optgroup label="กลุ่ม">
+                                                    <option> 1</option>
+                                                    <option> 2</option>
+                                                    <option> 3</option>
+                                                    <option> 4</option>
+                                                    <option> 5</option>
+                                                </optgroup>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6"><b>กรรมการ<span class="red">*</span></b>
+                                        <div class="form-group">
+                                            <select class="form-control show-tick">
+                                                <optgroup label="รายชื่อกรรมการ">
+                                                    <option> นาย วิชัย วชิรพงศ์</option>
+                                                    <option> นาง มณีรัตน์ งามเรืองพงศ์</option>
+                                                </optgroup>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-1 col-md-1"><b>Running<span class="red">*</span></b>
+                                        <div class="input-group">
+                                            <div class="form-line">
+                                                <input type="text" class="form-control ip" placeholder="1" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
                             </form>
                         </div>
                         <div class="modal-footer">
