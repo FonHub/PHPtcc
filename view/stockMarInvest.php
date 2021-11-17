@@ -7,7 +7,7 @@
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <meta name="description" content="Responsive Bootstrap 4 and web Application ui kit.">
 
-    <title>ลงทุน/ถือหุ้น</title>
+    <title>ผู้ถือหุ้น</title>
     <?php include('../view/linkhead.php'); ?>
 
 </head>
@@ -30,7 +30,7 @@
             <div class="row">
                 <div class="col-lg-7 col-md-6 col-sm-12">
                     <h2>
-                        ลงทุน/ถือหุ้น
+                        ผู้ถือหุ้น
                     </h2>
                 </div>
             </div>
@@ -41,9 +41,7 @@
                 <div class="row clearfix">
                     <div class="col-sm-12 col-md-12 col-lg-12">
                         <div class="card">
-
                             <div class="body">
-
                                 <!-- form -->
                                 <form class="form-horizontal box__director">
                                     <!-- row -->
@@ -104,6 +102,7 @@
                                                     <input type="radio" class="with-gap" id="ig_radio_mk1">
                                                     <label for="ig_radio_mk1">จำนำ</label>
                                                 </span>
+                                                <a href="../view/stockMarPledged.php" target="_blank" style="margin-left: 60px;"><span class="red">*</span></a>
                                             </div>
                                         </div>
                                         <div class="col-lg-2 col-md-2">
@@ -111,6 +110,7 @@
                                                 <span class="input-group-addon">
                                                     <input type="radio" class="with-gap" id="ig_radio_mk2">
                                                     <label for="ig_radio_mk2">ปลอดจำนำ</label>
+                                                    <a href="../view/stockMarPledgedCancel.php" target="_blank" style="margin-left: 5px;"><span class="red">*</span></a>
                                                 </span>
                                             </div>
                                         </div>
@@ -123,8 +123,6 @@
                                         ยกเลิก
                                     </button>
                                     <a href="#save"></a><button type="button" class="btn btn-raised btn-default __redvitality waves-effect"> บันทึก </button>
-                                    <a href="../view/stockMarPledged.php" target="_blank">จำนำ</a>
-                                    <a href="../view/stockMarPledgedCancel.php" target="_blank">ปลอดจำนำ</a>
                                 </div>
 
 

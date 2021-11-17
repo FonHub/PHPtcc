@@ -168,14 +168,14 @@
                                             <div class="col-lg-6 col-md-6 color-sum"><b>ยอดชำระรวมทั้งหมด<span class="red">*</span></b>
                                                 <div class="input-group">
                                                     <div class="disabled">
-                                                        <input type="text" class="form-control ip" placeholder="100,000" />
+                                                        <input type="text" class="color-sum" placeholder="100,000" />
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="col-lg-6 col-md-6 color-li"><b>ยอดค้างชำระรวมทั้งหมด<span class="red">*</span></b>
+                                            <div class="col-lg-6 col-md-6 color-li"><b>ยอดค้างชำระ<span class="red">*</span></b>
                                                 <div class="input-group">
                                                     <div class="disabled">
-                                                        <input type="text" class="form-control ip" placeholder="200,000" />
+                                                        <input type="text" class="color-li" placeholder="200,000" />
                                                     </div>
                                                 </div>
                                             </div>
@@ -215,7 +215,7 @@
                                                 <th>ยอดชำระ</th>
                                                 <th>%การเรียกชำระ</th>
                                                 <th>ยอดชำระรวมทั้งหมด</th>
-                                                <th>ยอดค้างชำระรวมทั้งหมด</th>
+                                                <th>ยอดค้างชำระ</th>
                                             </tr>
                                         </thead>
                                         <tbody>

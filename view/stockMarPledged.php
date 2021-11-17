@@ -150,6 +150,56 @@
                     </div>
                 </div>
             </section>
+            <!-- History -->
+            <div id="company_detail">
+                <div class="row clearfix">
+                    <div class="col-sm-12 col-md-12 col-lg-12">
+                        <div class="card">
+                            <div class="header">
+                                <h2>ประวัติหุ้น</h2>
+                            </div>
+                            <div class="body">
+                                <!-- table -->
+                                <div class="body table-responsive company-list">
+                                    <table class="table table-hover">
+                                        <thead>
+                                            <tr>
+                                                <th style="width: 60px">ครั้งที่</th>
+                                                <th>วันที่ออกใบหุ้น</th>
+                                                <th>เลขที่ใบหุ้น</th>
+                                                <th>หมายเลขหุ้น</th>
+                                                <th>จำนวนหุ้น</th>
+                                                <th>วันที่ปลดจำนำ</th>
+                                                <th>แนบเอกสาร</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>1</td>
+                                                <td>1 ต.ค. 2550</td>
+                                                <td>1</td>
+                                                <td>5</td>
+                                                <td>200,000</td>
+                                                <td>1 ต.ค. 2560</td>
+                                                <td>-</td>
+                                            </tr>
+                                            <tr>
+                                                <td>2</td>
+                                                <td>1 ต.ค. 2550</td>
+                                                <td>1</td>
+                                                <td>5</td>
+                                                <td>200,000</td>
+                                                <td>1 ต.ค. 2560</td>
+                                                <td>-</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <!-- footer -->
             <?php include('../view/footer.php'); ?>
         </div>

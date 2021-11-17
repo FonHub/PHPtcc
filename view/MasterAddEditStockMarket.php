@@ -262,6 +262,102 @@
                                                 </div>
                                             </div>
                                         </div>
+                                        <div class="row clearfix">
+                                            <div class="col-lg-1 col-md-1">
+                                                <b>IDCode</b>
+                                                <div class="input-group">
+                                                    <input type="text" class="form-control disabled" placeholder="1" disabled />
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4 col-md-4">
+                                                <b>ธนาคาร</b>
+                                                <div class="form-group">
+                                                    <select class="form-control show-tick">
+                                                        <optgroup label="กรุณาเลือก">
+                                                            <option>ธนาคารกสิกรไทย </option>
+                                                            <option>ธนาคารไทยพาณิชย์ </option>
+                                                            <option>เพิ่มใหม่</option>
+                                                        </optgroup>
+                                                    </select><!-- From Master -->
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4 col-md-4">
+                                                <b>เพิ่ม, ลบ หรือแก้ไขข้อมูล</b>
+                                                <div class="input-group">
+                                                    <div class="form-line">
+                                                        <input type="text" class="form-control" placeholder="" />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3 col-md-3">
+                                                <!-- bar function-->
+                                                <div class="btn_function">
+                                                    <div class="__box">
+                                                        <div class="_update">
+                                                            <button type="button" class="btn btn-default"><i class="material-icons">sync</i></button>
+                                                        </div>
+                                                    </div>
+                                                    <div class="__box">
+                                                        <div class="_add">
+                                                            <button type="button" class="btn btn-default"><i class="material-icons">add</i></button>
+                                                        </div>
+                                                    </div>
+                                                    <div class="__box">
+                                                        <div class="_remove">
+                                                            <button type="button" class="btn btn-default"><i class="material-icons">remove</i></button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row clearfix">
+                                            <div class="col-lg-1 col-md-1">
+                                                <b>IDCode</b>
+                                                <div class="input-group">
+                                                    <input type="text" class="form-control disabled" placeholder="1" disabled />
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4 col-md-4">
+                                                <b>หมวดหมู่การบันทึก</b>
+                                                <div class="form-group">
+                                                    <select class="form-control show-tick">
+                                                        <optgroup label="กรุณาเลือก">
+                                                            <option>หมวดหมู่การบันทึก 1</option>
+                                                            <option>หมวดหมู่การบันทึก 2</option>
+                                                            <option>เพิ่มใหม่</option>
+                                                        </optgroup>
+                                                    </select><!-- From Master -->
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4 col-md-4">
+                                                <b>เพิ่ม, ลบ หรือแก้ไขข้อมูล</b>
+                                                <div class="input-group">
+                                                    <div class="form-line">
+                                                        <input type="text" class="form-control" placeholder="" />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3 col-md-3">
+                                                <!-- bar function-->
+                                                <div class="btn_function">
+                                                    <div class="__box">
+                                                        <div class="_update">
+                                                            <button type="button" class="btn btn-default"><i class="material-icons">sync</i></button>
+                                                        </div>
+                                                    </div>
+                                                    <div class="__box">
+                                                        <div class="_add">
+                                                            <button type="button" class="btn btn-default"><i class="material-icons">add</i></button>
+                                                        </div>
+                                                    </div>
+                                                    <div class="__box">
+                                                        <div class="_remove">
+                                                            <button type="button" class="btn btn-default"><i class="material-icons">remove</i></button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </form>
                                 </div>
                             </div>

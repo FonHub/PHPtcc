@@ -15,16 +15,26 @@
                             <li><a href="../view/company.php"><i class="zmdi zmdi-home"></i><span>ทะเบียนบริษัท</span></a></li>
                             <li><a href="../view/stock.php"><i class="zmdi zmdi-trending-up"></i><span>ทะเบียนหุ้น</span></a></li>
                             <li><a href="../view/stockMarket.php"><i class="zmdi zmdi-globe-alt"></i><span>หุ้นตลาด</span></a></li>
-                            <li><a href="../view/MasterAddEditCompany.php"><i class="zmdi zmdi-view-module"></i><span>Masterบริษัท</span></a></li>
-                            <li><a href="../view/ReoortStockNo.php"><i class="zmdi zmdi-folder"></i><span>สมุดทะเบียน</span></a></li>
+                            <li><a href="../view/Master.php"><i class="zmdi zmdi-view-module"></i><span>Masterบริษัท</span></a></li>
+                            <li><a href="#"><i class="zmdi zmdi-folder"></i><span>รายงานบริษัท</span></a></li>
+                            <li><a href="#"><i class="zmdi zmdi-folder"></i><span>รายงานหุ้น</span></a></li>
+                            <li><a href="#"><i class="zmdi zmdi-folder"></i><span>รายงานหุ้นตลาด</span></a></li>
                         </ul>
                     </li>
                 </ul>
             </li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
+            <li><a href="javascript:void(0);" class="js-search" data-close="true"><i class="zmdi zmdi-search"></i></a></li>
             <li><a href="../view/login.php" class="mega-menu xs-hide" data-close="true"><i class="zmdi zmdi-power"></i></a></li>
             <li><a href="javascript:void(0);" class="js-right-sidebar" data-close="true"><i class="zmdi zmdi-settings zmdi-hc-spin"></i></a></li>
         </ul>
     </div>
 </nav>
+<!-- Overlay For Sidebars -->
+<div class="overlay"></div><!-- Search  -->
+<div class="search-bar">
+    <div class="search-icon"> <i class="material-icons">search</i> </div>
+    <input type="text" placeholder="Explore Nexa...">
+    <div class="close-search"> <i class="material-icons">close</i> </div>
+</div>

@@ -110,40 +110,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="h20"></div>
                                     <div class="row clearfix">
-                                        <div class="col-lg-5 col-md-5">
-                                            <div class="input-group input-group-lg margin-b0">
-                                                <span class="input-group-addon">
-                                                    <input type="radio" class="with-gap" id="ig_radio_cf1">
-                                                    <label for="ig_radio_cf1"><b>ปลอดจำนำ : <span class="red"> ใบหุ้น (จัดเก็บสำนักงาน)*</span></b></label>
-                                                </span>
-                                            </div>
-                                        </div>
-                                        <div class="form-line">
-                                            <input type="text" class="form-control" placeholder="00000001">
-                                        </div>
-                                    </div>
-                                    <div class="row clearfix">
-                                        <div class="col-lg-4 col-md-4"> <b>ประเภทเอกสารที่จัดเก็บ<span class="red">*</span></b>
-                                            <div class="form-group">
-                                                <select class="form-control show-tick">
-                                                    <optgroup label="กรุณาเลือก">
-                                                        <option>สัญญาซื้อขายหุ้น</option>
-                                                        <option>สมุดทะเบียนหุ้น</option>
-                                                        <option>ใบหุ้น (ยกเลิก)</option>
-                                                        <option>ใบหุ้น (ลงทุน)</option>
-                                                    </optgroup>
-                                                </select><!-- From Master -->
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-2 col-md-2"> <b>เลขลำดับเอกสาร<span class="red">*</span></b>
-                                            <div class="input-group">
-                                                <div class="form-line">
-                                                    <input type="text" class="form-control" placeholder="00000001">
-                                                </div>
-                                            </div>
-                                        </div>
                                         <div class="col-lg-2 col-md-2">
                                             <b>แนบเอกสาร<span class="red">*</span></b>
                                             <div class="input-group">
@@ -154,6 +121,20 @@
                                             </div>
                                         </div>
                                     </div>
+                                    <div class="h20"></div>
+                                    <div class="row clearfix">
+                                        <div class="col-lg-5 col-md-5">
+                                            <b>ปลอดจำนำ : <span class="red"> ใบหุ้น (จัดเก็บสำนักงาน)*</span></b>
+                                            <div class="input-group input-group-lg margin-b0">
+                                                <span class="input-group-addon">
+                                                    <input type="radio" class="with-gap" id="ig_radio_cf1">
+                                                    <label for="ig_radio_cf1"></label>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="h20"></div>
+
                                     <div class="row clearfix">
                                         <div class="col-lg-4 col-md-4"> <b>สถานที่เก็บเอกสาร<span class="red">*</span></b>
                                             <div class="form-group">
@@ -175,13 +156,6 @@
                                                 </select><!-- From Master -->
                                             </div>
                                         </div>
-                                        <div class="col-lg-4 col-md-4"> <b>เลขลำดับเอกสาร<span class="red">*</span></b>
-                                            <div class="input-group">
-                                                <div class="form-line">
-                                                    <input type="text" class="form-control" placeholder="000000001">
-                                                </div>
-                                            </div>
-                                        </div>
                                     </div>
                                     <div class="row clearfix">
                                         <div class="col-lg-12 col-md-12"> <b>หมายเหตุ<span class="red">*</span></b>
@@ -195,18 +169,17 @@
                                     <div class="h20"></div>
                                     <div class="row clearfix">
                                         <div class="col-lg-5 col-md-5">
+                                            <b>ปลอดจำนำ : <span class="red"> ใบหุ้น (ฝากธนาคาร)*</span></b>
                                             <div class="input-group input-group-lg margin-b0">
                                                 <span class="input-group-addon">
                                                     <input type="radio" class="with-gap" id="ig_radio_cf2">
-                                                    <label for="ig_radio_cf2"><b>ปลอดจำนำ : <span class="red"> ใบหุ้น (ฝากธนาคาร)*</span></b></label>
+                                                    <label for="ig_radio_cf2"></label>
                                                 </span>
                                             </div>
                                         </div>
-                                        <div class="form-line">
-                                            <input type="text" class="form-control" placeholder="00000001">
-                                        </div>
                                     </div>
-                                    <div>
+                                    <div class="h20"></div>
+                                    <div class="row clearfix">
                                         <div class="col-lg-3 col-md-3">
                                             <b>วันที่ฝาก<span class="red">*</span></b>
                                             <div class="input-group">
@@ -244,17 +217,16 @@
                                     <div class="h20"></div>
                                     <div class="row clearfix">
                                         <div class="col-lg-5 col-md-5">
+                                            <b>ปลอดจำนำ : <span class="red"> หุ้นอยู่ในบริษัทหลักทรัพย์*</span></b>
                                             <div class="input-group input-group-lg margin-b0">
                                                 <span class="input-group-addon">
                                                     <input type="radio" class="with-gap" id="ig_radio_cf3">
-                                                    <label for="ig_radio_cf3"><b>ปลอดจำนำ : <span class="red"> หุ้นอยู่ในบริษัทหลักทรัพย์*</span></b></label>
+                                                    <label for="ig_radio_cf3"></label>
                                                 </span>
                                             </div>
                                         </div>
-                                        <div class="form-line">
-                                            <input type="text" class="form-control" placeholder="00000001">
-                                        </div>
                                     </div>
+                                    <div class="h20"></div>
                                     <div class="row clearfix">
                                         <div class="col-lg-3 col-md-3">
                                             <b>วันที่นำหุ้นเข้าบริษัทหลักทรัพย์<span class="red">*</span></b>
@@ -264,11 +236,69 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-lg-12 col-md-12">
+                                    </div>
+                                    <div class="row clearfix">
+                                        <div class="col-lg-5 col-md-5">
+                                            <b>ชื่อบริษัทหลักทรัพย์<span class="red">*</span></b>
+                                            <div class="input-group">
+                                                <div class="form-line">
+                                                    <input type="text" class="form-control" placeholder="บริษัทหลักทรัพย์จัดการกองทุน" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-5 col-md-5">
                                             <b>จำนวนหุ้น<span class="red">*</span></b>
                                             <div class="input-group">
                                                 <div class="form-line">
-                                                    <input type="text" class="form-control" placeholder="00000" />
+                                                    <input type="text" class="form-control" placeholder="10,000,000.00" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-2 col-md-2 master_function">
+                                            <!-- bar function-->
+                                            <div class="btn_function">
+                                                <div class="__box">
+                                                    <div class="_add">
+                                                        <button type="button" class="btn btn-default"><i class="material-icons">add</i></button>
+                                                    </div>
+                                                </div>
+                                                <div class="__box">
+                                                    <div class="_remove">
+                                                        <button type="button" class="btn btn-default"><i class="material-icons">remove</i></button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row clearfix">
+                                        <div class="col-lg-5 col-md-5">
+                                            <b>ชื่อบริษัทหลักทรัพย์<span class="red">*</span></b>
+                                            <div class="input-group">
+                                                <div class="form-line">
+                                                    <input type="text" class="form-control" placeholder="บริษัทหลักทรัพย์จัดการกองทุน" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-5 col-md-5">
+                                            <b>จำนวนหุ้น<span class="red">*</span></b>
+                                            <div class="input-group">
+                                                <div class="form-line">
+                                                    <input type="text" class="form-control" placeholder="10,000,000.00" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-2 col-md-2 master_function">
+                                            <!-- bar function-->
+                                            <div class="btn_function">
+                                                <div class="__box">
+                                                    <div class="_add">
+                                                        <button type="button" class="btn btn-default"><i class="material-icons">add</i></button>
+                                                    </div>
+                                                </div>
+                                                <div class="__box">
+                                                    <div class="_remove">
+                                                        <button type="button" class="btn btn-default"><i class="material-icons">remove</i></button>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -285,6 +315,65 @@
                     </div>
                 </div>
             </section>
+            <!-- History -->
+            <div id="company_detail">
+                <div class="row clearfix">
+                    <div class="col-sm-12 col-md-12 col-lg-12">
+                        <div class="card">
+                            <div class="header">
+                                <h2>ประวัติหุ้น</h2>
+                            </div>
+                            <div class="body">
+                                <!-- table -->
+                                <div class="body table-responsive company-list">
+                                    <table class="table table-hover">
+                                        <thead>
+                                            <tr>
+                                                <th style="width: 60px">ครั้งที่</th>
+                                                <th>วันที่ออกใบหุ้น</th>
+                                                <th>เลขที่ใบหุ้น</th>
+                                                <th>หมายเลขหุ้น</th>
+                                                <th>จำนวนหุ้น</th>
+                                                <th>สถานที่ใบหุ้น</th>
+                                                <th>แนบเอกสาร</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>1</td>
+                                                <td>1 ต.ค. 2550</td>
+                                                <td>1</td>
+                                                <td>5</td>
+                                                <td>200,000</td>
+                                                <td>ใบหุ้น : จัดเก็บสำนักงาน</td>
+                                                <td>-</td>
+                                            </tr>
+                                            <tr>
+                                                <td>2</td>
+                                                <td>1 ต.ค. 2550</td>
+                                                <td>1</td>
+                                                <td>5</td>
+                                                <td>200,000</td>
+                                                <td>ใบหุ้น : ฝากธนาคาร</td>
+                                                <td>-</td>
+                                            </tr>
+                                            <tr>
+                                                <td>3</td>
+                                                <td>15 ต.ค. 2550</td>
+                                                <td>1</td>
+                                                <td>5</td>
+                                                <td>200,000</td>
+                                                <td>ใบหุ้น : เข้าบริษัทหลักทรัพย์</td>
+                                                <td>-</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <!-- footer -->
             <?php include('../view/footer.php'); ?>
         </div>

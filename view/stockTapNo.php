@@ -150,7 +150,7 @@
                     <table class="table table-hover">
                         <thead>
                             <tr>
-                                <th>ผู้โอน</th>
+                                <th>ชื่อ</th>
                                 <th>ใบหุ้นเดิมเลขที่</th>
                                 <th>หุ้นหมายเลข จาก-ถึง</th>
                                 <th>จำนวนหุ้น</th>
