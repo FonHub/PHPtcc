@@ -157,6 +157,7 @@
                                     <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#StockMarSell">การซื้อขายหุ้น</a></li>
                                     <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#StockMarMeet">การประชุม/มอบฉันทะ</a></li>
                                     <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#StockMarDivid">การปันผล</a></li>
+                                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#StockMarHisName">เปลี่ยนแปลงชื่อผู้ถือหุ้น</a></li>
                                     <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#StockMarNote">บันทึกเพิ่มเติม</a></li>
                                 </ul>
                                 <!-- Tab panes -->
@@ -178,6 +179,10 @@
                                         <?php include('../view/stockMarDividend.php'); ?>
                                     </div>
                                     <!-- Tab panes 5-->
+                                    <div role="tabpanel" class="tab-pane" id="StockMarHisName">
+                                        <?php include('../view/StockMarTapHisName.php'); ?>
+                                    </div>
+                                    <!-- Tab panes 6-->
                                     <div role="tabpanel" class="tab-pane" id="StockMarNote">
                                         <?php include('../view/companyaddedit_tap-11.php'); ?>
                                     </div>

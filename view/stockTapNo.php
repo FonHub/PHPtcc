@@ -20,6 +20,16 @@
             </div>
         </div>
         <div class="__box width80">
+            <div class="_addlot">
+                <a href="../view/AddSplit.php" target="_blank">
+                    <button type="button" class="btn btn-default">
+                        <i class="material-icons">content_cut</i><br>
+                        <span class="function-name">แยกใบหุ้น </span>
+                    </button>
+                </a>
+            </div>
+        </div>
+        <div class="__box width80">
             <div class="_Sell">
                 <a href="../view/TransferLot.php" target="_blank">
                     <button type="button" class="btn btn-default">
@@ -301,6 +311,6 @@
         </div>
     </div>
 
-    
+
 
 </div>

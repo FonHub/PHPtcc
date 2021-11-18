@@ -21,6 +21,7 @@
                     <th>หมวดหมู่</th>
                     <th>บันทึกเพิ่มเติม</th>
                     <th>ชื่อผู้บันทึก</th>
+                    <th>แนบเอกสาร</th>
                 </tr>
             </thead>
             <tbody>
@@ -30,6 +31,7 @@
                     <td>หมวดหมู่ 1</td>
                     <td>ข้อความตัวอย่างเพื่อแสดงให้คุณเห็นว่าทำงานอย่างไร</td>
                     <td>ชื่อผู้ใช้ผู้บันทึก</td>
+                    <td>-</td>
                 </tr>
                 <tr>
                     <td>2</td>
@@ -37,6 +39,7 @@
                     <td>หมวดหมู่ 1</td>
                     <td>ข้อความตัวอย่างเพื่อแสดงให้คุณเห็นว่าทำงานอย่างไร</td>
                     <td>ชื่อผู้ใช้ผู้บันทึก</td>
+                    <td>-</td>
                 </tr>
                 <tr>
                     <td>3</td>
@@ -44,6 +47,7 @@
                     <td>หมวดหมู่ 1</td>
                     <td>ข้อความตัวอย่างเพื่อแสดงให้คุณเห็นว่าทำงานอย่างไร</td>
                     <td>ชื่อผู้ใช้ผู้บันทึก</td>
+                    <td>-</td>
                 </tr>
                 <tr>
                     <td>4</td>
@@ -51,6 +55,7 @@
                     <td>หมวดหมู่ 1</td>
                     <td>ข้อความตัวอย่างเพื่อแสดงให้คุณเห็นว่าทำงานอย่างไร</td>
                     <td>ชื่อผู้ใช้ผู้บันทึก</td>
+                    <td>-</td>
                 </tr>
                 <tr>
                     <td>5</td>
@@ -58,6 +63,7 @@
                     <td>หมวดหมู่ 1</td>
                     <td>ข้อความตัวอย่างเพื่อแสดงให้คุณเห็นว่าทำงานอย่างไร </td>
                     <td>ชื่อผู้ใช้ผู้บันทึก</td>
+                    <td>-</td>
                 </tr>
             </tbody>
         </table>
@@ -80,6 +86,15 @@
                                         <option>หมวดหมู่การบันทึก 2</option>
                                     </optgroup>
                                 </select><!-- From Master -->
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-2">
+                            <b>แนบเอกสาร<span class="red">*</span></b>
+                            <div class="input-group">
+                                <div class="form-line">
+                                    <input type="text" class="form-control" placeholder="" />
+                                </div>
+                                <span class="input-group-addon"> <i class="zmdi zmdi-attachment-alt"></i> </span>
                             </div>
                         </div>
                         <div class="col-md-12">
