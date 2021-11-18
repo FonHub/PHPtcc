@@ -99,7 +99,7 @@
                                             <div><b>เงินปันผลมูลค่า(บาท/หุ้น)</b>
                                                 <div class="input-group">
                                                     <div class="form-line">
-                                                        <input type="text" class="form-control" placeholder="0.03">
+                                                        <input type="text" class="form-control" placeholder="0.030">
                                                     </div>
                                                 </div>
                                             </div>
@@ -142,8 +142,6 @@
                                             <tr>
                                                 <th style="width:60px;">#</th>
                                                 <th>ผู้ถือหุ้นปัจจุบัน</th>
-                                                <th>ทะเบียน</th>
-                                                <th>ใบหุ้นเลขที่</th>
                                                 <th>จำนวนหุ้นทั้งหมด</th>
                                                 <th>เงินปันผล <br> มูลค่า(บาท/หุ้น)</th>
                                                 <th>จำนวนเงินปันผลทั้งหมด(บาท)</th>
@@ -155,10 +153,8 @@
                                             <tr v-for="data in dataTableShow" :key="data.id">
                                                 <td>1</td>
                                                 <td>บจ.ซีเอ็นที สตาร์ จำกัด</td>
-                                                <td>10</td>
-                                                <td>12</td>
                                                 <td>65,799,996</td>
-                                                <td>0.03</td>
+                                                <td>0.030</td>
                                                 <td>1,973,999.88</td>
                                                 <td>18 ก.ย. 56</td>
                                                 <td>01 ธ.ค. 56</td>
@@ -166,15 +162,24 @@
                                             <tr v-for="data in dataTableShow" :key="data.id">
                                                 <td>2</td>
                                                 <td>บจ.เพชรดีไซน์ เฟอร์นิเจอร์ จำกัด</td>
-                                                <td>11</td>
-                                                <td>8</td>
                                                 <td>1</td>
-                                                <td>0.03</td>
-                                                <td>0.03</td>
+                                                <td>0.030</td>
+                                                <td>0.030</td>
                                                 <td>18 ก.ย. 56</td>
                                                 <td>01 ธ.ค. 56</td>
                                             </tr>
                                         </tbody>
+                                        <tfoot>
+                                            <tr>
+                                                <th>#</th>
+                                                <th><strong>TOTAL</strong></th>
+                                                <th>65,799,997</th>
+                                                <th>0.030</th>
+                                                <th>1,973,999.910</th>
+                                                <th>-</th>
+                                                <th>-</th>
+                                            </tr>
+                                        </tfoot>
                                     </table>
                                 </div>
 

@@ -25,7 +25,6 @@
                         <th>ผู้มอบฉันทะ (ผู้ถือหุ้น)</th>
                         <th>คิดเป็นร้อยละ</th>
                         <th>ผู้รับมอบฉันทะเข้าร่วมประชุม</th>
-                        <th>Action</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -37,7 +36,6 @@
                         <td>บริษัทในกลุ่มทีซีซี ไพรเวท จำกัด</td>
                         <td>20</td>
                         <td>นาย วิชัย วชิรพงศ์</td>
-                        <td><a href="stockMarMeetAdd.php"><button type="button" class="btn btn-raised btn-default waves-effect"> <i class="material-icons">mode_edit</i></button></a></td>
                     </tr>
                     <tr>
                         <td>10 เม.ย.2564</td>
@@ -47,7 +45,6 @@
                         <td>บริษัททีซีซี ไพรเวท</td>
                         <td>10</td>
                         <td>นาง มณีรัตน์ งามเรืองพงศ์</td>
-                        <td><a href="stockMarMeetAdd.php"><button type="button" class="btn btn-raised btn-default waves-effect"> <i class="material-icons">mode_edit</i></button></a></td>
                     </tr>
                     <tr>
                         <td>1 เม.ย.2564</td>
@@ -57,7 +54,6 @@
                         <td>บริษัททีซีซี ไพรเวท</td>
                         <td>25</td>
                         <td>MR. SUNSHINE TAGALOG</td>
-                        <td><a href="stockMarMeetAdd.php"><button type="button" class="btn btn-raised btn-default waves-effect"> <i class="material-icons">mode_edit</i></button></a></td>
                     </tr>
 
                 </tbody>

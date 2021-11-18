@@ -76,91 +76,91 @@
                                                     <div class="width-45">
                                                         <div class="input-group">
                                                             <div class="form-line">
-                                                                <input type="text" class="form-control pd-l0" placeholder="1" maxlength="1" />
+                                                                <input type="text" class="form-control " placeholder="1" maxlength="1" />
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="width-45">
                                                         <div class="input-group">
                                                             <div class="form-line">
-                                                                <input type="text" class="form-control pd-l0" placeholder="1" maxlength="1" />
+                                                                <input type="text" class="form-control " placeholder="1" maxlength="1" />
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="width-45">
                                                         <div class="input-group">
                                                             <div class="form-line">
-                                                                <input type="text" class="form-control pd-l0" placeholder="1" maxlength="1" />
+                                                                <input type="text" class="form-control " placeholder="1" maxlength="1" />
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="width-45">
                                                         <div class="input-group">
                                                             <div class="form-line">
-                                                                <input type="text" class="form-control pd-l0" placeholder="1" maxlength="1" />
+                                                                <input type="text" class="form-control " placeholder="1" maxlength="1" />
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="width-45">
                                                         <div class="input-group">
                                                             <div class="form-line">
-                                                                <input type="text" class="form-control pd-l0" placeholder="1" maxlength="1" />
+                                                                <input type="text" class="form-control " placeholder="1" maxlength="1" />
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="width-45">
                                                         <div class="input-group">
                                                             <div class="form-line">
-                                                                <input type="text" class="form-control pd-l0" placeholder="1" maxlength="1" />
+                                                                <input type="text" class="form-control " placeholder="1" maxlength="1" />
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="width-45">
                                                         <div class="input-group">
                                                             <div class="form-line">
-                                                                <input type="text" class="form-control pd-l0" placeholder="1" maxlength="1" />
+                                                                <input type="text" class="form-control " placeholder="1" maxlength="1" />
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="width-45">
                                                         <div class="input-group">
                                                             <div class="form-line">
-                                                                <input type="text" class="form-control pd-l0" placeholder="1" maxlength="1" />
+                                                                <input type="text" class="form-control " placeholder="1" maxlength="1" />
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="width-45">
                                                         <div class="input-group">
                                                             <div class="form-line">
-                                                                <input type="text" class="form-control pd-l0" placeholder="1" maxlength="1" />
+                                                                <input type="text" class="form-control " placeholder="1" maxlength="1" />
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="width-45">
                                                         <div class="input-group">
                                                             <div class="form-line">
-                                                                <input type="text" class="form-control pd-l0" placeholder="1" maxlength="1" />
+                                                                <input type="text" class="form-control " placeholder="1" maxlength="1" />
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="width-45">
                                                         <div class="input-group">
                                                             <div class="form-line">
-                                                                <input type="text" class="form-control pd-l0" placeholder="1" maxlength="1" />
+                                                                <input type="text" class="form-control " placeholder="1" maxlength="1" />
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="width-45">
                                                         <div class="input-group">
                                                             <div class="form-line">
-                                                                <input type="text" class="form-control pd-l0" placeholder="1" maxlength="1" />
+                                                                <input type="text" class="form-control " placeholder="1" maxlength="1" />
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="width-45">
                                                         <div class="input-group">
                                                             <div class="form-line">
-                                                                <input type="text" class="form-control pd-l0" placeholder="1" maxlength="1" />
+                                                                <input type="text" class="form-control " placeholder="1" maxlength="1" />
                                                             </div>
                                                         </div>
                                                     </div>

@@ -15,7 +15,7 @@
                             <li><a href="../view/company.php"><i class="zmdi zmdi-home"></i><span>ทะเบียนบริษัท</span></a></li>
                             <li><a href="../view/stock.php"><i class="zmdi zmdi-trending-up"></i><span>ทะเบียนหุ้น</span></a></li>
                             <li><a href="../view/stockMarket.php"><i class="zmdi zmdi-globe-alt"></i><span>หุ้นตลาด</span></a></li>
-                            <li><a href="../view/Master.php"><i class="zmdi zmdi-view-module"></i><span>Masterบริษัท</span></a></li>
+                            <li><a href="../view/Master.php"><i class="zmdi zmdi-view-module"></i><span>Master</span></a></li>
                             <li><a href="#"><i class="zmdi zmdi-folder"></i><span>รายงานบริษัท</span></a></li>
                             <li><a href="#"><i class="zmdi zmdi-folder"></i><span>รายงานหุ้น</span></a></li>
                             <li><a href="#"><i class="zmdi zmdi-folder"></i><span>รายงานหุ้นตลาด</span></a></li>

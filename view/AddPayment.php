@@ -140,7 +140,7 @@
                                                 </div>
                                             </div>
                                             <div class="col-lg-3 col-md-3">
-                                                <b>ราคาตกลงซื้อขายมูลค่าหุ้นละ<span class="red">*</span></b>
+                                                <b>มูลค่าที่ชำระแล้ว<span class="red">*</span></b>
                                                 <div class="input-group">
                                                     <div class="form-line">
                                                         <input type="text" class="form-control" placeholder="1.00" />
@@ -214,6 +214,7 @@
                                                 <th>วันที่</th>
                                                 <th>ยอดชำระ</th>
                                                 <th>%การเรียกชำระ</th>
+                                                <th>มูลค่าที่ชำระแล้ว</th>
                                                 <th>ยอดชำระรวมทั้งหมด</th>
                                                 <th>ยอดค้างชำระ</th>
                                             </tr>
@@ -225,6 +226,7 @@
                                                 <td>100,000</td>
                                                 <td>5</td>
                                                 <td>200,000</td>
+                                                <td>300,000</td>
                                                 <td>500,000</td>
                                             </tr>
                                             <tr>
@@ -233,9 +235,21 @@
                                                 <td>100,000</td>
                                                 <td>5</td>
                                                 <td>100,000</td>
+                                                <td>100,000</td>
                                                 <td>600,000</td>
                                             </tr>
                                         </tbody>
+                                        <tfoot>
+                                            <tr>
+                                                <th>#</th>
+                                                <th><strong>TOTAL</strong></th>
+                                                <th>200,000</th>
+                                                <th>10</th>
+                                                <th>300,000</th>
+                                                <th>300,000</th>
+                                                <th>500,000</th>
+                                            </tr>
+                                        </tfoot>
                                     </table>
                                 </div>
                             </div>

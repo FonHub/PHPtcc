@@ -180,3 +180,20 @@
         }
     }
 }
+
+#panel1,
+#panel2,
+.flip {
+    padding: 10px;
+    border: solid 1px #ccc;
+    margin: auto;
+}
+
+#panel1,
+#panel2 {
+    display: none;
+}
+
+.padleft_25 {
+    padding-left: 25px;
+}
