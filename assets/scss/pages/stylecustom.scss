@@ -190,10 +190,27 @@
 }
 
 #panel1,
-#panel2 {
+#panel2,
+#panel3 {
     display: none;
 }
 
 .padleft_25 {
     padding-left: 25px;
+}
+
+.bg-red {
+    background: #9B1821 !important;
+}
+
+.color-wh {
+    color: rgb(207, 188, 188) !important;
+}
+
+.border-none {
+    border: none !important;
+}
+
+.padding-0 {
+    padding: 0 !important;
 }

@@ -50,22 +50,22 @@
                                     </div>
                                     <div class="master_function">
                                         <div class="btn_function">
-                                            <div class="__box width80 bg-red">
+                                            <div class="__box width80 ">
                                                 <div class="_Sell">
-                                                    <a href="#">
+                                                    <a href="stockMarSellbay.php">
                                                         <button type="button" class="btn  ">
                                                             <i class="material-icons">sync</i><br>
-                                                            <span class="function-name color-wh">ทั้งจำนวน</span>
+                                                            <span class="function-name ">ทั้งจำนวน</span>
                                                         </button>
                                                     </a>
                                                 </div>
                                             </div>
-                                            <div class="__box width80">
+                                            <div class="__box width80 bg-red">
                                                 <div class="_addlot">
-                                                    <a href="stockMarSellbaySplit.php">
+                                                    <a href="#">
                                                         <button type="button" class="btn ">
                                                             <i class="material-icons">content_cut</i><br>
-                                                            <span class="function-name ">แยกใบหุ้น </span>
+                                                            <span class="function-name color-wh">แยกใบหุ้น </span>
                                                         </button>
                                                     </a>
                                                 </div>
@@ -74,7 +74,7 @@
                                     </div>
                                 </div>
 
-                                <!-- form -->
+                                <!-- form Split -->
                                 <form class="form-horizontal box__director">
                                     <!-- No.1 -->
                                     <div class="row clearfix">
@@ -175,8 +175,25 @@
                                             </div>
                                         </div>
                                         <div class="col-lg-7 col-md-7">
-                                            <div class="block-header">
-                                                <h2>ผู้ซื้อ</h2>
+                                            <div class="row clearfix ">
+                                                <div class=" col-lg-3 col-md-3 block-header">
+                                                    <h2>ผู้ซื้อ</h2>
+                                                </div>
+                                                <div class="col-lg-3 col-md-3 master_function">
+                                                    <!-- bar function-->
+                                                    <div class="btn_function">
+                                                        <div class="__box">
+                                                            <div class="_add">
+                                                                <button type="button" class="btn btn-default"><i class="material-icons">add</i></button>
+                                                            </div>
+                                                        </div>
+                                                        <div class="__box">
+                                                            <div class="_remove">
+                                                                <button type="button" class="btn btn-default"><i class="material-icons">remove</i></button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
                                             </div>
                                             <div class="row clearfix">
                                                 <div class="col-lg-3 col-md-3">
@@ -252,6 +269,103 @@
                                         </div>
                                     </div>
                                     <!-- //No.1 -->
+                                    <div class="row clearfix">
+                                        <div class="col-lg-5 col-md-5">
+                                        </div>
+                                        <div class="col-lg-7 col-md-7">
+                                            <div class="row clearfix ">
+                                                <div class=" col-lg-3 col-md-3 block-header">
+                                                    <h2>ผู้ซื้อ</h2>
+                                                </div>
+                                                <div class="col-lg-3 col-md-3 master_function">
+                                                    <!-- bar function-->
+                                                    <div class="btn_function">
+                                                        <div class="__box">
+                                                            <div class="_add">
+                                                                <button type="button" class="btn btn-default"><i class="material-icons">add</i></button>
+                                                            </div>
+                                                        </div>
+                                                        <div class="__box">
+                                                            <div class="_remove">
+                                                                <button type="button" class="btn btn-default"><i class="material-icons">remove</i></button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row clearfix">
+                                                <div class="col-lg-3 col-md-3">
+                                                    <b>ใบหุ้นลงวันที่<span class="red">*</span></b>
+                                                    <div class="input-group">
+                                                        <div class="form-line">
+                                                            <input type="text" class="form-control" placeholder="22 ธ.ค. 60" />
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3 col-md-3">
+                                                    <b>วันที่ซื้อขาย<span class="red">*</span></b>
+                                                    <div class="input-group">
+                                                        <div class="form-line">
+                                                            <input type="text" class="form-control" placeholder="2 พ.ย. 60" />
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3 col-md-3">
+                                                    <b>มูลค่าหุ้นที่ซื้อขาย<span class="red">*</span></b>
+                                                    <div class="input-group">
+                                                        <div class="form-line">
+                                                            <input type="text" class="form-control" placeholder="1.00" />
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row clearfix">
+                                                <div class="col-lg-12 col-md-12">
+                                                    <b>ผู้ซื้อ<span class="red">*</span></b>
+                                                    <div class="form-group">
+                                                        <select class="form-control show-tick">
+                                                            <optgroup label="บริษัท">
+                                                                <option> บจ.ณัฐปภัสร์ 59 จำกัด </option>
+                                                                <option> บจ.พรอสเพอรัส วิน 168 จำกัด </option>
+                                                            </optgroup>
+                                                            <optgroup label="บุคคล">
+                                                                <option> นาย วิชัย วชิรพงศ์</option>
+                                                                <option> MR. SUNSHINE TAGALOG</option>
+                                                            </optgroup>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="h20"></div>
+                                            <div class="row clearfix">
+                                                <div class="col-lg-12 col-md-12">
+                                                    <b>จำนวนหุ้นที่ซื้อขาย<span class="red">*</span></b>
+                                                    <div class="input-group">
+                                                        <div class="form-line">
+                                                            <input type="text" class="form-control" placeholder="400,000" />
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-12 col-md-12">
+                                                    <b>จำนวนเงินทั้งสิ้น*<span class="red">*</span></b>
+                                                    <div class="input-group">
+                                                        <div class="form-line">
+                                                            <input type="text" class="form-control" placeholder="400,000" />
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-12 col-md-12">
+                                                    <b>แนบเอกสาร <span class="red">*</span></b>
+                                                    <div class="input-group">
+                                                        <div class="form-line">
+                                                            <input type="text" class="form-control" placeholder="" />
+                                                        </div>
+                                                        <span class="input-group-addon"> <i class="zmdi zmdi-attachment-alt"></i> </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
 
                                 </form>
 
@@ -278,7 +392,12 @@
 
     <!-- Jquery Core Js -->
     <?php include('../view/jquerycorejs.php'); ?>
-   
+    <script>
+        function showSplFunction() {
+            document.getElementById("panel3").style.display = "block";
+        }
+    </script>
+
 </body>
 
 </html>

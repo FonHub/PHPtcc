@@ -44,112 +44,313 @@
 
                             <div class="body">
 
-                                <!-- form -->
+                                <!-- form Split -->
                                 <form class="form-horizontal box__director">
-                                    <div>
+                                    <!-- No.1 -->
+                                    <div class="row clearfix">
+                                        <div class="col-lg-12 col-md-12 bar-header">
+                                            <h2>รายการที่ <span>1</span></h2>
+                                        </div>
+                                        <div class="col-lg-5 col-md-5">
+                                            <div class="block-header">
+                                                <h2>ผู้โอน </h2>
+                                            </div>
+                                            <div class="row clearfix">
+                                                <div class="col-lg-2 col-md-2">
+                                                    <b>ลำดับที่<span class="red">*</span></b>
+                                                    <div class="input-group">
+                                                        <div>
+                                                            <input type="text" class="form-control" placeholder="1" />
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3 col-md-3">
+                                                    <b>ใบหุ้นเลขที่<span class="red">*</span></b>
+                                                    <div class="input-group">
+                                                        <div>
+                                                            <input type="text" class="form-control" placeholder="2" />
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3 col-md-3">
+                                                    <b>มูลค่าหุ้น<span class="red">*</span></b>
+                                                    <div class="input-group">
+                                                        <div>
+                                                            <input type="text" class="form-control" placeholder="10.00" />
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row clearfix">
+                                                <div class="col-lg-10 col-md-12">
+                                                    <b>ผู้โอน<span class="red">*</span></b>
+                                                    <div class="input-group">
+                                                        <div>
+                                                            <input type="text" class="form-control" placeholder="บจ.ณัฐปภัสร์ 59 จำกัด" />
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="block-header">
+                                                <h2>จำนวนช่วงหุ้นทั้งหมด</h2>
+                                            </div>
+                                            <div class="row clearfix">
+                                                <div class="col-lg-4 col-md-4">
+                                                    <b>หุ้นหมายเลข จาก<span class="red">*</span></b>
+                                                    <div class="input-group">
+                                                        <div>
+                                                            <input type="text" class="form-control" placeholder="9,994,000,000" />
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-md-4">
+                                                    <b>หุ้นหมายเลข ถึง<span class="red">*</span></b>
+                                                    <div class="input-group">
+                                                        <div>
+                                                            <input type="text" class="form-control" placeholder="9,995,000,000" />
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-md-4">
+                                                    <b>จำนวนหุ้นทั้งหมด <span class="red">*</span></b>
+                                                    <div class="input-group">
+                                                        <div>
+                                                            <input type="text" class="form-control" placeholder="1,000,000" />
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row clearfix">
+                                                <div class="col-lg-4 col-md-4">
+                                                    <b>หุ้นหมายเลข จาก<span class="red">*</span></b>
+                                                    <div class="input-group">
+                                                        <div>
+                                                            <input type="text" class="form-control" placeholder="1" />
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-md-4">
+                                                    <b>หุ้นหมายเลข ถึง<span class="red">*</span></b>
+                                                    <div class="input-group">
+                                                        <div>
+                                                            <input type="text" class="form-control" placeholder="10,000,000" />
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-md-4">
+                                                    <b>จำนวนหุ้นทั้งหมด <span class="red">*</span></b>
+                                                    <div class="input-group">
+                                                        <div>
+                                                            <input type="text" class="form-control" placeholder="10,000,000" />
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row clearfix">
+                                                <div class="col-lg-12 col-md-12 color-sum"><b>จำนวนหุ้นคงเหลือ<span class="red">*</span></b>
+                                                    <div class="input-group">
+                                                        <div class="disabled">
+                                                            <input type="text" class="color-sum" placeholder="9,600,000">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
 
-                                        <div class="row clearfix">
-                                            <div class="col-lg-2 col-md-2"><b>ทะเบียน <span class="red">*</span></b>
-                                                <div class="input-group">
-                                                    <div class="disabled">
-                                                        <input type="text" class="form-control" placeholder="1" />
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-6 col-md-6"><b>ผู้ถือหุ้น<span class="red">*</span></b>
-                                                <div class="input-group">
-                                                    <div class="disabled">
-                                                        <input type="text" class="form-control" placeholder="นาย วิชัย วชิรพงศ์" />
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-2 col-md-2"><b>ใบหุ้นเลขที่<span class="red">*</span></b>
-                                                <div class="input-group">
-                                                    <div class="disabled">
-                                                        <input type="text" class="form-control ip" placeholder="1" />
-                                                    </div>
-                                                </div>
-                                            </div>
                                         </div>
-                                        <div class="row clearfix">                                           
+                                        <div class="col-lg-7 col-md-7">
+                                            <div class="row clearfix ">
+                                                <div class=" col-lg-3 col-md-3 block-header">
+                                                    <h2>ผู้รับโอน</h2>
+                                                </div>
+                                                <div class="col-lg-3 col-md-3 master_function">
+                                                    <!-- bar function-->
+                                                    <div class="btn_function">
+                                                        <div class="__box">
+                                                            <div class="_add">
+                                                                <button type="button" class="btn btn-default"><i class="material-icons">add</i></button>
+                                                            </div>
+                                                        </div>
+                                                        <div class="__box">
+                                                            <div class="_remove">
+                                                                <button type="button" class="btn btn-default"><i class="material-icons">remove</i></button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
 
-                                            <div class="col-lg-3 col-md-3">
-                                                <b>จากหมายเลขหุ้นเลขที่<span class="red">*</span></b>
-                                                <div class="input-group">
-                                                    <div class="form-line">
-                                                        <input type="text" class="form-control" placeholder="7499" />
+
+                                            <div class="row clearfix">
+                                                <div class="col-lg-3 col-md-3">
+                                                    <b>ใบหุ้นลงวันที่<span class="red">*</span></b>
+                                                    <div class="input-group">
+                                                        <div class="form-line">
+                                                            <input type="text" class="form-control" placeholder="22 ธ.ค. 60" />
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3 col-md-3">
+                                                    <b>วันที่โอน<span class="red">*</span></b>
+                                                    <div class="input-group">
+                                                        <div class="form-line">
+                                                            <input type="text" class="form-control" placeholder="2 พ.ย. 60" />
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3 col-md-3">
+                                                    <b>มูลค่าหุ้นที่ซื้อขาย<span class="red">*</span></b>
+                                                    <div class="input-group">
+                                                        <div class="form-line">
+                                                            <input type="text" class="form-control" placeholder="1.00" />
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="col-lg-3 col-md-3">
-                                                <b>ถึงหมายเลขหุ้นเลขที่<span class="red">*</span></b>
-                                                <div class="input-group">
-                                                    <div class="form-line">
-                                                        <input type="text" class="form-control" placeholder="9998" />
+                                            <div class="row clearfix">
+                                                <div class="col-lg-12 col-md-12">
+                                                    <b>ผู้รับโอน<span class="red">*</span></b>
+                                                    <div class="form-group">
+                                                        <select class="form-control show-tick">
+                                                            <optgroup label="บริษัท">
+                                                                <option> บจ.ณัฐปภัสร์ 59 จำกัด </option>
+                                                                <option> บจ.พรอสเพอรัส วิน 168 จำกัด </option>
+                                                            </optgroup>
+                                                            <optgroup label="บุคคล">
+                                                                <option> นาย วิชัย วชิรพงศ์</option>
+                                                                <option> MR. SUNSHINE TAGALOG</option>
+                                                            </optgroup>
+                                                        </select>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="col-lg-3 col-md-3">
-                                                <b>จำนวนหุ้น <span class="red">*</span></b>
-                                                <div class="input-group">
-                                                    <div class="form-line">
-                                                        <input type="text" class="form-control" placeholder="2,500" />
+                                            <div class="h20"></div>
+                                            <div class="row clearfix">
+                                                <div class="col-lg-3 col-md-3">
+                                                    <b>หุ้นหมายเลข จาก<span class="red">*</span></b>
+                                                    <div class="input-group">
+                                                        <div class="form-line">
+                                                            <input type="text" class="form-control" placeholder="9,994,000,000" />
+                                                        </div>
                                                     </div>
                                                 </div>
-                                            </div>
-                                        </div>
-                                        <div class="row clearfix">
-                                            <div class="col-lg-2 col-md-2">
-                                                <b>มูลค่าหุ้น<span class="red">*</span></b>
-                                                <div class="input-group">
-                                                    <div class="form-line">
-                                                        <input type="text" class="form-control pdmg-0" placeholder="10.00" />
+                                                <div class="col-lg-3 col-md-3">
+                                                    <b>หุ้นหมายเลข ถึง<span class="red">*</span></b>
+                                                    <div class="input-group">
+                                                        <div class="form-line">
+                                                            <input type="text" class="form-control" placeholder="9,995,000,000" />
+                                                        </div>
                                                     </div>
                                                 </div>
-                                            </div>
-                                            <div class="col-lg-3 col-md-3">
-                                                <b>มูลค่าที่ชำระแล้ว<span class="red">*</span></b>
-                                                <div class="input-group">
-                                                    <div class="form-line">
-                                                        <input type="text" class="form-control" placeholder="1.00" />
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-3 col-md-3">
-                                                <b>ยอดชำระ <span class="red">*</span></b>
-                                                <div class="input-group">
-                                                    <div class="form-line">
-                                                        <input type="text" class="form-control" placeholder="100,000" />
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-3 col-md-3">
-                                                <b>%การเรียกชำระ <span class="red">*</span></b>
-                                                <div class="input-group">
-                                                    <div class="form-line">
-                                                        <input type="text" class="form-control" placeholder="5" />
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="row clearfix">
-                                            <div class="col-lg-6 col-md-6 color-sum"><b>ยอดชำระรวมทั้งหมด<span class="red">*</span></b>
-                                                <div class="input-group">
-                                                    <div class="disabled">
-                                                        <input type="text" class="color-sum" placeholder="100,000" />
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-6 col-md-6 color-li"><b>ยอดค้างชำระ<span class="red">*</span></b>
-                                                <div class="input-group">
-                                                    <div class="disabled">
-                                                        <input type="text" class="color-li" placeholder="200,000" />
+                                                <div class="col-lg-6 col-md-6">
+                                                    <b>จำนวนหุ้น <span class="red">*</span></b>
+                                                    <div class="input-group">
+                                                        <div class="form-line">
+                                                            <input type="text" class="form-control" placeholder="1,000,000" />
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <!-- row -->
+                                    <!-- //No.1 -->
+                                    <div class="row clearfix">
+                                        <div class="col-lg-5 col-md-5">
+                                        </div>
+                                        <div class="col-lg-7 col-md-7">
+                                            <div class="row clearfix ">
+                                                <div class=" col-lg-3 col-md-3 block-header">
+                                                    <h2>ผู้รับโอน</h2>
+                                                </div>
+                                                <div class="col-lg-3 col-md-3 master_function">
+                                                    <!-- bar function-->
+                                                    <div class="btn_function">
+                                                        <div class="__box">
+                                                            <div class="_add">
+                                                                <button type="button" class="btn btn-default"><i class="material-icons">add</i></button>
+                                                            </div>
+                                                        </div>
+                                                        <div class="__box">
+                                                            <div class="_remove">
+                                                                <button type="button" class="btn btn-default"><i class="material-icons">remove</i></button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="row clearfix">
+                                                <div class="col-lg-3 col-md-3">
+                                                    <b>ใบหุ้นลงวันที่<span class="red">*</span></b>
+                                                    <div class="input-group">
+                                                        <div class="form-line">
+                                                            <input type="text" class="form-control" placeholder="22 ธ.ค. 60" />
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3 col-md-3">
+                                                    <b>วันที่โอน<span class="red">*</span></b>
+                                                    <div class="input-group">
+                                                        <div class="form-line">
+                                                            <input type="text" class="form-control" placeholder="2 พ.ย. 60" />
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3 col-md-3">
+                                                    <b>มูลค่าหุ้นที่ซื้อขาย<span class="red">*</span></b>
+                                                    <div class="input-group">
+                                                        <div class="form-line">
+                                                            <input type="text" class="form-control" placeholder="1.00" />
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row clearfix">
+                                                <div class="col-lg-12 col-md-12">
+                                                    <b>ผู้รับโอน<span class="red">*</span></b>
+                                                    <div class="form-group">
+                                                        <select class="form-control show-tick">
+                                                            <optgroup label="บริษัท">
+                                                                <option> บจ.ณัฐปภัสร์ 59 จำกัด </option>
+                                                                <option> บจ.พรอสเพอรัส วิน 168 จำกัด </option>
+                                                            </optgroup>
+                                                            <optgroup label="บุคคล">
+                                                                <option> นาย วิชัย วชิรพงศ์</option>
+                                                                <option> MR. SUNSHINE TAGALOG</option>
+                                                            </optgroup>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="h20"></div>
+                                            <div class="row clearfix">
+                                                <div class="col-lg-3 col-md-3">
+                                                    <b>หุ้นหมายเลข จาก<span class="red">*</span></b>
+                                                    <div class="input-group">
+                                                        <div class="form-line">
+                                                            <input type="text" class="form-control" placeholder="9,994,000,000" />
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3 col-md-3">
+                                                    <b>หุ้นหมายเลข ถึง<span class="red">*</span></b>
+                                                    <div class="input-group">
+                                                        <div class="form-line">
+                                                            <input type="text" class="form-control" placeholder="9,995,000,000" />
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6 col-md-6">
+                                                    <b>จำนวนหุ้น <span class="red">*</span></b>
+                                                    <div class="input-group">
+                                                        <div class="form-line">
+                                                            <input type="text" class="form-control" placeholder="1,000,000" />
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
                                 </form>
                                 <div class="btn-control text-align">
                                     <a href="#cancel"></a><button type="reset" class="btn btn-raised bg-grey waves-effect">
@@ -164,67 +365,7 @@
                     </div>
                 </div>
             </section>
-            <!-- Payment History -->
-            <div id="company_detail">
-                <div class="row clearfix">
-                    <div class="col-sm-12 col-md-12 col-lg-12">
-                        <div class="card">
-                            <div class="header">
-                                <h2>ประวัติการชำระเงิน</h2>
-                            </div>
-                            <div class="body">
-                                <!-- table -->
-                                <div class="body table-responsive company-list">
-                                    <table class="table table-hover">
-                                        <thead>
-                                            <tr>
-                                                <th style="width: 60px">ครั้งที่</th>
-                                                <th>วันที่</th>
-                                                <th>ยอดชำระ</th>
-                                                <th>%การเรียกชำระ</th>
-                                                <th>มูลค่าที่ชำระแล้ว</th>
-                                                <th>ยอดชำระรวมทั้งหมด</th>
-                                                <th>ยอดค้างชำระ</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td>1</td>
-                                                <td>1 ต.ค. 2550</td>
-                                                <td>100,000</td>
-                                                <td>5</td>
-                                                <td>200,000</td>
-                                                <td>300,000</td>
-                                                <td>500,000</td>
-                                            </tr>
-                                            <tr>
-                                                <td>2</td>
-                                                <td>1 ต.ค. 2550</td>
-                                                <td>100,000</td>
-                                                <td>5</td>
-                                                <td>100,000</td>
-                                                <td>100,000</td>
-                                                <td>600,000</td>
-                                            </tr>
-                                        </tbody>
-                                        <tfoot>
-                                            <tr>
-                                                <th>#</th>
-                                                <th><strong>TOTAL</strong></th>
-                                                <th>200,000</th>
-                                                <th>10</th>
-                                                <th>300,000</th>
-                                                <th>300,000</th>
-                                                <th>500,000</th>
-                                            </tr>
-                                        </tfoot>
-                                    </table>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+
             <!-- footer -->
             <?php include('../view/footer.php'); ?>
         </div>

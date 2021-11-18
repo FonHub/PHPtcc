@@ -19,9 +19,9 @@
                 <thead>
                     <tr>
                         <th>วันที่ซื้อขาย</th>
-                        <th>ผู้ขาย</th>
+                        <th>ผู้ถือหุ้น</th>
                         <th>ผู้ซื้อ</th>
-                        <th>ใบหุ้นเลขที่</th>
+                        <th>เลขที่ใบหุ้น</th>
                         <th>ลักษณะหุ้น</th>
                         <th>จำนวนหุ้นที่ซื้อขาย</th>
                         <th>มูลค่าหุ้นที่ซื้อขาย</th>
@@ -39,7 +39,7 @@
                         <td>15,000,000.00</td>
                         <td>10.00</td>
                         <td>150,000,000.00</td>
-                        <td><a href="stockMarSellbay.php"><button type="button" class="btn btn-raised btn-default waves-effect"> <i class="material-icons">mode_edit</i></button></a></td>
+                        <td><a href="StockMarSellHis.php"><button type="button" class="btn btn-raised btn-default waves-effect"> <i class="material-icons">mode_edit</i></button></a></td>
                     </tr>
                     <tr>
                         <td>12 เม.ย.2564</td>
@@ -50,7 +50,7 @@
                         <td>50,000,000.00</td>
                         <td>10.00</td>
                         <td>500,000,000.00</td>
-                        <td><a href="stockMarSellbay.php"><button type="button" class="btn btn-raised btn-default waves-effect"> <i class="material-icons">mode_edit</i></button></a></td>
+                        <td><a href="StockMarSellHis.php"><button type="button" class="btn btn-raised btn-default waves-effect"> <i class="material-icons">mode_edit</i></button></a></td>
                     </tr>
                     <tr>
                         <td>12 เม.ย.2564</td>
@@ -61,7 +61,7 @@
                         <td>50,000,000.00</td>
                         <td>5.00</td>
                         <td>1,000,000.00</td>
-                        <td><a href="stockMarSellbay.php"><button type="button" class="btn btn-raised btn-default waves-effect"> <i class="material-icons">mode_edit</i></button></a></td>
+                        <td><a href="StockMarSellHis.php"><button type="button" class="btn btn-raised btn-default waves-effect"> <i class="material-icons">mode_edit</i></button></a></td>
                     </tr>
 
                 </tbody>
