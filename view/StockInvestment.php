@@ -142,7 +142,7 @@
 
                                 <!-- Tab panes -->
                                 <div class="tab-content">
-                                    <!-- Tab panes 5-->
+                                    
                                     <div role="tabpanel" class="tab-pane in active" id="Investment">
                                         <div class="body table-responsive company-list">
                                             <table class="table table-hover">

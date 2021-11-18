@@ -489,6 +489,7 @@
                                     <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#Liquidate">วันชำระบัญชี</a></li>
                                     <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#DocLocation">ที่เก็บเอกสาร</a></li>
                                     <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#CashAccount">บัญชีหลักทรัพย์</a></li>
+                                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#Investment">ประวัติเงินลงทุน</a></li>
                                     <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#Note">บันทึกเพิ่มเติม</a></li>
                                 </ul>
                                 <!-- Tab panes -->
@@ -543,6 +544,10 @@
                                         <?php include('../view/companyaddedit_tap-10.php'); ?>
                                     </div>
                                     <!-- Tab panes 11-->
+                                    <div role="tabpanel" class="tab-pane" id="Investment">
+                                        <?php include('../view/companyaddedit_tap-Investment.php'); ?>
+                                    </div>
+                                    <!-- Tab panes 12-->
                                     <div role="tabpanel" class="tab-pane" id="Note">
                                         <?php include('../view/companyaddedit_tap-11.php'); ?>
                                     </div>
