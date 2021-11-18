@@ -83,7 +83,7 @@
                         <td>25</td>
                         <td>1 ม.ค. 2562</td>
                         <td>ปลอดจำนำ : หุ้นอยู่ในบริษัทหลักทรัพย์</td>
-                        <td><a href="stockMarPledged.php"><button type="button" class="btn btn-raised btn-default waves-effect"> <i class="material-icons">mode_edit</i></button></a></td>
+                        <td><a href="stockMarPledgedCancelSecurities.php"><button type="button" class="btn btn-raised btn-default waves-effect"> <i class="material-icons">mode_edit</i></button></a></td>
                     </tr>
                 </tbody>
 

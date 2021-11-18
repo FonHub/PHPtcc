@@ -81,6 +81,7 @@
                                             </div>
                                         </div>
                                     </div>
+
                                     <div class="h20"></div>
                                     <div class="row clearfix">
                                         <div class="col-lg-4 col-md-4">
@@ -158,6 +159,53 @@
                                                     <input type="text" class="form-control" placeholder="" />
                                                 </div>
                                                 <span class="input-group-addon"> <i class="zmdi zmdi-attachment-alt"></i> </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="h20"></div>
+                                    <div class="row clearfix">
+                                        <div class="col-lg-5 col-md-5">
+                                            <div class="input-group input-group-lg margin-b0">
+                                                <span class="input-group-addon">
+                                                    <input type="radio" class="with-gap" id="ig_radio_cf2">
+                                                    <label for="ig_radio_cf2"></label>
+                                                </span>
+                                                <b class="padleft_25 ">การซื้อขายหุ้นตลาด : <span class="red"> ในกลุ่มทีซีซีไพรเวท </span></b>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="h20"></div>
+                                    <div class="row clearfix">
+                                        <div class="col-lg-3 col-md-3">
+                                            <b>ใบหุ้นเลขที่เดิม<span class="red">*</span></b>
+                                            <div class="input-group">
+                                                <div class="form-line">
+                                                    <input type="text" class="form-control" placeholder="8">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3 col-md-3">
+                                            <b>ใบหุ้นใหม่<span class="red">*</span></b>
+                                            <div class="input-group">
+                                                <div class="form-line">
+                                                    <input type="text" class="form-control" placeholder="9">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3 col-md-3">
+                                            <b>จำนวนหุ้นปัจจุบัน<span class="red">*</span></b>
+                                            <div class="input-group">
+                                                <div>
+                                                    <input type="text" class="form-control" placeholder="50,000,000">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3 col-md-3">
+                                            <b>จำนวนหุ้นคงเหลือ<span class="red">*</span></b>
+                                            <div class="input-group">
+                                                <div>
+                                                    <input type="text" class="form-control" placeholder="35,000,000">
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
