@@ -78,6 +78,13 @@
                     <li><a href="ReoortChart.php">Chartโครงสร้างการถือหุ้น</a></li>
                 </ul>
             </li>
+            <li><a href="javascript:void(0);" class="menu-toggle"><i class="zmdi zmdi-folder"></i><span>รายงานหุ้นตลาด</span> </a>
+                <ul class="ml-menu">
+                    <li><a href="ReoortStockMarPledgedCancel.php">รายงานหุ้นปลอดจำนำ</a></li>
+                    <li><a href="ReoortStockMarPledged.php">รายงานการจำนำหุ้น</a></li>
+                    <li><a href="ReoortStockMarAll.php">รายงานสรุปรวม</a></li>
+                </ul>
+            </li>
         </ul>
     </div>
     <!-- #Menu -->

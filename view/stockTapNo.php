@@ -9,36 +9,7 @@
                 </button>
             </div>
         </div>
-        <div class="__box width80">
-            <div class="_addlot">
-                <a href="../view/AddPayment.php" target="_blank">
-                    <button type="button" class="btn btn-default">
-                        <i class="material-icons">add</i> <br>
-                        <span class="function-name">เพิ่ม <br> ชำระหุ้น</span>
-                    </button>
-                </a>
-            </div>
-        </div>
-        <div class="__box width80">
-            <div class="_addlot">
-                <a href="../view/AddSplit.php" target="_blank">
-                    <button type="button" class="btn btn-default">
-                        <i class="material-icons">content_cut</i><br>
-                        <span class="function-name">แยกใบหุ้น </span>
-                    </button>
-                </a>
-            </div>
-        </div>
-        <div class="__box width80">
-            <div class="_Sell">
-                <a href="../view/TransferLot.php" target="_blank">
-                    <button type="button" class="btn btn-default">
-                        <i class="material-icons">sync</i><br>
-                        <span class="function-name">โอนหุ้น</span>
-                    </button>
-                </a>
-            </div>
-        </div>
+
         <div class="__box width80">
             <div class="_print">
                 <button type="button" class="btn btn-default">
@@ -65,20 +36,24 @@
                     </thead>
                     <tbody>
                         <tr style="height:63px;">
-                            <td>
-                                <div class="input-group pdmg-0">
-                                    <input type="checkbox" id="md_checkbox222" class="filled-in chk-col-red _red-vitality " checked />
-                                    <label for="md_checkbox222"></label>
-                                </div>
+                            <td class="marterperson __box">
+                                <a href="../view/LotTransfer.php"> <button type="button" class="btn btn-default border-boxshadow">
+                                        <i class="material-icons">sync</i><br>โอนหุ้น</button>
+                                </a>
+                                <a href="../view/AddPayment.php"> <button type="button" class="btn btn-default border-boxshadow">
+                                        <i class="material-icons">add</i><br>ชำระหุ้น</button>
+                                </a>
                             </td>
                             <td>บจ.ซีเอ็นที สตาร์ จำกัด </td><!-- ผู้ถือหุ้น -->
                         </tr>
                         <tr style="height:63px;">
-                            <td>
-                                <div class="input-group pdmg-0">
-                                    <input type="checkbox" id="md_checkbox_333" class="filled-in chk-col-red _red-vitality " checked />
-                                    <label for="md_checkbox_333"></label>
-                                </div>
+                            <td class="marterperson __box">
+                                <a href="../view/LotTransfer.php"> <button type="button" class="btn btn-default border-boxshadow">
+                                        <i class="material-icons">sync</i><br>โอนหุ้น</button>
+                                </a>
+                                <a href="../view/AddPayment.php"> <button type="button" class="btn btn-default border-boxshadow">
+                                        <i class="material-icons">add</i><br>ชำระหุ้น</button>
+                                </a>
                             </td>
                             <td>บจ.เพชรดีไซน์ เฟอร์นิเจอร์ จำกัด </td><!-- ผู้ถือหุ้น -->
                         </tr>
@@ -98,6 +73,7 @@
                             <th style="width: 250px;">หุ้นหมายเลข จาก-ถึง </th>
                             <th style="width: 100px;">จำนวนหุ้น</th>
                             <th style="width: 100px;">มูลค่าหุ้น</th>
+                            <th style="width: 150px;">ร้อยละการถือหุ้น</th>
                             <th style="width: 150px;">ใบหุ้นลงวันที่</th>
                             <th style="width: 150px;">ใบหุ้นเลขที่</th>
                             <th style="width: 250px;">วันที่เข้าเป็นผู้ถือหุ้น</th>
@@ -109,12 +85,13 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <tr style="height:63px;">
+                        <tr style="height:82px;">
                             <td>15</td> <!-- ทะเบียน -->
                             <td>รับโอน</td><!-- เข้าเป็นผู้ถือหุ้นโดย -->
                             <td>118400007-184200004</td><!-- หุ้นหมายเลข จาก-ถึง -->
                             <td>65,799,996</td><!-- จำนวนหุ้น -->
                             <td>10.00</td><!-- มูลค่าหุ้น -->
+                            <td>75</td>
                             <td>18 ก.ย. 56</td><!-- ใบหุ้นลงวันที่ -->
                             <td>10</td><!-- ใบหุ้นเลขที่ -->
                             <td>22 ธ.ค. 59</td><!-- วันที่เข้าเป็นผู้ถือหุ้น -->
@@ -124,12 +101,13 @@
                             <td>118400007-118390011</td><!-- หมายเลขหุ้นที่โอน จาก-ถึง -->
                             <td>11</td><!-- ใบหุ้นใหม่เลขที่ -->
                         </tr>
-                        <tr style="height:63px;">
+                        <tr style="height:82px;">
                             <td>16</td> <!-- ทะเบียน -->
                             <td>รับโอน</td><!-- เข้าเป็นผู้ถือหุ้นโดย -->
                             <td>1-9993</td><!-- หุ้นหมายเลข จาก-ถึง -->
                             <td>9993</td><!-- จำนวนหุ้น -->
                             <td>10.00</td><!-- มูลค่าหุ้น -->
+                            <td>25</td>
                             <td>18 ก.ย. 56</td><!-- ใบหุ้นลงวันที่ -->
                             <td>10</td><!-- ใบหุ้นเลขที่ -->
                             <td>22 ธ.ค. 59</td><!-- วันที่เข้าเป็นผู้ถือหุ้น -->
@@ -139,8 +117,15 @@
                             <td>9900-9991</td><!-- หมายเลขหุ้นที่โอน จาก-ถึง -->
                             <td>11</td><!-- ใบหุ้นใหม่เลขที่ -->
                         </tr>
-
                     </tbody>
+                    <tfoot>
+                        <tr class="xl-khaki" style="height:60px;">
+                            <td rowspan="3" colspan="3">รวม</td> <!-- ทะเบียน -->
+                            <td>65,809,989</td><!-- จำนวนหุ้น -->
+                            <td></td><!-- มูลค่าหุ้น -->
+                            <td>100</td>
+                        </tr>
+                    </tfoot>
                 </table>
 
             </div>
@@ -160,6 +145,7 @@
                     <table class="table table-hover">
                         <thead>
                             <tr>
+                                <th>#</th>
                                 <th>ชื่อ</th>
                                 <th>ใบหุ้นเดิมเลขที่</th>
                                 <th>หุ้นหมายเลข จาก-ถึง</th>
@@ -170,6 +156,7 @@
                         </thead>
                         <tbody>
                             <tr>
+                                <td>1</td>
                                 <td>นาย วิชัย วชิรพงศ์</td> <!-- ผู้โอน -->
                                 <td>2</td><!-- ใบหุ้นเดิมเลขที่ -->
                                 <td>1-9994</td><!-- หุ้นหมายเลข จาก-ถึง -->
@@ -178,6 +165,7 @@
                                 <td>2 พ.ย. 60</th><!-- วันที่โอน -->
                             </tr>
                             <tr>
+                                <td>2</td>
                                 <td>นาง มณีรัตน์ งามเรืองพงศ์</td> <!-- ผู้โอน -->
                                 <td>3</td><!-- ใบหุ้นเดิมเลขที่ -->
                                 <td>1-9995</td><!-- หุ้นหมายเลข จาก-ถึง -->
@@ -186,6 +174,7 @@
                                 <td>2 พ.ย. 60</th><!-- วันที่โอน -->
                             </tr>
                             <tr>
+                                <td>3</td>
                                 <td>บจ.ซีเอ็นที สตาร์ จำกัด</td> <!-- ผู้โอน -->
                                 <td>13</td><!-- ใบหุ้นเดิมเลขที่ -->
                                 <td>9996-9998</td><!-- หุ้นหมายเลข จาก-ถึง -->
