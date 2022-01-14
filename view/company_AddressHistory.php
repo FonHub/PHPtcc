@@ -182,7 +182,7 @@
                                                         <td>หส.เดอะ ทรีไลน์ บีเอฟเอ็ม</td>
                                                         <td>0102564000010</td>
                                                         <td>257/6 หมู่ที่ 14 ถนนมิตรภาพ ต.ในเมือง อ.เมืองขอนแก่น จ.ขอนแก่น 40000</td>
-                                                        <td>8/5 ถนนสามัคคีอุทิศ ต.ในเมือง อ.เมืองขอนแก่น จ.ขอนแก่น 40000</td>
+                                                        <td>257/6 Moo 14, Mittraphap Road, Nai Mueang Subdistrict, Mueang Khon Kaen District, Khon Kaen 40000</td>
                                                         <td>-</td>
                                                         <td>-</td>
                                                         <td><a href="company_AddEdit.php"><button type="button" class="btn btn-raised btn-default waves-effect"> <i class="material-icons">mode_edit</i></button></a></td>
@@ -196,7 +196,7 @@
                                                         <td>
                                                             449 ซอยอินทามระ 41 แขวงดินแดง เขตดินแดง กรุงเทพมหานคร 10400
                                                         </td>
-                                                        <td>999 ชั้น 5 ห้อง 5 บี 1 ถนนเพลินจิต แขวงลุมพินี เขตปทุมวัน กรุงเทพมหานคร 10330</td>
+                                                        <td>449 Soi Inthamara 41, Din Daeng Subdistrict, Din Daeng District, Bangkok 10400</td>
                                                         <td>-</td>
                                                         <td>-</td>
                                                         <td><a href="company_AddEdit.php"><button type="button" class="btn btn-raised btn-default waves-effect"> <i class="material-icons">mode_edit</i></button></a></td>

@@ -80,7 +80,7 @@
                         <div class="col-lg-4 col-md-4"> <b>วันที่เริ่มต้น<span class="red">*</span></b>
                             <div class="input-group">
                                 <div>
-                                    <input type="text" class="form-control" placeholder="1/7/2560 ">
+                                    <input type="text" class="form-control" placeholder="1 ก.ค. 2560 ">
                                 </div>
                             </div>
                         </div>

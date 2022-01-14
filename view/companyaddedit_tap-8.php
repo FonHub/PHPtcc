@@ -29,7 +29,7 @@
                         <th>ที่อยู่</th>
                         <th>เบอร์โทรศัพท์</th>
                         <th>อีเมล์</th>
-                        <th>Action</th>
+                        <th style="width:110px;">Action</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -52,7 +52,19 @@
                 </tbody>
             </table>
         </div>
+
         <div class="h-60"></div>
+        <!-- bar function-->
+        <div class="btn_function">
+            <div class="__box">
+                <div class="_add">
+                    <button type="button" class="btn btn-default" data-toggle="modal" data-target="#ModalAddAccount">
+                        <i class="material-icons">add</i>
+                        <span class="function-name">เพิ่ม</span>
+                    </button>
+                </div>
+            </div>
+        </div>
         <div class="block-header">
             <h2>ข้อมูลการเงิน</h2>
         </div>

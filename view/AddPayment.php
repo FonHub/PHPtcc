@@ -242,7 +242,7 @@
                                         <tfoot>
                                             <tr>
                                                 <th>#</th>
-                                                <th><strong>TOTAL</strong></th>
+                                                <th><strong>รวม</strong></th>
                                                 <th>200,000</th>
                                                 <th>10</th>
                                                 <th>300,000</th>

@@ -66,7 +66,7 @@
                                             <div class="col-lg-1 col-md-1">
                                                 <b>IDCode</b>
                                                 <div class="input-group">
-                                                    <input type="text" class="form-control disabled" placeholder="1" disabled />
+                                                    <input type="text" class="form-control disabled" placeholder="000" disabled />
                                                 </div>
                                             </div>
                                             <div class="col-lg-4 col-md-4">
@@ -117,7 +117,7 @@
                                             <div class="col-lg-1 col-md-1">
                                                 <b>IDCode</b>
                                                 <div class="input-group">
-                                                    <input type="text" class="form-control disabled" placeholder="1" disabled />
+                                                    <input type="text" class="form-control disabled" placeholder="000" disabled />
                                                 </div>
                                             </div>
                                             <div class="col-lg-4 col-md-4">
@@ -168,7 +168,7 @@
                                             <div class="col-lg-1 col-md-1">
                                                 <b>IDCode</b>
                                                 <div class="input-group">
-                                                    <input type="text" class="form-control disabled" placeholder="1" disabled />
+                                                    <input type="text" class="form-control disabled" placeholder="000" disabled />
                                                 </div>
                                             </div>
                                             <div class="col-lg-4 col-md-4">
@@ -218,7 +218,7 @@
                                             <div class="col-lg-1 col-md-1">
                                                 <b>IDCode</b>
                                                 <div class="input-group">
-                                                    <input type="text" class="form-control disabled" placeholder="1" disabled />
+                                                    <input type="text" class="form-control disabled" placeholder="000" disabled />
                                                 </div>
                                             </div>
                                             <div class="col-lg-4 col-md-4">
@@ -266,7 +266,7 @@
                                             <div class="col-lg-1 col-md-1">
                                                 <b>IDCode</b>
                                                 <div class="input-group">
-                                                    <input type="text" class="form-control disabled" placeholder="1" disabled />
+                                                    <input type="text" class="form-control disabled" placeholder="000" disabled />
                                                 </div>
                                             </div>
                                             <div class="col-lg-4 col-md-4">
@@ -314,7 +314,7 @@
                                             <div class="col-lg-1 col-md-1">
                                                 <b>IDCode</b>
                                                 <div class="input-group">
-                                                    <input type="text" class="form-control disabled" placeholder="1" disabled />
+                                                    <input type="text" class="form-control disabled" placeholder="000" disabled />
                                                 </div>
                                             </div>
                                             <div class="col-lg-4 col-md-4">

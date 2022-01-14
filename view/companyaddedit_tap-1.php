@@ -182,11 +182,21 @@
                          </div>
                      </div>
                  </div>
+             </div>
+             <div class="row clearfix">
                  <div class="col-lg-3 col-md-3">
                      <b>Postal code</b>
                      <div class="input-group">
                          <div class="form-line">
                              <input type="text" class="form-control" placeholder="10500" />
+                         </div>
+                     </div>
+                 </div>
+                 <div class="col-lg-3 col-md-3">
+                     <b>County</b>
+                     <div class="input-group">
+                         <div class="form-line">
+                             <input type="text" class="form-control" placeholder="Thai" />
                          </div>
                      </div>
                  </div>

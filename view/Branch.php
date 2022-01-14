@@ -72,7 +72,7 @@
                                             <b>ชื่อสาขาภาษาอังกฤษ<span class="red">*</span></b>
                                             <div class="input-group">
                                                 <div class="form-line">
-                                                    <input v-model="company_en" type="text" class="form-control ip" placeholder="บจ.ไพร์ม เอ็กซ์ จำกัด" />
+                                                    <input v-model="company_en" type="text" class="form-control ip" placeholder="Prime X Co., Ltd." />
                                                 </div>
                                             </div>
                                         </div>
@@ -306,11 +306,21 @@
                                                     </div>
                                                 </div>
                                             </div>
+                                        </div>
+                                        <div class="row clearfix">
                                             <div class="col-lg-3 col-md-3">
                                                 <b>Postal code</b>
                                                 <div class="input-group">
                                                     <div class="form-line">
                                                         <input type="text" class="form-control" placeholder="10500" />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3 col-md-3">
+                                                <b>County</b>
+                                                <div class="input-group">
+                                                    <div class="form-line">
+                                                        <input type="text" class="form-control" placeholder="Thai" />
                                                     </div>
                                                 </div>
                                             </div>
@@ -404,7 +414,7 @@
                                             </tr>
                                             <tr>
                                                 <td>2</td>
-                                                <td>12/2/2545</td>
+                                                <td>12 ก.พ. 2545</td>
                                                 <td>1 ต.ค. 2550</td>
                                                 <td>-</td>
                                                 <td>999 ชั้น 5 ห้อง 5 บี 1 ถนนเพลินจิต แขวงลุมพินี เขตปทุมวัน กรุงเทพมหานคร 10330</td>

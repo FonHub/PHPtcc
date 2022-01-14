@@ -367,7 +367,7 @@
                                                                         <b>Birthday</b>
                                                                         <div class="input-group">
                                                                             <div class="form-line disabled">
-                                                                                <input type="text" class="form-control" placeholder="1/1/1980" />
+                                                                                <input type="text" class="form-control" placeholder="01 ม.ค. 2523" />
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -569,11 +569,21 @@
                                                                                 </div>
                                                                             </div>
                                                                         </div>
+                                                                    </div>
+                                                                    <div class="row clearfix">
                                                                         <div class="col-lg-3 col-md-3">
                                                                             <b>Postal code</b>
                                                                             <div class="input-group">
                                                                                 <div class="form-line">
                                                                                     <input type="text" class="form-control" placeholder="10500" />
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-lg-3 col-md-3">
+                                                                            <b>County</b>
+                                                                            <div class="input-group">
+                                                                                <div class="form-line">
+                                                                                    <input type="text" class="form-control" placeholder="Thai" />
                                                                                 </div>
                                                                             </div>
                                                                         </div>
@@ -627,7 +637,7 @@
                                                         </tr>
                                                         <tr>
                                                             <td>2</td>
-                                                            <td>12/2/2545</td>
+                                                            <td>12 ก.พ. 2545</td>
                                                             <td>1 ต.ค. 2550</td>
                                                             <td>นาย กันต์ชัย สุขสันต์ </td>
                                                             <td>-</td>
@@ -660,7 +670,7 @@
                                                         </tr>
                                                         <tr>
                                                             <td>2</td>
-                                                            <td>12/2/2545</td>
+                                                            <td>12 ก.พ. 2545</td>
                                                             <td>1 ต.ค. 2550</td>
                                                             <td>449 ซอยอินทามระ 41 แขวงดินแดง เขตดินแดง กรุงเทพมหานคร 10400</td>
                                                             <td>-</td>

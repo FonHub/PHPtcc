@@ -232,3 +232,97 @@ textarea {
     }
 
 }
+
+.boxscroll {
+    width: 100%;
+    height: 40px;
+    position: relative;
+    display: flex;
+}
+
+.nav.overscroll {
+    flex-wrap: nowrap !important;
+    overflow: scroll;
+}
+
+#company_detail .nav-tabs .nav-link {
+    width: max-content;
+}
+
+.mdc-tab-bar {
+    width: 100%;
+}
+
+.mdc-tab-scroller {
+    overflow-y: hidden;
+}
+
+.mdc-tab-scroller__scroll-area {
+    -webkit-overflow-scrolling: touch;
+    display: flex;
+    overflow-x: hidden;
+}
+
+.mdc-tab-scroller__scroll-area--scroll {
+    overflow-x: scroll;
+    scroll-snap-align: center;
+}
+
+
+element.style {
+    transform: none;
+}
+
+.stage-transition-container-variant:nth-of-type(2) .mdc-tab-scroller__scroll-content {
+    padding: 0 40px;
+}
+
+.mdc-tab-scroller__scroll-content {
+    position: relative;
+    display: flex;
+    flex: 1 0 auto;
+    transform: none;
+    will-change: transform;
+}
+
+.iconwh {
+    color: white;
+}
+
+::-webkit-scrollbar {
+    width: 2px;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 1px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(240, 240, 240);
+    border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #696969;
+}
+
+.pa-xy0 {
+    padding: 0 !important;
+}
+
+.text-pd {
+    padding: 7px;
+    font-size: 12px !important;
+}
+
+a:hover {
+    text-decoration: none !important;
+}
+
+.ma-bt {
+    margin-bottom: 20px;
+}
+
+.input-group .input-group-addon.top-0 {
+    top: 0px;
+}

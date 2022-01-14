@@ -270,7 +270,7 @@
                                         <b>วันที่<span class="red">*</span></b>
                                         <div class="input-group">
                                             <div class="form-line">
-                                                <input v-model="date_start" type="text" class="form-control date" placeholder="25/1/2564" />
+                                                <input v-model="date_start" type="text" class="form-control date" placeholder="25 ม.ค. 2564" />
                                             </div>
                                         </div>
                                     </div>
@@ -285,7 +285,6 @@
                                                         <option>ประชุมวิสามัญ </option>
                                                         <option>คัดลอกจากสมุดทะเบียน </option>
                                                         <option>ควบบริษัท </option>
-                                                        <option>เพิ่มใหม่</option>
                                                     </optgroup>
                                                 </select><!-- From Master -->
                                             </div>

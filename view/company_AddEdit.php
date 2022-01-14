@@ -445,7 +445,7 @@
                                             <b>วันที่จดทะเบียน/วันจัดตั้ง<span class="red">*</span></b>
                                             <div class="input-group">
                                                 <div class="form-line">
-                                                    <input v-model="date_start" type="text" class="form-control date" placeholder="25/1/2560" />
+                                                    <input v-model="date_start" type="text" class="form-control date" placeholder="25 ม.ค. 2560" />
                                                 </div>
                                             </div>
                                         </div>
@@ -478,20 +478,47 @@
                         <div class="card">
                             <div class="body">
                                 <!-- Nav tabs -->
-                                <ul class="nav nav-tabs">
-                                    <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#HeadAdd">ที่อยู่สำนักงานใหญ่</a></li>
-                                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#BranchAdd">ที่อยู่สาขา</a></li>
-                                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#Director">กรรมการ</a></li>
-                                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#Merger">การควบรวมบริษัท</a></li>
-                                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#NameHistory">เปลี่ยนชื่อบริษัท</a></li>
-                                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#AddHistory">ประวัติการเปลี่ยนที่อยู่บริษัท</a></li>
-                                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#Account">ผู้ทำบัญชีและการเงิน</a></li>
-                                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#Liquidate">วันชำระบัญชี</a></li>
-                                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#DocLocation">ที่เก็บเอกสาร</a></li>
-                                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#CashAccount">บัญชีหลักทรัพย์</a></li>
-                                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#Investment">ประวัติเงินลงทุน</a></li>
-                                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#Note">บันทึกเพิ่มเติม</a></li>
-                                </ul>
+                                <div class="mdc-tab-bar">
+                                    <div class="mdc-tab-scrollerf">
+                                        <div class="mdc-tab-scroller__scroll-area mdc-tab-scroller__scroll-area--scroll">
+                                            <div class="mdc-tab-scroller__scroll-content">
+                                                <ul class="nav nav-tabs  ager list-unstyled">
+                                                    <li class="previous"><a href="javascript:void(0);" class="waves-effect"><i class="material-icons iconwh">keyboard_arrow_left</i></a></li>
+                                                    <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#HeadAdd">ที่อยู่สำนักงานใหญ่</a></li>
+                                                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#BranchAdd">ที่อยู่สาขา</a></li>
+                                                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#Director">กรรมการ</a></li>
+                                                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#Merger">การควบรวมบริษัท</a></li>
+                                                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#NameHistory">เปลี่ยนชื่อบริษัท</a></li>
+                                                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#AddHistory">ประวัติการเปลี่ยนที่อยู่บริษัท</a></li>
+                                                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#Account">ผู้ทำบัญชีและการเงิน</a></li>
+                                                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#Liquidate">วันชำระบัญชี</a></li>
+                                                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#DocLocation">ที่เก็บเอกสาร</a></li>
+                                                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#CashAccount">บัญชีหลักทรัพย์</a></li>
+                                                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#Investment">ประวัติเงินลงทุน</a></li>
+                                                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#Note">บันทึกเพิ่มเติม</a></li>
+                                                    <li class="next"><a href="javascript:void(0);" class="waves-effect"> <i class="material-icons iconwh">keyboard_arrow_right</i></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- <div>
+                                    <ul class="nav nav-tabs overscroll">
+                                        <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#HeadAdd">ที่อยู่สำนักงานใหญ่</a></li>
+                                        <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#BranchAdd">ที่อยู่สาขา</a></li>
+                                        <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#Director">กรรมการ</a></li>
+                                        <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#Merger">การควบรวมบริษัท</a></li>
+                                        <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#NameHistory">เปลี่ยนชื่อบริษัท</a></li>
+                                        <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#AddHistory">ประวัติการเปลี่ยนที่อยู่บริษัท</a></li>
+                                        <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#Account">ผู้ทำบัญชีและการเงิน</a></li>
+                                        <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#Liquidate">วันชำระบัญชี</a></li>
+                                        <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#DocLocation">ที่เก็บเอกสาร</a></li>
+                                        <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#CashAccount">บัญชีหลักทรัพย์</a></li>
+                                        <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#Investment">ประวัติเงินลงทุน</a></li>
+                                        <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#Note">บันทึกเพิ่มเติม</a></li>
+                                    </ul>
+                                </div> -->
+
                                 <!-- Tab panes -->
                                 <div class="tab-content">
                                     <div class="block-header">

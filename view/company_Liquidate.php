@@ -137,7 +137,7 @@
                             <div class="body">
                                 <!-- Nav tabs -->
                                 <ul class="nav nav-tabs">
-                                    <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#NameHistory">เปลี่ยนชื่อบริษัท</a></li>
+                                    <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#NameHistory">การชำระบัญชี</a></li>
                                 </ul>
                                 <!-- Tab panes -->
                                 <div class="tab-content">
@@ -155,7 +155,7 @@
                                                         <th>ชื่อภาษาไทย</th>
                                                         <th>ชื่อภาษาอังกฤษ</th>
                                                         <th>หมายเหตุ</th>
-                                                        <th>Action</th>
+                                                        <th style="width:110px;">Action</th>
                                                     </tr>
                                                 </thead>
                                                 <tbody>
@@ -166,7 +166,7 @@
                                                         <td>1 ต.ค. 2550</td>
                                                         <td>0105564001931</td>
                                                         <td>หจ.พ.พัฒนรักษ์</td>
-                                                        <td>หจ.พ.พัฒนรักษ์</td>
+                                                        <td>Pattanarak LP</td>
                                                         <td>-</td>
                                                         <td><a href="company_AddEdit.php"><button type="button" class="btn btn-raised btn-default waves-effect"> <i class="material-icons">mode_edit</i></button></a></td>
                                                     </tr>
@@ -177,7 +177,7 @@
                                                         <td>1 ต.ค. 2550</td>
                                                         <td>0105564001931</td>
                                                         <td>บจ.จีจี เกฮลอท จำกัด</td>
-                                                        <td>บจ.จีจี เกฮลอท จำกัด</td>
+                                                        <td>GG GEHLOT CO., LTD.</td>
                                                         <td>-</td>
                                                         <td><a href="company_AddEdit.php"><button type="button" class="btn btn-raised btn-default waves-effect"> <i class="material-icons">mode_edit</i></button></a></td>
                                                     </tr>
@@ -216,7 +216,7 @@
                                                             <div class="col-lg-4 col-md-4"> <b>วันที่เริ่มต้น<span class="red">*</span></b>
                                                                 <div class="input-group">
                                                                     <div class="form-line">
-                                                                        <input type="text" class="form-control" placeholder="1/7/2560 ">
+                                                                        <input type="text" class="form-control" placeholder="1 ก.ค. 2560 ">
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -239,7 +239,7 @@
                                                             <div class="col-lg-6 col-md-6"> <b>ชื่อเดิมภาษาอังกฤษ<span class="red">*</span></b>
                                                                 <div class="input-group">
                                                                     <div class="form-line">
-                                                                        <input type="text" class="form-control" placeholder="บจ.คิด ตรึก ตรอง จำกัด">
+                                                                        <input type="text" class="form-control" placeholder="Think Truong Co., Ltd.">
                                                                     </div>
                                                                 </div>
                                                             </div>

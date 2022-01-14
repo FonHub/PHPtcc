@@ -3,7 +3,7 @@
     <div class="btn_function">
         <div class="__box">
             <div class="_add">
-                <a href="../view/SecuritiesAccount.php" target="_blank">
+                <a href="../view/SecuritiesAccount.php">
                     <button type="button" class="btn btn-default">
                         <i class="material-icons">add</i>
                         <span class="function-name">เพิ่ม</span>
@@ -46,7 +46,7 @@
                     </td><!-- ผู้รับมอบอำนาจในการสั่งซื้อ -->
                     <td>
                         <div class="action_btn">
-                            <a href="../view/SecuritiesAccount.php" class="btn btn-default" target="_blank"><i class="zmdi zmdi-edit"></i></a>
+                            <a href="../view/SecuritiesAccount.php" class="btn btn-default"><i class="zmdi zmdi-edit"></i></a>
                             <a href="javascript:void(0);" class="btn btn-default col-red"><i class="zmdi zmdi-delete"></i></a>
                         </div>
                     </td>
@@ -69,7 +69,7 @@
                     </td><!-- ผู้รับมอบอำนาจในการสั่งซื้อ -->
                     <td>
                         <div class="action_btn">
-                            <a href="../view/SecuritiesAccount.php" class="btn btn-default" target="_blank"><i class="zmdi zmdi-edit"></i></a>
+                            <a href="../view/SecuritiesAccount.php" class="btn btn-default"><i class="zmdi zmdi-edit"></i></a>
                             <a href="javascript:void(0);" class="btn btn-default col-red"><i class="zmdi zmdi-delete"></i></a>
                         </div>
                     </td>

@@ -152,7 +152,7 @@
                         <div class="card">
                             <div class="header">
                                 <div class="header-status">
-                                    <h3>รายการทะบียนหุ้นเพิ่มล่าสุดทั้งหมด</h3>
+                                    <h3>รายการทะเบียนหุ้นเพิ่มล่าสุดทั้งหมด</h3>
                                     <span>302,240</span>
                                     <!--<span>{{ count }}</span>-->
                                 </div>

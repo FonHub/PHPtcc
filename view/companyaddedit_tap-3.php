@@ -81,7 +81,7 @@
                     </td>
                     <td>
                         <div class="action_btn">
-                            <a href="../view/PersonAddEdit.php" class="btn btn-default" target="_blank"><i class="zmdi zmdi-edit"></i></a>
+                            <a href="../view/PersonAddEdit.php" class="btn btn-default"><i class="zmdi zmdi-edit"></i></a>
                             <a href="javascript:void(0);" class="btn btn-default col-red"><i class="zmdi zmdi-delete"></i></a>
                         </div>
                     </td>
@@ -105,7 +105,7 @@
                     </td>
                     <td>
                         <div class="action_btn">
-                            <a href="../view/PersonAddEdit.php" class="btn btn-default" target="_blank"><i class="zmdi zmdi-edit"></i></a>
+                            <a href="../view/PersonAddEdit.php" class="btn btn-default"><i class="zmdi zmdi-edit"></i></a>
                             <a href="javascript:void(0);" class="btn btn-default col-red"><i class="zmdi zmdi-delete"></i></a>
                         </div>
                     </td>
@@ -129,7 +129,7 @@
                     </td>
                     <td>
                         <div class="action_btn">
-                            <a href="../view/PersonAddEdit.php" class="btn btn-default" target="_blank"><i class="zmdi zmdi-edit"></i></a>
+                            <a href="../view/PersonAddEdit.php" class="btn btn-default"><i class="zmdi zmdi-edit"></i></a>
                             <a href="javascript:void(0);" class="btn btn-default col-red"><i class="zmdi zmdi-delete"></i></a>
                         </div>
                     </td>
@@ -153,7 +153,7 @@
                     </td>
                     <td>
                         <div class="action_btn">
-                            <a href="../view/PersonAddEdit.php" class="btn btn-default" target="_blank"><i class="zmdi zmdi-edit"></i></a>
+                            <a href="../view/PersonAddEdit.php" class="btn btn-default"><i class="zmdi zmdi-edit"></i></a>
                             <a href="javascript:void(0);" class="btn btn-default col-red"><i class="zmdi zmdi-delete"></i></a>
                         </div>
                     </td>

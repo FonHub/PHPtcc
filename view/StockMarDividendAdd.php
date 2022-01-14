@@ -174,7 +174,7 @@
                                         <tfoot>
                                             <tr>
                                                 <th>#</th>
-                                                <th><strong>TOTAL</strong></th>
+                                                <th><strong>รวม</strong></th>
                                                 <th>-</th>
                                                 <th>65,799,997</th>
                                                 <th>0.030</th>

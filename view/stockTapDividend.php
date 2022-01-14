@@ -4,7 +4,7 @@
     <div class="btn_function">
         <div class="__box">
             <div class="_update">
-                <a href="../view/DividendLot.php" target="_blank">
+                <a href="../view/DividendLot.php">
                     <button type="button" class="btn btn-default">
                         <i class="material-icons">sync</i>
                         <span class="function-name">อัพเดต</span>

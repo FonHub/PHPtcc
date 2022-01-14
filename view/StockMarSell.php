@@ -3,7 +3,7 @@
     <div class="btn_function">
         <div class="__box width80">
             <div class="_addlot">
-                <a href="../view/stockMarSellbay.php" target="_blank">
+                <a href="../view/stockMarSellbay.php">
                     <button type="button" class="btn btn-default">
                         <i class="material-icons">add</i> <br>
                         <span class="function-name">ซื้อขาย</span>

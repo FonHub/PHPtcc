@@ -3,7 +3,7 @@
     <div class="btn_function">
         <div class="__box">
             <div class="_add">
-                <a href="../view/company_Merger.php" class="btn btn-default" target="_blank">
+                <a href="../view/company_Merger.php" class="btn btn-default">
                     <i class="material-icons">add</i>
                     <span class="function-name">เพิ่ม</span></a>
             </div>

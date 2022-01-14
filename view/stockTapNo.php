@@ -3,7 +3,7 @@
     <div class="btn_function">
         <div class="__box width80">
             <div class="_addlot">
-                <button type="button" class="btn btn-default" data-toggle="modal" data-target="#CreateNewLotModal">
+                <button type="button" class="btn btn-default pa-xy0" data-toggle="modal" data-target="#CreateNewLotModal">
                     <i class="material-icons">person_add</i> <br>
                     <span class="function-name">เพิ่ม <br>ผู้ถือหุ้น </span>
                 </button>
@@ -37,10 +37,10 @@
                     <tbody>
                         <tr style="height:63px;">
                             <td class="marterperson __box">
-                                <a href="../view/LotTransfer.php"> <button type="button" class="btn btn-default border-boxshadow">
+                                <a href="../view/LotTransfer.php"> <button type="button" class="btn btn-default border-boxshadow text-pd">
                                         <i class="material-icons">sync</i><br>โอนหุ้น</button>
                                 </a>
-                                <a href="../view/AddPayment.php"> <button type="button" class="btn btn-default border-boxshadow">
+                                <a href="../view/AddPayment.php"> <button type="button" class="btn btn-default border-boxshadow text-pd">
                                         <i class="material-icons">add</i><br>ชำระหุ้น</button>
                                 </a>
                             </td>
@@ -48,10 +48,10 @@
                         </tr>
                         <tr style="height:63px;">
                             <td class="marterperson __box">
-                                <a href="../view/LotTransfer.php"> <button type="button" class="btn btn-default border-boxshadow">
+                                <a href="../view/LotTransfer.php"> <button type="button" class="btn btn-default border-boxshadow text-pd">
                                         <i class="material-icons">sync</i><br>โอนหุ้น</button>
                                 </a>
-                                <a href="../view/AddPayment.php"> <button type="button" class="btn btn-default border-boxshadow">
+                                <a href="../view/AddPayment.php"> <button type="button" class="btn btn-default border-boxshadow text-pd">
                                         <i class="material-icons">add</i><br>ชำระหุ้น</button>
                                 </a>
                             </td>

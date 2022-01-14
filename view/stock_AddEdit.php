@@ -143,7 +143,7 @@
                                         <div class="col-lg-3 col-md-3"> <b>วันลงทะเบียนจัดตั้งบริษัท<span class="red">*</span></b>
                                             <div class="input-group">
                                                 <div class="form-line">
-                                                    <input type="text" class="form-control" placeholder="30/1/2464">
+                                                    <input type="text" class="form-control" placeholder="30 ม.ค. 2564">
                                                 </div>
                                             </div>
                                         </div>

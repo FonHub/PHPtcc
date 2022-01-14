@@ -102,7 +102,7 @@
                                                     <input type="radio" class="with-gap" id="ig_radio_mk1">
                                                     <label for="ig_radio_mk1">จำนำ</label>
                                                 </span>
-                                                <a href="../view/stockMarPledged.php" target="_blank" style="margin-left: 60px;"><span class="red">*</span></a>
+                                                <a href="../view/stockMarPledged.php" style="margin-left: 60px;"><span class="red">*</span></a>
                                             </div>
                                         </div>
                                         <div class="col-lg-2 col-md-2">
@@ -110,7 +110,7 @@
                                                 <span class="input-group-addon flip" onclick="showPdFunction()">
                                                     <input type="radio" class="with-gap" id="ig_radio_mk2">
                                                     <label for="ig_radio_mk2">ปลอดจำนำ</label>
-                                                    <a href="../view/stockMarPledgedCancel.php" target="_blank" style="margin-left: 5px;"><span class="red">*</span></a>
+                                                    <a href="../view/stockMarPledgedCancel.php" style="margin-left: 5px;"><span class="red">*</span></a>
                                                 </span>
                                             </div>
                                         </div>
@@ -295,7 +295,7 @@
                                     <div class="row clearfix">
                                         <div class="col-lg-5 col-md-5">
                                             <div class="input-group input-group-lg margin-b0">
-                                                <span class="input-group-addon">
+                                                <span class="input-group-addon top-0">
                                                     <input type="radio" class="with-gap" id="ig_radio_cf1">
                                                     <label for="ig_radio_cf1"></label>
                                                 </span>
@@ -340,7 +340,7 @@
                                     <div class="row clearfix">
                                         <div class="col-lg-5 col-md-5">
                                             <div class="input-group input-group-lg margin-b0">
-                                                <span class="input-group-addon">
+                                                <span class="input-group-addon top-0">
                                                     <input type="radio" class="with-gap" id="ig_radio_cf2">
                                                     <label for="ig_radio_cf2"></label>
                                                 </span>
@@ -388,7 +388,7 @@
                                     <div class="row clearfix">
                                         <div class="col-lg-5 col-md-5">
                                             <div class="input-group input-group-lg margin-b0">
-                                                <span class="input-group-addon">
+                                                <span class="input-group-addon top-0">
                                                     <input type="radio" class="with-gap" id="ig_radio_cf3">
                                                     <label for="ig_radio_cf3"></label>
                                                 </span>

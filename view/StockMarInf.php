@@ -3,8 +3,8 @@
     <div class="btn_function">
         <div class="__box width80">
             <div class="_addlot">
-                <a href="../view/stockMarInvest.php" target="_blank">
-                    <button type="button" class="btn btn-default">
+                <a href="../view/stockMarInvest.php">
+                    <button type="button" class="btn btn-default pa-xy0">
                         <i class="material-icons">add</i> <br>
                         <span class="function-name">เพิ่ม <br> ผู้ถือหุ้น</span>
                     </button>

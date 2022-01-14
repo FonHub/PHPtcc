@@ -4,7 +4,7 @@
     <div class="btn_function">
         <div class="__box">
             <div class="_add">
-                <a href="../view/Branch.php" target="_blank">
+                <a href="../view/Branch.php">
                     <button type="button" class="btn btn-default" data-toggle="modal" data-target="#AddBranch">
                         <i class="material-icons">add</i>
                         <span class="function-name">เพิ่ม</span>
@@ -26,7 +26,7 @@
                     <th>ที่อยู่</th>
                     <th>โทรศัพท์</th>
                     <th>อีเมล์</th>
-                    <th>Action</th>
+                    <th style=" width: 110px;">Action</th>
                 </tr>
             </thead>
             <tbody>
@@ -34,7 +34,7 @@
                     <td>1</td>
                     <td>12 เม.ย.2564</td>
                     <td>หส.เดอะ ทรีไลน์ บีเอฟเอ็ม</td>
-                    <td>หส.เดอะ ทรีไลน์ บีเอฟเอ็ม</td>
+                    <td>The Tree Line BFM</td>
                     <td>มี</td>
                     <td>257/6 หมู่ที่ 14 ถนนมิตรภาพ ต.ในเมือง อ.เมืองขอนแก่น จ.ขอนแก่น 40000</td>
                     <td>02-123-4987</td>
@@ -50,7 +50,7 @@
                     <td>2</td>
                     <td>12 เม.ย.2564</td>
                     <td> หจ.เดอะ ไลอ้อน มิลค์ที</td>
-                    <td> หจ.เดอะ ไลอ้อน มิลค์ที</td>
+                    <td> The Lion Milk Tea Partnership</td>
                     <td>มี</td>
                     <td>8/5 ถนนสามัคคีอุทิศ ต.ในเมือง อ.เมืองขอนแก่น จ.ขอนแก่น 40000</td>
                     <td>02-123-4987</td>

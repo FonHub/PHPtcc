@@ -176,11 +176,11 @@
                                                 <tbody>
                                                     <tr>
                                                         <td>1</td>
-                                                        <td>1 ต.ค. 2550</td>
+                                                        <td>1 ต.ค. 2540</td>
                                                         <td>1 ต.ค. 2550</td>
                                                         <td>0105564001931</td>
                                                         <td>หจ.พ.พัฒนรักษ์</td>
-                                                        <td>บจ.จีจี เกฮลอท จำกัด</td>
+                                                        <td>Pattanarak LP</td>
                                                         <td>-</td>
                                                         <td>-</td>
                                                         <td><a href="company_AddEdit.php"><button type="button" class="btn btn-raised btn-default waves-effect"> <i class="material-icons">mode_edit</i></button></a></td>
@@ -188,10 +188,10 @@
                                                     <tr>
                                                         <td>2</td>
                                                         <td>1 ต.ค. 2550</td>
-                                                        <td>1 ต.ค. 2550</td>
+                                                        <td>1 ต.ค. 2560</td>
                                                         <td>0105564001931</td>
                                                         <td>บจ.จีจี เกฮลอท จำกัด</td>
-                                                        <td>บจ.ไพร์ม เอ็กซ์ จำกัด</td>
+                                                        <td>GG GEHLOT CO., LTD.</td>
                                                         <td>-</td>
                                                         <td>-</td>
                                                         <td><a href="company_AddEdit.php"><button type="button" class="btn btn-raised btn-default waves-effect"> <i class="material-icons">mode_edit</i></button></a></td>
@@ -231,7 +231,7 @@
                                                             <div class="col-lg-4 col-md-4"> <b>วันที่เริ่มต้น<span class="red">*</span></b>
                                                                 <div class="input-group">
                                                                     <div class="form-line">
-                                                                        <input type="text" class="form-control" placeholder="1/7/2560 ">
+                                                                        <input type="text" class="form-control" placeholder="1 ก.ค. 2560 ">
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -254,7 +254,7 @@
                                                             <div class="col-lg-6 col-md-6"> <b>ชื่อเดิมภาษาอังกฤษ<span class="red">*</span></b>
                                                                 <div class="input-group">
                                                                     <div class="form-line">
-                                                                        <input type="text" class="form-control" placeholder="บจ.คิด ตรึก ตรอง จำกัด">
+                                                                        <input type="text" class="form-control" placeholder="Think Truong Co., Ltd.">
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -326,7 +326,7 @@
     <!-- Jquery Core Js -->
     <?php include('../view/jquerycorejs.php'); ?>
 
-    
+
 </body>
 
 </html>

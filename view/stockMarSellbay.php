@@ -165,7 +165,7 @@
                                                 </div>
                                             </div>
                                             <div class="row clearfix">
-                                                <div class="col-lg-12 col-md-12 color-sum"><b>จำนวนหุ้นคงเหลือ<span class="red">*</span></b>
+                                                <div class="col-lg-12 col-md-12 color-sum"><b>จำนวนหุ้นรวมทั้งหมด<span class="red">*</span></b>
                                                     <div class="input-group">
                                                         <div class="disabled">
                                                             <input type="text" class="color-sum" placeholder="9,600,000">
@@ -278,7 +278,7 @@
 
     <!-- Jquery Core Js -->
     <?php include('../view/jquerycorejs.php'); ?>
-   
+
 </body>
 
 </html>
